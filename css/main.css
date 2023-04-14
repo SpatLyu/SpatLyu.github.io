@@ -2671,3 +2671,10 @@ header.header {
     padding: 10px 12px;
   }
 }
+body {
+  background: url("/images/bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+}
