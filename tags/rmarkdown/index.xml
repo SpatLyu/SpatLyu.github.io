@@ -9,11 +9,11 @@
     <lastBuildDate>Wed, 05 Jun 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://spatlyu.github.io/tags/rmarkdown/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>rmarkdown_setup</title>
+      <title>rmarkdown setup</title>
       <link>https://spatlyu.github.io/posts/rmarkdown-setup/</link>
       <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
       <guid>https://spatlyu.github.io/posts/rmarkdown-setup/</guid>
-      <description>常用的 knitr 设置 knitr::opts_chunk$set(echo = TRUE, dpi = 300, warning = FALSE, message = FALSE, out.width = &amp;#34;100%&amp;#34;, out.height = &amp;#34;100%&amp;#34;, fig.align = &amp;#39;center&amp;#39;, comment = &amp;#34;##&amp;#34;) 灰白背景rmarkdown模板 --- title: &amp;#34;xxx&amp;#34; author: &amp;#34;xxx&amp;#34; date: &amp;#34;2024-06-05&amp;#34; output: #latex_document prettydoc::html_pretty: theme: tactile highlight: github --- 导出word文档友好 --- title: &amp;#34;xxxxxxx&amp;#34; author: &amp;#34;xxxxx&amp;#34; output: officedown::rdocx_document: mapstyles: Normal: [&amp;#39;First Paragraph&amp;#39;] --- </description>
+      <description>常用的 knitr 设置 ```{r setup, include = FALSE} knitr::opts_chunk$set(echo = TRUE, dpi = 300, warning = FALSE, message = FALSE, out.width = &amp;#34;100%&amp;#34;, out.height = &amp;#34;100%&amp;#34;, fig.align = &amp;#39;center&amp;#39;, comment = &amp;#34;##&amp;#34;) ``` 灰白背景rmarkdown模板 --- title: &amp;#34;xxx&amp;#34; author: &amp;#34;xxx&amp;#34; date: &amp;#34;`r Sys.Date()`&amp;#34; output: #latex_document prettydoc::html_pretty: theme: tactile highlight: github --- ```{r setup, include = FALSE} knitr::opts_chunk$set(echo = TRUE, dpi = 300, warning = FALSE, message = FALSE, out.width = &amp;#34;100%&amp;#34;, out.</description>
     </item>
   </channel>
 </rss>

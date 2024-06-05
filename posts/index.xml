@@ -9,25 +9,25 @@
     <lastBuildDate>Wed, 05 Jun 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://spatlyu.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>awesome-gis-papers</title>
+      <title>awesome gis papers</title>
       <link>https://spatlyu.github.io/posts/awesome-gis-papers/</link>
       <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
       <guid>https://spatlyu.github.io/posts/awesome-gis-papers/</guid>
       <description>On spatial effects in geographical analysis&#xA;Spatial Dependence A generalized heterogeneity model for spatial interpolation&#xA;atakrig: An R package for multivariate area-to-area and area-to-point kriging predictions&#xA;Spatial Stratefied Heterogeneity(SSH) Geodetector: Principle and prospective&#xA;An optimal parameters-based geographical detector model(OPGD)&#xA;Modeling of spatial stratified heterogeneity&#xA;sandwichr: Spatial prediction in R based on spatial stratified heterogeneity&#xA;Identifying determinants of spatio-temporal disparities in soil moisture of the Northern Hemisphere using a geographically optimal zones-based heterogeneity model</description>
     </item>
     <item>
-      <title>r-books</title>
+      <title>r books</title>
       <link>https://spatlyu.github.io/posts/r-books/</link>
       <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
       <guid>https://spatlyu.github.io/posts/r-books/</guid>
       <description>R fundamentals Introduction to R&#xA;Advanced R&#xA;R for Data Science (2e)&#xA;R Graphics Cookbook, 2nd edition&#xA;The tidyverse style guide&#xA;Efficient R programming&#xA;Best Coding Practices for R&#xA;Happy Git and GitHub for the useR&#xA;Rcpp for everyone&#xA;R Packages (2e)&#xA;R Markdown Cookbook&#xA;R Markdown: The Definitive Guide&#xA;blogdown: Creating Websites with R Markdown&#xA;bookdown: Authoring Books and Technical Documents with R Markdown&#xA;JavaScript for R&#xA;Computer-age Calculus with R</description>
     </item>
     <item>
-      <title>rmarkdown_setup</title>
+      <title>rmarkdown setup</title>
       <link>https://spatlyu.github.io/posts/rmarkdown-setup/</link>
       <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
       <guid>https://spatlyu.github.io/posts/rmarkdown-setup/</guid>
-      <description>常用的 knitr 设置 knitr::opts_chunk$set(echo = TRUE, dpi = 300, warning = FALSE, message = FALSE, out.width = &amp;#34;100%&amp;#34;, out.height = &amp;#34;100%&amp;#34;, fig.align = &amp;#39;center&amp;#39;, comment = &amp;#34;##&amp;#34;) 灰白背景rmarkdown模板 --- title: &amp;#34;xxx&amp;#34; author: &amp;#34;xxx&amp;#34; date: &amp;#34;2024-06-05&amp;#34; output: #latex_document prettydoc::html_pretty: theme: tactile highlight: github --- 导出word文档友好 --- title: &amp;#34;xxxxxxx&amp;#34; author: &amp;#34;xxxxx&amp;#34; output: officedown::rdocx_document: mapstyles: Normal: [&amp;#39;First Paragraph&amp;#39;] --- </description>
+      <description>常用的 knitr 设置 ```{r setup, include = FALSE} knitr::opts_chunk$set(echo = TRUE, dpi = 300, warning = FALSE, message = FALSE, out.width = &amp;#34;100%&amp;#34;, out.height = &amp;#34;100%&amp;#34;, fig.align = &amp;#39;center&amp;#39;, comment = &amp;#34;##&amp;#34;) ``` 灰白背景rmarkdown模板 --- title: &amp;#34;xxx&amp;#34; author: &amp;#34;xxx&amp;#34; date: &amp;#34;`r Sys.Date()`&amp;#34; output: #latex_document prettydoc::html_pretty: theme: tactile highlight: github --- ```{r setup, include = FALSE} knitr::opts_chunk$set(echo = TRUE, dpi = 300, warning = FALSE, message = FALSE, out.width = &amp;#34;100%&amp;#34;, out.</description>
     </item>
   </channel>
 </rss>

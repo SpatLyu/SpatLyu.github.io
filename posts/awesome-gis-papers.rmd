@@ -1,5 +1,5 @@
 ---
-title: "awesome-gis-papers"
+title: "awesome gis papers"
 author: "Wenbo Lv"
 date: "2024-06-05"
 description: "Advanced spatial method in gis papers."
