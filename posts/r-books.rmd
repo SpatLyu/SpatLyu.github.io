@@ -7,10 +7,6 @@ tags: ["books","r","geoinformatics","satistics"]
 type: post
 weight: 25
 showTableOfContents: true
-output:
-  prettydoc::html_pretty:
-    theme: tactile
-    highlight: github
 ---
 
 ```{r setup, include = FALSE}
