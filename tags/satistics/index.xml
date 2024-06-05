@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Satistics on Wenbo Lv</title>
-    <link>https://spatlyu.github.io/tags/satistics/</link>
+    <link>http://localhost:4321/tags/satistics/</link>
     <description>Recent content in Satistics on Wenbo Lv</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 05 Jun 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://spatlyu.github.io/tags/satistics/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:4321/tags/satistics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>r-books</title>
-      <link>https://spatlyu.github.io/posts/r-books/</link>
+      <link>http://localhost:4321/posts/r-books/</link>
       <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/r-books/</guid>
+      <guid>http://localhost:4321/posts/r-books/</guid>
       <description>R fundamentals Introduction to R&#xA;Advanced R&#xA;R for Data Science (2e)&#xA;R Graphics Cookbook, 2nd edition&#xA;The tidyverse style guide&#xA;Efficient R programming&#xA;Best Coding Practices for R&#xA;Happy Git and GitHub for the useR&#xA;Rcpp for everyone&#xA;R Packages (2e)&#xA;R Markdown Cookbook&#xA;R Markdown: The Definitive Guide&#xA;blogdown: Creating Websites with R Markdown&#xA;bookdown: Authoring Books and Technical Documents with R Markdown&#xA;JavaScript for R&#xA;Computer-age Calculus with R</description>
     </item>
   </channel>

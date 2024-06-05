@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Wenbo Lv</title>
-    <link>https://spatlyu.github.io/tags/</link>
+    <link>http://localhost:4321/tags/</link>
     <description>Recent content in Tags on Wenbo Lv</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 05 Jun 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://spatlyu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:4321/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Books</title>
-      <link>https://spatlyu.github.io/tags/books/</link>
+      <link>http://localhost:4321/tags/books/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/tags/books/</guid>
+      <guid>http://localhost:4321/tags/books/</guid>
       <description></description>
     </item>
     <item>
       <title>Geoinformatics</title>
-      <link>https://spatlyu.github.io/tags/geoinformatics/</link>
+      <link>http://localhost:4321/tags/geoinformatics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/tags/geoinformatics/</guid>
+      <guid>http://localhost:4321/tags/geoinformatics/</guid>
       <description></description>
     </item>
     <item>
       <title>R</title>
-      <link>https://spatlyu.github.io/tags/r/</link>
+      <link>http://localhost:4321/tags/r/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/tags/r/</guid>
+      <guid>http://localhost:4321/tags/r/</guid>
       <description></description>
     </item>
     <item>
       <title>Satistics</title>
-      <link>https://spatlyu.github.io/tags/satistics/</link>
+      <link>http://localhost:4321/tags/satistics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/tags/satistics/</guid>
+      <guid>http://localhost:4321/tags/satistics/</guid>
       <description></description>
     </item>
   </channel>
