@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        :root {
+            --accent-color: #FF4D4D;
+        }
+    </style>
+
+    
+    
+    
+    
+    
+    
+
+    
+    <title>Common git commands</title>
+    <meta name="description" content="Geoinformatics; Statistics; R; C&#43;&#43;">
+    <meta name="keywords" content='blog, gokarna, hugo, git, coding, github'>
+
+    <meta property="og:url" content="https://spatlyu.github.io/posts/common-git-commands/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Common git commands">
+    <meta property="og:description" content="Geoinformatics; Statistics; R; C&#43;&#43;">
+    <meta property="og:image" content="https://spatlyu.github.io/images/spatlyu.webp">
+    <meta property="og:image:secure_url" content="https://spatlyu.github.io/images/spatlyu.webp">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Common git commands">
+    <meta name="twitter:description" content="Geoinformatics; Statistics; R; C&#43;&#43;">
+    <meta property="twitter:domain" content="https://spatlyu.github.io/posts/common-git-commands/">
+    <meta property="twitter:url" content="https://spatlyu.github.io/posts/common-git-commands/">
+    <meta name="twitter:image" content="https://spatlyu.github.io/images/spatlyu.webp">
+
+    
+    <link rel="canonical" href="https://spatlyu.github.io/posts/common-git-commands/">
+
+    
+    <link rel="stylesheet" type="text/css" href="/css/normalize.min.css" media="print">
+
+    
+    <link rel="stylesheet" type="text/css" href="/css/main.min.css">
+
+    
+    <link id="dark-theme" rel="stylesheet" href="/css/dark.min.css">
+
+    
+    <script src="/js/bundle.min.9a920d7dabdbad8363b6a0a94e29a9dfebdb7ee64cfcb193a0145e512ef2bdab.js" integrity="sha256-mpINfavbrYNjtqCpTimp3&#43;vbfuZM/LGToBReUS7yvas="></script>
+
+    
+    
+        <!-- KaTeX -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" integrity="sha384-Xi8rHCmBmhbuyyhbI88391ZKP2dmfnOl4rT9ZfRI7mLTdk1wblIUnrIq35nqwEvC" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js" integrity="sha384-X/XCfMm41VSsqRNQgDerQczD69XqmjOOOwYQvr/uuC+j4OPoNhVgjdGFwhvN02Ja" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          // customised options
+          // • auto-render specific keys, e.g.:
+          delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false},
+          ],
+          // • rendering keys, e.g.:
+          throwOnError : false
+        });
+      });
+    </script>
+ 
+    
+</head>
+<body>
+        <script>
+            
+            setThemeByUserPref();
+        </script><header class="header">
+    <nav class="header-nav">
+
+        
+        <div class="avatar">
+            <a href="https://spatlyu.github.io/">
+                <img src='/images/spatlyu.webp' alt="avatar">
+            </a>
+        </div>
+        
+
+        <div class="nav-title">
+            <a class="nav-brand" href="https://spatlyu.github.io/">Wenbo Lv</a>
+        </div>
+
+        <div class="nav-links">
+            
+            <div class="nav-link">
+                <a href="https://spatlyu.github.io/"><span data-feather='home'></span> Home </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://spatlyu.github.io/posts/"><span data-feather='book'></span> Posts </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://spatlyu.github.io/projects/"><span data-feather='code'></span> Projects </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://spatlyu.github.io/tags/"><span data-feather='tag'></span> Tags </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://github.com/SpatLyu"><span data-feather='github'></span>  </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://spatlyu.github.io/index.xml"><span data-feather='rss'></span>  </a>
+            </div>
+            
+
+            <span class="nav-icons-divider"></span>
+            <div class="nav-link dark-theme-toggle">
+                <span class="sr-only dark-theme-toggle-screen-reader-target"></span>
+                <a>
+                    <span class="theme-toggle-icon" data-feather="moon"></span>
+                </a>
+            </div>
+
+            <div class="nav-link" id="hamburger-menu-toggle">
+                <span class="sr-only hamburger-menu-toggle-screen-reader-target">menu</span>
+                <a>
+                    <span data-feather="menu"></span>
+                </a>
+            </div>
+
+            
+            <ul class="nav-hamburger-list visibility-hidden">
+                
+                <li class="nav-item">
+                    <a href="https://spatlyu.github.io/"><span data-feather='home'></span> Home </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://spatlyu.github.io/posts/"><span data-feather='book'></span> Posts </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://spatlyu.github.io/projects/"><span data-feather='code'></span> Projects </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://spatlyu.github.io/tags/"><span data-feather='tag'></span> Tags </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://github.com/SpatLyu"><span data-feather='github'></span>  </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://spatlyu.github.io/index.xml"><span data-feather='rss'></span>  </a>
+                </li>
+                
+                <li class="nav-item dark-theme-toggle">
+                    <span class="sr-only dark-theme-toggle-screen-reader-target">theme</span>
+                    <a>
+                        <span class="theme-toggle-icon" data-feather="moon"></span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+</header>
+<main id="content">
+    <div class="post container">
+    <div class="post-header-section">
+        <h1>Common git commands</h1>
+        <small role="doc-subtitle"></small>
+        <p class="post-date">June 5, 2024
+        
+        </p>
+
+        <ul class="post-tags">
+        
+            <li class="post-tag"><a href="https://spatlyu.github.io/tags/git">git</a></li>
+        
+            <li class="post-tag"><a href="https://spatlyu.github.io/tags/coding">coding</a></li>
+        
+            <li class="post-tag"><a href="https://spatlyu.github.io/tags/github">github</a></li>
+        
+        </ul>
+    </div>
+
+    <div class="post-content">
+        <h3 id="view-the-git-installation-location">View the git installation location</h3>
+<pre tabindex="0"><code>which git
+</code></pre><h3 id="view-the-git-installation-version">View the git installation version</h3>
+<pre tabindex="0"><code>git --version
+</code></pre><h3 id="updating-git-for-windows">Updating Git for Windows</h3>
+<pre tabindex="0"><code>git update-git-for-windows
+</code></pre><h3 id="setting-up-network-proxy">Setting up network proxy</h3>
+<pre tabindex="0"><code>git config --global http.proxy &#39;http://127.0.0.1:7890&#39;
+git config --global https.proxy &#39;http://127.0.0.1:7890&#39;
+</code></pre><h3 id="setting-default-initial-branch-name-to-main">Setting default initial branch name to main</h3>
+<pre tabindex="0"><code>git config --global init.defaultBranch main
+</code></pre><h3 id="view-all-git-configuration-information">View all git configuration information</h3>
+<pre tabindex="0"><code>git config --global --list
+</code></pre><h3 id="push-local-main-to-github-main-and-have-local-main-track-main-on-github">Push local main to GitHub main and have local main track main on GitHub</h3>
+<pre tabindex="0"><code>git push --set-upstream origin main
+# shorter form
+git push -u origin main
+# you only need to set upstream tracking once!
+</code></pre><h3 id="pull-commits-and-dont-let-it-put-you-in-a-merge-conflict-pickle">Pull commits and don’t let it put you in a merge conflict pickle</h3>
+<pre tabindex="0"><code>git pull --ff-only
+</code></pre><h3 id="add-a-remote-to-existing-local-repo">Add a remote to existing local repo</h3>
+<pre tabindex="0"><code>git remote add origin [remote repo]
+git remote --verbose
+git remote show origin
+</code></pre><h3 id="reset-the-associated-remote-repository">Reset the associated remote repository</h3>
+<pre tabindex="0"><code>git remote set-url origin [new remote repo url]
+</code></pre><h3 id="switch-to-a-branch">Switch to a branch</h3>
+<pre tabindex="0"><code>git checkout [branch-name]
+</code></pre><h3 id="checking-remote-and-branch-tracking">Checking remote and branch tracking</h3>
+<pre tabindex="0"><code>git remote -v
+git remote show origin
+git branch -vv
+</code></pre><h3 id="check-on-the-state-of-the-git-world">Check on the state of the Git world</h3>
+<pre tabindex="0"><code>git status
+git log
+git log --oneline
+</code></pre>
+        
+    </div>
+
+    <div class="prev-next">
+        
+    </div>
+
+    
+    
+    <svg id="btt-button" class="arrow-logo" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512" onclick="topFunction()" title="Go to top">
+        
+        <path d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z"/>
+    </svg>
+    <script>
+        let backToTopButton = document.getElementById("btt-button");
+
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                backToTopButton.style.display = "block";
+            } else {
+                backToTopButton.style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            smoothScrollToTop();
+        }
+
+        function smoothScrollToTop() {
+            const scrollToTop = () => {
+                const c = document.documentElement.scrollTop || document.body.scrollTop;
+                if (c > 0) {
+                    window.requestAnimationFrame(scrollToTop);
+                    window.scrollTo(0, c - c / 8);
+                }
+            };
+            scrollToTop();
+        }
+    </script>
+    
+    
+</div>
+
+<aside class="post-toc">
+    <nav id="toc">
+        <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li>
+          <ul>
+            <li><a href="#view-the-git-installation-location">View the git installation location</a></li>
+            <li><a href="#view-the-git-installation-version">View the git installation version</a></li>
+            <li><a href="#updating-git-for-windows">Updating Git for Windows</a></li>
+            <li><a href="#setting-up-network-proxy">Setting up network proxy</a></li>
+            <li><a href="#setting-default-initial-branch-name-to-main">Setting default initial branch name to main</a></li>
+            <li><a href="#view-all-git-configuration-information">View all git configuration information</a></li>
+            <li><a href="#push-local-main-to-github-main-and-have-local-main-track-main-on-github">Push local main to GitHub main and have local main track main on GitHub</a></li>
+            <li><a href="#pull-commits-and-dont-let-it-put-you-in-a-merge-conflict-pickle">Pull commits and don’t let it put you in a merge conflict pickle</a></li>
+            <li><a href="#add-a-remote-to-existing-local-repo">Add a remote to existing local repo</a></li>
+            <li><a href="#reset-the-associated-remote-repository">Reset the associated remote repository</a></li>
+            <li><a href="#switch-to-a-branch">Switch to a branch</a></li>
+            <li><a href="#checking-remote-and-branch-tracking">Checking remote and branch tracking</a></li>
+            <li><a href="#check-on-the-state-of-the-git-world">Check on the state of the Git world</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </nav>
+</aside>
+
+
+
+    
+
+        </main><footer class="footer">
+    
+    
+
+    
+    <span>&copy; 2024 SpatLyu</span>
+    
+    <span>
+        Made with &#10084;&#65039; using <a target="_blank" href="https://github.com/526avijitgupta/gokarna">Gokarna</a>
+    </span>
+</footer>
+</body>
+</html>

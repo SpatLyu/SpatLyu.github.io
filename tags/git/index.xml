@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git on Wenbo Lv</title>
+    <link>https://spatlyu.github.io/tags/git/</link>
+    <description>Recent content in Git on Wenbo Lv</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 05 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://spatlyu.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Common git commands</title>
+      <link>https://spatlyu.github.io/posts/common-git-commands/</link>
+      <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://spatlyu.github.io/posts/common-git-commands/</guid>
+      <description>View the git installation location which git View the git installation version git --version Updating Git for Windows git update-git-for-windows Setting up network proxy git config --global http.proxy &amp;#39;http://127.0.0.1:7890&amp;#39;&#xD;git config --global https.proxy &amp;#39;http://127.0.0.1:7890&amp;#39; Setting default initial branch name to main git config --global init.defaultBranch main View all git configuration information git config --global --list Push local main to GitHub main and have local main track main on GitHub git push --set-upstream origin main&#xD;# shorter form&#xD;git push -u origin main&#xD;# you only need to set upstream tracking once!</description>
+    </item>
+  </channel>
+</rss>
