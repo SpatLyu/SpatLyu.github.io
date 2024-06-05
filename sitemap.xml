@@ -2,38 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:4321/posts/r-books/</loc>
+    <loc>https://spatlyu.github.io/posts/r-books/</loc>
     <lastmod>2024-06-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/books/</loc>
+    <loc>https://spatlyu.github.io/tags/books/</loc>
     <lastmod>2024-06-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/geoinformatics/</loc>
+    <loc>https://spatlyu.github.io/tags/geoinformatics/</loc>
     <lastmod>2024-06-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/posts/</loc>
+    <loc>https://spatlyu.github.io/posts/</loc>
     <lastmod>2024-06-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/r/</loc>
+    <loc>https://spatlyu.github.io/tags/r/</loc>
     <lastmod>2024-06-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/satistics/</loc>
+    <loc>https://spatlyu.github.io/tags/satistics/</loc>
     <lastmod>2024-06-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/</loc>
+    <loc>https://spatlyu.github.io/tags/</loc>
     <lastmod>2024-06-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/</loc>
+    <loc>https://spatlyu.github.io/</loc>
     <lastmod>2024-06-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/categories/</loc>
+    <loc>https://spatlyu.github.io/categories/</loc>
   </url><url>
-    <loc>http://localhost:4321/projects/</loc>
+    <loc>https://spatlyu.github.io/projects/</loc>
   </url><url>
-    <loc>http://localhost:4321/projects/spatbox/</loc>
+    <loc>https://spatlyu.github.io/projects/spatbox/</loc>
   </url><url>
-    <loc>http://localhost:4321/projects/specula/</loc>
+    <loc>https://spatlyu.github.io/projects/specula/</loc>
   </url><url>
-    <loc>http://localhost:4321/projects/tidyrgeoda/</loc>
+    <loc>https://spatlyu.github.io/projects/tidyrgeoda/</loc>
   </url>
 </urlset>

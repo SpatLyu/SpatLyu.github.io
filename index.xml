@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wenbo Lv</title>
-    <link>http://localhost:4321/</link>
+    <link>https://spatlyu.github.io/</link>
     <description>Recent content on Wenbo Lv</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 05 Jun 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:4321/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://spatlyu.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>r-books</title>
-      <link>http://localhost:4321/posts/r-books/</link>
+      <link>https://spatlyu.github.io/posts/r-books/</link>
       <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/r-books/</guid>
+      <guid>https://spatlyu.github.io/posts/r-books/</guid>
       <description>R fundamentals Introduction to R&#xA;Advanced R&#xA;R for Data Science (2e)&#xA;R Graphics Cookbook, 2nd edition&#xA;The tidyverse style guide&#xA;Efficient R programming&#xA;Best Coding Practices for R&#xA;Happy Git and GitHub for the useR&#xA;Rcpp for everyone&#xA;R Packages (2e)&#xA;R Markdown Cookbook&#xA;R Markdown: The Definitive Guide&#xA;blogdown: Creating Websites with R Markdown&#xA;bookdown: Authoring Books and Technical Documents with R Markdown&#xA;JavaScript for R&#xA;Computer-age Calculus with R</description>
     </item>
     <item>
       <title>spatbox</title>
-      <link>http://localhost:4321/projects/spatbox/</link>
+      <link>https://spatlyu.github.io/projects/spatbox/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/projects/spatbox/</guid>
+      <guid>https://spatlyu.github.io/projects/spatbox/</guid>
       <description>source code The source code of spEcula is in here</description>
     </item>
     <item>
       <title>spEcula</title>
-      <link>http://localhost:4321/projects/specula/</link>
+      <link>https://spatlyu.github.io/projects/specula/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/projects/specula/</guid>
+      <guid>https://spatlyu.github.io/projects/specula/</guid>
       <description>goal The goal of spEcula is to make it easier to use R for spatial prediction based on spatial dependence, spatial stratification heterogeneity and geographical configuration similarity, and spatial statistical inference based on spatial relationships (the three laws of geography)&#xA;document You can see the document of spEcula in here&#xA;source code The source code of spEcula is in here</description>
     </item>
     <item>
       <title>tidyrgeoda</title>
-      <link>http://localhost:4321/projects/tidyrgeoda/</link>
+      <link>https://spatlyu.github.io/projects/tidyrgeoda/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/projects/tidyrgeoda/</guid>
+      <guid>https://spatlyu.github.io/projects/tidyrgeoda/</guid>
       <description>goal The goal of tidyrgeoda is to provide an interface for rgeoda to integrate with sf objects and the tidyverse.&#xA;document You can see the document of spEcula in here&#xA;source code The source code of spEcula is in here</description>
     </item>
   </channel>
