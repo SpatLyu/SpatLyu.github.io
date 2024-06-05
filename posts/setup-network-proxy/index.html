@@ -17,26 +17,26 @@
     
 
     
-    <title>Rmarkdown</title>
+    <title>Setting up a network proxy</title>
     <meta name="description" content="Geoinformatics; Statistics; R; C&#43;&#43;">
-    <meta name="keywords" content='blog, gokarna, hugo'>
+    <meta name="keywords" content='blog, gokarna, hugo, network proxy, coding'>
 
-    <meta property="og:url" content="http://localhost:4321/tags/rmarkdown/">
+    <meta property="og:url" content="http://localhost:4321/posts/setup-network-proxy/">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Rmarkdown">
+    <meta property="og:title" content="Setting up a network proxy">
     <meta property="og:description" content="Geoinformatics; Statistics; R; C&#43;&#43;">
     <meta property="og:image" content="http://localhost:4321/images/spatlyu.webp">
     <meta property="og:image:secure_url" content="http://localhost:4321/images/spatlyu.webp">
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Rmarkdown">
+    <meta name="twitter:title" content="Setting up a network proxy">
     <meta name="twitter:description" content="Geoinformatics; Statistics; R; C&#43;&#43;">
-    <meta property="twitter:domain" content="http://localhost:4321/tags/rmarkdown/">
-    <meta property="twitter:url" content="http://localhost:4321/tags/rmarkdown/">
+    <meta property="twitter:domain" content="http://localhost:4321/posts/setup-network-proxy/">
+    <meta property="twitter:url" content="http://localhost:4321/posts/setup-network-proxy/">
     <meta name="twitter:image" content="http://localhost:4321/images/spatlyu.webp">
 
     
-    <link rel="canonical" href="http://localhost:4321/tags/rmarkdown/">
+    <link rel="canonical" href="http://localhost:4321/posts/setup-network-proxy/">
 
     
     <link rel="stylesheet" type="text/css" href="/css/normalize.min.css" media="print">
@@ -173,22 +173,96 @@
     </nav>
 </header>
 <main id="content">
-    <div class="container list-posts">
+    <div class="post container">
+    <div class="post-header-section">
+        <h1>Setting up a network proxy</h1>
+        <small role="doc-subtitle"></small>
+        <p class="post-date">June 5, 2024
+        
+        </p>
 
-    <h1 class="list-title">rmarkdown</h1>
+        <ul class="post-tags">
+        
+            <li class="post-tag"><a href="http://localhost:4321/tags/network-proxy">network proxy</a></li>
+        
+            <li class="post-tag"><a href="http://localhost:4321/tags/coding">coding</a></li>
+        
+        </ul>
+    </div>
+
+    <div class="post-content">
+        <p>Python</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> os
+</span></span><span style="display:flex;"><span>os<span style="color:#f92672">.</span>environ[<span style="color:#e6db74">&#34;http_proxy&#34;</span>] <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;http://127.0.0.1:7890&#34;</span>
+</span></span><span style="display:flex;"><span>os<span style="color:#f92672">.</span>environ[<span style="color:#e6db74">&#34;https_proxy&#34;</span>] <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;http://127.0.0.1:7890&#34;</span> 
+</span></span></code></pre></div><p>R</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span><span style="color:#a6e22e">Sys.setenv</span>(https_proxy<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;http://127.0.0.1:7890&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">Sys.setenv</span>(http_proxy<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;http://127.0.0.1:7890&#34;</span>) 
+</span></span></code></pre></div><p>Julia</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>ENV[<span style="color:#e6db74">&#34;https_proxy&#34;</span>]<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;http://127.0.0.1:7890/&#34;</span> 
+</span></span></code></pre></div><p>Git</p>
+<pre tabindex="0"><code class="language-git" data-lang="git">git config --global http.proxy &#39;http://127.0.0.1:7890&#39;
+git config --global https.proxy &#39;http://127.0.0.1:7890&#39;
+</code></pre><p>nodejs</p>
+<pre tabindex="0"><code class="language-nodejs" data-lang="nodejs">npm config set https-proxy http://127.0.0.1:7890 
+</code></pre><p><strong>Change the value from 7890 to the corresponding port number based on your network proxy port number</strong></p>
+
+        
+    </div>
+
+    <div class="prev-next">
+        
+    </div>
 
     
+    
+    <svg id="btt-button" class="arrow-logo" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512" onclick="topFunction()" title="Go to top">
+        
+        <path d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z"/>
+    </svg>
+    <script>
+        let backToTopButton = document.getElementById("btt-button");
 
-    <h2 class="posts-year">2024</h2><div class="post-title">
-    <a href="http://localhost:4321/posts/rmarkdown-setup/" class="post-link">rmarkdown setup</a>
-    <div class="flex-break"></div>
-    <span class="post-date">June 5, 2024</span>
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                backToTopButton.style.display = "block";
+            } else {
+                backToTopButton.style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            smoothScrollToTop();
+        }
+
+        function smoothScrollToTop() {
+            const scrollToTop = () => {
+                const c = document.documentElement.scrollTop || document.body.scrollTop;
+                if (c > 0) {
+                    window.requestAnimationFrame(scrollToTop);
+                    window.scrollTo(0, c - c / 8);
+                }
+            };
+            scrollToTop();
+        }
+    </script>
+    
+    
 </div>
+
+<aside class="post-toc">
+    <nav id="toc">
+        <nav id="TableOfContents"></nav>
+    </nav>
+</aside>
+
+
 
     
-
-</div>
-
 
         </main><footer class="footer">
     

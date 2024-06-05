@@ -2,52 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wenbo Lv</title>
-    <link>https://spatlyu.github.io/</link>
+    <link>http://localhost:4321/</link>
     <description>Recent content on Wenbo Lv</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 05 Jun 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://spatlyu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:4321/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>awesome gis papers</title>
-      <link>https://spatlyu.github.io/posts/awesome-gis-papers/</link>
+      <link>http://localhost:4321/posts/awesome-gis-papers/</link>
       <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/awesome-gis-papers/</guid>
+      <guid>http://localhost:4321/posts/awesome-gis-papers/</guid>
       <description>On spatial effects in geographical analysis&#xA;Spatial Dependence A generalized heterogeneity model for spatial interpolation&#xA;atakrig: An R package for multivariate area-to-area and area-to-point kriging predictions&#xA;Spatial Stratefied Heterogeneity(SSH) Geodetector: Principle and prospective&#xA;An optimal parameters-based geographical detector model(OPGD)&#xA;Modeling of spatial stratified heterogeneity&#xA;sandwichr: Spatial prediction in R based on spatial stratified heterogeneity&#xA;Identifying determinants of spatio-temporal disparities in soil moisture of the Northern Hemisphere using a geographically optimal zones-based heterogeneity model</description>
     </item>
     <item>
       <title>r books</title>
-      <link>https://spatlyu.github.io/posts/r-books/</link>
+      <link>http://localhost:4321/posts/r-books/</link>
       <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/r-books/</guid>
+      <guid>http://localhost:4321/posts/r-books/</guid>
       <description>R fundamentals Introduction to R&#xA;Advanced R&#xA;R for Data Science (2e)&#xA;R Graphics Cookbook, 2nd edition&#xA;The tidyverse style guide&#xA;Efficient R programming&#xA;Best Coding Practices for R&#xA;Happy Git and GitHub for the useR&#xA;Rcpp for everyone&#xA;R Packages (2e)&#xA;R Markdown Cookbook&#xA;R Markdown: The Definitive Guide&#xA;blogdown: Creating Websites with R Markdown&#xA;bookdown: Authoring Books and Technical Documents with R Markdown&#xA;JavaScript for R&#xA;Computer-age Calculus with R</description>
     </item>
     <item>
       <title>rmarkdown setup</title>
-      <link>https://spatlyu.github.io/posts/rmarkdown-setup/</link>
+      <link>http://localhost:4321/posts/rmarkdown-setup/</link>
       <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/rmarkdown-setup/</guid>
+      <guid>http://localhost:4321/posts/rmarkdown-setup/</guid>
       <description>常用的 knitr 设置 ```{r setup, include = FALSE} knitr::opts_chunk$set(echo = TRUE, dpi = 300, warning = FALSE, message = FALSE, out.width = &amp;#34;100%&amp;#34;, out.height = &amp;#34;100%&amp;#34;, fig.align = &amp;#39;center&amp;#39;, comment = &amp;#34;##&amp;#34;) ``` 灰白背景rmarkdown模板 --- title: &amp;#34;xxx&amp;#34; author: &amp;#34;xxx&amp;#34; date: &amp;#34;`r Sys.Date()`&amp;#34; output: #latex_document prettydoc::html_pretty: theme: tactile highlight: github --- ```{r setup, include = FALSE} knitr::opts_chunk$set(echo = TRUE, dpi = 300, warning = FALSE, message = FALSE, out.width = &amp;#34;100%&amp;#34;, out.</description>
     </item>
     <item>
+      <title>Setting up a network proxy</title>
+      <link>http://localhost:4321/posts/setup-network-proxy/</link>
+      <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/posts/setup-network-proxy/</guid>
+      <description>Python&#xA;import os os.environ[&amp;#34;http_proxy&amp;#34;] = &amp;#34;http://127.0.0.1:7890&amp;#34; os.environ[&amp;#34;https_proxy&amp;#34;] = &amp;#34;http://127.0.0.1:7890&amp;#34; R&#xA;Sys.setenv(https_proxy=&amp;#34;http://127.0.0.1:7890&amp;#34;) Sys.setenv(http_proxy=&amp;#34;http://127.0.0.1:7890&amp;#34;) Julia&#xA;ENV[&amp;#34;https_proxy&amp;#34;]=&amp;#34;http://127.0.0.1:7890/&amp;#34; Git&#xA;git config --global http.proxy &amp;#39;http://127.0.0.1:7890&amp;#39;&#xD;git config --global https.proxy &amp;#39;http://127.0.0.1:7890&amp;#39; nodejs&#xA;npm config set https-proxy http://127.0.0.1:7890 Change the value from 7890 to the corresponding port number based on your network proxy port number</description>
+    </item>
+    <item>
       <title>spatbox</title>
-      <link>https://spatlyu.github.io/projects/spatbox/</link>
+      <link>http://localhost:4321/projects/spatbox/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/projects/spatbox/</guid>
+      <guid>http://localhost:4321/projects/spatbox/</guid>
       <description>source code The source code of spEcula is in here</description>
     </item>
     <item>
       <title>spEcula</title>
-      <link>https://spatlyu.github.io/projects/specula/</link>
+      <link>http://localhost:4321/projects/specula/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/projects/specula/</guid>
+      <guid>http://localhost:4321/projects/specula/</guid>
       <description>goal The goal of spEcula is to make it easier to use R for spatial prediction based on spatial dependence, spatial stratification heterogeneity and geographical configuration similarity, and spatial statistical inference based on spatial relationships (the three laws of geography)&#xA;document You can see the document of spEcula in here&#xA;source code The source code of spEcula is in here</description>
     </item>
     <item>
       <title>tidyrgeoda</title>
-      <link>https://spatlyu.github.io/projects/tidyrgeoda/</link>
+      <link>http://localhost:4321/projects/tidyrgeoda/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/projects/tidyrgeoda/</guid>
+      <guid>http://localhost:4321/projects/tidyrgeoda/</guid>
       <description>goal The goal of tidyrgeoda is to provide an interface for rgeoda to integrate with sf objects and the tidyverse.&#xA;document You can see the document of spEcula in here&#xA;source code The source code of spEcula is in here</description>
     </item>
   </channel>
