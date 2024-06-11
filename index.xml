@@ -23,13 +23,6 @@
       <description>View the git installation location which git View the git installation version git --version Updating Git for Windows git update-git-for-windows Setting up network proxy git config --global http.proxy &amp;#39;http://127.0.0.1:7890&amp;#39;&#xD;git config --global https.proxy &amp;#39;http://127.0.0.1:7890&amp;#39; Setting default initial branch name to main git config --global init.defaultBranch main View all git configuration information git config --global --list Push local main to GitHub main and have local main track main on GitHub git push --set-upstream origin main&#xD;# shorter form&#xD;git push -u origin main&#xD;# you only need to set upstream tracking once!</description>
     </item>
     <item>
-      <title>r books</title>
-      <link>https://spatlyu.github.io/posts/r-books/</link>
-      <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/r-books/</guid>
-      <description>R fundamentals Introduction to R&#xA;Advanced R&#xA;R for Data Science (2e)&#xA;R Graphics Cookbook, 2nd edition&#xA;The tidyverse style guide&#xA;Efficient R programming&#xA;Best Coding Practices for R&#xA;Happy Git and GitHub for the useR&#xA;Rcpp for everyone&#xA;R Packages (2e)&#xA;R Markdown Cookbook&#xA;R Markdown: The Definitive Guide&#xA;blogdown: Creating Websites with R Markdown&#xA;bookdown: Authoring Books and Technical Documents with R Markdown&#xA;JavaScript for R&#xA;Computer-age Calculus with R</description>
-    </item>
-    <item>
       <title>rmarkdown setup</title>
       <link>https://spatlyu.github.io/posts/rmarkdown-setup/</link>
       <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
