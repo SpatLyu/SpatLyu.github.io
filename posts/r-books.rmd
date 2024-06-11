@@ -84,6 +84,8 @@ knitr::opts_chunk$set(echo = TRUE,
 
 [**Introduction to Econometrics with R**](https://www.econometrics-with-r.org/)
 
+[**Basic statistics tutorials available on Statology**](https://www.statology.org/tutorials/)
+
 [**Doing Meta-Analysis with R: A Hands-On Guide**](https://bookdown.org/MathiasHarrer/Doing_Meta_Analysis_in_R/)
 
 [Tidy Modeling with R](https://www.tmwr.org/)
