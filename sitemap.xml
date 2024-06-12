@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://spatlyu.github.io/posts/pipes_in_r/</loc>
+    <lastmod>2024-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://spatlyu.github.io/posts/r-books/</loc>
+    <lastmod>2024-06-12T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://spatlyu.github.io/posts/awesome-gis-papers/</loc>
     <lastmod>2024-06-05T00:00:00+00:00</lastmod>
   </url><url>
@@ -14,16 +20,37 @@
     <loc>https://spatlyu.github.io/posts/setup-network-proxy/</loc>
     <lastmod>2024-06-05T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://spatlyu.github.io/tags/books/</loc>
+    <lastmod>2024-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://spatlyu.github.io/tags/dplyr/</loc>
+    <lastmod>2024-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://spatlyu.github.io/tags/geoinformatics/</loc>
+    <lastmod>2024-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://spatlyu.github.io/tags/magrittr/</loc>
+    <lastmod>2024-06-12T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://spatlyu.github.io/posts/</loc>
+    <lastmod>2024-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://spatlyu.github.io/tags/r/</loc>
+    <lastmod>2024-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://spatlyu.github.io/tags/satistics/</loc>
+    <lastmod>2024-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://spatlyu.github.io/tags/</loc>
+    <lastmod>2024-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://spatlyu.github.io/tags/tidyverse/</loc>
     <lastmod>2024-06-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://spatlyu.github.io/</loc>
     <lastmod>2024-06-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://spatlyu.github.io/tags/coding/</loc>
-    <lastmod>2024-06-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://spatlyu.github.io/tags/geoinformatics/</loc>
     <lastmod>2024-06-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://spatlyu.github.io/tags/git/</loc>
@@ -38,16 +65,7 @@
     <loc>https://spatlyu.github.io/tags/papers/</loc>
     <lastmod>2024-06-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://spatlyu.github.io/tags/r/</loc>
-    <lastmod>2024-06-05T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://spatlyu.github.io/tags/rmarkdown/</loc>
-    <lastmod>2024-06-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://spatlyu.github.io/tags/satistics/</loc>
-    <lastmod>2024-06-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://spatlyu.github.io/tags/</loc>
     <lastmod>2024-06-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://spatlyu.github.io/categories/</loc>
