@@ -78,6 +78,16 @@ knitr::opts_chunk$set(echo = TRUE,
 
 
 
+## Network Analysis
+
+[Network Analysis in R](https://robwiederstein.github.io/network_analysis/index.html)
+
+[Introduction to Network Analysis Using R](https://yunranchen.github.io/intro-net-r/)
+
+[**Network Analysis: Integrating Social Network Theory, Method, and Application with R**](https://inarwhal.github.io/NetworkAnalysisR-book/)
+
+
+
 ## Probability Statistics
 
 [**Statistical Inference via Data Science**](https://moderndive.com/index.html)
@@ -165,6 +175,8 @@ knitr::opts_chunk$set(echo = TRUE,
 [GEOG3915 GeoComputation and Spatial Analysis practicals](https://bookdown.org/lexcomber/GEOG3195/)
 
 [Satellite Image Time Series Analysis on Earth Observation Data Cubes](https://e-sensing.github.io/sitsbook/index.html)
+
+[Spatial and spatiotemporal interpolation using Ensemble Machine Learning](https://opengeohub.github.io/spatial-prediction-eml/)
 
 
 
