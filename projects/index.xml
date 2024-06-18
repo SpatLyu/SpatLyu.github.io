@@ -8,6 +8,13 @@
     <language>en</language>
     <atom:link href="https://spatlyu.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>arcR</title>
+      <link>https://spatlyu.github.io/projects/arcr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://spatlyu.github.io/projects/arcr/</guid>
+      <description>goal The goal of arcR is to integrate the benefits of R and ArcGIS with using ArcGIS in R.&#xA;document You can see the document of arcR in here&#xA;source code The source code of arcR is in here</description>
+    </item>
+    <item>
       <title>gdverse</title>
       <link>https://spatlyu.github.io/projects/gdverse/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
