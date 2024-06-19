@@ -1,8 +1,8 @@
 ---
 title: "awesome gis papers"
 author: "Wenbo Lv"
-date: "2024-06-05"
-description: "Advanced spatial method in gis papers."
+date: "2024-06-19"
+description: "Advanced spatial methods in gis papers."
 tags: ["papers","geoinformatics","satistics"]
 type: post
 weight: 25
@@ -12,8 +12,6 @@ showTableOfContents: true
 [**On spatial effects in geographical analysis**](10.11821/dlxb202303001)
 
 ### `Spatial Dependence`
-
-[A generalized heterogeneity model for spatial interpolation](https://www.tandfonline.com/doi/full/10.1080/13658816.2022.2147530)
 
 [atakrig: An R package for multivariate area-to-area and area-to-point kriging predictions](https://www.sciencedirect.com/science/article/pii/S0098300419306089)
 
@@ -33,6 +31,8 @@ showTableOfContents: true
 
 [**Robust geographical detector(RGD)**](https://doi.org/10.1016/j.jag.2022.102782)
 
+[Robust interaction detector: A case of road life expectancy analysis](https://doi.org/10.1016/j.spasta.2024.100814)
+
 [**An interactive detector for spatial associations(IDSA)**](https://doi.org/10.1080/13658816.2021.1882680)
 
 [**A locally explained heterogeneity model for examining wetland disparity**](https://doi.org/10.1080/17538947.2023.2271883)
@@ -44,6 +44,12 @@ showTableOfContents: true
 [Geographically Optimal Similarity | Mathematical Geosciences](https://link.springer.com/article/10.1007/s11004-022-10036-8)
 
 [Geographic Similarity: Third Law of Geography?](https://www.dqxxkx.cn/article/2020/1560-8999/1560-8999-22-4-673.shtml)
+
+### `Spatial Heterogeneity Prediction`
+
+[A generalized heterogeneity model for spatial interpolation](https://www.tandfonline.com/doi/full/10.1080/13658816.2022.2147530)
+
+[An ensemble spatial prediction method considering geospatial heterogeneity](https://www.tandfonline.com/doi/full/10.1080/13658816.2024.2358052)
 
 ### `Spatial Causal Inference`
 
