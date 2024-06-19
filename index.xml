@@ -55,42 +55,42 @@
       <link>https://spatlyu.github.io/projects/arcr/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://spatlyu.github.io/projects/arcr/</guid>
-      <description>goal The goal of arcR is to integrate the benefits of R and ArcGIS with using ArcGIS in R.&#xA;document You can see the document of arcR in here&#xA;source code The source code of arcR is in here</description>
+      <description>goal The goal of arcR is to integrate the benefits of R and ArcGIS with using ArcGIS in R.&#xA;document You can see the document of arcR in here&#xA;source code The source code of arcR is in here&#xA;feedback If you have any questions or suggestions, please post them in arcR github repo issue.</description>
     </item>
     <item>
       <title>gdverse</title>
       <link>https://spatlyu.github.io/projects/gdverse/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://spatlyu.github.io/projects/gdverse/</guid>
-      <description>goal The goal of gdverse is to support the geodetector model and its variants.&#xA;document You can see the document of gdverse in here&#xA;source code The source code of gdverse is in here</description>
+      <description>goal The goal of gdverse is to support the geodetector model and its variants.&#xA;document You can see the document of gdverse in here&#xA;source code The source code of gdverse is in here&#xA;feedback If you have any questions or suggestions, please post them in gdverse github repo issue.</description>
     </item>
     <item>
       <title>geosom</title>
       <link>https://spatlyu.github.io/projects/geosom/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://spatlyu.github.io/projects/geosom/</guid>
-      <description>goal The goal of geosom is to achieve Spatially-Aware Self-Organizing Maps(GeoSOM) Model in R.&#xA;document You can see the document of geosom in here&#xA;source code The source code of geosom is in here</description>
+      <description>goal The goal of geosom is to achieve Spatially-Aware Self-Organizing Maps(GeoSOM) Model in R.&#xA;document You can see the document of geosom in here&#xA;source code The source code of geosom is in here&#xA;feedback If you have any questions or suggestions, please post them in geosom github repo issue.</description>
     </item>
     <item>
       <title>spatbox</title>
       <link>https://spatlyu.github.io/projects/spatbox/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://spatlyu.github.io/projects/spatbox/</guid>
-      <description>source code The source code of spatbox is in here</description>
+      <description>source code The source code of spatbox is in here&#xA;feedback If you have any questions or suggestions, please post them in spatbox github repo issue.</description>
     </item>
     <item>
       <title>spEcula</title>
       <link>https://spatlyu.github.io/projects/specula/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://spatlyu.github.io/projects/specula/</guid>
-      <description>goal The goal of spEcula is to make it easier to use R for spatial prediction based on various spatial relationships (e.g. spatial dependence, spatial heterogeneity and geographical similarity).&#xA;document You can see the document of spEcula in here&#xA;source code The source code of spEcula is in here</description>
+      <description>goal The goal of spEcula is to make it easier to use R for spatial prediction based on various spatial relationships (e.g. spatial dependence, spatial heterogeneity and geographical similarity).&#xA;document You can see the document of spEcula in here&#xA;source code The source code of spEcula is in here&#xA;feedback If you have any questions or suggestions, please post them in spEcula github repo issue.</description>
     </item>
     <item>
       <title>tidyrgeoda</title>
       <link>https://spatlyu.github.io/projects/tidyrgeoda/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://spatlyu.github.io/projects/tidyrgeoda/</guid>
-      <description>goal The goal of tidyrgeoda is to provide an interface for rgeoda to integrate with sf objects and the tidyverse.&#xA;document You can see the document of tidyrgeoda in here&#xA;source code The source code of tidyrgeoda is in here</description>
+      <description>goal The goal of tidyrgeoda is to provide an interface for rgeoda to integrate with sf objects and the tidyverse.&#xA;document You can see the document of tidyrgeoda in here&#xA;source code The source code of tidyrgeoda is in here&#xA;feedback If you have any questions or suggestions, please post them in tidyrgeoda github repo issue.</description>
     </item>
   </channel>
 </rss>
