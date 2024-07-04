@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Geoinformatics on Wenbo Lv</title>
-    <link>http://localhost:4344/tags/geoinformatics/</link>
+    <link>http://localhost:4321/tags/geoinformatics/</link>
     <description>Recent content in Geoinformatics on Wenbo Lv</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 04 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:4344/tags/geoinformatics/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:4321/tags/geoinformatics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>r books</title>
-      <link>http://localhost:4344/posts/r-books/</link>
+      <link>http://localhost:4321/posts/r-books/</link>
       <pubDate>Thu, 04 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4344/posts/r-books/</guid>
+      <guid>http://localhost:4321/posts/r-books/</guid>
       <description>R fundamentals Introduction to R&#xA;Advanced R&#xA;R for Data Science (2e)&#xA;R Graphics Cookbook, 2nd edition&#xA;The tidyverse style guide&#xA;Data Visualization with ggplot2&#xA;Efficient R programming&#xA;Best Coding Practices for R&#xA;Happy Git and GitHub for the useR&#xA;Rcpp for everyone&#xA;Rcpp for everyone Chinese version&#xA;R Packages (2e)&#xA;R Markdown Chinese guide&#xA;R Markdown Cookbook&#xA;R Markdown: The Definitive Guide&#xA;blogdown: Creating Websites with R Markdown&#xA;bookdown: Authoring Books and Technical Documents with R Markdown</description>
     </item>
     <item>
       <title>awesome gis papers</title>
-      <link>http://localhost:4344/posts/awesome-gis-papers/</link>
+      <link>http://localhost:4321/posts/awesome-gis-papers/</link>
       <pubDate>Wed, 19 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4344/posts/awesome-gis-papers/</guid>
+      <guid>http://localhost:4321/posts/awesome-gis-papers/</guid>
       <description>On spatial effects in geographical analysis&#xA;Spatial Dependence atakrig: An R package for multivariate area-to-area and area-to-point kriging predictions&#xA;Spatial Stratefied Heterogeneity(SSH) Geodetector: Principle and prospective&#xA;An optimal parameters-based geographical detector model(OPGD)&#xA;Modeling of spatial stratified heterogeneity&#xA;sandwichr: Spatial prediction in R based on spatial stratified heterogeneity&#xA;Identifying determinants of spatio-temporal disparities in soil moisture of the Northern Hemisphere using a geographically optimal zones-based heterogeneity model&#xA;Spatial association detector (SPADE)</description>
     </item>
   </channel>
