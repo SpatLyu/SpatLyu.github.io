@@ -1,7 +1,7 @@
 ---
 title: "r books"
 author: "Wenbo Lv"
-date: "2024-06-18"
+date: "2024-07-04"
 description: "Useful R Books And Tutorials."
 tags: ["books","r","geoinformatics","satistics"]
 type: post
@@ -30,6 +30,8 @@ knitr::opts_chunk$set(echo = TRUE,
 
 [**The tidyverse style guide**](https://style.tidyverse.org/)
 
+[Data Visualization with ggplot2](https://viz-ggplot2.rsquaredacademy.com/)
+
 [Efficient R programming](https://csgillespie.github.io/efficientR/index.html)
 
 [Best Coding Practices for R](https://bookdown.org/content/d1e53ac9-28ce-472f-bc2c-f499f18264a3/)
@@ -38,7 +40,11 @@ knitr::opts_chunk$set(echo = TRUE,
 
 [**Rcpp for everyone**](https://teuder.github.io/rcpp4everyone_en/)
 
+[Rcpp for everyone Chinese version](https://jywang2016.github.io/rcpp4everyone_cn/)
+
 [**R Packages (2e)**](https://r-pkgs.org/)
+
+[**R Markdown Chinese guide**](https://cosname.github.io/rmarkdown-guide/)
 
 [**R Markdown Cookbook**](https://bookdown.org/yihui/rmarkdown-cookbook/)
 
@@ -107,6 +113,10 @@ knitr::opts_chunk$set(echo = TRUE,
 [Statistical Computation Notes & PKU](https://www.math.pku.edu.cn/teachers/lidf/docs/statcomp/html/_statcompbook/index.html) 
 
 [R Companion to Real Econometrics](https://bookdown.org/carillitony/bailey/)
+
+[Computational Statistics with R](https://cswr.nrhstat.org/)
+
+[Introduction to Computational Finance and Financial Econometrics with R](https://bookdown.org/compfinezbook/introcompfinr/)
 
 
 

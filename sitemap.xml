@@ -2,86 +2,86 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://spatlyu.github.io/posts/awesome-gis-papers/</loc>
+    <loc>http://localhost:4344/posts/r-books/</loc>
+    <lastmod>2024-07-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4344/posts/awesome-gis-papers/</loc>
     <lastmod>2024-06-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://spatlyu.github.io/posts/r-books/</loc>
-    <lastmod>2024-06-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://spatlyu.github.io/posts/pipes_in_r/</loc>
+    <loc>http://localhost:4344/posts/pipes_in_r/</loc>
     <lastmod>2024-06-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://spatlyu.github.io/posts/common-git-commands/</loc>
+    <loc>http://localhost:4344/posts/common-git-commands/</loc>
     <lastmod>2024-06-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://spatlyu.github.io/posts/rmarkdown-setup/</loc>
+    <loc>http://localhost:4344/posts/rmarkdown-setup/</loc>
     <lastmod>2024-06-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://spatlyu.github.io/posts/setup-network-proxy/</loc>
+    <loc>http://localhost:4344/posts/setup-network-proxy/</loc>
     <lastmod>2024-06-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://spatlyu.github.io/tags/geoinformatics/</loc>
+    <loc>http://localhost:4344/tags/books/</loc>
+    <lastmod>2024-07-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4344/tags/geoinformatics/</loc>
+    <lastmod>2024-07-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4344/posts/</loc>
+    <lastmod>2024-07-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4344/tags/r/</loc>
+    <lastmod>2024-07-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4344/tags/satistics/</loc>
+    <lastmod>2024-07-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4344/tags/</loc>
+    <lastmod>2024-07-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4344/</loc>
+    <lastmod>2024-07-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4344/tags/papers/</loc>
     <lastmod>2024-06-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://spatlyu.github.io/tags/papers/</loc>
-    <lastmod>2024-06-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://spatlyu.github.io/posts/</loc>
-    <lastmod>2024-06-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://spatlyu.github.io/tags/satistics/</loc>
-    <lastmod>2024-06-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://spatlyu.github.io/tags/</loc>
-    <lastmod>2024-06-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://spatlyu.github.io/</loc>
-    <lastmod>2024-06-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://spatlyu.github.io/tags/books/</loc>
-    <lastmod>2024-06-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://spatlyu.github.io/tags/r/</loc>
-    <lastmod>2024-06-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://spatlyu.github.io/tags/dplyr/</loc>
+    <loc>http://localhost:4344/tags/dplyr/</loc>
     <lastmod>2024-06-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://spatlyu.github.io/tags/magrittr/</loc>
+    <loc>http://localhost:4344/tags/magrittr/</loc>
     <lastmod>2024-06-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://spatlyu.github.io/tags/tidyverse/</loc>
+    <loc>http://localhost:4344/tags/tidyverse/</loc>
     <lastmod>2024-06-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://spatlyu.github.io/tags/coding/</loc>
+    <loc>http://localhost:4344/tags/coding/</loc>
     <lastmod>2024-06-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://spatlyu.github.io/tags/git/</loc>
+    <loc>http://localhost:4344/tags/git/</loc>
     <lastmod>2024-06-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://spatlyu.github.io/tags/github/</loc>
+    <loc>http://localhost:4344/tags/github/</loc>
     <lastmod>2024-06-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://spatlyu.github.io/tags/network-proxy/</loc>
+    <loc>http://localhost:4344/tags/network-proxy/</loc>
     <lastmod>2024-06-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://spatlyu.github.io/tags/rmarkdown/</loc>
+    <loc>http://localhost:4344/tags/rmarkdown/</loc>
     <lastmod>2024-06-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://spatlyu.github.io/projects/arcr/</loc>
+    <loc>http://localhost:4344/projects/arcr/</loc>
   </url><url>
-    <loc>https://spatlyu.github.io/categories/</loc>
+    <loc>http://localhost:4344/categories/</loc>
   </url><url>
-    <loc>https://spatlyu.github.io/projects/gdverse/</loc>
+    <loc>http://localhost:4344/projects/gdverse/</loc>
   </url><url>
-    <loc>https://spatlyu.github.io/projects/geosom/</loc>
+    <loc>http://localhost:4344/projects/geosom/</loc>
   </url><url>
-    <loc>https://spatlyu.github.io/projects/</loc>
+    <loc>http://localhost:4344/projects/</loc>
   </url><url>
-    <loc>https://spatlyu.github.io/projects/spatbox/</loc>
+    <loc>http://localhost:4344/projects/spatbox/</loc>
   </url><url>
-    <loc>https://spatlyu.github.io/projects/specula/</loc>
+    <loc>http://localhost:4344/projects/specula/</loc>
   </url><url>
-    <loc>https://spatlyu.github.io/projects/tidyrgeoda/</loc>
+    <loc>http://localhost:4344/projects/tidyrgeoda/</loc>
   </url>
 </urlset>
