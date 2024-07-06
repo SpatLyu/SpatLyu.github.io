@@ -17,26 +17,26 @@
     
 
     
-    <title>Setting up a network proxy</title>
+    <title>Increment operator in cpp</title>
     <meta name="description" content="Geoinformatics; Statistics; R; C&#43;&#43;; Python">
-    <meta name="keywords" content='blog, gokarna, hugo, network proxy, coding'>
+    <meta name="keywords" content='blog, gokarna, hugo, cpp, rcpp, r'>
 
-    <meta property="og:url" content="http://localhost:5554/posts/setup-network-proxy/">
+    <meta property="og:url" content="http://localhost:5554/posts/increment-operator-in-cpp/">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Setting up a network proxy">
+    <meta property="og:title" content="Increment operator in cpp">
     <meta property="og:description" content="Geoinformatics; Statistics; R; C&#43;&#43;; Python">
     <meta property="og:image" content="http://localhost:5554/images/spatlyu.webp">
     <meta property="og:image:secure_url" content="http://localhost:5554/images/spatlyu.webp">
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Setting up a network proxy">
+    <meta name="twitter:title" content="Increment operator in cpp">
     <meta name="twitter:description" content="Geoinformatics; Statistics; R; C&#43;&#43;; Python">
-    <meta property="twitter:domain" content="http://localhost:5554/posts/setup-network-proxy/">
-    <meta property="twitter:url" content="http://localhost:5554/posts/setup-network-proxy/">
+    <meta property="twitter:domain" content="http://localhost:5554/posts/increment-operator-in-cpp/">
+    <meta property="twitter:url" content="http://localhost:5554/posts/increment-operator-in-cpp/">
     <meta name="twitter:image" content="http://localhost:5554/images/spatlyu.webp">
 
     
-    <link rel="canonical" href="http://localhost:5554/posts/setup-network-proxy/">
+    <link rel="canonical" href="http://localhost:5554/posts/increment-operator-in-cpp/">
 
     
     <link rel="stylesheet" type="text/css" href="/css/normalize.min.css" media="print">
@@ -175,38 +175,86 @@
 <main id="content">
     <div class="post container">
     <div class="post-header-section">
-        <h1>Setting up a network proxy</h1>
+        <h1>Increment operator in cpp</h1>
         <small role="doc-subtitle"></small>
-        <p class="post-date">June 5, 2024
+        <p class="post-date">July 6, 2024
         
         </p>
 
         <ul class="post-tags">
         
-            <li class="post-tag"><a href="http://localhost:5554/tags/network-proxy">network proxy</a></li>
+            <li class="post-tag"><a href="http://localhost:5554/tags/cpp">cpp</a></li>
         
-            <li class="post-tag"><a href="http://localhost:5554/tags/coding">coding</a></li>
+            <li class="post-tag"><a href="http://localhost:5554/tags/rcpp">rcpp</a></li>
+        
+            <li class="post-tag"><a href="http://localhost:5554/tags/r">r</a></li>
         
         </ul>
     </div>
 
     <div class="post-content">
-        <p>Python</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> os
-</span></span><span style="display:flex;"><span>os<span style="color:#f92672">.</span>environ[<span style="color:#e6db74">&#34;http_proxy&#34;</span>] <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;http://127.0.0.1:7890&#34;</span>
-</span></span><span style="display:flex;"><span>os<span style="color:#f92672">.</span>environ[<span style="color:#e6db74">&#34;https_proxy&#34;</span>] <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;http://127.0.0.1:7890&#34;</span> 
-</span></span></code></pre></div><p>R</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span><span style="color:#a6e22e">Sys.setenv</span>(https_proxy<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;http://127.0.0.1:7890&#34;</span>)
-</span></span><span style="display:flex;"><span><span style="color:#a6e22e">Sys.setenv</span>(http_proxy<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;http://127.0.0.1:7890&#34;</span>) 
-</span></span></code></pre></div><p>Julia</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>ENV[<span style="color:#e6db74">&#34;https_proxy&#34;</span>]<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;http://127.0.0.1:7890/&#34;</span> 
-</span></span></code></pre></div><p>Git</p>
-<pre tabindex="0"><code class="language-git" data-lang="git">git config --global http.proxy &#39;http://127.0.0.1:7890&#39;
-git config --global https.proxy &#39;http://127.0.0.1:7890&#39;
-</code></pre><p>nodejs</p>
-<pre tabindex="0"><code class="language-nodejs" data-lang="nodejs">npm config set https-proxy http://127.0.0.1:7890 
-</code></pre><p><strong>Change the value from 7890 to the corresponding port number based on your network proxy port number.</strong></p>
-
+        <p>In cpp, <strong>i++</strong> and <strong>++i</strong> are two different increment operators, known as <strong>post-increment</strong> and <strong>pre-increment</strong>, respectively. The main difference between them lies in <em>the order of operations</em> and <em>the return value</em>.</p>
+<h3 id="i-post-increment"><strong>i++</strong> (Post-Increment)</h3>
+<p>The post-increment operator <strong>i++</strong> returns the current value of the variable before incrementing it. Specifically:</p>
+<ol>
+<li>It returns the current value of the variable.</li>
+<li>Then, it increments the variable&rsquo;s value by 1.</li>
+</ol>
+<p>Example:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> a <span style="color:#f92672">=</span> i<span style="color:#f92672">++</span>;  <span style="color:#75715e">// a = 1, i = 2
+</span></span></span></code></pre></div><p>In this example, <code>a</code> is assigned the current value of <code>i</code> (1), and then <code>i</code> is incremented to 2.</p>
+<h3 id="i-pre-increment"><strong>++i</strong> (Pre-Increment)</h3>
+<p>The pre-increment operator <strong>++i</strong> increments the variable&rsquo;s value by 1 before returning the new value. Specifically:</p>
+<ol>
+<li>It increments the variable&rsquo;s value by 1.</li>
+<li>Then, it returns the incremented value.</li>
+</ol>
+<p>Example:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> a <span style="color:#f92672">=</span> <span style="color:#f92672">++</span>i;  <span style="color:#75715e">// a = 2, i = 2
+</span></span></span></code></pre></div><p>In this example, <code>i</code> is first incremented to 2, and then <code>a</code> is assigned the new value of <code>i</code> (2).</p>
+<h3 id="summary">Summary</h3>
+<ul>
+<li><strong>i++</strong>: Returns the original value, then increments. The operation sequence is: return value -&gt; increment.</li>
+<li><strong>++i</strong>: Increments first, then returns the new value. The operation sequence is: increment -&gt; return value.</li>
+</ul>
+<h3 id="performance-considerations">Performance Considerations</h3>
+<p>In certain situations, especially in loops, using pre-increment (<strong>++i</strong>) can be more efficient than post-increment (<strong>i++</strong>), particularly for complex iterator objects. This is because post-increment needs to save the object&rsquo;s original state to return the original value, whereas pre-increment does not. However, for basic types like <code>int</code>, modern compilers typically optimize away the differences, making the performance impact negligible.</p>
+<h3 id="usage-recommendations">Usage Recommendations</h3>
+<ol>
+<li>If you simply need to increment a variable without using its old value, prefer pre-increment (<strong>++i</strong>).</li>
+<li>If you need to use the value of the variable before incrementing, use post-increment (<strong>i++</strong>).</li>
+</ol>
+<h3 id="a-small-example">A small example</h3>
+<p>construct the following cpp code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span>src <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">#include &lt;Rcpp.h&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">// [[Rcpp::export]]
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">void test_increment(){
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">  const int n = 5;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">  
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">  // use i++
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">  for(int i = 0; i &lt; n; i++){
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    Rcpp::Rcout &lt;&lt; &#34;using post increment: &#34; &lt;&lt; i &lt;&lt; &#34;---&#34; &lt;&lt; i++ &lt;&lt; &#34;\\n&#34;;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">  }
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">  
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">  // use ++i
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">  for(int i = 0; i &lt; n; ++i){
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    Rcpp::Rcout &lt;&lt; &#34;using pre increment: &#34; &lt;&lt; i &lt;&lt; &#34;---&#34; &lt;&lt; ++i &lt;&lt; &#34;\\n&#34;;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">  }
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">}
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">&#39;</span>
+</span></span><span style="display:flex;"><span>Rcpp<span style="color:#f92672">::</span><span style="color:#a6e22e">sourceCpp</span>(code <span style="color:#f92672">=</span> src)
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">test_increment</span>()
+</span></span></code></pre></div><pre tabindex="0"><code>## using post increment: 0---0
+## using post increment: 2---2
+## using post increment: 4---4
+## using pre increment: 0---1
+## using pre increment: 2---3
+## using pre increment: 4---5
+</code></pre>
         
     </div>
 
@@ -256,7 +304,24 @@ git config --global https.proxy &#39;http://127.0.0.1:7890&#39;
 
 <aside class="post-toc">
     <nav id="toc">
-        <nav id="TableOfContents"></nav>
+        <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li>
+          <ul>
+            <li><a href="#i-post-increment"><strong>i++</strong> (Post-Increment)</a></li>
+            <li><a href="#i-pre-increment"><strong>++i</strong> (Pre-Increment)</a></li>
+            <li><a href="#summary">Summary</a></li>
+            <li><a href="#performance-considerations">Performance Considerations</a></li>
+            <li><a href="#usage-recommendations">Usage Recommendations</a></li>
+            <li><a href="#a-small-example">A small example</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
     </nav>
 </aside>
 

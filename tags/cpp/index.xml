@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cpp on Wenbo Lv</title>
+    <link>http://localhost:5554/tags/cpp/</link>
+    <description>Recent content in Cpp on Wenbo Lv</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 06 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:5554/tags/cpp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Increment operator in cpp</title>
+      <link>http://localhost:5554/posts/increment-operator-in-cpp/</link>
+      <pubDate>Sat, 06 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:5554/posts/increment-operator-in-cpp/</guid>
+      <description>In cpp, i++ and ++i are two different increment operators, known as post-increment and pre-increment, respectively. The main difference between them lies in the order of operations and the return value.&#xA;i++ (Post-Increment) The post-increment operator i++ returns the current value of the variable before incrementing it. Specifically:&#xA;It returns the current value of the variable. Then, it increments the variable&amp;rsquo;s value by 1. Example:&#xA;int i = 1; int a = i++; // a = 1, i = 2 In this example, a is assigned the current value of i (1), and then i is incremented to 2.</description>
+    </item>
+  </channel>
+</rss>

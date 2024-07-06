@@ -2,94 +2,101 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wenbo Lv</title>
-    <link>https://spatlyu.github.io/</link>
+    <link>http://localhost:5554/</link>
     <description>Recent content on Wenbo Lv</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 04 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://spatlyu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:5554/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Increment operator in cpp</title>
+      <link>http://localhost:5554/posts/increment-operator-in-cpp/</link>
+      <pubDate>Sat, 06 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:5554/posts/increment-operator-in-cpp/</guid>
+      <description>In cpp, i++ and ++i are two different increment operators, known as post-increment and pre-increment, respectively. The main difference between them lies in the order of operations and the return value.&#xA;i++ (Post-Increment) The post-increment operator i++ returns the current value of the variable before incrementing it. Specifically:&#xA;It returns the current value of the variable. Then, it increments the variable&amp;rsquo;s value by 1. Example:&#xA;int i = 1; int a = i++; // a = 1, i = 2 In this example, a is assigned the current value of i (1), and then i is incremented to 2.</description>
+    </item>
     <item>
       <title>r books</title>
-      <link>https://spatlyu.github.io/posts/r-books/</link>
+      <link>http://localhost:5554/posts/r-books/</link>
       <pubDate>Thu, 04 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/r-books/</guid>
+      <guid>http://localhost:5554/posts/r-books/</guid>
       <description>R fundamentals Introduction to R&#xA;Advanced R&#xA;R for Data Science (2e)&#xA;R Graphics Cookbook, 2nd edition&#xA;The tidyverse style guide&#xA;Data Visualization with ggplot2&#xA;Efficient R programming&#xA;Best Coding Practices for R&#xA;Happy Git and GitHub for the useR&#xA;Rcpp for everyone&#xA;Rcpp for everyone Chinese version&#xA;R Packages (2e)&#xA;R Markdown Chinese guide&#xA;R Markdown Cookbook&#xA;R Markdown: The Definitive Guide&#xA;blogdown: Creating Websites with R Markdown&#xA;bookdown: Authoring Books and Technical Documents with R Markdown</description>
     </item>
     <item>
       <title>awesome gis papers</title>
-      <link>https://spatlyu.github.io/posts/awesome-gis-papers/</link>
+      <link>http://localhost:5554/posts/awesome-gis-papers/</link>
       <pubDate>Wed, 19 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/awesome-gis-papers/</guid>
+      <guid>http://localhost:5554/posts/awesome-gis-papers/</guid>
       <description>On spatial effects in geographical analysis&#xA;Spatial Dependence atakrig: An R package for multivariate area-to-area and area-to-point kriging predictions&#xA;Spatial Stratefied Heterogeneity(SSH) Geodetector: Principle and prospective&#xA;An optimal parameters-based geographical detector model(OPGD)&#xA;Modeling of spatial stratified heterogeneity&#xA;sandwichr: Spatial prediction in R based on spatial stratified heterogeneity&#xA;Identifying determinants of spatio-temporal disparities in soil moisture of the Northern Hemisphere using a geographically optimal zones-based heterogeneity model&#xA;Spatial association detector (SPADE)</description>
     </item>
     <item>
       <title>Pipes In R</title>
-      <link>https://spatlyu.github.io/posts/pipes_in_r/</link>
+      <link>http://localhost:5554/posts/pipes_in_r/</link>
       <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/pipes_in_r/</guid>
+      <guid>http://localhost:5554/posts/pipes_in_r/</guid>
       <description>In this post,we will state the use of pipes in R, includes %&amp;gt;%, %$%, %T&amp;gt;%, %&amp;lt;&amp;gt;% and |&amp;gt;.&#xA;First let&amp;rsquo;s construct some data for a demonstration of pipes usage in R (PS: The ideas and example data for this post came from this dplyr github issue):&#xA;packageVersion(&amp;#39;magrittr&amp;#39;) ## [1] &amp;#39;2.0.3&amp;#39; library(magrittr) exampledt = tibble::tibble( BP = c(&amp;#34;-&amp;#34;, &amp;#34;-&amp;#34;, &amp;#34;A&amp;#34;, &amp;#34;B&amp;#34;), CL = c(&amp;#34;-&amp;#34;, &amp;#34;C&amp;#34;, &amp;#34;-&amp;#34;, &amp;#34;D&amp;#34;), MF = c(&amp;#34;-&amp;#34;, &amp;#34;-&amp;#34;, &amp;#34;-&amp;#34;, &amp;#34;E&amp;#34;) ) %&amp;gt;% {.</description>
     </item>
     <item>
       <title>Common git commands</title>
-      <link>https://spatlyu.github.io/posts/common-git-commands/</link>
+      <link>http://localhost:5554/posts/common-git-commands/</link>
       <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/common-git-commands/</guid>
+      <guid>http://localhost:5554/posts/common-git-commands/</guid>
       <description>View the git installation location which git View the git installation version git --version Updating Git for Windows git update-git-for-windows Setting up network proxy git config --global http.proxy &amp;#39;http://127.0.0.1:7890&amp;#39;&#xD;git config --global https.proxy &amp;#39;http://127.0.0.1:7890&amp;#39; Setting default initial branch name to main git config --global init.defaultBranch main View all git configuration information git config --global --list Push local main to GitHub main and have local main track main on GitHub git push --set-upstream origin main&#xD;# shorter form&#xD;git push -u origin main&#xD;# you only need to set upstream tracking once!</description>
     </item>
     <item>
       <title>rmarkdown setup</title>
-      <link>https://spatlyu.github.io/posts/rmarkdown-setup/</link>
+      <link>http://localhost:5554/posts/rmarkdown-setup/</link>
       <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/rmarkdown-setup/</guid>
+      <guid>http://localhost:5554/posts/rmarkdown-setup/</guid>
       <description>常用的 knitr 设置 ```{r setup, include = FALSE} knitr::opts_chunk$set(echo = TRUE, dpi = 300, warning = FALSE, message = FALSE, out.width = &amp;#34;100%&amp;#34;, out.height = &amp;#34;100%&amp;#34;, fig.align = &amp;#39;center&amp;#39;, comment = &amp;#34;##&amp;#34;) ``` 灰白背景rmarkdown模板 --- title: &amp;#34;xxx&amp;#34; author: &amp;#34;xxx&amp;#34; date: &amp;#34;`r Sys.Date()`&amp;#34; output: #latex_document prettydoc::html_pretty: theme: tactile highlight: github --- ```{r setup, include = FALSE} knitr::opts_chunk$set(echo = TRUE, dpi = 300, warning = FALSE, message = FALSE, out.width = &amp;#34;100%&amp;#34;, out.</description>
     </item>
     <item>
       <title>Setting up a network proxy</title>
-      <link>https://spatlyu.github.io/posts/setup-network-proxy/</link>
+      <link>http://localhost:5554/posts/setup-network-proxy/</link>
       <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/setup-network-proxy/</guid>
+      <guid>http://localhost:5554/posts/setup-network-proxy/</guid>
       <description>Python&#xA;import os os.environ[&amp;#34;http_proxy&amp;#34;] = &amp;#34;http://127.0.0.1:7890&amp;#34; os.environ[&amp;#34;https_proxy&amp;#34;] = &amp;#34;http://127.0.0.1:7890&amp;#34; R&#xA;Sys.setenv(https_proxy=&amp;#34;http://127.0.0.1:7890&amp;#34;) Sys.setenv(http_proxy=&amp;#34;http://127.0.0.1:7890&amp;#34;) Julia&#xA;ENV[&amp;#34;https_proxy&amp;#34;]=&amp;#34;http://127.0.0.1:7890/&amp;#34; Git&#xA;git config --global http.proxy &amp;#39;http://127.0.0.1:7890&amp;#39;&#xD;git config --global https.proxy &amp;#39;http://127.0.0.1:7890&amp;#39; nodejs&#xA;npm config set https-proxy http://127.0.0.1:7890 Change the value from 7890 to the corresponding port number based on your network proxy port number.</description>
     </item>
     <item>
       <title>arcR</title>
-      <link>https://spatlyu.github.io/projects/arcr/</link>
+      <link>http://localhost:5554/projects/arcr/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/projects/arcr/</guid>
+      <guid>http://localhost:5554/projects/arcr/</guid>
       <description>goal The goal of arcR is to integrate the benefits of R and ArcGIS with using ArcGIS in R.&#xA;document You can see the document of arcR in here&#xA;source code The source code of arcR is in here&#xA;feedback If you have any questions or suggestions, please post them in arcR github repo issue.</description>
     </item>
     <item>
       <title>gdverse</title>
-      <link>https://spatlyu.github.io/projects/gdverse/</link>
+      <link>http://localhost:5554/projects/gdverse/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/projects/gdverse/</guid>
+      <guid>http://localhost:5554/projects/gdverse/</guid>
       <description>goal The goal of gdverse is to support the geodetector model and its variants.&#xA;document You can see the document of gdverse in here&#xA;source code The source code of gdverse is in here&#xA;feedback If you have any questions or suggestions, please post them in gdverse github repo issue.</description>
     </item>
     <item>
       <title>geosom</title>
-      <link>https://spatlyu.github.io/projects/geosom/</link>
+      <link>http://localhost:5554/projects/geosom/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/projects/geosom/</guid>
+      <guid>http://localhost:5554/projects/geosom/</guid>
       <description>goal The goal of geosom is to achieve Spatially-Aware Self-Organizing Maps(GeoSOM) Model in R.&#xA;document You can see the document of geosom in here&#xA;source code The source code of geosom is in here&#xA;feedback If you have any questions or suggestions, please post them in geosom github repo issue.</description>
     </item>
     <item>
       <title>spatbox</title>
-      <link>https://spatlyu.github.io/projects/spatbox/</link>
+      <link>http://localhost:5554/projects/spatbox/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/projects/spatbox/</guid>
+      <guid>http://localhost:5554/projects/spatbox/</guid>
       <description>source code The source code of spatbox is in here&#xA;feedback If you have any questions or suggestions, please post them in spatbox github repo issue.</description>
     </item>
     <item>
       <title>spEcula</title>
-      <link>https://spatlyu.github.io/projects/specula/</link>
+      <link>http://localhost:5554/projects/specula/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/projects/specula/</guid>
+      <guid>http://localhost:5554/projects/specula/</guid>
       <description>goal The goal of spEcula is to make it easier to use R for spatial prediction based on various spatial relationships (e.g. spatial dependence, spatial heterogeneity and geographical similarity).&#xA;document You can see the document of spEcula in here&#xA;source code The source code of spEcula is in here&#xA;feedback If you have any questions or suggestions, please post them in spEcula github repo issue.</description>
     </item>
     <item>
       <title>tidyrgeoda</title>
-      <link>https://spatlyu.github.io/projects/tidyrgeoda/</link>
+      <link>http://localhost:5554/projects/tidyrgeoda/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/projects/tidyrgeoda/</guid>
+      <guid>http://localhost:5554/projects/tidyrgeoda/</guid>
       <description>goal The goal of tidyrgeoda is to provide an interface for rgeoda to integrate with sf objects and the tidyverse.&#xA;document You can see the document of tidyrgeoda in here&#xA;source code The source code of tidyrgeoda is in here&#xA;feedback If you have any questions or suggestions, please post them in tidyrgeoda github repo issue.</description>
     </item>
   </channel>
