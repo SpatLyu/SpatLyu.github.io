@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Magrittr on Wenbo Lv</title>
-    <link>http://localhost:5554/tags/magrittr/</link>
+    <link>https://spatlyu.github.io/tags/magrittr/</link>
     <description>Recent content in Magrittr on Wenbo Lv</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 12 Jun 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:5554/tags/magrittr/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://spatlyu.github.io/tags/magrittr/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pipes In R</title>
-      <link>http://localhost:5554/posts/pipes_in_r/</link>
+      <link>https://spatlyu.github.io/posts/pipes_in_r/</link>
       <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:5554/posts/pipes_in_r/</guid>
+      <guid>https://spatlyu.github.io/posts/pipes_in_r/</guid>
       <description>In this post,we will state the use of pipes in R, includes %&amp;gt;%, %$%, %T&amp;gt;%, %&amp;lt;&amp;gt;% and |&amp;gt;.&#xA;First let&amp;rsquo;s construct some data for a demonstration of pipes usage in R (PS: The ideas and example data for this post came from this dplyr github issue):&#xA;packageVersion(&amp;#39;magrittr&amp;#39;) ## [1] &amp;#39;2.0.3&amp;#39; library(magrittr) exampledt = tibble::tibble( BP = c(&amp;#34;-&amp;#34;, &amp;#34;-&amp;#34;, &amp;#34;A&amp;#34;, &amp;#34;B&amp;#34;), CL = c(&amp;#34;-&amp;#34;, &amp;#34;C&amp;#34;, &amp;#34;-&amp;#34;, &amp;#34;D&amp;#34;), MF = c(&amp;#34;-&amp;#34;, &amp;#34;-&amp;#34;, &amp;#34;-&amp;#34;, &amp;#34;E&amp;#34;) ) %&amp;gt;% {.</description>
     </item>
   </channel>

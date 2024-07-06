@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rmarkdown on Wenbo Lv</title>
-    <link>http://localhost:5554/tags/rmarkdown/</link>
+    <link>https://spatlyu.github.io/tags/rmarkdown/</link>
     <description>Recent content in Rmarkdown on Wenbo Lv</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 05 Jun 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:5554/tags/rmarkdown/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://spatlyu.github.io/tags/rmarkdown/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>rmarkdown setup</title>
-      <link>http://localhost:5554/posts/rmarkdown-setup/</link>
+      <link>https://spatlyu.github.io/posts/rmarkdown-setup/</link>
       <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:5554/posts/rmarkdown-setup/</guid>
+      <guid>https://spatlyu.github.io/posts/rmarkdown-setup/</guid>
       <description>常用的 knitr 设置 ```{r setup, include = FALSE} knitr::opts_chunk$set(echo = TRUE, dpi = 300, warning = FALSE, message = FALSE, out.width = &amp;#34;100%&amp;#34;, out.height = &amp;#34;100%&amp;#34;, fig.align = &amp;#39;center&amp;#39;, comment = &amp;#34;##&amp;#34;) ``` 灰白背景rmarkdown模板 --- title: &amp;#34;xxx&amp;#34; author: &amp;#34;xxx&amp;#34; date: &amp;#34;`r Sys.Date()`&amp;#34; output: #latex_document prettydoc::html_pretty: theme: tactile highlight: github --- ```{r setup, include = FALSE} knitr::opts_chunk$set(echo = TRUE, dpi = 300, warning = FALSE, message = FALSE, out.width = &amp;#34;100%&amp;#34;, out.</description>
     </item>
   </channel>
