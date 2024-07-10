@@ -72,6 +72,13 @@
       <description>goal The goal of gdverse is to support the geodetector model and its variants.&#xA;document You can see the document of gdverse in here&#xA;source code The source code of gdverse is in here&#xA;feedback If you have any questions or suggestions, please post them in gdverse github repo issue.</description>
     </item>
     <item>
+      <title>geocomplexity</title>
+      <link>https://spatlyu.github.io/projects/geocomplexity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://spatlyu.github.io/projects/geocomplexity/</guid>
+      <description>goal The goal of geocomplexity is to support geocomplexity computation and applications.&#xA;document You can see the document of geocomplexity in here&#xA;source code The source code of geocomplexity is in here&#xA;feedback If you have any questions or suggestions, please post them in geocomplexity github repo issue.</description>
+    </item>
+    <item>
       <title>geosom</title>
       <link>https://spatlyu.github.io/projects/geosom/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
