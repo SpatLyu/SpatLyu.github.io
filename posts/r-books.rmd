@@ -1,8 +1,8 @@
 ---
 title: "r books"
 author: "Wenbo Lv"
-date: "2024-07-04"
-description: "Useful R Books And Tutorials."
+date: "2024-07-11"
+description: "Useful R Books and Tutorials."
 tags: ["books","r","geoinformatics","satistics"]
 type: post
 weight: 25
@@ -41,6 +41,8 @@ knitr::opts_chunk$set(echo = TRUE,
 [**Rcpp for everyone**](https://teuder.github.io/rcpp4everyone_en/)
 
 [Rcpp for everyone Chinese version](https://jywang2016.github.io/rcpp4everyone_cn/)
+
+[**Unofficial rcpp api documentation**](https://thecoatlessprofessor.com/programming/cpp/unofficial-rcpp-api-documentation/)
 
 [**R Packages (2e)**](https://r-pkgs.org/)
 

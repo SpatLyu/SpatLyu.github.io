@@ -1,7 +1,7 @@
 ---
 title: "awesome gis papers"
 author: "Wenbo Lv"
-date: "2024-06-19"
+date: "2024-07-11"
 description: "Advanced spatial methods in gis papers."
 tags: ["papers","geoinformatics","satistics"]
 type: post
@@ -11,11 +11,13 @@ showTableOfContents: true
 
 [**On spatial effects in geographical analysis**](10.11821/dlxb202303001)
 
-### `Spatial Dependence`
+### Spatial Dependence
 
 [atakrig: An R package for multivariate area-to-area and area-to-point kriging predictions](https://www.sciencedirect.com/science/article/pii/S0098300419306089)
 
-### `Spatial Stratefied Heterogeneity(SSH)`
+[**Geocomplexity explains spatial errors**](https://doi.org/10.1080/13658816.2023.2203212)
+
+### Spatial Stratefied Heterogeneity(SSH)
 
 [**Geodetector: Principle and prospective**](https://doi.org/10.11821/dlxb201701010)
 
@@ -39,27 +41,25 @@ showTableOfContents: true
 
 [**Understanding and extending the geographical detector model under a linear regression framework**](https://doi.org/10.1080/13658816.2023.2266497)
 
-### `Third law of geography`
+### Third law of geography
 
 [Geographically Optimal Similarity | Mathematical Geosciences](https://link.springer.com/article/10.1007/s11004-022-10036-8)
 
 [Geographic Similarity: Third Law of Geography?](https://www.dqxxkx.cn/article/2020/1560-8999/1560-8999-22-4-673.shtml)
 
-### `Spatial Heterogeneity Prediction`
+### Spatial Heterogeneity Prediction
 
 [A generalized heterogeneity model for spatial interpolation](https://www.tandfonline.com/doi/full/10.1080/13658816.2022.2147530)
 
 [An ensemble spatial prediction method considering geospatial heterogeneity](https://www.tandfonline.com/doi/full/10.1080/13658816.2024.2358052)
 
-### `Spatial Causal Inference`
+[**The second dimension of spatial association**](https://www.sciencedirect.com/science/article/pii/S156984322200036X)
+
+### Spatial Causal Inference
 
 [**Causal inference in spatial statistics**](https://www.sciencedirect.com/science/article/pii/S2211675322000173)
 
 [**Spatial Causality: A Systematic Review on Spatial Causal Inference**](https://onlinelibrary.wiley.com/doi/abs/10.1111/gean.12312)
-
-[**Geocomplexity explains spatial errors**](https://doi.org/10.1080/13658816.2023.2203212)
-
-[**The second dimension of spatial association**](https://www.sciencedirect.com/science/article/pii/S156984322200036X)
 
 [**Conduct Multiple Types of Geographic Regression Discontinuity Designs(SpatialRDD)**](https://axlehner.github.io/SpatialRDD/index.html)
 
