@@ -2,110 +2,110 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:4321/posts/academic_writing_books/</loc>
+    <loc>https://spatlyu.github.io/posts/academic_writing_books/</loc>
     <lastmod>2024-08-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/posts/awesome-gis-papers/</loc>
+    <loc>https://spatlyu.github.io/posts/awesome-gis-papers/</loc>
     <lastmod>2024-07-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/posts/r-books/</loc>
+    <loc>https://spatlyu.github.io/posts/r-books/</loc>
     <lastmod>2024-07-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/posts/other_resource_github_io/</loc>
+    <loc>https://spatlyu.github.io/posts/other_resource_github_io/</loc>
     <lastmod>2024-07-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/posts/increment-operator-in-cpp/</loc>
+    <loc>https://spatlyu.github.io/posts/increment-operator-in-cpp/</loc>
     <lastmod>2024-07-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/posts/pipes_in_r/</loc>
+    <loc>https://spatlyu.github.io/posts/pipes_in_r/</loc>
     <lastmod>2024-06-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/posts/common-git-commands/</loc>
+    <loc>https://spatlyu.github.io/posts/common-git-commands/</loc>
     <lastmod>2024-06-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/posts/rmarkdown-setup/</loc>
+    <loc>https://spatlyu.github.io/posts/rmarkdown-setup/</loc>
     <lastmod>2024-06-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/posts/setup-network-proxy/</loc>
+    <loc>https://spatlyu.github.io/posts/setup-network-proxy/</loc>
     <lastmod>2024-06-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/books/</loc>
+    <loc>https://spatlyu.github.io/tags/books/</loc>
     <lastmod>2024-08-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/posts/</loc>
+    <loc>https://spatlyu.github.io/posts/</loc>
     <lastmod>2024-08-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/</loc>
+    <loc>https://spatlyu.github.io/tags/</loc>
     <lastmod>2024-08-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/</loc>
+    <loc>https://spatlyu.github.io/</loc>
     <lastmod>2024-08-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/writing/</loc>
+    <loc>https://spatlyu.github.io/tags/writing/</loc>
     <lastmod>2024-08-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/geoinformatics/</loc>
+    <loc>https://spatlyu.github.io/tags/geoinformatics/</loc>
     <lastmod>2024-07-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/papers/</loc>
+    <loc>https://spatlyu.github.io/tags/papers/</loc>
     <lastmod>2024-07-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/r/</loc>
+    <loc>https://spatlyu.github.io/tags/r/</loc>
     <lastmod>2024-07-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/satistics/</loc>
+    <loc>https://spatlyu.github.io/tags/satistics/</loc>
     <lastmod>2024-07-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/cpp/</loc>
+    <loc>https://spatlyu.github.io/tags/cpp/</loc>
     <lastmod>2024-07-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/rcpp/</loc>
+    <loc>https://spatlyu.github.io/tags/rcpp/</loc>
     <lastmod>2024-07-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/dplyr/</loc>
+    <loc>https://spatlyu.github.io/tags/dplyr/</loc>
     <lastmod>2024-06-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/magrittr/</loc>
+    <loc>https://spatlyu.github.io/tags/magrittr/</loc>
     <lastmod>2024-06-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/tidyverse/</loc>
+    <loc>https://spatlyu.github.io/tags/tidyverse/</loc>
     <lastmod>2024-06-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/coding/</loc>
+    <loc>https://spatlyu.github.io/tags/coding/</loc>
     <lastmod>2024-06-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/git/</loc>
+    <loc>https://spatlyu.github.io/tags/git/</loc>
     <lastmod>2024-06-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/github/</loc>
+    <loc>https://spatlyu.github.io/tags/github/</loc>
     <lastmod>2024-06-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/network-proxy/</loc>
+    <loc>https://spatlyu.github.io/tags/network-proxy/</loc>
     <lastmod>2024-06-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/rmarkdown/</loc>
+    <loc>https://spatlyu.github.io/tags/rmarkdown/</loc>
     <lastmod>2024-06-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/projects/arcr/</loc>
+    <loc>https://spatlyu.github.io/projects/arcr/</loc>
   </url><url>
-    <loc>http://localhost:4321/categories/</loc>
+    <loc>https://spatlyu.github.io/categories/</loc>
   </url><url>
-    <loc>http://localhost:4321/projects/gdverse/</loc>
+    <loc>https://spatlyu.github.io/projects/gdverse/</loc>
   </url><url>
-    <loc>http://localhost:4321/projects/geocn/</loc>
+    <loc>https://spatlyu.github.io/projects/geocn/</loc>
   </url><url>
-    <loc>http://localhost:4321/projects/geocomplexity/</loc>
+    <loc>https://spatlyu.github.io/projects/geocomplexity/</loc>
   </url><url>
-    <loc>http://localhost:4321/projects/geosom/</loc>
+    <loc>https://spatlyu.github.io/projects/geosom/</loc>
   </url><url>
-    <loc>http://localhost:4321/projects/</loc>
+    <loc>https://spatlyu.github.io/projects/</loc>
   </url><url>
-    <loc>http://localhost:4321/projects/sdsfun/</loc>
+    <loc>https://spatlyu.github.io/projects/sdsfun/</loc>
   </url><url>
-    <loc>http://localhost:4321/projects/spatbox/</loc>
+    <loc>https://spatlyu.github.io/projects/spatbox/</loc>
   </url><url>
-    <loc>http://localhost:4321/projects/specula/</loc>
+    <loc>https://spatlyu.github.io/projects/specula/</loc>
   </url><url>
-    <loc>http://localhost:4321/projects/tidyrgeoda/</loc>
+    <loc>https://spatlyu.github.io/projects/tidyrgeoda/</loc>
   </url>
 </urlset>
