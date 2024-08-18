@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Writing on Wenbo Lv</title>
-    <link>http://localhost:4321/tags/writing/</link>
+    <link>https://spatlyu.github.io/tags/writing/</link>
     <description>Recent content in Writing on Wenbo Lv</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 18 Aug 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:4321/tags/writing/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://spatlyu.github.io/tags/writing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Academic Writing Books</title>
-      <link>http://localhost:4321/posts/academic_writing_books/</link>
+      <link>https://spatlyu.github.io/posts/academic_writing_books/</link>
       <pubDate>Sun, 18 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/academic_writing_books/</guid>
-      <description>Academic Paper Science Research Writing: For Non-Native Speakers of English&#xA;How to Write a Lot&#xA;Research Proposal Research Proposals: A Practical Guide</description>
+      <guid>https://spatlyu.github.io/posts/academic_writing_books/</guid>
+      <description>Academic Paper Science Research Writing: For Non-Native Speakers of English&#xA;How to Write a Lot&#xA;How to Write the Introduction&#xA;Research Proposal Research Proposals: A Practical Guide</description>
     </item>
   </channel>
 </rss>
