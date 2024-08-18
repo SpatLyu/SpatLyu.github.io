@@ -1,5 +1,5 @@
 ---
-title: "r books"
+title: "R books"
 author: "Wenbo Lv"
 date: "2024-07-11"
 description: "Useful R Books and Tutorials."

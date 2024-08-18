@@ -1,8 +1,8 @@
 ---
-title: "awesome gis papers"
+title: "Awesome GIS Papers"
 author: "Wenbo Lv"
 date: "2024-07-11"
-description: "Advanced spatial methods in gis papers."
+description: "Advanced spatial methods in GIS Papers."
 tags: ["papers","geoinformatics","satistics"]
 type: post
 weight: 25

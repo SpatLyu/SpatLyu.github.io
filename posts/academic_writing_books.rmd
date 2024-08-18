@@ -1,8 +1,8 @@
 ---
-title: "Academic writing books"
+title: "Academic Writing Books"
 author: "Wenbo Lv"
 date: "2024-08-18"
-description: "Useful books for academic writing"
+description: "Useful Books for Academic Writing"
 tags: ["books","writing"]
 type: post
 weight: 25
