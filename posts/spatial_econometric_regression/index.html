@@ -195,6 +195,54 @@ y = \rho_{Lag} W y + X\beta + WX\gamma + \mu,
 $$</p>
 <p>where <code>\(y\)</code> is an <code>\((N \times 1)\)</code> vector of observations on a response variable taken at each of <code>\(N\)</code> locations,$W$ is a spatial weight matrix, which is a non-negative matrix of size <code>\(N \times N\)</code>, <code>\(X\)</code> is an <code>\((N \times k)\)</code> matrix of covariates, <code>\(\beta\)</code> is a <code>\((k \times 1)\)</code> vector of parameters, <code>\(\mu\)</code> is an <code>\((N \times 1)\)</code> spatially autocorrelated disturbance vector, <code>\(\xi\)</code> is an <code>\((N \times 1)\)</code> vector of independent and identically distributed disturbances, <code>\(\rho_{Lag}\)</code> and <code>\(\rho_{Err}\)</code> is a scalar spatial parameter. <code>\(\gamma\)</code> is a <code>\((k' \times 1)\)</code> vector of parameters. <code>\(k'\)</code> defines the subset of the intercept and covariates, often <code>\(k' = k-1\)</code> when using row standardised spatial weights and omitting the spatially lagged intercept.</p>
 <p>This may be constrained to the double spatial coefficient model SAC/SARAR by setting <code>\({\mathbf \gamma} = 0\)</code>, to the spatial Durbin (SDM) by setting <code>\(\rho_{\mathrm{Err}} = 0\)</code>, and to the error Durbin model (SDEM) by setting <code>\(\rho_{\mathrm{Lag}} = 0\)</code>. Imposing more conditions gives the spatial lag model (SLM) with <code>\({\mathbf \gamma} = 0\)</code> and <code>\(\rho_{\mathrm{Err}} = 0\)</code>, the SEM with <code>\({\mathbf \gamma} = 0\)</code> and <code>\(\rho_{\mathrm{Lag}} = 0\)</code>, and the SLX with <code>\(\rho_{\mathrm{Lag}} = 0\)</code> and <code>\(\rho_{\mathrm{Err}} = 0\)</code>.</p>
+<h2 id="maximum-likelihood-estimation-in-spatialreg">Maximum likelihood estimation in <strong>spatialreg</strong></h2>
+<p>For models with single spatial coefficients (SEM and SDEM using <code>errorsarlm()</code>, SLM and SDM using <code>lagsarlm()</code>), the methods initially described by Ord are used. The following table shows the functions that can be used to estimate the models described above using maximum likelihood.</p>
+<table>
+<thead>
+<tr>
+<th>model</th>
+<th>model name</th>
+<th>maximum likelihood estimation function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SEM</td>
+<td>spatial error</td>
+<td><code>errorsarlm(..., Durbin=FALSE)</code></td>
+</tr>
+<tr>
+<td>SEM</td>
+<td>spatial error</td>
+<td><code>spautolm(..., family=&quot;SAR&quot;)</code></td>
+</tr>
+<tr>
+<td>SDEM</td>
+<td>spatial Durbin error</td>
+<td><code>errorsarlm(..., Durbin=TRUE)</code></td>
+</tr>
+<tr>
+<td>SLM</td>
+<td>spatial lag</td>
+<td><code>lagsarlm(..., Durbin=FALSE)</code></td>
+</tr>
+<tr>
+<td>SDM</td>
+<td>spatial Durbin</td>
+<td><code>lagsarlm(..., Durbin=TRUE)</code></td>
+</tr>
+<tr>
+<td>SAC</td>
+<td>spatial autoregressive combined</td>
+<td><code>sacsarlm(..., Durbin=FALSE)</code></td>
+</tr>
+<tr>
+<td>GNM</td>
+<td>general nested</td>
+<td><code>sacsarlm(..., Durbin=TRUE)</code></td>
+</tr>
+</tbody>
+</table>
 
         
     </div>
@@ -250,6 +298,7 @@ $$</p>
     <li>
       <ul>
         <li><a href="#generalized-nested-spatial-model-gsnm">Generalized Nested Spatial Model (GSNM)</a></li>
+        <li><a href="#maximum-likelihood-estimation-in-spatialreg">Maximum likelihood estimation in <strong>spatialreg</strong></a></li>
       </ul>
     </li>
   </ul>
