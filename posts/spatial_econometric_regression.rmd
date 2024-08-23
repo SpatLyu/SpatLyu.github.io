@@ -42,3 +42,7 @@ For models with single spatial coefficients (SEM and SDEM using `errorsarlm()`, 
 | SDM   | spatial Durbin                  | `lagsarlm(..., Durbin=TRUE)`           |
 | SAC   | spatial autoregressive combined | `sacsarlm(..., Durbin=FALSE)`          |
 | GNM   | general nested                  | `sacsarlm(..., Durbin=TRUE)`           |
+
+[Spatial Econometrics Models](https://r-spatial.org/book/17-Econometrics.html)
+
+[Review of spatial regression models](https://xishansnow.github.io/posts/e35ae3a.html)
