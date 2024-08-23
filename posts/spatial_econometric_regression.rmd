@@ -3,7 +3,7 @@ title: "Spatial Econometrics Regression"
 author: "Wenbo Lv"
 date: "2024-08-23"
 description: "Spatial linear regression (spatial econometric regression) model description"
-tags: ["econometrics","satistics","geoinformatics"]
+tags: ["econometrics","satistics","geoinformatics","r"]
 type: post
 weight: 25
 showTableOfContents: true
@@ -27,4 +27,4 @@ $$
 
 where $y$ is an $(N \times 1)$ vector of observations on a response variable taken at each of $N$ locations,$W$is a spatial weight matrix, which is a non-negative matrix of size $N \times N$, $\Chi$ is an $(N \times k)$ matrix of covariates, $\beta$ is a $(k \times 1)$ vector of parameters, $\mu$ is an $(N \times 1)$ spatially autocorrelated disturbance vector, $\xi$ is an $(N \times 1)$ vector of independent and identically distributed disturbances, $\rho_{Lag}$ and $\rho_{Err}$ is a scalar spatial parameter. $\gamma$ is a $(k' \times 1)$ vector of parameters. $k'$ defines the subset of the intercept and covariates, often $k' = k-1$ when using row standardised spatial weights and omitting the spatially lagged intercept.
 
-## Spatial Error Model (SEM)
+This may be constrained to the double spatial coefficient model SAC/SARAR by setting ${\mathbf \gamma} = 0$, to the spatial Durbin (SDM) by setting $\rho_{\mathrm{Err}} = 0$, and to the error Durbin model (SDEM) by setting $\rho_{\mathrm{Lag}} = 0$. Imposing more conditions gives the spatial lag model (SLM) with ${\mathbf \gamma} = 0$ and $\rho_{\mathrm{Err}} = 0$, the SEM with ${\mathbf \gamma} = 0$ and $\rho_{\mathrm{Lag}} = 0$, and the SLX with $\rho_{\mathrm{Lag}} = 0$ and $\rho_{\mathrm{Err}} = 0$.
