@@ -52,25 +52,18 @@
 
     
     
-        <!-- KaTeX -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" integrity="sha384-Xi8rHCmBmhbuyyhbI88391ZKP2dmfnOl4rT9ZfRI7mLTdk1wblIUnrIq35nqwEvC" crossorigin="anonymous">
-    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js" integrity="sha384-X/XCfMm41VSsqRNQgDerQczD69XqmjOOOwYQvr/uuC+j4OPoNhVgjdGFwhvN02Ja" crossorigin="anonymous"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"></script>
-    <script>
-      document.addEventListener("DOMContentLoaded", function() {
-        renderMathInElement(document.body, {
-          // customised options
-          // • auto-render specific keys, e.g.:
-          delimiters: [
-            {left: '$$', right: '$$', display: true},
-            {left: '$', right: '$', display: false},
-          ],
-          // • rendering keys, e.g.:
-          throwOnError : false
-        });
-      });
-    </script>
- 
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
     
 </head>
 <body>
@@ -200,8 +193,8 @@
 y = \rho_{Lag} W y + \Chi\beta + W\Chi\gamma + \mu,
 \mu = \rho_{Err} W \mu + \xi
 $$</p>
-<p>where <code>\(y\)</code> is an <code>\((N \times 1)\)</code> vector of observations on a response variable taken at each of <code>\(N\)</code> locations,$W$is a spatial weight matrix, which is a non-negative matrix of size <code>\(N \times N\)</code>, <code>\(\Chi\)</code> is an <code>\((N \times k)\)</code> matrix of covariates, <code>\(\beta\)</code> is a <code>\((k \times 1)\)</code> vector of parameters, <code>\(\mu\)</code> is an <code>\((N \times 1)\)</code> spatially autocorrelated disturbance vector, <code>\(\xi\)</code> is an <code>\((N \times 1)\)</code> vector of independent and identically distributed disturbances, <code>\(\rho_{Lag}\)</code> and <code>\(\rho_{Err}\)</code> is a scalar spatial parameter. <code>\(\gamma\)</code> is a <code>\((k' \times 1)\)</code> vector of parameters. <code>\(k'\)</code> defines the subset of the intercept and covariates, often <code>\(k' = k-1\)</code> when using row standardised spatial weights and omitting the spatially lagged intercept.</p>
-<p>This may be constrained to the double spatial coefficient model SAC/SARAR by setting <code>\({\mathbf \gamma} = 0\)</code>, to the spatial Durbin (SDM) by setting <code>\(\rho_{\mathrm{Err}} = 0\)</code>, and to the error Durbin model (SDEM) by setting <code>\(\rho_{\mathrm{Lag}} = 0\)</code>. Imposing more conditions gives the spatial lag model (SLM) with <code>\({\mathbf \gamma} = 0\)</code> and <code>\(\rho_{\mathrm{Err}} = 0\)</code>, the SEM with <code>\({\mathbf \gamma} = 0\)</code> and <code>\(\rho_{\mathrm{Lag}} = 0\)</code>, and the SLX with <code>\(\rho_{\mathrm{Lag}} = 0\)</code> and <code>\(\rho_{\mathrm{Err}} = 0\)</code>.</p>
+<p>where [y] is an $(N \times 1)$ vector of observations on a response variable taken at each of $N$ locations,$W$ is a spatial weight matrix, which is a non-negative matrix of size $N \times N$, $\Chi$ is an $(N \times k)$ matrix of covariates, $\beta$ is a $(k \times 1)$ vector of parameters, $\mu$ is an $(N \times 1)$ spatially autocorrelated disturbance vector, $\xi$ is an $(N \times 1)$ vector of independent and identically distributed disturbances, $\rho_{Lag}$ and $\rho_{Err}$ is a scalar spatial parameter. $\gamma$ is a $(k&rsquo; \times 1)$ vector of parameters. $k&rsquo;$ defines the subset of the intercept and covariates, often $k&rsquo; = k-1$ when using row standardised spatial weights and omitting the spatially lagged intercept.</p>
+<p>This may be constrained to the double spatial coefficient model SAC/SARAR by setting ${\mathbf \gamma} = 0$, to the spatial Durbin (SDM) by setting $\rho_{\mathrm{Err}} = 0$, and to the error Durbin model (SDEM) by setting $\rho_{\mathrm{Lag}} = 0$. Imposing more conditions gives the spatial lag model (SLM) with ${\mathbf \gamma} = 0$ and $\rho_{\mathrm{Err}} = 0$, the SEM with ${\mathbf \gamma} = 0$ and $\rho_{\mathrm{Lag}} = 0$, and the SLX with $\rho_{\mathrm{Lag}} = 0$ and $\rho_{\mathrm{Err}} = 0$.</p>
 
         
     </div>
