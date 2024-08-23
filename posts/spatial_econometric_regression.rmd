@@ -1,0 +1,30 @@
+---
+title: "Spatial Econometrics Regression"
+author: "Wenbo Lv"
+date: "2024-08-23"
+description: "Spatial linear regression (spatial econometric regression) model description"
+tags: ["econometrics","satistics","geoinformatics"]
+type: post
+weight: 25
+showTableOfContents: true
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      dpi = 300,
+                      warning = FALSE,
+                      message = FALSE,
+                      fig.align = 'center',
+                      comment = "##")
+```
+
+## Generalized Nested Spatial Model (GSNM)
+
+$$
+y = \rho_{Lag} W y + \Chi\beta + W\Chi\gamma + \mu,
+\mu = \rho_{Err} W \mu + \xi
+$$
+
+where $y$ is an $(N \times 1)$ vector of observations on a response variable taken at each of $N$ locations,$W$is a spatial weight matrix, which is a non-negative matrix of size $N \times N$, $\Chi$ is an $(N \times k)$ matrix of covariates, $\beta$ is a $(k \times 1)$ vector of parameters, $\mu$ is an $(N \times 1)$ spatially autocorrelated disturbance vector, $\xi$ is an $(N \times 1)$ vector of independent and identically distributed disturbances, $\rho_{Lag}$ and $\rho_{Err}$ is a scalar spatial parameter. $\gamma$ is a $(k' \times 1)$ vector of parameters. $k'$ defines the subset of the intercept and covariates, often $k' = k-1$ when using row standardised spatial weights and omitting the spatially lagged intercept.
+
+## Spatial Error Model (SEM)
