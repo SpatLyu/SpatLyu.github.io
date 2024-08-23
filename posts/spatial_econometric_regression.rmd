@@ -34,7 +34,7 @@ This may be constrained to the double spatial coefficient model SAC/SARAR by set
 For models with single spatial coefficients (SEM and SDEM using `errorsarlm()`, SLM and SDM using `lagsarlm()`), the methods initially described by Ord are used. The following table shows the functions that can be used to estimate the models described above using maximum likelihood.
 
 | model | model name                      | maximum likelihood estimation function |
-|---------------|--------------------------|--------------------------------|
+|-------|---------------------------------|----------------------------------------|
 | SEM   | spatial error                   | `errorsarlm(..., Durbin=FALSE)`        |
 | SEM   | spatial error                   | `spautolm(..., family="SAR")`          |
 | SDEM  | spatial Durbin error            | `errorsarlm(..., Durbin=TRUE)`         |
