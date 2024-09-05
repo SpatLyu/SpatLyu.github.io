@@ -1,0 +1,46 @@
+---
+title: "Legend In ggplot2 3.5.x"
+author: "Wenbo Lv"
+date: "2024-09-05"
+tags: ["r","tidyverse","ggplot2","legend"]
+type: post
+weight: 25
+showTableOfContents: true
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      dpi = 300,
+                      warning = FALSE,
+                      message = FALSE,
+                      fig.align = 'center',
+                      comment = "##")
+```
+
+```{r fig_road,fig.width=4.5,fig.height=5}
+library(tidyverse)
+library(ggspatial)
+
+road = sfnetworks::roxel %>% 
+  dplyr::mutate(rn = rnorm(nrow(.)))
+
+fig_g = ggplot(data = road) +
+    geom_sf(aes(color = rn),
+            lwd = 0.75) +
+    scale_color_gradientn(colors = c("#4575B4","#91BFDB","#E0F3F8",
+                                     "#FFFFBF","#FEE090","#FC8D59"),
+                          name = "random number") +
+    annotation_north_arrow(location = 'tl',
+                           height = unit(1, "cm"),
+                           width = unit(1, "cm"),) +
+    annotation_scale(location = 'bl') +
+    theme_bw() +
+    theme(legend.justification = c('right','bottom'),
+          legend.position = "inside",
+          legend.background = element_rect(fill = 'transparent'),
+          legend.direction = "horizontal",
+          legend.key.width = unit(15, "pt"),
+          legend.key.height = unit(5, "pt"))
+fig_g
+```
+
