@@ -17,19 +17,19 @@
     
 
     
-    <title>Legend In ggplot2 3.5.x</title>
+    <title>Legend in ggplot2 3.5.x</title>
     <meta name="description" content="Geoinformatics; Statistics; R; C&#43;&#43;; Python">
     <meta name="keywords" content='blog, gokarna, hugo, r, tidyverse, ggplot2, legend'>
 
     <meta property="og:url" content="https://spatlyu.github.io/posts/legend_in_ggplot2_3-5-x/">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Legend In ggplot2 3.5.x">
+    <meta property="og:title" content="Legend in ggplot2 3.5.x">
     <meta property="og:description" content="Geoinformatics; Statistics; R; C&#43;&#43;; Python">
     <meta property="og:image" content="https://spatlyu.github.io/images/spatlyu.webp">
     <meta property="og:image:secure_url" content="https://spatlyu.github.io/images/spatlyu.webp">
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Legend In ggplot2 3.5.x">
+    <meta name="twitter:title" content="Legend in ggplot2 3.5.x">
     <meta name="twitter:description" content="Geoinformatics; Statistics; R; C&#43;&#43;; Python">
     <meta property="twitter:domain" content="https://spatlyu.github.io/posts/legend_in_ggplot2_3-5-x/">
     <meta property="twitter:url" content="https://spatlyu.github.io/posts/legend_in_ggplot2_3-5-x/">
@@ -168,7 +168,7 @@
 <main id="content">
     <div class="post container">
     <div class="post-header-section">
-        <h1>Legend In ggplot2 3.5.x</h1>
+        <h1>Legend in ggplot2 3.5.x</h1>
         <small role="doc-subtitle"></small>
         <p class="post-date">September 5, 2024
         
@@ -213,6 +213,24 @@
 </span></span><span style="display:flex;"><span>          legend.key.height <span style="color:#f92672">=</span> <span style="color:#a6e22e">unit</span>(<span style="color:#ae81ff">5</span>, <span style="color:#e6db74">&#34;pt&#34;</span>))
 </span></span><span style="display:flex;"><span>fig_g
 </span></span></code></pre></div><img src="/posts/legend_in_ggplot2_3-5-x_files/figure-html/fig_road-1.png" width="1350" style="display: block; margin: auto;" />
+<p>注意以下几点:</p>
+<ul>
+<li>
+<p>ggplot2使用连续色带时自定义颜色使用<code>scale_color_gradientn()</code>函数;</p>
+</li>
+<li>
+<p>使用ggspatial添加指北针和比例尺时可以通过<code>location</code>参数指定相应在四角的位置;</p>
+</li>
+<li>
+<p>ggplot2图例放在图主体内需指定<code>legend.position = &quot;inside&quot;</code>,进而通过调整<code>legend.justification</code>来调整图例的具体位置;</p>
+</li>
+<li>
+<p>图例宽和高(图例主体,不包括图例名字)分别使用<code>legend.key.width</code>和<code>legend.key.height</code>调节</p>
+</li>
+<li>
+<p>图例背景透明使用<code>legend.background = element_rect(fill = 'transparent')</code></p>
+</li>
+</ul>
 
         
     </div>
