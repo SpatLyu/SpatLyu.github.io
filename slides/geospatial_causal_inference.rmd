@@ -50,17 +50,11 @@ knitr::opts_chunk$set(echo = TRUE,
 
 [On spatial effects in geographical analysis](https://www.geog.com.cn/EN/10.11821/dlxb202303001)
 
-[Geodetector: Principle and prospective]( https://doi.org/10.11821/dlxb201701010)
+[Geodetector: Principle and prospective](https://doi.org/10.11821/dlxb201701010)
 
-[An optimal parameters-based geographical detector model(OPGD)](https://www.researchgate.net/publication/341346127_An_optimal_parameters-based_geographical_detector_model_enhances_geographic_characteristics_of_explanatory_variables_for_spatial_heterogeneity_analysis_cases_with_different_types_of_spatial_data)
+[Modeling of spatial stratified heterogeneity](https://doi.org/10.1080/15481603.2022.2126375)
 
-[Spatial association detector (SPADE)](https://doi.org/10.1080/13658816.2018.1476693)
-
-[Robust geographical detector(RGD)](https://doi.org/10.1016/j.jag.2022.102782)
-
-[An interactive detector for spatial associations(IDSA)](https://doi.org/10.1080/13658816.2021.1882680)
-
-[Modeling of spatial stratified heterogeneity](https://www.tandfonline.com/doi/full/10.1080/15481603.2022.2126375)
+[Statistical Modeling of Spatially Stratified Heterogeneous Data](https://doi.org/10.1080/24694452.2023.2289982)
 
 [Causal inference in spatial statistics](https://www.sciencedirect.com/science/article/pii/S2211675322000173)
 
@@ -104,10 +98,6 @@ knitr::opts_chunk$set(echo = TRUE,
 
 --
 
-- **Spatiotemporal Scan Statistics**
-
---
-
 - **Spatial Survival Analysis**
 
 --
@@ -123,8 +113,6 @@ knitr::opts_chunk$set(echo = TRUE,
 [Advanced Spatial Modeling with Stochastic Partial Differential Equations Using R and INLA ](https://becarioprecario.bitbucket.io/spde-gitbook/)
 
 [Geospatial Health Data: Modeling and Visualization with R-INLA and Shiny](https://www.paulamoraga.com/book-geospatial/)
-
-[SaTScan - Tutorials](https://www.satscan.org/tutorials.html)
 
 ---
 
@@ -146,7 +134,7 @@ and so on (I don't know much about it)
 
 [**DoWhy** documentation](https://www.pywhy.org/dowhy)
 
-[**CausalML ** documentation](https://causalml.readthedocs.io/en/latest/about.html)
+[**CausalML** documentation](https://causalml.readthedocs.io/en/latest/about.html)
 
 
 ---
@@ -155,11 +143,11 @@ and so on (I don't know much about it)
 
 --
 
-- **Temporal State space  reconstruction**
+- **Temporal State space reconstruction**
 
 --
 
-- **Spatial State space  reconstruction**
+- **Spatial State space reconstruction**
 
 --
 
