@@ -1,0 +1,12 @@
+---
+title: "Presentation Slides"
+date: "`r Sys.Date()`"
+description: "A slide collection of personal presentations"
+tags: ["geoinformatics","satistics","presentation"]
+type: post
+weight: 25
+showTableOfContents: true
+---
+
+
+[Spatial Causal Inference](https://spatlyu.github.io/slides/geospatial_causal_inference.html)
