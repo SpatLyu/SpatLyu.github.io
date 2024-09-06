@@ -1,0 +1,297 @@
+---
+title: "Spatial Causal Inference"
+subtitle: "spcausal : A Framework for Spatial Causal Inference"
+author: "Wenbo Lv"
+institute: "Curtin Geospatial Intelligence Lab & HKUSTGZ AI4City Lab"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+class: inverse, middle, center
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      dpi = 600,
+                      warning = FALSE,
+                      message = FALSE,
+                      out.width = "100%",
+                      out.height = "400px",
+                      fig.align = 'center',
+                      comment = "##",
+                      htmltools.dir.version = FALSE)
+```
+
+# Causal Inference Methods In Geography
+
+.footnote[The following is a Discipline-based perspective]
+
+---
+
+## 1. Based on Spatial Statistics
+
+--
+
+- **Spatial Dependence** & **Spatial Association**
+
+--
+
+- **Spatial Heterogeneity**
+
+--
+
+- **Spatial Similarity**
+
+--
+
+[On spatial effects in geographical analysis](https://www.geog.com.cn/EN/10.11821/dlxb202303001)
+
+[Geodetector: Principle and prospective]( https://doi.org/10.11821/dlxb201701010)
+
+[An optimal parameters-based geographical detector model(OPGD)](https://www.researchgate.net/publication/341346127_An_optimal_parameters-based_geographical_detector_model_enhances_geographic_characteristics_of_explanatory_variables_for_spatial_heterogeneity_analysis_cases_with_different_types_of_spatial_data)
+
+[Spatial association detector (SPADE)](https://doi.org/10.1080/13658816.2018.1476693)
+
+[Robust geographical detector(RGD)](https://doi.org/10.1016/j.jag.2022.102782)
+
+[An interactive detector for spatial associations(IDSA)](https://doi.org/10.1080/13658816.2021.1882680)
+
+[Modeling of spatial stratified heterogeneity](https://www.tandfonline.com/doi/full/10.1080/15481603.2022.2126375)
+
+[Causal inference in spatial statistics](https://www.sciencedirect.com/science/article/pii/S2211675322000173)
+
+[Spatial Causality: A Systematic Review on Spatial Causal Inference](https://onlinelibrary.wiley.com/doi/abs/10.1111/gean.12312)
+
+---
+
+## 2. Based on Spatial Econometrics
+
+--
+
+- **Regression Discontinuity Design**
+
+--
+
+- **Difference In Difference**
+
+--
+
+[Conduct Multiple Types of Geographic Regression Discontinuity Designs(SpatialRDD)](https://axlehner.github.io/SpatialRDD/index.html)
+
+[Spatial Difference-in-differences (SpatialDID)](https://www.sciencedirect.com/science/article/pii/S0165176515004371)
+
+[Evidence on the impact of sustained exposure to air pollution on life expectancy from China’s Huai River policy](https://www.pnas.org/doi/full/10.1073/pnas.1300018110)
+
+---
+
+## 3. Based on Spatial Epidemiology
+
+--
+
+- **Spatial Causal Mediation Analysis**
+
+--
+
+- **Agent-Based Modeling** 
+
+--
+
+- **Bayesian Spatial Models**
+
+--
+
+- **Spatiotemporal Scan Statistics**
+
+--
+
+- **Spatial Survival Analysis**
+
+--
+
+- **Spatial Propensity Score Matching**
+
+--
+
+[Bayesian inference with INLA](https://becarioprecario.bitbucket.io/inla-gitbook/)
+
+[Dynamic Time Series Models using R-INLA: An Applied Perspective](https://ramanbala.github.io/dynamic-time-series-models-R-INLA/)
+
+[Advanced Spatial Modeling with Stochastic Partial Differential Equations Using R and INLA ](https://becarioprecario.bitbucket.io/spde-gitbook/)
+
+[Geospatial Health Data: Modeling and Visualization with R-INLA and Shiny](https://www.paulamoraga.com/book-geospatial/)
+
+[SaTScan - Tutorials](https://www.satscan.org/tutorials.html)
+
+---
+
+## 4. Based on Causal Machine Learning
+
+--
+
+- **Causal Graph Learning**
+
+--
+
+- **Causal Forest**
+
+--
+
+and so on (I don't know much about it)
+
+--
+
+[**DoWhy** documentation](https://www.pywhy.org/dowhy)
+
+[**CausalML ** documentation](https://causalml.readthedocs.io/en/latest/about.html)
+
+
+---
+
+## 5.  Based on Dynamic  Systems  Modeling
+
+--
+
+- **Temporal State space  reconstruction**
+
+--
+
+- **Spatial State space  reconstruction**
+
+--
+
+[Detecting Causality in Complex Ecosystems](https://www.science.org/doi/10.1126/science.1227079)
+
+[Partial cross mapping eliminates indirect causal influences](https://www.nature.com/articles/s41467-020-16238-0)
+
+[Detecting Causality from Nonlinear Dynamics with Short-term Time Series](https://www.nature.com/articles/srep07464)
+
+[Inferring causation from time series in Earth system sciences](https://www.nature.com/articles/s41467-019-10105-3)
+
+[Spatial convergent cross mapping to detect causal relationships from short time series](https://esajournals.onlinelibrary.wiley.com/doi/full/10.1890/14-1479.1)
+
+[Causal inference from cross-sectional earth system data with geographical convergent cross mapping](https://www.nature.com/articles/s41467-023-41619-6)
+
+
+---
+class: inverse, middle, center
+
+# Spatial Causal Inference Ecosystem in R language
+
+---
+
+## Related Ecosystem
+
+--
+
+Data Clean -> tidyverse
+
+--
+
+Statistics Inference -> tidymodel & easystats
+
+--
+
+Bayesian -> INLA & Stan & tidybayes & R2WinBUGS
+
+--
+
+Machine Learning -> mlr3verse & h2o
+
+--
+
+Deep Learning -> torch & tensorflow & keras & mxnet
+
+--
+
+Geospatial Processing ->  sf & terra & stars & whitebox & qgisprocess
+
+--
+
+Spatial Statistics -> spdep & spatstat & spatialreg & gstat & GD & GWmodel
+
+--
+
+## Causal Inference In R
+
+--
+
+[`CRAN Views : Causal Inference`](https://cran.r-project.org/web/views/CausalInference.html)
+
+
+--
+
+### **So, Where is the unified framework of spatial causal inference in R?**
+
+---
+class: inverse, middle, center
+
+# spcausal : A Framework for Spatial Causal Inference
+
+---
+
+## Problems to be solved
+
+--
+
+[Two Language Problem](https://jakeebrooks.github.io/docs/programming_concepts/the_two_language_problem)
+
+--
+
+Complex interdisciplinary and cross-programming language background
+
+--
+
+Diverse and robust algorithm integration
+
+--
+
+User-friendly API
+
+--
+
+Comprehensive reference documentation
+
+--
+
+Sustained community vitality
+
+---
+
+## What will we do?
+
+--
+
+- Testing and development of the original algorithm in R version
+
+--
+
+- Further optimization of the computation process
+
+--
+
+- Expanding to other programming languages
+
+--
+
+```{r echo=FALSE}
+library(vistime)
+
+data <- read.csv(text="event,start,end
+                       Step 1,2024-03-05,2025-12-24
+                       Step 2,2025-12-25,2030-12-25
+                       Step 3,2030-12-30,2035-01-01")
+vistime(data, optimize_y = FALSE)
+```
+
+---
+class: center, middle
+
+# Thanks
+
+### Wenbo Lv
+
+### lyu.geosocial@gmail.com
