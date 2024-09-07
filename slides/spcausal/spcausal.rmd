@@ -29,15 +29,6 @@ knitr::opts_chunk$set(echo = TRUE,
                       htmltools.dir.version = FALSE)
 ```
 
-```{css,echo=FALSE}
-.title-slide {
-  background-image: url("title_bg.png");
-  background-position: center;
-  background-size: contain;
-}
-```
-
-
 # Causal Inference Methods In Geography
 
 .footnote[The following is a Discipline-based perspective]

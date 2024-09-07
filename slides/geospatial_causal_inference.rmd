@@ -2,7 +2,7 @@
 title: "Spatial Causal Inference"
 subtitle: "spcausal : A Framework for Spatial Causal Inference"
 author: "Wenbo Lv"
-institute: "Curtin Geospatial Intelligence Lab & HKUSTGZ AI4City Lab"
+# institute: "Curtin Geospatial Intelligence Lab & HKUSTGZ AI4City Lab"
 date: "`r Sys.Date()`"
 output:
   xaringan::moon_reader:
@@ -25,6 +25,14 @@ knitr::opts_chunk$set(echo = TRUE,
                       fig.align = 'center',
                       comment = "##",
                       htmltools.dir.version = FALSE)
+```
+
+```{css,echo=FALSE}
+.title-slide {
+  background-image: url("https://spatlyu.github.io/materials/figures/ppt_title_bg.png");
+  background-position: center;
+  background-size: contain;
+}
 ```
 
 # Causal Inference Methods In Geography
@@ -278,6 +286,9 @@ vistime(data, optimize_y = FALSE)
 
 ---
 class: center, middle
+background-image: url("https://spatlyu.github.io/materials/figures/ppt_title_bg4.png")
+background-position: center
+background-size: contain
 
 # Thanks
 
