@@ -2,11 +2,13 @@
 title: "Spatial Causal Inference"
 subtitle: "spcausal : A Framework for Spatial Causal Inference"
 author: "Wenbo Lv"
-institute: "Curtin Geospatial Intelligence Lab & HKUSTGZ AI4City Lab"
-date: "`r Sys.Date()`"
 output:
   xaringan::moon_reader:
     lib_dir: libs
+    self_contained: false
+    css: ["robot", "robot-fonts", "assets/custom.css"]
+    includes:
+      in_header: "assets/mathjax-eq-num.html"
     nature:
       highlightStyle: github
       highlightLines: true
@@ -26,6 +28,15 @@ knitr::opts_chunk$set(echo = TRUE,
                       comment = "##",
                       htmltools.dir.version = FALSE)
 ```
+
+```{css,echo=FALSE}
+.title-slide {
+  background-image: url("title_bg.png");
+  background-position: center;
+  background-size: contain;
+}
+```
+
 
 # Causal Inference Methods In Geography
 

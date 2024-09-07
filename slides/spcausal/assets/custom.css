@@ -1,0 +1,89 @@
+.title-slide {
+  background-image: url("title_bg.png");
+  background-position: center;
+  background-size: contain;
+}
+
+.title-slide h1, h2, h3, h4 {
+  background-color: transparent !important;
+  color: white !important;
+}
+
+.title-slide .author, .title-slide .date {
+  color: white !important;
+}
+
+.title {
+  margin-top: -100px;  /* Move the title up a bit */
+}
+
+.author {
+  margin-top: -10px;
+}
+
+.date {
+  margin-top: -10px;
+}
+
+.remark-slide-content {
+  font-size: 1.5em;
+}
+
+.remark-slide-content h1 {
+  font-size: 50px;
+}
+
+.remark-slide-content h2 {
+  font-size: 32px;
+}
+
+.move-up {
+  margin-top: -75px;
+}
+
+.move-up img {
+  border-radius: 25px !important;
+}
+
+.footnote {
+  position: absolute;
+  bottom: 15px !important;
+  padding-right: 8em; /* to avoid the page numbering */
+}
+/* footnote identifier use: .fn[1] */
+.fn {
+  vertical-align: super;
+  font-size: 80%;
+}
+.footnote {
+  font-size: 0.8em;
+}
+.remark-slide-content .footnote  p,
+.remark-slide-content .footnote li {
+  font-size: 0.8em !important;
+}
+.footnote .remark-code,
+.footnote .remark-inline-code{
+  font-size: 0.8em !important;
+  bottom: 5px !important;
+}
+
+
+.bgclass {
+  background-image: url("slide_bg.png");
+  background-position: center;
+  background-size: contain;
+}
+
+/*.remark-slide-content ul, li {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}*/
+
+.remark-slide-number {
+  bottom: 5px !important;
+  opacity: 1.0;
+  font-size: large;
+  color: #ffffff;
+  right: 30px;
+}
