@@ -28,6 +28,20 @@ knitr::opts_chunk$set(echo = TRUE,
 ```
 
 ```{css,echo=FALSE}
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,600');
+@import url('https://fonts.googleapis.com/css?family=Roboto:600');
+
+body {
+  font-family: 'Roboto Condensed', 'Avenir Next', 'Helvetica Neue', 'Helvetica', sans-serif;
+  font-weight: 300;
+}
+h1, h2, h3 {
+  font-family: 'Roboto', 'Avenir Next', 'Helvetica Neue', 'Helvetica', sans-serif;
+  font-weight: 600;
+}
+.remark-code, .remark-inline-code { font-family: 'Inconsolata', 'Consolas', Monaco, monospace; }
+
 .title-slide {
   background-image: url("https://spatlyu.github.io/materials/figures/ppt_title_bg.png");
   background-position: center;
