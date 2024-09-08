@@ -194,7 +194,7 @@ class: inverse, middle, center
 
 ---
 
-## Related Ecosystem
+### Related Ecosystem
 
 --
 
@@ -226,7 +226,7 @@ Spatial Statistics -> spdep & spatstat & spatialreg & gstat & GD & GWmodel
 
 --
 
-## Causal Inference In R
+### Causal Inference In R
 
 --
 
@@ -248,7 +248,7 @@ class: inverse, middle, center
 
 --
 
-[Two Language Problem](https://jakeebrooks.github.io/docs/programming_concepts/the_two_language_problem)
+[Two Language Problem](https://scientificcoder.com/how-to-solve-the-two-language-problem)
 
 --
 
