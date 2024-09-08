@@ -11,7 +11,7 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
-      ratio: '16:9'
+      ratio: “16:9"
 ---
 class: inverse, middle, center
 
@@ -40,7 +40,9 @@ h1, h2, h3 {
   font-family: 'Roboto', 'Avenir Next', 'Helvetica Neue', 'Helvetica', sans-serif;
   font-weight: 600;
 }
-.remark-code, .remark-inline-code { font-family: 'Inconsolata', 'Consolas', Monaco, monospace; }
+.remark-code, .remark-inline-code { 
+font-family: 'Inconsolata', 'Consolas', Monaco, monospace; 
+}
 
 .title-slide {
   background-image: url("https://spatlyu.github.io/materials/figures/ppt_title_bg.png");
@@ -194,7 +196,7 @@ class: inverse, middle, center
 
 ---
 
-### Related Ecosystem
+## Related Ecosystem
 
 --
 
@@ -226,7 +228,7 @@ Spatial Statistics -> spdep & spatstat & spatialreg & gstat & GD & GWmodel
 
 --
 
-### Causal Inference In R
+## Causal Inference In R
 
 --
 
@@ -235,7 +237,7 @@ Spatial Statistics -> spdep & spatstat & spatialreg & gstat & GD & GWmodel
 
 --
 
-### So, Where is the unified framework of spatial causal inference in R?
+## So, Where is the unified framework of spatial causal inference in R?
 
 ---
 class: inverse, middle, center
