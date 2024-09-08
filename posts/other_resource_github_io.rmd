@@ -9,6 +9,6 @@ weight: 25
 showTableOfContents: true
 ---
 
-[Mathematical symbols and expressions in rmarkdown](https://spatlyu.github.io/mathsymbols.html)
+[Mathematical symbols and expressions in rmarkdown](https://spatlyu.github.io/materials/mathsymbols.html)
 
 [Xaringan Helper](https://spatlyu.github.io/materials/xaringan.pdf)
