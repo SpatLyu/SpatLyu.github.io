@@ -2,59 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R on Wenbo Lv</title>
-    <link>http://localhost:4321/tags/r/</link>
+    <link>https://spatlyu.github.io/tags/r/</link>
     <description>Recent content in R on Wenbo Lv</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 08 Sep 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:4321/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://spatlyu.github.io/tags/r/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Some Useful Resource</title>
-      <link>http://localhost:4321/posts/other_resource_github_io/</link>
+      <link>https://spatlyu.github.io/posts/other_resource_github_io/</link>
       <pubDate>Sun, 08 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/other_resource_github_io/</guid>
+      <guid>https://spatlyu.github.io/posts/other_resource_github_io/</guid>
       <description>Mathematical symbols and expressions in rmarkdown&#xA;Xaringan Helper</description>
     </item>
     <item>
       <title>Legend in ggplot2 3.5.x</title>
-      <link>http://localhost:4321/posts/legend_in_ggplot2_3-5-x/</link>
+      <link>https://spatlyu.github.io/posts/legend_in_ggplot2_3-5-x/</link>
       <pubDate>Thu, 05 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/legend_in_ggplot2_3-5-x/</guid>
+      <guid>https://spatlyu.github.io/posts/legend_in_ggplot2_3-5-x/</guid>
       <description>library(tidyverse) library(ggspatial) road = sfnetworks::roxel %&amp;gt;% dplyr::mutate(rn = rnorm(nrow(.))) fig_g = ggplot(data = road) + geom_sf(aes(color = rn), lwd = 0.75) + scale_color_gradientn(colors = c(&amp;#34;#4575B4&amp;#34;,&amp;#34;#91BFDB&amp;#34;,&amp;#34;#E0F3F8&amp;#34;, &amp;#34;#FFFFBF&amp;#34;,&amp;#34;#FEE090&amp;#34;,&amp;#34;#FC8D59&amp;#34;), name = &amp;#34;random number&amp;#34;) + annotation_north_arrow(location = &amp;#39;tl&amp;#39;, height = unit(1, &amp;#34;cm&amp;#34;), width = unit(1, &amp;#34;cm&amp;#34;),) + annotation_scale(location = &amp;#39;bl&amp;#39;) + theme_bw() + theme(legend.justification = c(&amp;#39;right&amp;#39;,&amp;#39;bottom&amp;#39;), legend.position = &amp;#34;inside&amp;#34;, legend.background = element_rect(fill = &amp;#39;transparent&amp;#39;), legend.direction = &amp;#34;horizontal&amp;#34;, legend.key.width = unit(15, &amp;#34;pt&amp;#34;), legend.key.height = unit(5, &amp;#34;pt&amp;#34;)) fig_g 注意以下几点:</description>
     </item>
     <item>
       <title>Spatial Econometrics Regression</title>
-      <link>http://localhost:4321/posts/spatial_econometric_regression/</link>
+      <link>https://spatlyu.github.io/posts/spatial_econometric_regression/</link>
       <pubDate>Fri, 23 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/spatial_econometric_regression/</guid>
+      <guid>https://spatlyu.github.io/posts/spatial_econometric_regression/</guid>
       <description>Generalized Nested Spatial Model (GSNM) $$ y = \rho_{Lag} W y + X\beta + WX\gamma + \mu, \mu = \rho_{Err} W \mu + \xi $$&#xA;where $y$ is an $(N \times 1)$ vector of observations on a response variable taken at each of $N$ locations,$W$ is a spatial weight matrix, which is a non-negative matrix of size $N \times N$, $X$ is an $(N \times k)$ matrix of covariates, $\beta$ is a $(k \times 1)$ vector of parameters, $\mu$ is an $(N \times 1)$ spatially autocorrelated disturbance vector, $\xi$ is an $(N \times 1)$ vector of independent and identically distributed disturbances, $\rho_{Lag}$ and $\rho_{Err}$ is a scalar spatial parameter.</description>
     </item>
     <item>
       <title>R books</title>
-      <link>http://localhost:4321/posts/r-books/</link>
+      <link>https://spatlyu.github.io/posts/r-books/</link>
       <pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/r-books/</guid>
+      <guid>https://spatlyu.github.io/posts/r-books/</guid>
       <description>R fundamentals Introduction to R&#xA;Advanced R&#xA;R for Data Science (2e)&#xA;R Graphics Cookbook, 2nd edition&#xA;The tidyverse style guide&#xA;Data Visualization with ggplot2&#xA;Efficient R programming&#xA;Best Coding Practices for R&#xA;Happy Git and GitHub for the useR&#xA;Rcpp for everyone&#xA;Rcpp for everyone Chinese version&#xA;Unofficial rcpp api documentation&#xA;R Packages (2e)&#xA;R Markdown Chinese guide&#xA;R Markdown Cookbook&#xA;R Markdown: The Definitive Guide&#xA;blogdown: Creating Websites with R Markdown</description>
     </item>
     <item>
       <title>Increment operator in cpp</title>
-      <link>http://localhost:4321/posts/increment-operator-in-cpp/</link>
+      <link>https://spatlyu.github.io/posts/increment-operator-in-cpp/</link>
       <pubDate>Sat, 06 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/increment-operator-in-cpp/</guid>
+      <guid>https://spatlyu.github.io/posts/increment-operator-in-cpp/</guid>
       <description>In cpp, i++ and ++i are two different increment operators, known as post-increment and pre-increment, respectively. The main difference between them lies in the order of operations and the return value.&#xA;i++ (Post-Increment) The post-increment operator i++ returns the current value of the variable before incrementing it. Specifically:&#xA;It returns the current value of the variable. Then, it increments the variable&amp;rsquo;s value by 1. Example:&#xA;int i = 1; int a = i++; // a = 1, i = 2 In this example, a is assigned the current value of i (1), and then i is incremented to 2.</description>
     </item>
     <item>
       <title>Pipes In R</title>
-      <link>http://localhost:4321/posts/pipes_in_r/</link>
+      <link>https://spatlyu.github.io/posts/pipes_in_r/</link>
       <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/pipes_in_r/</guid>
+      <guid>https://spatlyu.github.io/posts/pipes_in_r/</guid>
       <description>In this post,we will state the use of pipes in R, includes %&amp;gt;%, %$%, %T&amp;gt;%, %&amp;lt;&amp;gt;% and |&amp;gt;.&#xA;First let&amp;rsquo;s construct some data for a demonstration of pipes usage in R (PS: The ideas and example data for this post came from this dplyr github issue):&#xA;packageVersion(&amp;#39;magrittr&amp;#39;) ## [1] &amp;#39;2.0.3&amp;#39; library(magrittr) exampledt = tibble::tibble( BP = c(&amp;#34;-&amp;#34;, &amp;#34;-&amp;#34;, &amp;#34;A&amp;#34;, &amp;#34;B&amp;#34;), CL = c(&amp;#34;-&amp;#34;, &amp;#34;C&amp;#34;, &amp;#34;-&amp;#34;, &amp;#34;D&amp;#34;), MF = c(&amp;#34;-&amp;#34;, &amp;#34;-&amp;#34;, &amp;#34;-&amp;#34;, &amp;#34;E&amp;#34;) ) %&amp;gt;% {.</description>
     </item>
     <item>
       <title>Rmarkdown Setup</title>
-      <link>http://localhost:4321/posts/rmarkdown-setup/</link>
+      <link>https://spatlyu.github.io/posts/rmarkdown-setup/</link>
       <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/rmarkdown-setup/</guid>
+      <guid>https://spatlyu.github.io/posts/rmarkdown-setup/</guid>
       <description>常用的 knitr 设置 ```{r setup, include = FALSE} knitr::opts_chunk$set(echo = TRUE, dpi = 300, warning = FALSE, message = FALSE, out.width = &amp;#34;100%&amp;#34;, out.height = &amp;#34;100%&amp;#34;, fig.align = &amp;#39;center&amp;#39;, comment = &amp;#34;##&amp;#34;) ``` 灰白背景rmarkdown模板 --- title: &amp;#34;xxx&amp;#34; author: &amp;#34;xxx&amp;#34; date: &amp;#34;`r Sys.Date()`&amp;#34; output: #latex_document prettydoc::html_pretty: theme: tactile highlight: github --- ```{r setup, include = FALSE} knitr::opts_chunk$set(echo = TRUE, dpi = 300, warning = FALSE, message = FALSE, out.width = &amp;#34;100%&amp;#34;, out.</description>
     </item>
   </channel>

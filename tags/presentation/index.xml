@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Presentation on Wenbo Lv</title>
-    <link>http://localhost:4321/tags/presentation/</link>
+    <link>https://spatlyu.github.io/tags/presentation/</link>
     <description>Recent content in Presentation on Wenbo Lv</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 06 Sep 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:4321/tags/presentation/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://spatlyu.github.io/tags/presentation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Presentation Slides</title>
-      <link>http://localhost:4321/posts/presentation_slides/</link>
+      <link>https://spatlyu.github.io/posts/presentation_slides/</link>
       <pubDate>Fri, 06 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/presentation_slides/</guid>
+      <guid>https://spatlyu.github.io/posts/presentation_slides/</guid>
       <description>Spatial Causal Inference</description>
     </item>
   </channel>
