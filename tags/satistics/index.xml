@@ -6,21 +6,21 @@
     <description>Recent content in Satistics on Wenbo Lv</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Sep 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://spatlyu.github.io/tags/satistics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Presentation Slides</title>
+      <link>https://spatlyu.github.io/posts/presentation_slides/</link>
+      <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://spatlyu.github.io/posts/presentation_slides/</guid>
+      <description>Spatial Causal Inference&#xA;R packages developed by SpatLyu</description>
+    </item>
     <item>
       <title>Some Useful Resource</title>
       <link>https://spatlyu.github.io/posts/other_resource_github_io/</link>
       <pubDate>Sun, 08 Sep 2024 00:00:00 +0000</pubDate>
       <guid>https://spatlyu.github.io/posts/other_resource_github_io/</guid>
       <description>Mathematical symbols and expressions in rmarkdown&#xA;Xaringan Helper</description>
-    </item>
-    <item>
-      <title>Presentation Slides</title>
-      <link>https://spatlyu.github.io/posts/presentation_slides/</link>
-      <pubDate>Fri, 06 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/presentation_slides/</guid>
-      <description>Spatial Causal Inference</description>
     </item>
     <item>
       <title>Spatial Econometrics Regression</title>
