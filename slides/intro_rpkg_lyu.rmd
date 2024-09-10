@@ -1,0 +1,463 @@
+---
+title: "R packages developed by SpatLyu"
+author: "Wenbo Lv"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+      
+---
+class: title-slide
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      dpi = 600,
+                      warning = FALSE,
+                      message = FALSE,
+                      out.width = "100%",
+                      out.height = "400px",
+                      fig.align = 'center',
+                      comment = "##",
+                      fig.path = "assets/figures/",
+                      htmltools.dir.version = FALSE)
+```
+
+```{css,echo=FALSE}
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,600');
+@import url('https://fonts.googleapis.com/css?family=Roboto:600');
+
+body {
+  font-family: 'Roboto Condensed', 'Avenir Next', 'Helvetica Neue', 'Helvetica', sans-serif;
+  font-weight: 300;
+}
+h1, h2, h3 {
+  font-family: 'Roboto', 'Avenir Next', 'Helvetica Neue', 'Helvetica', sans-serif;
+  font-weight: 600;
+}
+.remark-code, .remark-inline-code { 
+font-family: 'Inconsolata', 'Consolas', Monaco, monospace; 
+}
+
+.title-slide {
+  background-image: url("https://spatlyu.github.io/materials/figures/ausgis_ppt_title_bg1.png");
+  background-position: center;
+  background-size: contain;
+}
+
+.pre {
+      background-color: #ddd;
+      border: 5px solid #ddd;
+      padding: 10px;
+      font-size: 14px;
+      overflow: auto;
+      border-radius: 4px;
+    }
+    
+.center-img {
+    text-align: center;
+  }
+```
+
+---
+class: inverse, middle, center
+background-image: url("https://spatlyu.github.io/materials/figures/ausgis_ppt_title_bg3.png")
+background-position: center
+background-size: contain
+
+# R Learning materials
+
+---
+background-image: url("https://spatlyu.github.io/materials/figures/ausgis_ppt_title_bg4.png")
+background-position: center
+background-size: contain
+
+--
+
+.pull-left[
+
+#### [<span style="color: #5b7b75;display: block;margin-top: 120px;"> Geocomputation with R </span>](https://r.geocompx.org/)
+
+#### [<span style="color: #5b7b75;"> Spatial Data Science With Applications in R </span>](https://r-spatial.org/book/)
+
+#### [<span style="color: #5b7b75;"> Spatial data with terra </span>](https://rspatial.org/spatial/index.html)
+
+#### [<span style="color: #5b7b75;"> Introduction to BaseR </span>](https://rspatial.org/intr/)
+
+#### [<span style="color: #5b7b75;"> Advanced R </span>](https://adv-r.hadley.nz/)
+
+#### [<span style="color: #5b7b75;"> R for Data Science (2e) & tidyverse </span>](https://r4ds.hadley.nz/)
+
+#### [<span style="color: #5b7b75;"> Unofficial Rcpp Api Documentation </span>](https://thecoatlessprofessor.com/programming/cpp/unofficial-rcpp-api-documentation/)
+
+]
+
+--
+
+.pull-right[
+## <span style="display: block;margin-top: 150px;">For the full version of resource recommendations, please refer to [my blog](https://spatlyu.github.io/posts/r-books/).</span>
+]
+
+---
+class: inverse, middle, center
+background-image: url("https://spatlyu.github.io/materials/figures/ausgis_ppt_title_bg3.png")
+background-position: center
+background-size: contain
+
+# R packages developed by Wenbo Lv and his partners
+
+---
+background-image: url("https://spatlyu.github.io/materials/figures/ausgis_ppt_title_bg4.png")
+background-position: center
+background-size: contain
+
+--
+
+.pull-left[
+
+## <span style="color: #4472c4;margin-top: 60px;">Content</span>
+
+#### Geospatial Data of China
+
+- [geocn](https://stscl.github.io/geocn/)
+
+#### Geospatial Processing
+
+- [qgisprocess](https://r-spatial.github.io/qgisprocess/)
+
+- [Rsagacmd](https://stevenpawley.github.io/Rsagacmd/)
+
+#### Geospatial Methods
+
+- [sdsfun](https://stscl.github.io/sdsfun/)
+
+- [gdverse](https://ausgis.github.io/gdverse/)
+
+- [geocomplexity](https://ausgis.github.io/geocomplexity/)
+
+]
+
+--
+
+.pull-right[
+
+<img src="./assets/pkgs_lyu.png"; style="margin-bottom: 10px;width: 80%; height: auto;" />
+
+]
+
+---
+class: inverse, middle, center
+background-image: url("https://spatlyu.github.io/materials/figures/ausgis_ppt_title_bg3.png")
+background-position: center
+background-size: contain
+
+# Tutorials for My Open Source Geospatial Packages
+
+---
+background-image: url("./assets/pkgs.jpg")
+background-position: center
+background-size: contain
+
+--
+
+.pull-left[
+
+## <span style="color: #4472c4;display: block;margin-top: 70px;"> [geocn](https://stscl.github.io/geocn/)</span>
+
+#### Loads Spatial Data Sets of China
+
+```r
+library(sf)
+library(geocn)
+library(ggplot2)
+
+albers = load_cn_alberproj()
+province = load_cn_province()
+province_albers = st_transform(province,albers)
+ggplot(data = province_albers) +
+  geom_sf(fill = 'grey90', color = 'grey') +
+  theme_bw()
+```
+
+]
+
+--
+
+.pull-right[
+<div class="center-img">
+<img src="./assets/figures/fig1.png" style="margin-top: 120px; width: 70%; height: auto;" />
+</div>
+]
+
+---
+background-image: url("./assets/pkgs.jpg")
+background-position: center
+background-size: contain
+
+--
+
+.pull-left[
+<div style="margin-top: 70px;">
+
+<pre><code>
+library(sf)
+library(geocn)
+library(ggplot2)
+
+world1 = load_world_country(center = "west")
+ggplot(data = world1) +
+  geom_sf(fill = 'grey90', color = 'grey') +
+  theme_bw()
+</code></pre>
+<img src="./assets/figures/world1.png";width: 80%; height: auto;" />
+
+</div>
+]
+
+--
+
+.pull-right[
+
+<div style="margin-top: 70px;">
+
+<pre><code>
+library(sf)
+library(geocn)
+library(ggplot2)
+
+world2 = load_world_country(center = "east")
+ggplot(data = world2) +
+  geom_sf(fill = 'grey90', color = 'grey') +
+  theme_bw()
+</code></pre>
+
+<img src="./assets/figures/world2.png";width: 80%; height: auto;" />
+</div>
+]
+
+---
+background-image: url("./assets/pkgs.jpg")
+background-position: center
+background-size: contain
+
+--
+
+.pull-left[
+
+## <span style="color: #4472c4;display: block;margin-top: 70px;"> [qgisprocess](https://r-spatial.github.io/qgisprocess/)</span>
+
+#### Use QGIS Processing Algorithms in R
+
+```r
+library(qgisprocess)
+# Load data
+road = read_sf('./data/osm.gdb/',layer='road') |> 
+  st_transform(32649)
+# Weighting according to road type
+road |> 
+  dplyr::mutate(weight = dplyr::case_match(highway,
+                              c('motorway','primary') ~ 5,
+                         c('motorway_link','primary_link','trunk','secondary') ~ 4,
+                              c('trunk_link','secondary_link','tertiary') ~ 3,
+                              c('tertiary_link','residential') ~ 2,
+                              .default = 1)) -> road
+qgis_run_algorithm(
+  algorithm = "native:linedensity",INPUT = road,
+  WEIGHT = "weight",RADIUS = 90,PIXEL_SIZE = 30) |> 
+  qgis_as_terra()-> RD
+```
+
+]
+
+--
+
+.pull-right[
+<div class="center-img">
+<img src="./assets/figures/rd.png" style="margin-top: 100px; height: 50%; width: auto;" />
+</div>
+]
+
+---
+background-image: url("./assets/pkgs.jpg")
+background-position: center
+background-size: contain
+
+--
+
+.pull-left[
+
+## <span style="color: #4472c4;display: block;margin-top: 70px;"> [sdsfun](https://stscl.github.io/sdsfun/)</span>
+
+#### Spatial Data Science Complementary Features
+
+```r
+library(sf)
+pts = read_sf(system.file('extdata/pts.gpkg',package = 'sdsfun'))
+pts_v = sf_voronoi_diagram(pts)
+
+library(ggplot2)
+ggplot() +
+  geom_sf(data = pts_v, color = 'red',
+          fill = 'transparent') +
+  geom_sf(data = pts, color = 'blue', size = 1.25) +
+  theme_void()
+```
+
+]
+
+--
+
+.pull-right[
+<div class="center-img">
+<img src="./assets/figures/voronoi.png" style="margin-top: 100px; width: 80%; height: auto;" />
+</div>
+]
+
+---
+background-image: url("./assets/pkgs.jpg")
+background-position: center
+background-size: contain
+
+--
+
+.pull-left[
+```{r}
+library(sf)
+library(sdsfun)
+pts = read_sf(system.file('extdata/pts.gpkg',package = 'sdsfun'))
+
+wt1 = spdep_distance_swm(pts, style = 'B')
+wt2 = spdep_distance_swm(pts, kernel = 'gaussian')
+wt3 = spdep_distance_swm(pts, k = 3, kernel = 'gaussian')
+wt4 = spdep_distance_swm(pts, k = 3, kernel = 'gaussian', bandwidth = 10000)
+wt4[1:5,1:5]
+```
+
+<!-- <div style="margin-top: 70px;"> -->
+<!-- <pre><code> -->
+<!-- library(sf) -->
+<!-- library(sdsfun) -->
+<!-- pts = read_sf(system.file('extdata/pts.gpkg',package = 'sdsfun')) -->
+
+<!-- wt1 = spdep_distance_swm(pts, style = 'B') -->
+<!-- wt2 = spdep_distance_swm(pts, kernel = 'gaussian') -->
+<!-- wt3 = spdep_distance_swm(pts, k = 3, kernel = 'gaussian') -->
+<!-- wt4 = spdep_distance_swm(pts, k = 3, kernel = 'gaussian', bandwidth = 10000) -->
+<!-- </code></pre> -->
+<!-- </div> -->
+]
+
+--
+
+.pull-right[
+
+```{r}
+library(sf)
+library(sdsfun)
+pts = read_sf(system.file('extdata/pts.gpkg',package = 'sdsfun'))
+
+wt1 = spdep_contiguity_swm(pts, k = 6, style = 'B')
+wt2 = spdep_contiguity_swm(pts, queen = TRUE, style = 'B')
+wt3 = spdep_contiguity_swm(pts, queen = FALSE, order = 2, style = 'B')
+wt3[1:5,1:5]
+```
+
+
+<!-- <div style="margin-top: 70px;"> -->
+
+<!-- <pre><code> -->
+<!-- library(sf) -->
+<!-- library(sdsfun) -->
+<!-- pts = read_sf(system.file('extdata/pts.gpkg',package = 'sdsfun')) -->
+
+<!-- wt1 = spdep_contiguity_swm(pts, k = 6, style = 'B') -->
+<!-- wt2 = spdep_contiguity_swm(pts, queen = TRUE, style = 'B') -->
+<!-- wt3 = spdep_contiguity_swm(pts, queen = FALSE, order = 2, style = 'B') -->
+<!-- </code></pre> -->
+
+]
+
+---
+background-image: url("./assets/pkgs.jpg")
+background-position: center
+background-size: contain
+
+--
+
+.pull-left[
+
+## <span style="color: ##5b7b75;display: block;margin-top: 60px;"> [gdverse](https://ausgis.github.io/gdverse/)</span>
+
+#### Geographical Detector Models
+
+```{r}
+library(gdverse)
+gozh.bi = gozh(NDVIchange ~ ., data = ndvi, type = 'interaction')
+gozh.bi
+```
+
+]
+
+--
+
+.pull-right[
+
+<div class="center-img">
+<img src="./assets/figures/gozh.png" style="margin-top: 100px; width: 80%; height: auto;" />
+</div>
+
+]
+
+---
+background-image: url("./assets/pkgs.jpg")
+background-position: center
+background-size: contain
+
+--
+
+.pull-left[
+
+## <span style="color: ##91a5addisplay: block;margin-top: 80px;"> [geocomplexity](https://ausgis.github.io/geocomplexity/)</span>
+
+#### Geocomplexity Mitigates Spatial Bias
+
+```r
+library(geocomplexity)
+data("income")
+inc = dplyr::select(income,Income)
+gc = geocd_vector(inc)
+
+library(ggplot2)
+library(viridis)
+ggplot(gc) +
+   geom_sf(aes(fill = GC_Income)) +
+   scale_fill_viridis(option="mako", direction = -1) +
+   theme_bw()
+```
+
+]
+
+--
+
+.pull-right[
+<div class="center-img">
+<img src="./assets/figures/gc.png" style="margin-top: 120px; height: 80%; width: auto;" />
+</div>
+]
+
+---
+class: center, middle
+background-image: url("https://spatlyu.github.io/materials/figures/ausgis_ppt_title_bg3.png")
+background-position: center
+background-size: contain
+
+# Thanks
+
+### Wenbo Lv
+
+### lyu.geosocial@gmail.com
