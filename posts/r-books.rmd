@@ -30,6 +30,8 @@ knitr::opts_chunk$set(echo = TRUE,
 
 [**The tidyverse style guide**](https://style.tidyverse.org/)
 
+[**R in Production**](https://r-in-production.org/)
+
 [Data Visualization with ggplot2](https://viz-ggplot2.rsquaredacademy.com/)
 
 [Efficient R programming](https://csgillespie.github.io/efficientR/index.html)
