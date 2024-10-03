@@ -15,12 +15,5 @@
       <guid>https://spatlyu.github.io/posts/academic_writing_books/</guid>
       <description>Academic Paper Science Research Writing: For Non-Native Speakers of English&#xA;How to Write a Lot&#xA;How to Write the Introduction&#xA;Research Proposal Research Proposals: A Practical Guide</description>
     </item>
-    <item>
-      <title>R books</title>
-      <link>https://spatlyu.github.io/posts/r-books/</link>
-      <pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/r-books/</guid>
-      <description>R fundamentals Introduction to R&#xA;Advanced R&#xA;R for Data Science (2e)&#xA;R Graphics Cookbook, 2nd edition&#xA;The tidyverse style guide&#xA;R in Production&#xA;Data Visualization with ggplot2&#xA;Efficient R programming&#xA;Best Coding Practices for R&#xA;Happy Git and GitHub for the useR&#xA;Rcpp for everyone&#xA;Rcpp for everyone Chinese version&#xA;Unofficial rcpp api documentation&#xA;R Packages (2e)&#xA;R Markdown Chinese guide&#xA;R Markdown Cookbook&#xA;R Markdown: The Definitive Guide</description>
-    </item>
   </channel>
 </rss>

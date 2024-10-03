@@ -1,7 +1,7 @@
 ---
 title: "R books"
 author: "Wenbo Lv"
-date: "2024-07-11"
+date: "2024-10-04"
 description: "Useful R Books and Tutorials."
 tags: ["books","r","geoinformatics","satistics"]
 type: post
@@ -31,6 +31,8 @@ knitr::opts_chunk$set(echo = TRUE,
 [**The tidyverse style guide**](https://style.tidyverse.org/)
 
 [**R in Production**](https://r-in-production.org/)
+
+[**What They Forgot to Teach You About R**](https://rstats.wtf/)
 
 [Data Visualization with ggplot2](https://viz-ggplot2.rsquaredacademy.com/)
 
