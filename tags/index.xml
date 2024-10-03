@@ -6,13 +6,34 @@
     <description>Recent content in Tags on Wenbo Lv</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Sep 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://spatlyu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Books</title>
+      <link>https://spatlyu.github.io/tags/books/</link>
+      <pubDate>Wed, 25 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://spatlyu.github.io/tags/books/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Geoinformatics</title>
       <link>https://spatlyu.github.io/tags/geoinformatics/</link>
-      <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 25 Sep 2024 00:00:00 +0000</pubDate>
       <guid>https://spatlyu.github.io/tags/geoinformatics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>R</title>
+      <link>https://spatlyu.github.io/tags/r/</link>
+      <pubDate>Wed, 25 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://spatlyu.github.io/tags/r/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Satistics</title>
+      <link>https://spatlyu.github.io/tags/satistics/</link>
+      <pubDate>Wed, 25 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://spatlyu.github.io/tags/satistics/</guid>
       <description></description>
     </item>
     <item>
@@ -23,24 +44,10 @@
       <description></description>
     </item>
     <item>
-      <title>Satistics</title>
-      <link>https://spatlyu.github.io/tags/satistics/</link>
-      <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/tags/satistics/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Photo Editing Tools</title>
       <link>https://spatlyu.github.io/tags/photo-editing-tools/</link>
       <pubDate>Sun, 08 Sep 2024 00:00:00 +0000</pubDate>
       <guid>https://spatlyu.github.io/tags/photo-editing-tools/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>R</title>
-      <link>https://spatlyu.github.io/tags/r/</link>
-      <pubDate>Sun, 08 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/tags/r/</guid>
       <description></description>
     </item>
     <item>
@@ -69,13 +76,6 @@
       <link>https://spatlyu.github.io/tags/econometrics/</link>
       <pubDate>Fri, 23 Aug 2024 00:00:00 +0000</pubDate>
       <guid>https://spatlyu.github.io/tags/econometrics/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Books</title>
-      <link>https://spatlyu.github.io/tags/books/</link>
-      <pubDate>Sun, 18 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/tags/books/</guid>
       <description></description>
     </item>
     <item>
