@@ -26,21 +26,21 @@
       <link>https://spatlyu.github.io/projects/gdverse/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://spatlyu.github.io/projects/gdverse/</guid>
-      <description>goal The goal of gdverse is to support the geodetector model and its variants.&#xA;document You can see the document of gdverse in here&#xA;source code The source code of gdverse is in here&#xA;feedback If you have any questions or suggestions, please post them in gdverse github repo issue.</description>
+      <description>goal Analyzing spatial factors and exploring spatial associations based on the concept of spatial stratified heterogeneity, and also takes into account local spatial dependencies, spatial interpretability, potential spatial interactions, and robust spatial stratification. Additionally, it supports geographical detector models established in academic literature.&#xA;document You can see the document of gdverse in here&#xA;source code The source code of gdverse is in here&#xA;feedback If you have any questions or suggestions, please post them in gdverse github repo issue.</description>
     </item>
     <item>
       <title>geocn</title>
       <link>https://spatlyu.github.io/projects/geocn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://spatlyu.github.io/projects/geocn/</guid>
-      <description>goal The goal of geocn is to provide various commonly used spatial data related to Chinese regions in the R programming environment.&#xA;document You can see the document of geocn in here&#xA;source code The source code of geocn is in here&#xA;feedback If you have any questions or suggestions, please post them in geocn github repo issue.</description>
+      <description>goal Provide various commonly used spatial data related to Chinese regions in the R programming environment.&#xA;document You can see the document of geocn in here&#xA;source code The source code of geocn is in here&#xA;feedback If you have any questions or suggestions, please post them in geocn github repo issue.</description>
     </item>
     <item>
       <title>geocomplexity</title>
       <link>https://spatlyu.github.io/projects/geocomplexity/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://spatlyu.github.io/projects/geocomplexity/</guid>
-      <description>goal The goal of geocomplexity is to support geocomplexity computation and applications.&#xA;document You can see the document of geocomplexity in here&#xA;source code The source code of geocomplexity is in here&#xA;feedback If you have any questions or suggestions, please post them in geocomplexity github repo issue.</description>
+      <description>goal Mitigating Spatial Bias Through Geographical Complexity&#xA;document You can see the document of geocomplexity in here&#xA;source code The source code of geocomplexity is in here&#xA;feedback If you have any questions or suggestions, please post them in geocomplexity github repo issue.</description>
     </item>
     <item>
       <title>geosom</title>
@@ -54,7 +54,7 @@
       <link>https://spatlyu.github.io/projects/sdsfun/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://spatlyu.github.io/projects/sdsfun/</guid>
-      <description>goal The goal of sdsfun is to provide miscellaneous functions that summarize common operations of R packages (such as sf and terra packages) related to spatial data science.&#xA;document You can see the document of sdsfun in here&#xA;source code The source code of sdsfun is in here&#xA;feedback If you have any questions or suggestions, please post them in sdsfun github repo issue.</description>
+      <description>goal Wrapping and supplementing commonly used functions in the R ecosystem related to spatial data science, while serving as a basis for other packages maintained by Wenbo Lv.&#xA;document You can see the document of sdsfun in here&#xA;source code The source code of sdsfun is in here&#xA;feedback If you have any questions or suggestions, please post them in sdsfun github repo issue.</description>
     </item>
     <item>
       <title>spatbox</title>
