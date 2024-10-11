@@ -4,7 +4,7 @@
     <title>R packages developed by SpatLyu</title>
     <meta charset="utf-8" />
     <meta name="author" content="Wenbo Lv" />
-    <meta name="date" content="2024-09-10" />
+    <meta name="date" content="2024-10-12" />
     <script src="libs/header-attrs-2.28/header-attrs.js"></script>
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
@@ -20,7 +20,7 @@ class: center, middle, inverse, title-slide
 ### Wenbo Lv
 ]
 .date[
-### 2024-09-10
+### 2024-10-12
 ]
 
 ---
@@ -50,13 +50,6 @@ font-family: 'Inconsolata', 'Consolas', Monaco, monospace;
   background-image: url("https://spatlyu.github.io/materials/figures/ausgis_ppt_title_bg1.png");
   background-position: center;
   background-size: contain;
-}
-
-.pull-left {
- margin-top: 20px;
-}
-.pull-right {
- margin-top: 20px;
 }
 
 .pre {
@@ -109,9 +102,7 @@ background-size: contain
 --
 
 .pull-right[
-&lt;span style="display: block;margin-top: 150px;"&gt;
-## For the full version of resource recommendations, please refer to [my blog](https://spatlyu.github.io/posts/r-books/).
-&lt;/span&gt;
+## &lt;span style="display: block;margin-top: 150px;"&gt;For the full version of resource recommendations, please refer to [my blog](https://spatlyu.github.io/posts/r-books/).&lt;/span&gt;
 ]
 
 ---
@@ -143,9 +134,9 @@ background-size: contain
 
 - [Rsagacmd](https://stevenpawley.github.io/Rsagacmd/)
 
-#### Geospatial Methods
-
 - [sdsfun](https://stscl.github.io/sdsfun/)
+
+#### Geospatial Methods
 
 - [gdverse](https://ausgis.github.io/gdverse/)
 
@@ -178,7 +169,7 @@ background-size: contain
 
 .pull-left[
 
-## &lt;a href="https://stscl.github.io/geocn/"&lt;span style="color: #51463a;display: block;margin-top: 70px;"&gt;geocn&lt;/span&gt;&lt;/a&gt;
+## &lt;span style="color: #4472c4;display: block;margin-top: 70px;"&gt; [geocn](https://stscl.github.io/geocn/)&lt;/span&gt;
 
 #### Loads Spatial Data Sets of China
 
@@ -260,7 +251,7 @@ background-size: contain
 
 .pull-left[
 
-## &lt;a href="https://r-spatial.github.io/qgisprocess/"&gt;&lt;span style="color: #497d29;display: block;margin-top: 70px;"&gt;qgisprocess&lt;/span&gt;&lt;/a&gt;
+## &lt;span style="color: #4472c4;display: block;margin-top: 70px;"&gt; [qgisprocess](https://r-spatial.github.io/qgisprocess/)&lt;/span&gt;
 
 #### Use QGIS Processing Algorithms in R
 
@@ -289,7 +280,7 @@ qgis_run_algorithm(
 
 .pull-right[
 &lt;div class="center-img"&gt;
-&lt;img src="./assets/figures/rd.png" style="margin-top: 80px; height: 50%; width: auto;" /&gt;
+&lt;img src="./assets/figures/rd.png" style="margin-top: 100px; height: 50%; width: auto;" /&gt;
 &lt;/div&gt;
 ]
 
@@ -302,7 +293,7 @@ background-size: contain
 
 .pull-left[
 
-## &lt;a href="https://stscl.github.io/sdsfun/"&gt;&lt;span style="color: #00001c;display: block;margin-top: 70px;"&gt;sdsfun&lt;/span&gt;&lt;/a&gt;
+## &lt;span style="color: #4472c4;display: block;margin-top: 70px;"&gt; [sdsfun](https://stscl.github.io/sdsfun/)&lt;/span&gt;
 
 #### Spatial Data Science Complementary Features
 
@@ -359,6 +350,18 @@ wt4[1:5,1:5]
 ## 5 0.00000000 0.0000000 0.00000000 0.00000000 0.07064708
 ```
 
+&lt;!-- &lt;div style="margin-top: 70px;"&gt; --&gt;
+&lt;!-- &lt;pre&gt;&lt;code&gt; --&gt;
+&lt;!-- library(sf) --&gt;
+&lt;!-- library(sdsfun) --&gt;
+&lt;!-- pts = read_sf(system.file('extdata/pts.gpkg',package = 'sdsfun')) --&gt;
+
+&lt;!-- wt1 = spdep_distance_swm(pts, style = 'B') --&gt;
+&lt;!-- wt2 = spdep_distance_swm(pts, kernel = 'gaussian') --&gt;
+&lt;!-- wt3 = spdep_distance_swm(pts, k = 3, kernel = 'gaussian') --&gt;
+&lt;!-- wt4 = spdep_distance_swm(pts, k = 3, kernel = 'gaussian', bandwidth = 10000) --&gt;
+&lt;!-- &lt;/code&gt;&lt;/pre&gt; --&gt;
+&lt;!-- &lt;/div&gt; --&gt;
 ]
 
 --
@@ -386,6 +389,19 @@ wt3[1:5,1:5]
 ## 5    1    1    1    1    0
 ```
 
+
+&lt;!-- &lt;div style="margin-top: 70px;"&gt; --&gt;
+
+&lt;!-- &lt;pre&gt;&lt;code&gt; --&gt;
+&lt;!-- library(sf) --&gt;
+&lt;!-- library(sdsfun) --&gt;
+&lt;!-- pts = read_sf(system.file('extdata/pts.gpkg',package = 'sdsfun')) --&gt;
+
+&lt;!-- wt1 = spdep_contiguity_swm(pts, k = 6, style = 'B') --&gt;
+&lt;!-- wt2 = spdep_contiguity_swm(pts, queen = TRUE, style = 'B') --&gt;
+&lt;!-- wt3 = spdep_contiguity_swm(pts, queen = FALSE, order = 2, style = 'B') --&gt;
+&lt;!-- &lt;/code&gt;&lt;/pre&gt; --&gt;
+
 ]
 
 ---
@@ -397,7 +413,7 @@ background-size: contain
 
 .pull-left[
 
-## &lt;a href="https://ausgis.github.io/gdverse/"&gt;&lt;span style="color: #5b7b75;display: block;margin-top: 60px;"&gt;gdverse&lt;/span&gt;&lt;/a&gt;
+## &lt;span style="color: ##5b7b75;display: block;margin-top: 60px;"&gt; [gdverse](https://ausgis.github.io/gdverse/)&lt;/span&gt;
 
 #### Geographical Detector Models
 
@@ -405,6 +421,30 @@ background-size: contain
 ``` r
 library(gdverse)
 gozh.bi = gozh(NDVIchange ~ ., data = ndvi, type = 'interaction')
+gozh.bi
+```
+
+```
+##                 GOZH Model                  
+## ***        Interaction Detector         
+## 
+## |    Interactive variable     |    Interaction     |
+## |:---------------------------:|:------------------:|
+## |    Climatezone ∩ Mining     |    Weaken, uni-    |
+## |  Climatezone ∩ Tempchange   |    Weaken, uni-    |
+## | Climatezone ∩ Precipitation |    Enhance, bi-    |
+## |      Climatezone ∩ GDP      |    Enhance, bi-    |
+## |  Climatezone ∩ Popdensity   |    Enhance, bi-    |
+## |     Mining ∩ Tempchange     |    Enhance, bi-    |
+## |   Mining ∩ Precipitation    |    Weaken, uni-    |
+## |        Mining ∩ GDP         |    Enhance, bi-    |
+## |     Mining ∩ Popdensity     |    Enhance, bi-    |
+## | Tempchange ∩ Precipitation  |    Enhance, bi-    |
+## |      Tempchange ∩ GDP       | Enhance, nonlinear |
+## |   Tempchange ∩ Popdensity   |    Enhance, bi-    |
+## |     Precipitation ∩ GDP     |    Enhance, bi-    |
+## | Precipitation ∩ Popdensity  |    Enhance, bi-    |
+## |      GDP ∩ Popdensity       |    Weaken, uni-    |
 ```
 
 ]
@@ -428,7 +468,7 @@ background-size: contain
 
 .pull-left[
 
-## &lt;a href="https://ausgis.github.io/geocomplexity/"&gt;&lt;span style="color: #b0c9e3;display: block;margin-top: 85px;"&gt; geocomplexity&lt;/span&gt;&lt;/a&gt;
+## &lt;span style="color: ##91a5addisplay: block;margin-top: 80px;"&gt; [geocomplexity](https://ausgis.github.io/geocomplexity/)&lt;/span&gt;
 
 #### Geocomplexity Mitigates Spatial Bias
 
@@ -464,9 +504,9 @@ background-size: contain
 
 # Thanks
 
-### &lt;a href="https://spatlyu.github.io/"&gt;&lt;span style="color: #040707;"&gt;Wenbo Lv&lt;/span&gt;&lt;/a&gt;
+### Wenbo Lv
 
-### &lt;a href="mailto:lyu.geosocial@gmail.com"&gt;&lt;span style="color: #040707;"&gt;lyu.geosocial@gmail.com&lt;/span&gt;&lt;/a&gt;
+### lyu.geosocial@gmail.com
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>

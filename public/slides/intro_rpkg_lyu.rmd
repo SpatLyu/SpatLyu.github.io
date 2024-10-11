@@ -132,9 +132,9 @@ background-size: contain
 
 - [Rsagacmd](https://stevenpawley.github.io/Rsagacmd/)
 
-#### Geospatial Methods
-
 - [sdsfun](https://stscl.github.io/sdsfun/)
+
+#### Geospatial Methods
 
 - [gdverse](https://ausgis.github.io/gdverse/)
 
