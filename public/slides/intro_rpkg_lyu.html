@@ -299,15 +299,10 @@ background-size: contain
 
 ```r
 library(sf)
-pts = read_sf(system.file('extdata/pts.gpkg',package = 'sdsfun'))
-pts_v = sf_voronoi_diagram(pts)
-
-library(ggplot2)
-ggplot() +
-  geom_sf(data = pts_v, color = 'red',
-          fill = 'transparent') +
-  geom_sf(data = pts, color = 'blue', size = 1.25) +
-  theme_void()
+gzma = read_sf(system.file('extdata/gzma.gpkg',package = 'sdsfun'))
+gzma_c = sdsfun::spdep_skater(gzma,8)
+gzma$group = gzma_c
+plot(gzma["group"])
 ```
 
 ]
@@ -316,7 +311,7 @@ ggplot() +
 
 .pull-right[
 &lt;div class="center-img"&gt;
-&lt;img src="./assets/figures/voronoi.png" style="margin-top: 100px; width: 80%; height: auto;" /&gt;
+&lt;img src="./assets/figures/spdep_skater-1.png" style="margin-top: 100px; width: 80%; height: auto;" /&gt;
 &lt;/div&gt;
 ]
 
