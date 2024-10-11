@@ -1,0 +1,21 @@
+{{ define "main" }}
+<div class="container tags-list">
+
+    <h1 class="list-title">{{ i18n "tags" }}</h1>
+    {{if eq (len $.Site.Taxonomies.tags) 0}}
+        {{ i18n "nothing" }}
+    {{else}}
+    <ul class="post-tags">
+        {{ range $.Site.Taxonomies.tags.ByCount }}
+        <li class="post-tag">
+            <a href="/tags/{{ .Name | urlize }}/">
+                <div class="tag-name">{{ .Name }}</div>
+                <div class="tag-posts-count">{{ .Count }}</div>
+            </a>
+        </li>
+        {{ end }}
+    </ul>
+    {{ end }}
+
+</div>
+{{ end }}
