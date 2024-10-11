@@ -420,31 +420,19 @@ background-size: contain
 
 ``` r
 library(gdverse)
-gozh.bi = gozh(NDVIchange ~ ., data = ndvi, type = 'interaction')
-gozh.bi
+fd = gd(incidence ~ watershed + elevation + soiltype,
+        data = NTDs,type = 'factor')
+fd
 ```
 
 ```
-##                 GOZH Model                  
-## ***        Interaction Detector         
+## ***          Factor Detector            
 ## 
-## |    Interactive variable     |    Interaction     |
-## |:---------------------------:|:------------------:|
-## |    Climatezone ∩ Mining     |    Weaken, uni-    |
-## |  Climatezone ∩ Tempchange   |    Weaken, uni-    |
-## | Climatezone ∩ Precipitation |    Enhance, bi-    |
-## |      Climatezone ∩ GDP      |    Enhance, bi-    |
-## |  Climatezone ∩ Popdensity   |    Enhance, bi-    |
-## |     Mining ∩ Tempchange     |    Enhance, bi-    |
-## |   Mining ∩ Precipitation    |    Weaken, uni-    |
-## |        Mining ∩ GDP         |    Enhance, bi-    |
-## |     Mining ∩ Popdensity     |    Enhance, bi-    |
-## | Tempchange ∩ Precipitation  |    Enhance, bi-    |
-## |      Tempchange ∩ GDP       | Enhance, nonlinear |
-## |   Tempchange ∩ Popdensity   |    Enhance, bi-    |
-## |     Precipitation ∩ GDP     |    Enhance, bi-    |
-## | Precipitation ∩ Popdensity  |    Enhance, bi-    |
-## |      GDP ∩ Popdensity       |    Weaken, uni-    |
+## | variable  | Q-statistic |   P-value   |
+## |:---------:|:-----------:|:-----------:|
+## | watershed |  0.6377737  | 0.000128803 |
+## | elevation |  0.6067087  | 0.043382244 |
+## | soiltype  |  0.3857168  | 0.372145486 |
 ```
 
 ]
@@ -454,7 +442,7 @@ gozh.bi
 .pull-right[
 
 &lt;div class="center-img"&gt;
-&lt;img src="./assets/figures/gozh.png" style="margin-top: 100px; width: 80%; height: auto;" /&gt;
+&lt;img src="./assets/figures/fd-1.png" style="margin-top: 100px; width: 80%; height: auto;" /&gt;
 &lt;/div&gt;
 
 ]
@@ -474,15 +462,14 @@ background-size: contain
 
 ```r
 library(geocomplexity)
-data("income")
-inc = dplyr::select(income,Income)
-gc = geocd_vector(inc)
+econineq = sf::read_sf(system.file('extdata/econineq.gpkg',package = 'geocomplexity'))
+gc = geocd_vector(econineq)
 
 library(ggplot2)
 library(viridis)
 ggplot(gc) +
-   geom_sf(aes(fill = GC_Income)) +
-   scale_fill_viridis(option="mako", direction = -1) +
+   geom_sf(aes(fill = GC_Gini)) +
+   scale_fill_viridis(option = "mako", direction = -1) +
    theme_bw()
 ```
 
