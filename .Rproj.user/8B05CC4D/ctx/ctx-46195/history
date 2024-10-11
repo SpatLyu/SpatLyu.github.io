@@ -1,4 +1,0 @@
-blogdown::build_site()
-blogdown::serve_site()
-blogdown::check_site()
-blogdown::build_site()
