@@ -1,7 +1,7 @@
 ---
 title: "R books"
 author: "Wenbo Lv"
-date: "2024-09-25"
+date: "2024-10-11"
 description: "Useful R Books and Tutorials."
 tags: ["books","r","geoinformatics","satistics"]
 type: post
@@ -55,6 +55,8 @@ knitr::opts_chunk$set(echo = TRUE,
 [**R Markdown Cookbook**](https://bookdown.org/yihui/rmarkdown-cookbook/)
 
 [**R Markdown: The Definitive Guide**](https://bookdown.org/yihui/rmarkdown/)
+
+[R Development Guide](https://contributor.r-project.org/rdevguide/introduction.html)
 
 [blogdown: Creating Websites with R Markdown](https://bookdown.org/yihui/blogdown)
 
