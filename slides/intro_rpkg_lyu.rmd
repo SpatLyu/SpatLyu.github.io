@@ -397,8 +397,9 @@ background-size: contain
 
 ```{r}
 library(gdverse)
-gozh.bi = gozh(NDVIchange ~ ., data = ndvi, type = 'interaction')
-gozh.bi
+fd = gd(incidence ~ watershed + elevation + soiltype,
+        data = NTDs,type = 'factor')
+fd
 ```
 
 ]
@@ -408,7 +409,7 @@ gozh.bi
 .pull-right[
 
 <div class="center-img">
-<img src="./assets/figures/gozh.png" style="margin-top: 100px; width: 80%; height: auto;" />
+<img src="./assets/figures/fd-1.png" style="margin-top: 100px; width: 80%; height: auto;" />
 </div>
 
 ]
@@ -428,15 +429,14 @@ background-size: contain
 
 ```r
 library(geocomplexity)
-data("income")
-inc = dplyr::select(income,Income)
-gc = geocd_vector(inc)
+econineq = sf::read_sf(system.file('extdata/econineq.gpkg',package = 'geocomplexity'))
+gc = geocd_vector(econineq)
 
 library(ggplot2)
 library(viridis)
 ggplot(gc) +
-   geom_sf(aes(fill = GC_Income)) +
-   scale_fill_viridis(option="mako", direction = -1) +
+   geom_sf(aes(fill = GC_Gini)) +
+   scale_fill_viridis(option = "mako", direction = -1) +
    theme_bw()
 ```
 
