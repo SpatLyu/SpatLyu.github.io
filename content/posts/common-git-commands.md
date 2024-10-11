@@ -80,6 +80,12 @@ git remote set-url origin [new remote repo url]
 git checkout [branch-name]
 ```
 
+### Create a new branch and switch to that branch
+
+```
+git checkout -b [branch-name]
+```
+
 ### Checking remote and branch tracking
 
 ```
