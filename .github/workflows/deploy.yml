@@ -19,7 +19,7 @@ jobs:
     # - name: Setup Node.js environment
     #   uses: actions/setup-node@v3
     #   with:
-    #     node-version: '16'  # Adjust the version as per your project requirements
+    #     node-version: '16'
 
     # Step 3: Install project dependencies (Optional)
     # If not needed (e.g., plain static files in 'public' folder), comment this step out.
