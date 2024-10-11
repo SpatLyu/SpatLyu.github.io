@@ -90,7 +90,7 @@ menu:
       weight: 7
 markup:
   tableOfContents:
-    endLevel: 4
+    endLevel: 6
     ordered: no
     startLevel: 1
   goldmark:
