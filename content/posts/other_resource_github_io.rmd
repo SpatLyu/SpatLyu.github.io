@@ -11,6 +11,6 @@ showTableOfContents: true
 
 [Mathematical symbols and expressions in rmarkdown](https://spatlyu.github.io/materials/mathsymbols.html)
 
-[Introduce to C++17](https://spatlyu.github.io/materials/intro_cpp17.pdf)
+[Introduce to C++17](http://www.tup.tsinghua.edu.cn/upload/books/yz/081003-01.pdf)
 
 [Xaringan Helper](https://spatlyu.github.io/materials/xaringan.pdf)
