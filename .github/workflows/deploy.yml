@@ -1,0 +1,38 @@
+name: Deploy to GitHub Pages
+
+# Trigger: Runs on every push to the 'main' branch
+on:
+  push:
+    branches:
+      - main  # Replace 'main' with your default branch if different
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    # Step 1: Checkout the repository
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    # Step 2: Setup Node.js environment (Optional, only if you need it for build)
+    # - name: Setup Node.js environment
+    #   uses: actions/setup-node@v3
+    #   with:
+    #     node-version: '16'  # Adjust the version as per your project requirements
+
+    # Step 3: Install project dependencies (Optional)
+    # If not needed (e.g., plain static files in 'public' folder), comment this step out.
+    # - name: Install dependencies
+    #   run: npm install
+
+    # Step 4: Deploy the 'public' folder to the 'gh-pages' branch
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}  # GitHub token for authentication
+        publish_dir: ./public  # Directory to publish (public folder)
+
+    # Optional: Build the static website (Uncomment if necessary for your project)
+    # - name: Build the website
+    #   run: npm run build  # Adjust this command according to your build process
