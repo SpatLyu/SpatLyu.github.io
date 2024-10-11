@@ -1,7 +1,0 @@
-{
-    "installOptions": {
-        "installFromRepository": true,
-        "libraryPath": "C:/Users/dell/R/pkgR",
-        "installDependencies": true
-    }
-}
