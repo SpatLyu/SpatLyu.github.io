@@ -10,6 +10,6 @@ showTableOfContents: true
 
 [R packages developed by SpatLyu](https://spatlyu.github.io/slides/intro_rpkg_lyu.html)
 
-[sf tutorial](https://spatlyu.github.io/slides/sf_tutorial.html)
+[sf tutorial(in chinese)](https://spatlyu.github.io/slides/sf_tutorial.html)
 
 [Spatial Causal Inference](https://spatlyu.github.io/slides/geospatial_causal_inference.html)
