@@ -1,6 +1,6 @@
 ---
 title: "Presentation Slides"
-date: "2024-10-13"
+date: "2024-10-12"
 description: "A slide collection of personal presentations"
 tags: ["geoinformatics","satistics","presentation"]
 type: post
