@@ -2,157 +2,150 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Wenbo Lv</title>
-    <link>http://localhost:4321/tags/</link>
+    <link>https://spatlyu.github.io/tags/</link>
     <description>Recent content in Tags on Wenbo Lv</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 13 Oct 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:4321/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Geoinformatics</title>
-      <link>http://localhost:4321/tags/geoinformatics/</link>
-      <pubDate>Fri, 11 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/geoinformatics/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Presentation</title>
-      <link>http://localhost:4321/tags/presentation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/presentation/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Satistics</title>
-      <link>http://localhost:4321/tags/satistics/</link>
-      <pubDate>Fri, 11 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/satistics/</guid>
-      <description></description>
-    </item>
+    <lastBuildDate>Fri, 11 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://spatlyu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Books</title>
-      <link>http://localhost:4321/tags/books/</link>
+      <link>https://spatlyu.github.io/tags/books/</link>
       <pubDate>Fri, 11 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/books/</guid>
+      <guid>https://spatlyu.github.io/tags/books/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Geoinformatics</title>
+      <link>https://spatlyu.github.io/tags/geoinformatics/</link>
+      <pubDate>Fri, 11 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://spatlyu.github.io/tags/geoinformatics/</guid>
       <description></description>
     </item>
     <item>
       <title>R</title>
-      <link>http://localhost:4321/tags/r/</link>
+      <link>https://spatlyu.github.io/tags/r/</link>
       <pubDate>Fri, 11 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/r/</guid>
+      <guid>https://spatlyu.github.io/tags/r/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Satistics</title>
+      <link>https://spatlyu.github.io/tags/satistics/</link>
+      <pubDate>Fri, 11 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://spatlyu.github.io/tags/satistics/</guid>
       <description></description>
     </item>
     <item>
       <title>Photo Editing Tools</title>
-      <link>http://localhost:4321/tags/photo-editing-tools/</link>
+      <link>https://spatlyu.github.io/tags/photo-editing-tools/</link>
       <pubDate>Sun, 08 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/photo-editing-tools/</guid>
+      <guid>https://spatlyu.github.io/tags/photo-editing-tools/</guid>
       <description></description>
     </item>
     <item>
       <title>Ggplot2</title>
-      <link>http://localhost:4321/tags/ggplot2/</link>
+      <link>https://spatlyu.github.io/tags/ggplot2/</link>
       <pubDate>Thu, 05 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/ggplot2/</guid>
+      <guid>https://spatlyu.github.io/tags/ggplot2/</guid>
       <description></description>
     </item>
     <item>
       <title>Legend</title>
-      <link>http://localhost:4321/tags/legend/</link>
+      <link>https://spatlyu.github.io/tags/legend/</link>
       <pubDate>Thu, 05 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/legend/</guid>
+      <guid>https://spatlyu.github.io/tags/legend/</guid>
       <description></description>
     </item>
     <item>
       <title>Tidyverse</title>
-      <link>http://localhost:4321/tags/tidyverse/</link>
+      <link>https://spatlyu.github.io/tags/tidyverse/</link>
       <pubDate>Thu, 05 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/tidyverse/</guid>
+      <guid>https://spatlyu.github.io/tags/tidyverse/</guid>
       <description></description>
     </item>
     <item>
       <title>Econometrics</title>
-      <link>http://localhost:4321/tags/econometrics/</link>
+      <link>https://spatlyu.github.io/tags/econometrics/</link>
       <pubDate>Fri, 23 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/econometrics/</guid>
+      <guid>https://spatlyu.github.io/tags/econometrics/</guid>
       <description></description>
     </item>
     <item>
       <title>Writing</title>
-      <link>http://localhost:4321/tags/writing/</link>
+      <link>https://spatlyu.github.io/tags/writing/</link>
       <pubDate>Sun, 18 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/writing/</guid>
+      <guid>https://spatlyu.github.io/tags/writing/</guid>
       <description></description>
     </item>
     <item>
       <title>Papers</title>
-      <link>http://localhost:4321/tags/papers/</link>
+      <link>https://spatlyu.github.io/tags/papers/</link>
       <pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/papers/</guid>
+      <guid>https://spatlyu.github.io/tags/papers/</guid>
       <description></description>
     </item>
     <item>
       <title>Cpp</title>
-      <link>http://localhost:4321/tags/cpp/</link>
+      <link>https://spatlyu.github.io/tags/cpp/</link>
       <pubDate>Sat, 06 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/cpp/</guid>
+      <guid>https://spatlyu.github.io/tags/cpp/</guid>
       <description></description>
     </item>
     <item>
       <title>Rcpp</title>
-      <link>http://localhost:4321/tags/rcpp/</link>
+      <link>https://spatlyu.github.io/tags/rcpp/</link>
       <pubDate>Sat, 06 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/rcpp/</guid>
+      <guid>https://spatlyu.github.io/tags/rcpp/</guid>
       <description></description>
     </item>
     <item>
       <title>Dplyr</title>
-      <link>http://localhost:4321/tags/dplyr/</link>
+      <link>https://spatlyu.github.io/tags/dplyr/</link>
       <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/dplyr/</guid>
+      <guid>https://spatlyu.github.io/tags/dplyr/</guid>
       <description></description>
     </item>
     <item>
       <title>Magrittr</title>
-      <link>http://localhost:4321/tags/magrittr/</link>
+      <link>https://spatlyu.github.io/tags/magrittr/</link>
       <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/magrittr/</guid>
+      <guid>https://spatlyu.github.io/tags/magrittr/</guid>
       <description></description>
     </item>
     <item>
       <title>Coding</title>
-      <link>http://localhost:4321/tags/coding/</link>
+      <link>https://spatlyu.github.io/tags/coding/</link>
       <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/coding/</guid>
+      <guid>https://spatlyu.github.io/tags/coding/</guid>
       <description></description>
     </item>
     <item>
       <title>Git</title>
-      <link>http://localhost:4321/tags/git/</link>
+      <link>https://spatlyu.github.io/tags/git/</link>
       <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/git/</guid>
+      <guid>https://spatlyu.github.io/tags/git/</guid>
       <description></description>
     </item>
     <item>
       <title>Github</title>
-      <link>http://localhost:4321/tags/github/</link>
+      <link>https://spatlyu.github.io/tags/github/</link>
       <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/github/</guid>
+      <guid>https://spatlyu.github.io/tags/github/</guid>
       <description></description>
     </item>
     <item>
       <title>Network Proxy</title>
-      <link>http://localhost:4321/tags/network-proxy/</link>
+      <link>https://spatlyu.github.io/tags/network-proxy/</link>
       <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/network-proxy/</guid>
+      <guid>https://spatlyu.github.io/tags/network-proxy/</guid>
       <description></description>
     </item>
     <item>
       <title>Rmarkdown</title>
-      <link>http://localhost:4321/tags/rmarkdown/</link>
+      <link>https://spatlyu.github.io/tags/rmarkdown/</link>
       <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/rmarkdown/</guid>
+      <guid>https://spatlyu.github.io/tags/rmarkdown/</guid>
       <description></description>
     </item>
   </channel>
