@@ -55,6 +55,8 @@ showTableOfContents: true
 
 [bookdown: Authoring Books and Technical Documents with R Markdown](https://bookdown.org/yihui/bookdown/)
 
+[Bookdown Chinese manuscript writing manual](https://tangyc8866.github.io/bookdown_tutorial/index.html)
+
 [JavaScript for R](https://book.javascript-for-r.com/)
 
 [Computer-age Calculus with R](https://dtkaplan.github.io/RforCalculus/preface.html)
