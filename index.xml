@@ -100,6 +100,13 @@
       <description>Python&#xA;import os os.environ[&amp;#34;http_proxy&amp;#34;] = &amp;#34;http://127.0.0.1:7890&amp;#34; os.environ[&amp;#34;https_proxy&amp;#34;] = &amp;#34;http://127.0.0.1:7890&amp;#34; R&#xA;Sys.setenv(https_proxy=&amp;#34;http://127.0.0.1:7890&amp;#34;) Sys.setenv(http_proxy=&amp;#34;http://127.0.0.1:7890&amp;#34;) Julia&#xA;ENV[&amp;#34;https_proxy&amp;#34;]=&amp;#34;http://127.0.0.1:7890/&amp;#34; Git&#xA;git config --global http.proxy &amp;#39;http://127.0.0.1:7890&amp;#39;&#xD;git config --global https.proxy &amp;#39;http://127.0.0.1:7890&amp;#39; nodejs&#xA;npm config set https-proxy http://127.0.0.1:7890 Change the value from 7890 to the corresponding port number based on your network proxy port number.</description>
     </item>
     <item>
+      <title></title>
+      <link>https://spatlyu.github.io/index-about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://spatlyu.github.io/index-about/</guid>
+      <description>🧐 About 🔭 I am currently an undergraduate majoring in Geographic Information Science(GIS) at Shaanxi Normal University(SNNU). 😄 I look forward to working with friends of all backgrounds to explore the fun of statistics and programming! 🏄‍ My research interests focus on developing new spatial analysis methods based on spatial relationships (such as spatial dependence, spatial heterogeneity, and geographical similarity) to support urban sustainability and climate change mitigation, and also include developing the corresponding open source software.</description>
+    </item>
+    <item>
       <title>arcR</title>
       <link>https://spatlyu.github.io/projects/arcr/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
