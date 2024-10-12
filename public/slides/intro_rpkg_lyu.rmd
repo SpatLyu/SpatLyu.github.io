@@ -81,17 +81,17 @@ background-size: contain
 
 .pull-left[
 
-#### [<span style="color: #5b7b75;display: block;margin-top: 120px;"> Geocomputation with R </span>](https://r.geocompx.org/)
-
-#### [<span style="color: #5b7b75;"> Spatial Data Science With Applications in R </span>](https://r-spatial.org/book/)
-
-#### [<span style="color: #5b7b75;"> Spatial data with terra </span>](https://rspatial.org/spatial/index.html)
-
-#### [<span style="color: #5b7b75;"> Introduction to BaseR </span>](https://rspatial.org/intr/)
+#### [<span style="color: #5b7b75;display: block;margin-top: 120px;"> Introduction to BaseR </span>](https://rspatial.org/intr/)
 
 #### [<span style="color: #5b7b75;"> Advanced R </span>](https://adv-r.hadley.nz/)
 
 #### [<span style="color: #5b7b75;"> R for Data Science (2e) & tidyverse </span>](https://r4ds.hadley.nz/)
+
+#### [<span style="color: #5b7b75;"> Geocomputation with R </span>](https://r.geocompx.org/)
+
+#### [<span style="color: #5b7b75;"> Spatial Data Science With Applications in R </span>](https://r-spatial.org/book/)
+
+#### [<span style="color: #5b7b75;"> Spatial data with terra </span>](https://rspatial.org/spatial/index.html)
 
 #### [<span style="color: #5b7b75;"> Unofficial Rcpp Api Documentation </span>](https://thecoatlessprofessor.com/programming/cpp/unofficial-rcpp-api-documentation/)
 
