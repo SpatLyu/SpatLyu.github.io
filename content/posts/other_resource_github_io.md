@@ -14,3 +14,5 @@ showTableOfContents: true
 [Introduce to C++17](http://www.tup.tsinghua.edu.cn/upload/books/yz/081003-01.pdf)
 
 [Xaringan Helper](https://spatlyu.github.io/materials/xaringan.pdf)
+
+[sf tutorial(in chinese)](https://spatlyu.github.io/slides/sf_tutorial.html)
