@@ -146,7 +146,7 @@ background-size: contain
 
 .pull-right[
 
-<img src="./assets/pkgs_lyu.png"; style="margin-bottom: 10px;width: 80%; height: auto;" />
+<img src="./assets/pkgs_lyu.png"; style="margin-top: 45px; width: 80%; height:50%;" />
 
 ]
 
