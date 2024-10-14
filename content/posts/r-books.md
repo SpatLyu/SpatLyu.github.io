@@ -203,6 +203,8 @@ showTableOfContents: true
 
 [**Causal Inference The Mixtape**](https://mixtape.scunning.com/)
 
+[Applied Causal Inference Powered by ML and AI](https://www.causalml-book.org/assets/chapters/CausalML_book.pdf)
+
 [Machine Learning-based Causal Inference Tutorial](https://bookdown.org/stanfordgsbsilab/ml-ci-tutorial/)
 
 
