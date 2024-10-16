@@ -3,7 +3,7 @@ title: geocomplexity
 type: page
 ---
 
-<img src="https://spatlyu.github.io/projects/projects-picture/geocomplexity-logo.png" align="right" height="30"/>
+<img src="https://spatlyu.github.io/projects/projects-picture/geocomplexity.png" align="right" height="30"/>
 
 ### goal
 

@@ -3,7 +3,7 @@ title: arcR
 type: page
 ---
 
-<img src="https://spatlyu.github.io/projects/projects-picture/arcR-logo.png" align="right" height="30"/>
+<img src="https://spatlyu.github.io/projects/projects-picture/arcR.png" align="right" height="30"/>
 
 ### goal
 

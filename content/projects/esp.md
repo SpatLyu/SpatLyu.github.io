@@ -3,7 +3,7 @@ title: esp
 type: page
 ---
 
-<img src="https://spatlyu.github.io/projects/projects-picture/esp-logo.png" align="right" height="30"/>
+<img src="https://spatlyu.github.io/projects/projects-picture/esp.png" align="right" height="30"/>
 
 ### goal
 

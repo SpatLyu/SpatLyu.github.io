@@ -3,7 +3,7 @@ title: spEcula
 type: page
 ---
 
-<img src="https://spatlyu.github.io/projects/projects-picture/spEcula-logo.png" align="right" height="30"/>
+<img src="https://spatlyu.github.io/projects/projects-picture/spEcula.png" align="right" height="30"/>
 
 ### goal
 

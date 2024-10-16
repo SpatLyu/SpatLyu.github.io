@@ -3,7 +3,7 @@ title: tidyrgeoda
 type: page
 ---
 
-<img src="https://spatlyu.github.io/projects/projects-picture/tidyrgeoda-logo.png" align="right" height="30"/>
+<img src="https://spatlyu.github.io/projects/projects-picture/tidyrgeoda.png" align="right" height="30"/>
 
 ### goal
 
