@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Satistics on Wenbo Lv</title>
-    <link>http://localhost:4321/tags/satistics/</link>
+    <link>https://spatlyu.github.io/tags/satistics/</link>
     <description>Recent content in Satistics on Wenbo Lv</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sat, 12 Oct 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:4321/tags/satistics/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://spatlyu.github.io/tags/satistics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Presentation Slides</title>
-      <link>http://localhost:4321/posts/presentation_slides/</link>
+      <link>https://spatlyu.github.io/posts/presentation_slides/</link>
       <pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/presentation_slides/</guid>
+      <guid>https://spatlyu.github.io/posts/presentation_slides/</guid>
       <description>R packages developed by SpatLyu&#xA;Spatial Causal Inference</description>
     </item>
     <item>
       <title>R books</title>
-      <link>http://localhost:4321/posts/r-books/</link>
+      <link>https://spatlyu.github.io/posts/r-books/</link>
       <pubDate>Fri, 11 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/r-books/</guid>
+      <guid>https://spatlyu.github.io/posts/r-books/</guid>
       <description>R fundamentals Introduction to R&#xA;Advanced R&#xA;R for Data Science (2e)&#xA;R Graphics Cookbook, 2nd edition&#xA;The tidyverse style guide&#xA;R in Production&#xA;What They Forgot to Teach You About R&#xA;Data Visualization with ggplot2&#xA;Efficient R programming&#xA;Best Coding Practices for R&#xA;Happy Git and GitHub for the useR&#xA;Rcpp for everyone&#xA;Rcpp for everyone Chinese version&#xA;Unofficial rcpp api documentation&#xA;R Packages (2e)&#xA;R Markdown Chinese guide</description>
     </item>
     <item>
       <title>Some Useful Resource</title>
-      <link>http://localhost:4321/posts/other_resource_github_io/</link>
+      <link>https://spatlyu.github.io/posts/other_resource_github_io/</link>
       <pubDate>Fri, 11 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/other_resource_github_io/</guid>
+      <guid>https://spatlyu.github.io/posts/other_resource_github_io/</guid>
       <description>Mathematical symbols and expressions in rmarkdown&#xA;Introduce to C++17&#xA;Xaringan Helper&#xA;sf tutorial(in chinese)</description>
     </item>
     <item>
       <title>Spatial Econometrics Regression</title>
-      <link>http://localhost:4321/posts/spatial_econometric_regression/</link>
+      <link>https://spatlyu.github.io/posts/spatial_econometric_regression/</link>
       <pubDate>Fri, 23 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/spatial_econometric_regression/</guid>
+      <guid>https://spatlyu.github.io/posts/spatial_econometric_regression/</guid>
       <description>Generalized Nested Spatial Model (GSNM) $$ y = \rho_{Lag} W y + X\beta + WX\gamma + \mu, \mu = \rho_{Err} W \mu + \xi $$&#xA;where $y$ is an $(N \times 1)$ vector of observations on a response variable taken at each of $N$ locations,$W$ is a spatial weight matrix, which is a non-negative matrix of size $N \times N$, $X$ is an $(N \times k)$ matrix of covariates, $\beta$ is a $(k \times 1)$ vector of parameters, $\mu$ is an $(N \times 1)$ spatially autocorrelated disturbance vector, $\xi$ is an $(N \times 1)$ vector of independent and identically distributed disturbances, $\rho_{Lag}$ and $\rho_{Err}$ is a scalar spatial parameter.</description>
     </item>
     <item>
       <title>Awesome GIS Papers</title>
-      <link>http://localhost:4321/posts/awesome-gis-papers/</link>
+      <link>https://spatlyu.github.io/posts/awesome-gis-papers/</link>
       <pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/awesome-gis-papers/</guid>
+      <guid>https://spatlyu.github.io/posts/awesome-gis-papers/</guid>
       <description>On spatial effects in geographical analysis&#xA;Spatial Dependence atakrig: An R package for multivariate area-to-area and area-to-point kriging predictions&#xA;Geocomplexity explains spatial errors&#xA;Spatial Stratefied Heterogeneity(SSH) Geodetector: Principle and prospective&#xA;An optimal parameters-based geographical detector model(OPGD)&#xA;Modeling of spatial stratified heterogeneity&#xA;sandwichr: Spatial prediction in R based on spatial stratified heterogeneity&#xA;Identifying determinants of spatio-temporal disparities in soil moisture of the Northern Hemisphere using a geographically optimal zones-based heterogeneity model</description>
     </item>
   </channel>
