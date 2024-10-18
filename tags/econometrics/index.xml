@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Econometrics on Wenbo Lv</title>
-    <link>http://localhost:4321/tags/econometrics/</link>
+    <link>https://spatlyu.github.io/tags/econometrics/</link>
     <description>Recent content in Econometrics on Wenbo Lv</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 23 Aug 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:4321/tags/econometrics/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://spatlyu.github.io/tags/econometrics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Spatial Econometrics Regression</title>
-      <link>http://localhost:4321/posts/spatial_econometric_regression/</link>
+      <link>https://spatlyu.github.io/posts/spatial_econometric_regression/</link>
       <pubDate>Fri, 23 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/spatial_econometric_regression/</guid>
+      <guid>https://spatlyu.github.io/posts/spatial_econometric_regression/</guid>
       <description>Generalized Nested Spatial Model (GSNM) $$ y = \rho_{Lag} W y + X\beta + WX\gamma + \mu, \mu = \rho_{Err} W \mu + \xi $$&#xA;where $y$ is an $(N \times 1)$ vector of observations on a response variable taken at each of $N$ locations,$W$ is a spatial weight matrix, which is a non-negative matrix of size $N \times N$, $X$ is an $(N \times k)$ matrix of covariates, $\beta$ is a $(k \times 1)$ vector of parameters, $\mu$ is an $(N \times 1)$ spatially autocorrelated disturbance vector, $\xi$ is an $(N \times 1)$ vector of independent and identically distributed disturbances, $\rho_{Lag}$ and $\rho_{Err}$ is a scalar spatial parameter.</description>
     </item>
   </channel>
