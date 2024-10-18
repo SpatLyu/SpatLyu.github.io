@@ -1,0 +1,104 @@
+---
+title: "gdverse: An R package facilitating spatial stratified heterogeneity analysis 
+with geographical detectors"
+author: "Wenbo Lv"
+# institute: "Curtin Geospatial Intelligence Lab & HKUSTGZ AI4City Lab"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+    seal: false
+---
+class: center, middle
+background-image: url("https://spatlyu.github.io/slides/assets/fig_gdverse_pres/fig1.png")
+background-position: center
+background-size: contain
+
+---
+class: center, middle
+background-image: url("https://spatlyu.github.io/slides/assets/fig_gdverse_pres/fig2.png")
+background-position: center
+background-size: contain
+
+---
+class: center, middle
+background-image: url("https://spatlyu.github.io/slides/assets/fig_gdverse_pres/fig3.png")
+background-position: center
+background-size: contain
+
+---
+class: center, middle
+background-image: url("https://spatlyu.github.io/slides/assets/fig_gdverse_pres/fig4.png")
+background-position: center
+background-size: contain
+
+---
+class: center, middle
+background-image: url("https://spatlyu.github.io/slides/assets/fig_gdverse_pres/fig5.png")
+background-position: center
+background-size: contain
+
+---
+class: center, middle
+background-image: url("https://spatlyu.github.io/slides/assets/fig_gdverse_pres/fig6.png")
+background-position: center
+background-size: contain
+
+---
+class: center, middle
+background-image: url("https://spatlyu.github.io/slides/assets/fig_gdverse_pres/fig7.png")
+background-position: center
+background-size: contain
+
+---
+class: center, middle
+background-image: url("https://spatlyu.github.io/slides/assets/fig_gdverse_pres/fig8.png")
+background-position: center
+background-size: contain
+
+---
+class: center, middle
+background-image: url("https://spatlyu.github.io/slides/assets/fig_gdverse_pres/fig9.png")
+background-position: center
+background-size: contain
+
+---
+class: center, middle
+background-image: url("https://spatlyu.github.io/slides/assets/fig_gdverse_pres/fig10.png")
+background-position: center
+background-size: contain
+
+---
+class: center, middle
+background-image: url("https://spatlyu.github.io/slides/assets/fig_gdverse_pres/fig11.png")
+background-position: center
+background-size: contain
+
+---
+class: center, middle
+background-image: url("https://spatlyu.github.io/slides/assets/fig_gdverse_pres/fig12.png")
+background-position: center
+background-size: contain
+
+---
+class: center, middle
+background-image: url("https://spatlyu.github.io/slides/assets/fig_gdverse_pres/fig13.png")
+background-position: center
+background-size: contain
+
+---
+class: center, middle
+background-image: url("https://spatlyu.github.io/slides/assets/fig_gdverse_pres/fig14.png")
+background-position: center
+background-size: contain
+
+---
+class: center, middle
+background-image: url("https://spatlyu.github.io/slides/assets/fig_gdverse_pres/fig15.png")
+background-position: center
+background-size: contain
