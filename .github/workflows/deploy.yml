@@ -25,6 +25,21 @@ jobs:
     # If not needed (e.g., plain static files in 'public' folder), comment this step out.
     # - name: Install dependencies
     #   run: npm install
+    
+    # Fetch the file from the source repo
+    - name: Download cv.pdf from another repo
+      run: |
+        curl -L https://github.com/SpatLyu/cv/raw/main/cv.pdf --output ./public/materials/cv.pdf
+
+    # Commit and push the file to your repository
+    - name: Commit and push changes
+      run: |
+        git config --local user.name "github-actions[bot]"
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git add public/materials/cv.pdf
+        git commit -m "Add cv.pdf to public folder"
+        git push
+    
 
     # Step 4: Deploy the 'public' folder to the 'gh-pages' branch
     - name: Deploy to GitHub Pages
