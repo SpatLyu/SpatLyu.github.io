@@ -1,0 +1,28 @@
+name: Copy cv.pdf to public folder
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  copy-file:
+    runs-on: ubuntu-latest
+    steps:
+      # Checkout your repository
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Fetch the file from the source repo
+      - name: Download cv.pdf from another repo
+        run: |
+          curl -L https://github.com/SpatLyu/cv/raw/main/cv.pdf --output ./public/materials/cv.pdf
+
+      # Commit and push the file to your repository
+      - name: Commit and push changes
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/materials/cv.pdf
+          git commit -m "Add cv.pdf to public folder"
+          git push
