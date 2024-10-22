@@ -1,7 +1,7 @@
 ---
 title: "Awesome GIS Papers"
 author: "Wenbo Lv"
-date: "2024-07-11"
+date: "2024-10-22"
 description: "Advanced spatial methods in GIS Papers."
 tags: ["papers","geoinformatics","satistics"]
 type: post
@@ -40,6 +40,10 @@ showTableOfContents: true
 [**A locally explained heterogeneity model for examining wetland disparity**](https://doi.org/10.1080/17538947.2023.2271883)
 
 [**Understanding and extending the geographical detector model under a linear regression framework**](https://doi.org/10.1080/13658816.2023.2266497)
+
+[**Statistical Modeling of Spatially Stratified Heterogeneous Data**](https://doi.org/10.1080/24694452.2023.2289982)
+
+[Calibrating Spatial Stratified Heterogeneity for Heavy-Tailed Distributed Data](https://doi.org/10.1080/24694452.2024.2351002)
 
 ### Third law of geography
 

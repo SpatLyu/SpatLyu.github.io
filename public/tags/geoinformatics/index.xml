@@ -6,8 +6,15 @@
     <description>Recent content in Geoinformatics on Wenbo Lv</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 18 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Oct 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://spatlyu.github.io/tags/geoinformatics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Awesome GIS Papers</title>
+      <link>https://spatlyu.github.io/posts/awesome-gis-papers/</link>
+      <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://spatlyu.github.io/posts/awesome-gis-papers/</guid>
+      <description>On spatial effects in geographical analysis&#xA;Spatial Dependence atakrig: An R package for multivariate area-to-area and area-to-point kriging predictions&#xA;Geocomplexity explains spatial errors&#xA;Spatial Stratefied Heterogeneity(SSH) Geodetector: Principle and prospective&#xA;An optimal parameters-based geographical detector model(OPGD)&#xA;Modeling of spatial stratified heterogeneity&#xA;sandwichr: Spatial prediction in R based on spatial stratified heterogeneity&#xA;Identifying determinants of spatio-temporal disparities in soil moisture of the Northern Hemisphere using a geographically optimal zones-based heterogeneity model</description>
+    </item>
     <item>
       <title>Presentation Slides</title>
       <link>https://spatlyu.github.io/posts/presentation_slides/</link>
@@ -35,13 +42,6 @@
       <pubDate>Fri, 23 Aug 2024 00:00:00 +0000</pubDate>
       <guid>https://spatlyu.github.io/posts/spatial_econometric_regression/</guid>
       <description>Generalized Nested Spatial Model (GSNM) $$ y = \rho_{Lag} W y + X\beta + WX\gamma + \mu, \mu = \rho_{Err} W \mu + \xi $$&#xA;where $y$ is an $(N \times 1)$ vector of observations on a response variable taken at each of $N$ locations,$W$ is a spatial weight matrix, which is a non-negative matrix of size $N \times N$, $X$ is an $(N \times k)$ matrix of covariates, $\beta$ is a $(k \times 1)$ vector of parameters, $\mu$ is an $(N \times 1)$ spatially autocorrelated disturbance vector, $\xi$ is an $(N \times 1)$ vector of independent and identically distributed disturbances, $\rho_{Lag}$ and $\rho_{Err}$ is a scalar spatial parameter.</description>
-    </item>
-    <item>
-      <title>Awesome GIS Papers</title>
-      <link>https://spatlyu.github.io/posts/awesome-gis-papers/</link>
-      <pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/awesome-gis-papers/</guid>
-      <description>On spatial effects in geographical analysis&#xA;Spatial Dependence atakrig: An R package for multivariate area-to-area and area-to-point kriging predictions&#xA;Geocomplexity explains spatial errors&#xA;Spatial Stratefied Heterogeneity(SSH) Geodetector: Principle and prospective&#xA;An optimal parameters-based geographical detector model(OPGD)&#xA;Modeling of spatial stratified heterogeneity&#xA;sandwichr: Spatial prediction in R based on spatial stratified heterogeneity&#xA;Identifying determinants of spatio-temporal disparities in soil moisture of the Northern Hemisphere using a geographically optimal zones-based heterogeneity model</description>
     </item>
   </channel>
 </rss>
