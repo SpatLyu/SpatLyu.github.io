@@ -13,6 +13,8 @@ showTableOfContents: true
 
 [Introduce to C++17](http://www.tup.tsinghua.edu.cn/upload/books/yz/081003-01.pdf)
 
+[Recommended List of Classic and Cutting-Edge Literature in the Field of Urban Science (Chinese)](https://pattern.swarma.org/article/233?from=wechat)
+
 [Xaringan Helper](https://spatlyu.github.io/materials/xaringan.pdf)
 
 [sf tutorial(in chinese)](https://spatlyu.github.io/slides/sf_tutorial.html)
