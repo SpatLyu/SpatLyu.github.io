@@ -65,13 +65,15 @@ showTableOfContents: true
 
 [**Spatial Causality: A Systematic Review on Spatial Causal Inference**](https://onlinelibrary.wiley.com/doi/abs/10.1111/gean.12312)
 
-[**Conduct Multiple Types of Geographic Regression Discontinuity Designs(SpatialRDD)**](https://axlehner.github.io/SpatialRDD/index.html)
+[Conduct Multiple Types of Geographic Regression Discontinuity Designs(SpatialRDD)](https://axlehner.github.io/SpatialRDD/index.html)
 
-[**Spatial Difference-in-differences (SpatialDID)**](https://www.sciencedirect.com/science/article/pii/S0165176515004371)
+[Spatial Difference-in-differences (SpatialDID)](https://www.sciencedirect.com/science/article/pii/S0165176515004371)
 
 [Evidence on the impact of sustained exposure to air pollution on life expectancy from China’s Huai River policy](https://www.pnas.org/doi/full/10.1073/pnas.1300018110)
 
-[Detecting Causality in Complex Ecosystems](https://www.science.org/doi/10.1126/science.1227079)
+[Rethinking ‘causality’ in quantitative human geography](https://doi.org/10.1111/gec3.12743)
+
+[**Detecting Causality in Complex Ecosystems**](https://www.science.org/doi/10.1126/science.1227079)
 
 [Partial cross mapping eliminates indirect causal influences](https://www.nature.com/articles/s41467-020-16238-0)
 
