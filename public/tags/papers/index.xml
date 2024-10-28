@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Papers on Wenbo Lv</title>
-    <link>https://spatlyu.github.io/tags/papers/</link>
+    <link>http://localhost:4321/tags/papers/</link>
     <description>Recent content in Papers on Wenbo Lv</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Tue, 22 Oct 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://spatlyu.github.io/tags/papers/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:4321/tags/papers/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Awesome GIS Papers</title>
-      <link>https://spatlyu.github.io/posts/awesome-gis-papers/</link>
+      <link>http://localhost:4321/posts/awesome-gis-papers/</link>
       <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/awesome-gis-papers/</guid>
+      <guid>http://localhost:4321/posts/awesome-gis-papers/</guid>
       <description>On spatial effects in geographical analysis&#xA;Spatial Dependence atakrig: An R package for multivariate area-to-area and area-to-point kriging predictions&#xA;Geocomplexity explains spatial errors&#xA;Spatial Stratefied Heterogeneity(SSH) Geodetector: Principle and prospective&#xA;An optimal parameters-based geographical detector model(OPGD)&#xA;Modeling of spatial stratified heterogeneity&#xA;sandwichr: Spatial prediction in R based on spatial stratified heterogeneity&#xA;Identifying determinants of spatio-temporal disparities in soil moisture of the Northern Hemisphere using a geographically optimal zones-based heterogeneity model</description>
     </item>
   </channel>
