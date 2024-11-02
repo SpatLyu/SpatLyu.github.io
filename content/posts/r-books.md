@@ -83,6 +83,8 @@ showTableOfContents: true
 
 [Geographic Data Science with R: Visualizing and Analyzing Environmental Change](https://bookdown.org/mcwimberly/gdswr-book/)
 
+[Mapping and spatial analyses in R for One Health studies](http://rspatial4onehealth.geohealthresearch.org/)
+
 [The lidR package](https://r-lidar.github.io/lidRbook/)
 
 
