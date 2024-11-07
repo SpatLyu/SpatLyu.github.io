@@ -1,7 +1,7 @@
 ---
 title: "R books"
 author: "Wenbo Lv"
-date: "2024-10-31"
+date: "2024-11-06"
 description: "Useful R Books and Tutorials."
 tags: ["books","r","geoinformatics","satistics"]
 type: post
@@ -96,13 +96,39 @@ knitr::opts_chunk$set(echo = TRUE,
 
 
 
-## Network Analysis
+## Spatial Analysis & Spatial Statistics
 
-[Network Analysis in R](https://robwiederstein.github.io/network_analysis/index.html)
+[**An Introduction to Spatial Data Analysis and Statistics: A Course in R**](https://paezha.github.io/spatial-analysis-r/)
 
-[Introduction to Network Analysis Using R](https://yunranchen.github.io/intro-net-r/)
+[**Spatial Data Science**](https://r-spatial.org/book/)
 
-[**Network Analysis: Integrating Social Network Theory, Method, and Application with R**](https://inarwhal.github.io/NetworkAnalysisR-book/)
+[**Spatial Statistics with R**](https://edzer.github.io/sswr/)
+
+[Hands-On Spatial Data Science with R](https://spatialanalysis.github.io/handsonspatialdata/index.html)
+
+[**Spatial sampling with R**](https://dickbrus.github.io/SpatialSamplingwithR/)
+
+[**Spatial Microsimulation with R**](https://spatial-microsim-book.robinlovelace.net/)
+
+[**Spatial Statistics for Data Science: Theory and Practice with R**](https://www.paulamoraga.com/book-spatial/index.html)
+
+[Spatial Modelling for Data Scientists](https://gdsl-ul.github.io/san/)
+
+[**Bayesian inference with INLA**](https://becarioprecario.bitbucket.io/inla-gitbook/)
+
+[**Advanced Spatial Modeling with Stochastic Partial Differential Equations Using R and INLA** ](https://becarioprecario.bitbucket.io/spde-gitbook/)
+
+[Geospatial Health Data: Modeling and Visualization with R-INLA and Shiny](https://www.paulamoraga.com/book-geospatial/)
+
+[Crime Mapping and Spatial Data Analysis using R](https://maczokni.github.io/crime_mapping/)
+
+[Introduction to urban accessibility](https://ipeagit.github.io/intro_access_book/)
+
+[GEOG3915 GeoComputation and Spatial Analysis practicals](https://bookdown.org/lexcomber/GEOG3195/)
+
+[Satellite Image Time Series Analysis on Earth Observation Data Cubes](https://e-sensing.github.io/sitsbook/index.html)
+
+[Spatial and spatiotemporal interpolation using Ensemble Machine Learning](https://opengeohub.github.io/spatial-prediction-eml/)
 
 
 
@@ -168,42 +194,6 @@ knitr::opts_chunk$set(echo = TRUE,
 
 
 
-## Spatial Analysis & Spatial Statistics
-
-[**Spatial Data Science**](https://r-spatial.org/book/)
-
-[**Spatial Statistics with R**](https://edzer.github.io/sswr/)
-
-[Hands-On Spatial Data Science with R](https://spatialanalysis.github.io/handsonspatialdata/index.html)
-
-[**An Introduction to Spatial Data Analysis and Statistics: A Course in R**](https://paezha.github.io/spatial-analysis-r/)
-
-[**Spatial sampling with R**](https://dickbrus.github.io/SpatialSamplingwithR/)
-
-[**Spatial Microsimulation with R**](https://spatial-microsim-book.robinlovelace.net/)
-
-[**Spatial Statistics for Data Science: Theory and Practice with R**](https://www.paulamoraga.com/book-spatial/index.html)
-
-[Spatial Modelling for Data Scientists](https://gdsl-ul.github.io/san/)
-
-[**Bayesian inference with INLA**](https://becarioprecario.bitbucket.io/inla-gitbook/)
-
-[**Advanced Spatial Modeling with Stochastic Partial Differential Equations Using R and INLA** ](https://becarioprecario.bitbucket.io/spde-gitbook/)
-
-[Geospatial Health Data: Modeling and Visualization with R-INLA and Shiny](https://www.paulamoraga.com/book-geospatial/)
-
-[Crime Mapping and Spatial Data Analysis using R](https://maczokni.github.io/crime_mapping/)
-
-[Introduction to urban accessibility](https://ipeagit.github.io/intro_access_book/)
-
-[GEOG3915 GeoComputation and Spatial Analysis practicals](https://bookdown.org/lexcomber/GEOG3195/)
-
-[Satellite Image Time Series Analysis on Earth Observation Data Cubes](https://e-sensing.github.io/sitsbook/index.html)
-
-[Spatial and spatiotemporal interpolation using Ensemble Machine Learning](https://opengeohub.github.io/spatial-prediction-eml/)
-
-
-
 ## Causal Inference
 
 [**The Effect: An Introduction to Research Design and Causality**](https://theeffectbook.net/)
@@ -215,5 +205,15 @@ knitr::opts_chunk$set(echo = TRUE,
 [Applied Causal Inference Powered by ML and AI](https://www.causalml-book.org/assets/chapters/CausalML_book.pdf)
 
 [Machine Learning-based Causal Inference Tutorial](https://bookdown.org/stanfordgsbsilab/ml-ci-tutorial/)
+
+
+
+## Network Analysis
+
+[Network Analysis in R](https://robwiederstein.github.io/network_analysis/index.html)
+
+[Introduction to Network Analysis Using R](https://yunranchen.github.io/intro-net-r/)
+
+[**Network Analysis: Integrating Social Network Theory, Method, and Application with R**](https://inarwhal.github.io/NetworkAnalysisR-book/)
 
 
