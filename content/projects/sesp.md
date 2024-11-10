@@ -11,12 +11,12 @@ type: page
 
 ### document
 
-You can see the document of **sesp** in [here](https://ausgis.github.io/sesp/)
+You can see the document of **sesp** in [here](https://stscl.github.io/sesp/)
 
 ### source code
 
-The source code of **sesp** is in [here](https://github.com/ausgis/sesp/)
+The source code of **sesp** is in [here](https://github.com/stscl/sesp/)
 
 ### feedback
 
-If you have any questions or suggestions, please post them in [sesp github repo issue](https://github.com/ausgis/sesp/issues).
+If you have any questions or suggestions, please post them in [sesp github repo issue](https://github.com/stscl/sesp/issues).
