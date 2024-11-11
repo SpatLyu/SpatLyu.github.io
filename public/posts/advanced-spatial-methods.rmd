@@ -1,9 +1,9 @@
 ---
-title: "Awesome GIS Papers"
+title: "Advanced Spatial Methods"
 author: "Wenbo Lv"
-date: "2024-10-22"
-description: "Advanced spatial methods in GIS Papers"
-tags: ["papers","geoinformatics","satistics"]
+date: "2024-11-10"
+description: "Advanced Spatial Methods in the Literature"
+tags: ["spatial methods","geoinformatics","satistics"]
 type: post
 weight: 25
 showTableOfContents: true
@@ -84,3 +84,5 @@ showTableOfContents: true
 [Spatial convergent cross mapping to detect causal relationships from short time series](https://esajournals.onlinelibrary.wiley.com/doi/full/10.1890/14-1479.1)
 
 [**Causal inference from cross-sectional earth system data with geographical convergent cross mapping**](https://www.nature.com/articles/s41467-023-41619-6)
+
+[**Decomposing causality into its synergistic, unique, and redundant components**](https://www.nature.com/articles/s41467-024-53373-4)
