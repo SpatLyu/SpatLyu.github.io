@@ -16,6 +16,13 @@
       <description>R fundamentals Introduction to R&#xA;Advanced R&#xA;R for Data Science (2e)&#xA;R Graphics Cookbook, 2nd edition&#xA;The tidyverse style guide&#xA;R in Production&#xA;What They Forgot to Teach You About R&#xA;Data Visualization with ggplot2&#xA;Efficient R programming&#xA;Best Coding Practices for R&#xA;Happy Git and GitHub for the useR&#xA;Rcpp for everyone&#xA;Rcpp for everyone Chinese version&#xA;Unofficial rcpp api documentation&#xA;R Packages (2e)&#xA;R Markdown Chinese guide</description>
     </item>
     <item>
+      <title>Spatial Econometrics Regression</title>
+      <link>https://spatlyu.github.io/posts/spatial_econometric_regression/</link>
+      <pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://spatlyu.github.io/posts/spatial_econometric_regression/</guid>
+      <description>Generalized Nested Spatial Model (GSNM) $$ y = \rho_{Lag} W y + X\beta + WX\gamma + \mu, \mu = \rho_{Err} W \mu + \xi $$&#xA;where $y$ is an $(N \times 1)$ vector of observations on a response variable taken at each of $N$ locations,$W$ is a spatial weight matrix, which is a non-negative matrix of size $N \times N$, $X$ is an $(N \times k)$ matrix of covariates, $\beta$ is a $(k \times 1)$ vector of parameters, $\mu$ is an $(N \times 1)$ spatially autocorrelated disturbance vector, $\xi$ is an $(N \times 1)$ vector of independent and identically distributed disturbances, $\rho_{Lag}$ and $\rho_{Err}$ is a scalar spatial parameter.</description>
+    </item>
+    <item>
       <title>Some Useful Resource</title>
       <link>https://spatlyu.github.io/posts/other_resource_github_io/</link>
       <pubDate>Fri, 11 Oct 2024 00:00:00 +0000</pubDate>
@@ -28,13 +35,6 @@
       <pubDate>Thu, 05 Sep 2024 00:00:00 +0000</pubDate>
       <guid>https://spatlyu.github.io/posts/legend_in_ggplot2_3-5-x/</guid>
       <description>library(tidyverse) library(ggspatial) road = sfnetworks::roxel %&amp;gt;% dplyr::mutate(rn = rnorm(nrow(.))) fig_g = ggplot(data = road) + geom_sf(aes(color = rn), lwd = 0.75) + scale_color_gradientn(colors = c(&amp;#34;#4575B4&amp;#34;,&amp;#34;#91BFDB&amp;#34;,&amp;#34;#E0F3F8&amp;#34;, &amp;#34;#FFFFBF&amp;#34;,&amp;#34;#FEE090&amp;#34;,&amp;#34;#FC8D59&amp;#34;), name = &amp;#34;random number&amp;#34;) + annotation_north_arrow(location = &amp;#39;tl&amp;#39;, height = unit(1, &amp;#34;cm&amp;#34;), width = unit(1, &amp;#34;cm&amp;#34;),) + annotation_scale(location = &amp;#39;bl&amp;#39;) + theme_bw() + theme(legend.justification = c(&amp;#39;right&amp;#39;,&amp;#39;bottom&amp;#39;), legend.position = &amp;#34;inside&amp;#34;, legend.background = element_rect(fill = &amp;#39;transparent&amp;#39;), legend.direction = &amp;#34;horizontal&amp;#34;, legend.key.width = unit(15, &amp;#34;pt&amp;#34;), legend.key.height = unit(5, &amp;#34;pt&amp;#34;)) fig_g 注意以下几点:</description>
-    </item>
-    <item>
-      <title>Spatial Econometrics Regression</title>
-      <link>https://spatlyu.github.io/posts/spatial_econometric_regression/</link>
-      <pubDate>Fri, 23 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/spatial_econometric_regression/</guid>
-      <description>Generalized Nested Spatial Model (GSNM) $$ y = \rho_{Lag} W y + X\beta + WX\gamma + \mu, \mu = \rho_{Err} W \mu + \xi $$&#xA;where $y$ is an $(N \times 1)$ vector of observations on a response variable taken at each of $N$ locations,$W$ is a spatial weight matrix, which is a non-negative matrix of size $N \times N$, $X$ is an $(N \times k)$ matrix of covariates, $\beta$ is a $(k \times 1)$ vector of parameters, $\mu$ is an $(N \times 1)$ spatially autocorrelated disturbance vector, $\xi$ is an $(N \times 1)$ vector of independent and identically distributed disturbances, $\rho_{Lag}$ and $\rho_{Err}$ is a scalar spatial parameter.</description>
     </item>
     <item>
       <title>Increment operator in cpp</title>
