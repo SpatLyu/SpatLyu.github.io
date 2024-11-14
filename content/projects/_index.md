@@ -13,6 +13,8 @@ type: page
 
 [sesp](/projects/sesp/)
 
+[cisp](/projects/cisp/)
+
 [spEcula](/projects/specula/)
 
 [tidyrgeoda](/projects/tidyrgeoda/)
