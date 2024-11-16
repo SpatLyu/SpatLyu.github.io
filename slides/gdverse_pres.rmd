@@ -1,6 +1,5 @@
 ---
-title: "gdverse: An R package facilitating spatial stratified heterogeneity analysis 
-with geographical detectors"
+title: "gdverse: An R package for spatial stratified heterogeneity family"
 author: "Wenbo Lv"
 # institute: "Curtin Geospatial Intelligence Lab & HKUSTGZ AI4City Lab"
 date: "`r Sys.Date()`"
