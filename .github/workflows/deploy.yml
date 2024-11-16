@@ -29,7 +29,7 @@ jobs:
     # Fetch the file from the source repo
     - name: Download cv.pdf from another repo
       run: |
-        curl -L https://github.com/SpatLyu/cv/raw/main/cv.pdf --output ./public/materials/cv.pdf
+        curl -L https://github.com/SpatLyu/cv/raw/main/cv_hyndman/cv.pdf --output ./public/materials/cv.pdf
 
     # Commit and push the file to your repository
     # - name: Commit and push changes
