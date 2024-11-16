@@ -6,14 +6,14 @@
     <description>Recent content in Presentation on Wenbo Lv</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 18 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://spatlyu.github.io/tags/presentation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Presentation Slides</title>
       <link>https://spatlyu.github.io/posts/presentation_slides/</link>
-      <pubDate>Fri, 18 Oct 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
       <guid>https://spatlyu.github.io/posts/presentation_slides/</guid>
-      <description>R packages developed by SpatLyu&#xA;gdverse: An R package facilitating spatial stratified heterogeneity analysis with geographical detectors&#xA;Spatial Causal Inference</description>
+      <description>R package gdverse&#xA;R packages developed by SpatLyu&#xA;Spatial Causal Inference</description>
     </item>
   </channel>
 </rss>
