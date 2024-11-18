@@ -1,7 +1,7 @@
 ---
 title: "R books"
 author: "Wenbo Lv"
-date: "2024-11-06"
+date: "2024-11-18"
 description: "Useful R Books and Tutorials."
 tags: ["books","r","geoinformatics","satistics"]
 type: post
@@ -93,6 +93,8 @@ knitr::opts_chunk$set(echo = TRUE,
 [Mapping and spatial analyses in R for One Health studies](http://rspatial4onehealth.geohealthresearch.org/)
 
 [The lidR package](https://r-lidar.github.io/lidRbook/)
+
+[Analyzing US Census Data: Methods, Maps, and Models in R](https://walker-data.com/census-r/)
 
 
 

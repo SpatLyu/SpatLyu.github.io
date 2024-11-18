@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://spatlyu.github.io/posts/r-books/</loc>
+    <lastmod>2024-11-18T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://spatlyu.github.io/posts/presentation_slides/</loc>
     <lastmod>2024-11-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://spatlyu.github.io/posts/advanced-spatial-methods/</loc>
     <lastmod>2024-11-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://spatlyu.github.io/posts/r-books/</loc>
-    <lastmod>2024-11-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://spatlyu.github.io/posts/spatial_econometric_regression/</loc>
     <lastmod>2024-10-25T00:00:00+00:00</lastmod>
@@ -41,32 +41,32 @@
     <loc>https://spatlyu.github.io/posts/setup-network-proxy/</loc>
     <lastmod>2024-06-05T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://spatlyu.github.io/tags/books/</loc>
+    <lastmod>2024-11-18T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://spatlyu.github.io/tags/geoinformatics/</loc>
-    <lastmod>2024-11-15T00:00:00+00:00</lastmod>
+    <lastmod>2024-11-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://spatlyu.github.io/posts/</loc>
-    <lastmod>2024-11-15T00:00:00+00:00</lastmod>
+    <lastmod>2024-11-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://spatlyu.github.io/tags/r/</loc>
+    <lastmod>2024-11-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://spatlyu.github.io/tags/satistics/</loc>
+    <lastmod>2024-11-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://spatlyu.github.io/tags/</loc>
+    <lastmod>2024-11-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://spatlyu.github.io/</loc>
+    <lastmod>2024-11-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://spatlyu.github.io/tags/presentation/</loc>
     <lastmod>2024-11-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://spatlyu.github.io/tags/satistics/</loc>
-    <lastmod>2024-11-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://spatlyu.github.io/tags/</loc>
-    <lastmod>2024-11-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://spatlyu.github.io/</loc>
-    <lastmod>2024-11-15T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://spatlyu.github.io/tags/spatial-methods/</loc>
     <lastmod>2024-11-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://spatlyu.github.io/tags/books/</loc>
-    <lastmod>2024-11-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://spatlyu.github.io/tags/r/</loc>
-    <lastmod>2024-11-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://spatlyu.github.io/tags/econometrics/</loc>
     <lastmod>2024-10-25T00:00:00+00:00</lastmod>
