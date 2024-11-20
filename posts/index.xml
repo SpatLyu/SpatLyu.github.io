@@ -6,14 +6,14 @@
     <description>Recent content in Posts on Wenbo Lv</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 19 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://spatlyu.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Structural Equation Model (SEM) </title>
-      <link>https://spatlyu.github.io/posts/sem_resources/</link>
-      <pubDate>Tue, 19 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/sem_resources/</guid>
-      <description>结构方程模型的理论、应用以及若干误区-谢益辉&#xA;结构方程模型简介-无名</description>
+      <title>Advanced Spatial Methods</title>
+      <link>https://spatlyu.github.io/posts/advanced-spatial-methods/</link>
+      <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://spatlyu.github.io/posts/advanced-spatial-methods/</guid>
+      <description>Spatial Relationships Spatial Stratefied Heterogeneity(SSH)&#xA;Spatial Causal Inference&#xA;Geocomplexity explains spatial errors&#xA;On spatial effects in geographical analysis&#xA;Geographic Similarity: Third Law of Geography?&#xA;Spatial Prediction Geographically Optimal Similarity&#xA;A generalized heterogeneity model for spatial interpolation&#xA;An ensemble spatial prediction method considering geospatial heterogeneity&#xA;The second dimension of spatial association&#xA;atakrig: An R package for multivariate area-to-area and area-to-point kriging predictions</description>
     </item>
     <item>
       <title>R books</title>
@@ -23,18 +23,32 @@
       <description>R fundamentals Introduction to R&#xA;Advanced R&#xA;R for Data Science (2e)&#xA;R Graphics Cookbook, 2nd edition&#xA;The tidyverse style guide&#xA;R in Production&#xA;What They Forgot to Teach You About R&#xA;Data Visualization with ggplot2&#xA;Efficient R programming&#xA;Best Coding Practices for R&#xA;Happy Git and GitHub for the useR&#xA;Rcpp for everyone&#xA;Rcpp for everyone Chinese version&#xA;Unofficial rcpp api documentation&#xA;R Packages (2e)&#xA;R Markdown Chinese guide</description>
     </item>
     <item>
+      <title>Spatial Causal Inference</title>
+      <link>https://spatlyu.github.io/posts/spcausality_resources/</link>
+      <pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://spatlyu.github.io/posts/spcausality_resources/</guid>
+      <description>Causal inference in spatial statistics&#xA;Spatial Causality: A Systematic Review on Spatial Causal Inference&#xA;Conduct Multiple Types of Geographic Regression Discontinuity Designs(SpatialRDD)&#xA;Spatial Difference-in-differences (SpatialDID)&#xA;Evidence on the impact of sustained exposure to air pollution on life expectancy from China’s Huai River policy&#xA;Rethinking ‘causality’ in quantitative human geography&#xA;Detecting Causality in Complex Ecosystems&#xA;Partial cross mapping eliminates indirect causal influences&#xA;Detecting Causality from Nonlinear Dynamics with Short-term Time Series</description>
+    </item>
+    <item>
+      <title>Spatial Stratified Heterogeneity (SSH)</title>
+      <link>https://spatlyu.github.io/posts/ssh_resources/</link>
+      <pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://spatlyu.github.io/posts/ssh_resources/</guid>
+      <description>Statistical Modeling of Spatially Stratified Heterogeneous Data&#xA;Geodetector: Principle and prospective&#xA;Understanding and extending the geographical detector model under a linear regression framework&#xA;Information Consistency-Based Measures for Spatial Stratified Heterogeneity&#xA;An optimal parameters-based geographical detector model(OPGD)&#xA;Spatial association detector (SPADE)&#xA;Robust geographical detector (RGD)&#xA;An interactive detector for spatial associations (IDSA)&#xA;A locally explained heterogeneity model for examining wetland disparity (LESH)&#xA;Calibrating Spatial Stratified Heterogeneity for Heavy-Tailed Distributed Data&#xA;Modeling of spatial stratified heterogeneity</description>
+    </item>
+    <item>
+      <title>Structural Equation Model (SEM)</title>
+      <link>https://spatlyu.github.io/posts/sem_resources/</link>
+      <pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://spatlyu.github.io/posts/sem_resources/</guid>
+      <description>结构方程模型的理论、应用以及若干误区-谢益辉&#xA;结构方程模型简介-无名</description>
+    </item>
+    <item>
       <title>Presentation Slides</title>
       <link>https://spatlyu.github.io/posts/presentation_slides/</link>
       <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
       <guid>https://spatlyu.github.io/posts/presentation_slides/</guid>
       <description>R package gdverse&#xA;R packages developed by SpatLyu&#xA;Spatial Causal Inference</description>
-    </item>
-    <item>
-      <title>Advanced Spatial Methods</title>
-      <link>https://spatlyu.github.io/posts/advanced-spatial-methods/</link>
-      <pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/advanced-spatial-methods/</guid>
-      <description>On spatial effects in geographical analysis&#xA;Spatial Dependence atakrig: An R package for multivariate area-to-area and area-to-point kriging predictions&#xA;Geocomplexity explains spatial errors&#xA;Spatial Stratefied Heterogeneity(SSH) Geodetector: Principle and prospective&#xA;An optimal parameters-based geographical detector model(OPGD)&#xA;Modeling of spatial stratified heterogeneity&#xA;sandwichr: Spatial prediction in R based on spatial stratified heterogeneity&#xA;Identifying determinants of spatio-temporal disparities in soil moisture of the Northern Hemisphere using a geographically optimal zones-based heterogeneity model</description>
     </item>
     <item>
       <title>Spatial Econometrics Regression</title>

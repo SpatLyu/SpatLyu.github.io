@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Causality on Wenbo Lv</title>
+    <link>https://spatlyu.github.io/tags/causality/</link>
+    <description>Recent content in Causality on Wenbo Lv</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 18 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://spatlyu.github.io/tags/causality/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spatial Causal Inference</title>
+      <link>https://spatlyu.github.io/posts/spcausality_resources/</link>
+      <pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://spatlyu.github.io/posts/spcausality_resources/</guid>
+      <description>Causal inference in spatial statistics&#xA;Spatial Causality: A Systematic Review on Spatial Causal Inference&#xA;Conduct Multiple Types of Geographic Regression Discontinuity Designs(SpatialRDD)&#xA;Spatial Difference-in-differences (SpatialDID)&#xA;Evidence on the impact of sustained exposure to air pollution on life expectancy from China’s Huai River policy&#xA;Rethinking ‘causality’ in quantitative human geography&#xA;Detecting Causality in Complex Ecosystems&#xA;Partial cross mapping eliminates indirect causal influences&#xA;Detecting Causality from Nonlinear Dynamics with Short-term Time Series</description>
+    </item>
+  </channel>
+</rss>
