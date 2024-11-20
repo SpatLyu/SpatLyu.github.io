@@ -1,0 +1,44 @@
+---
+title: "Spatial Stratified Heterogeneity (SSH)"
+author: "Wenbo Lv"
+date: "2024-11-18"
+description: "Theoretical Framework and Model Implementation of Spatial Stratified Heterogeneity (SSH)"
+tags: ["ssh","spatial stratified heterogeneity","satistics","geoinformatics","geodetector"]
+type: post
+weight: 25
+showTableOfContents: true
+---
+
+[**Statistical Modeling of Spatially Stratified Heterogeneous Data**](https://doi.org/10.1080/24694452.2023.2289982)
+
+[**Geodetector: Principle and prospective**](https://doi.org/10.11821/dlxb201701010)
+
+[**Understanding and extending the geographical detector model under a linear regression framework**](https://doi.org/10.1080/13658816.2023.2266497)
+
+[**Information Consistency-Based Measures for Spatial Stratified Heterogeneity**](https://doi.org/10.1080/24694452.2023.2223700)
+
+[**An optimal parameters-based geographical detector model(OPGD)**](https://doi.org/10.1080/15481603.2020.1760434)
+
+[**Spatial association detector (SPADE)**](https://doi.org/10.1080/13658816.2018.1476693)
+
+[**Robust geographical detector (RGD)**](https://doi.org/10.1016/j.jag.2022.102782)
+
+[**An interactive detector for spatial associations (IDSA)**](https://doi.org/10.1080/13658816.2021.1882680)
+
+[**A locally explained heterogeneity model for examining wetland disparity (LESH)**](https://doi.org/10.1080/17538947.2023.2271883)
+
+[Calibrating Spatial Stratified Heterogeneity for Heavy-Tailed Distributed Data](https://doi.org/10.1080/24694452.2024.2351002)
+
+[Modeling of spatial stratified heterogeneity](https://doi.org/10.1080/15481603.2022.2126375)
+
+[sandwichr: Spatial prediction in R based on spatial stratified heterogeneity](https://doi.org/10.1111/tgis.13088)
+
+[Identifying determinants of spatio-temporal disparities in soil moisture of the Northern Hemisphere using a geographically optimal zones-based heterogeneity model (GOZH)](https://doi.org/10.1016/j.isprsjprs.2022.01.009)
+
+[Robust interaction detector: A case of road life expectancy analysis (RID)](https://doi.org/10.1016/j.spasta.2024.100814)
+
+[Spatial rough set-based geographical detectors for nominal target variables](https://doi.org/10.1016/j.ins.2021.12.019)
+
+[Geographical Detectors‐Based Health Risk Assessment and its Application in the Neural Tube Defects Study of the Heshun Region, China](https://doi.org/10.1080/13658810802443457)
+
+[A measure of spatial stratified heterogeneity](https://doi.org/10.1016/j.ecolind.2016.02.052)

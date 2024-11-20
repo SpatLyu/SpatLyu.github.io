@@ -6,27 +6,27 @@
     <description>Recent content in Tags on Wenbo Lv</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 19 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://spatlyu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Geoinformatics</title>
+      <link>https://spatlyu.github.io/tags/geoinformatics/</link>
+      <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://spatlyu.github.io/tags/geoinformatics/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Satistics</title>
       <link>https://spatlyu.github.io/tags/satistics/</link>
-      <pubDate>Tue, 19 Nov 2024 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
       <guid>https://spatlyu.github.io/tags/satistics/</guid>
       <description></description>
     </item>
     <item>
-      <title>Sem</title>
-      <link>https://spatlyu.github.io/tags/sem/</link>
-      <pubDate>Tue, 19 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/tags/sem/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Structural Equation Model</title>
-      <link>https://spatlyu.github.io/tags/structural-equation-model/</link>
-      <pubDate>Tue, 19 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/tags/structural-equation-model/</guid>
+      <title>Spatial Methods</title>
+      <link>https://spatlyu.github.io/tags/spatial-methods/</link>
+      <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://spatlyu.github.io/tags/spatial-methods/</guid>
       <description></description>
     </item>
     <item>
@@ -37,10 +37,17 @@
       <description></description>
     </item>
     <item>
-      <title>Geoinformatics</title>
-      <link>https://spatlyu.github.io/tags/geoinformatics/</link>
+      <title>Causality</title>
+      <link>https://spatlyu.github.io/tags/causality/</link>
       <pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/tags/geoinformatics/</guid>
+      <guid>https://spatlyu.github.io/tags/causality/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Geodetector</title>
+      <link>https://spatlyu.github.io/tags/geodetector/</link>
+      <pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://spatlyu.github.io/tags/geodetector/</guid>
       <description></description>
     </item>
     <item>
@@ -51,17 +58,38 @@
       <description></description>
     </item>
     <item>
+      <title>Sem</title>
+      <link>https://spatlyu.github.io/tags/sem/</link>
+      <pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://spatlyu.github.io/tags/sem/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spatial Stratified Heterogeneity</title>
+      <link>https://spatlyu.github.io/tags/spatial-stratified-heterogeneity/</link>
+      <pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://spatlyu.github.io/tags/spatial-stratified-heterogeneity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ssh</title>
+      <link>https://spatlyu.github.io/tags/ssh/</link>
+      <pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://spatlyu.github.io/tags/ssh/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Structural Equation Model</title>
+      <link>https://spatlyu.github.io/tags/structural-equation-model/</link>
+      <pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://spatlyu.github.io/tags/structural-equation-model/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Presentation</title>
       <link>https://spatlyu.github.io/tags/presentation/</link>
       <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
       <guid>https://spatlyu.github.io/tags/presentation/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Spatial Methods</title>
-      <link>https://spatlyu.github.io/tags/spatial-methods/</link>
-      <pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/tags/spatial-methods/</guid>
       <description></description>
     </item>
     <item>

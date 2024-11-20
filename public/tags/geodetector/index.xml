@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Geodetector on Wenbo Lv</title>
+    <link>https://spatlyu.github.io/tags/geodetector/</link>
+    <description>Recent content in Geodetector on Wenbo Lv</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 18 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://spatlyu.github.io/tags/geodetector/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spatial Stratified Heterogeneity (SSH)</title>
+      <link>https://spatlyu.github.io/posts/ssh_resources/</link>
+      <pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://spatlyu.github.io/posts/ssh_resources/</guid>
+      <description>Statistical Modeling of Spatially Stratified Heterogeneous Data&#xA;Geodetector: Principle and prospective&#xA;Understanding and extending the geographical detector model under a linear regression framework&#xA;Information Consistency-Based Measures for Spatial Stratified Heterogeneity&#xA;An optimal parameters-based geographical detector model(OPGD)&#xA;Spatial association detector (SPADE)&#xA;Robust geographical detector (RGD)&#xA;An interactive detector for spatial associations (IDSA)&#xA;A locally explained heterogeneity model for examining wetland disparity (LESH)&#xA;Calibrating Spatial Stratified Heterogeneity for Heavy-Tailed Distributed Data&#xA;Modeling of spatial stratified heterogeneity</description>
+    </item>
+  </channel>
+</rss>

@@ -1,7 +1,7 @@
 ---
-title: "Structural Equation Model (SEM) "
+title: "Structural Equation Model (SEM)"
 author: "Wenbo Lv"
-date: "2024-11-19"
+date: "2024-11-18"
 description: "Theoretical Foundation and Applications of Structural Equation Modeling (SEM)"
 tags: ["sem","structural equation model","satistics"]
 type: post

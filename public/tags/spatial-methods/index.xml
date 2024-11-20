@@ -6,14 +6,14 @@
     <description>Recent content in Spatial Methods on Wenbo Lv</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 10 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://spatlyu.github.io/tags/spatial-methods/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Advanced Spatial Methods</title>
       <link>https://spatlyu.github.io/posts/advanced-spatial-methods/</link>
-      <pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
       <guid>https://spatlyu.github.io/posts/advanced-spatial-methods/</guid>
-      <description>On spatial effects in geographical analysis&#xA;Spatial Dependence atakrig: An R package for multivariate area-to-area and area-to-point kriging predictions&#xA;Geocomplexity explains spatial errors&#xA;Spatial Stratefied Heterogeneity(SSH) Geodetector: Principle and prospective&#xA;An optimal parameters-based geographical detector model(OPGD)&#xA;Modeling of spatial stratified heterogeneity&#xA;sandwichr: Spatial prediction in R based on spatial stratified heterogeneity&#xA;Identifying determinants of spatio-temporal disparities in soil moisture of the Northern Hemisphere using a geographically optimal zones-based heterogeneity model</description>
+      <description>Spatial Relationships Spatial Stratefied Heterogeneity(SSH)&#xA;Spatial Causal Inference&#xA;Geocomplexity explains spatial errors&#xA;On spatial effects in geographical analysis&#xA;Geographic Similarity: Third Law of Geography?&#xA;Spatial Prediction Geographically Optimal Similarity&#xA;A generalized heterogeneity model for spatial interpolation&#xA;An ensemble spatial prediction method considering geospatial heterogeneity&#xA;The second dimension of spatial association&#xA;atakrig: An R package for multivariate area-to-area and area-to-point kriging predictions</description>
     </item>
   </channel>
 </rss>
