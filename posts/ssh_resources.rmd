@@ -27,18 +27,18 @@ showTableOfContents: true
 
 [**A locally explained heterogeneity model for examining wetland disparity (LESH)**](https://doi.org/10.1080/17538947.2023.2271883)
 
+[Identifying determinants of spatio-temporal disparities in soil moisture of the Northern Hemisphere using a geographically optimal zones-based heterogeneity model (GOZH)](https://doi.org/10.1016/j.isprsjprs.2022.01.009)
+
+[Robust interaction detector: A case of road life expectancy analysis (RID)](https://doi.org/10.1016/j.spasta.2024.100814)
+
+[Spatial rough set-based geographical detectors for nominal target variables (SRSGD)](https://doi.org/10.1016/j.ins.2021.12.019)
+
+[Geographical Detectors‐Based Health Risk Assessment and its Application in the Neural Tube Defects Study of the Heshun Region, China](https://doi.org/10.1080/13658810802443457)
+
+[A measure of spatial stratified heterogeneity](https://doi.org/10.1016/j.ecolind.2016.02.052)
+
 [Calibrating Spatial Stratified Heterogeneity for Heavy-Tailed Distributed Data](https://doi.org/10.1080/24694452.2024.2351002)
 
 [Modeling of spatial stratified heterogeneity](https://doi.org/10.1080/15481603.2022.2126375)
 
 [sandwichr: Spatial prediction in R based on spatial stratified heterogeneity](https://doi.org/10.1111/tgis.13088)
-
-[Identifying determinants of spatio-temporal disparities in soil moisture of the Northern Hemisphere using a geographically optimal zones-based heterogeneity model (GOZH)](https://doi.org/10.1016/j.isprsjprs.2022.01.009)
-
-[Robust interaction detector: A case of road life expectancy analysis (RID)](https://doi.org/10.1016/j.spasta.2024.100814)
-
-[Spatial rough set-based geographical detectors for nominal target variables](https://doi.org/10.1016/j.ins.2021.12.019)
-
-[Geographical Detectors‐Based Health Risk Assessment and its Application in the Neural Tube Defects Study of the Heshun Region, China](https://doi.org/10.1080/13658810802443457)
-
-[A measure of spatial stratified heterogeneity](https://doi.org/10.1016/j.ecolind.2016.02.052)
