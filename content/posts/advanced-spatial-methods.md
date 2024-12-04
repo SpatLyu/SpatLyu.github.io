@@ -1,7 +1,7 @@
 ---
 title: "Advanced Spatial Methods"
 author: "Wenbo Lv"
-date: "2024-11-20"
+date: "2024-12-04"
 description: "Advanced Spatial Methods in the Literature"
 tags: ["spatial methods","geoinformatics","satistics"]
 type: post
@@ -12,6 +12,8 @@ showTableOfContents: true
 ### Spatial Relationships
 
 [Spatial Stratefied Heterogeneity(SSH)](https://spatlyu.github.io/posts/ssh_resources)
+
+[Spatial Association](https://spatlyu.github.io/posts/spassociation_resources)
 
 [Spatial Causal Inference](https://spatlyu.github.io/posts/spcausality_resources)
 

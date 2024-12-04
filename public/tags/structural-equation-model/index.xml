@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Structural Equation Model on Wenbo Lv</title>
-    <link>https://spatlyu.github.io/tags/structural-equation-model/</link>
+    <link>http://localhost:4321/tags/structural-equation-model/</link>
     <description>Recent content in Structural Equation Model on Wenbo Lv</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 18 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://spatlyu.github.io/tags/structural-equation-model/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:4321/tags/structural-equation-model/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Structural Equation Model (SEM)</title>
-      <link>https://spatlyu.github.io/posts/sem_resources/</link>
+      <link>http://localhost:4321/posts/sem_resources/</link>
       <pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/sem_resources/</guid>
+      <guid>http://localhost:4321/posts/sem_resources/</guid>
       <description>结构方程模型的理论、应用以及若干误区-谢益辉&#xA;结构方程模型简介-无名</description>
     </item>
   </channel>
