@@ -2,17 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Causality on Wenbo Lv</title>
-    <link>http://localhost:4321/tags/causality/</link>
+    <link>https://spatlyu.github.io/tags/causality/</link>
     <description>Recent content in Causality on Wenbo Lv</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 18 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:4321/tags/causality/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 04 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://spatlyu.github.io/tags/causality/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spatial Association</title>
+      <link>https://spatlyu.github.io/posts/spassociation_resources/</link>
+      <pubDate>Wed, 04 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://spatlyu.github.io/posts/spassociation_resources/</guid>
+      <description>Spatial Association from the Perspective of Mutual Information</description>
+    </item>
     <item>
       <title>Spatial Causal Inference</title>
-      <link>http://localhost:4321/posts/spcausality_resources/</link>
+      <link>https://spatlyu.github.io/posts/spcausality_resources/</link>
       <pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/spcausality_resources/</guid>
+      <guid>https://spatlyu.github.io/posts/spcausality_resources/</guid>
       <description>Causal inference in spatial statistics&#xA;Spatial Causality: A Systematic Review on Spatial Causal Inference&#xA;Conduct Multiple Types of Geographic Regression Discontinuity Designs(SpatialRDD)&#xA;Spatial Difference-in-differences (SpatialDID)&#xA;Evidence on the impact of sustained exposure to air pollution on life expectancy from China’s Huai River policy&#xA;Rethinking ‘causality’ in quantitative human geography&#xA;Detecting Causality in Complex Ecosystems&#xA;Partial cross mapping eliminates indirect causal influences&#xA;Detecting Causality from Nonlinear Dynamics with Short-term Time Series</description>
     </item>
   </channel>

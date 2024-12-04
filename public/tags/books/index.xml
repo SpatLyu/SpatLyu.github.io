@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Books on Wenbo Lv</title>
-    <link>http://localhost:4321/tags/books/</link>
+    <link>https://spatlyu.github.io/tags/books/</link>
     <description>Recent content in Books on Wenbo Lv</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 18 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:4321/tags/books/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://spatlyu.github.io/tags/books/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>R books</title>
-      <link>http://localhost:4321/posts/r-books/</link>
+      <link>https://spatlyu.github.io/posts/r-books/</link>
       <pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/r-books/</guid>
+      <guid>https://spatlyu.github.io/posts/r-books/</guid>
       <description>R fundamentals Introduction to R&#xA;Advanced R&#xA;R for Data Science (2e)&#xA;R Graphics Cookbook, 2nd edition&#xA;The tidyverse style guide&#xA;R in Production&#xA;What They Forgot to Teach You About R&#xA;Data Visualization with ggplot2&#xA;Efficient R programming&#xA;Best Coding Practices for R&#xA;Happy Git and GitHub for the useR&#xA;Rcpp for everyone&#xA;Rcpp for everyone Chinese version&#xA;Unofficial rcpp api documentation&#xA;R Packages (2e)&#xA;R Markdown Chinese guide</description>
     </item>
     <item>
       <title>Academic Writing Books</title>
-      <link>http://localhost:4321/posts/academic_writing_books/</link>
+      <link>https://spatlyu.github.io/posts/academic_writing_books/</link>
       <pubDate>Sun, 18 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/academic_writing_books/</guid>
+      <guid>https://spatlyu.github.io/posts/academic_writing_books/</guid>
       <description>Academic Paper Science Research Writing: For Non-Native Speakers of English&#xA;How to Write a Lot&#xA;How to Write the Introduction&#xA;Research Proposal Research Proposals: A Practical Guide</description>
     </item>
   </channel>

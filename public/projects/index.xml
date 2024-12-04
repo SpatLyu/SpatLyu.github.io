@@ -2,86 +2,86 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Wenbo Lv</title>
-    <link>http://localhost:4321/projects/</link>
+    <link>https://spatlyu.github.io/projects/</link>
     <description>Recent content in Projects on Wenbo Lv</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:4321/projects/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://spatlyu.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>arcR</title>
-      <link>http://localhost:4321/projects/arcr/</link>
+      <link>https://spatlyu.github.io/projects/arcr/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/projects/arcr/</guid>
+      <guid>https://spatlyu.github.io/projects/arcr/</guid>
       <description>goal The goal of arcR is to integrate the benefits of R and ArcGIS with using ArcGIS in R.&#xA;document You can see the document of arcR in here&#xA;source code The source code of arcR is in here&#xA;feedback If you have any questions or suggestions, please post them in arcR github repo issue.</description>
     </item>
     <item>
       <title>cisp</title>
-      <link>http://localhost:4321/projects/cisp/</link>
+      <link>https://spatlyu.github.io/projects/cisp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/projects/cisp/</guid>
+      <guid>https://spatlyu.github.io/projects/cisp/</guid>
       <description>goal A Correlation Indicator Based On Spatial Patterns.&#xA;document You can see the document of cisp in here&#xA;source code The source code of cisp is in here&#xA;feedback If you have any questions or suggestions, please post them in cisp github repo issue.</description>
     </item>
     <item>
       <title>gdverse</title>
-      <link>http://localhost:4321/projects/gdverse/</link>
+      <link>https://spatlyu.github.io/projects/gdverse/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/projects/gdverse/</guid>
+      <guid>https://spatlyu.github.io/projects/gdverse/</guid>
       <description>goal Analyzing spatial factors and exploring spatial associations based on the concept of spatial stratified heterogeneity, and also takes into account local spatial dependencies, spatial interpretability, potential spatial interactions, and robust spatial stratification. Additionally, it supports geographical detector models established in academic literature.&#xA;document You can see the document of gdverse in here&#xA;source code The source code of gdverse is in here&#xA;feedback If you have any questions or suggestions, please post them in gdverse github repo issue.</description>
     </item>
     <item>
       <title>geocn</title>
-      <link>http://localhost:4321/projects/geocn/</link>
+      <link>https://spatlyu.github.io/projects/geocn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/projects/geocn/</guid>
+      <guid>https://spatlyu.github.io/projects/geocn/</guid>
       <description>goal Provide various commonly used spatial data related to Chinese regions in the R programming environment.&#xA;document You can see the document of geocn in here&#xA;source code The source code of geocn is in here&#xA;feedback If you have any questions or suggestions, please post them in geocn github repo issue.</description>
     </item>
     <item>
       <title>geocomplexity</title>
-      <link>http://localhost:4321/projects/geocomplexity/</link>
+      <link>https://spatlyu.github.io/projects/geocomplexity/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/projects/geocomplexity/</guid>
+      <guid>https://spatlyu.github.io/projects/geocomplexity/</guid>
       <description>goal Mitigating Spatial Bias Through Geographical Complexity&#xA;document You can see the document of geocomplexity in here&#xA;source code The source code of geocomplexity is in here&#xA;feedback If you have any questions or suggestions, please post them in geocomplexity github repo issue.</description>
     </item>
     <item>
       <title>geosom</title>
-      <link>http://localhost:4321/projects/geosom/</link>
+      <link>https://spatlyu.github.io/projects/geosom/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/projects/geosom/</guid>
+      <guid>https://spatlyu.github.io/projects/geosom/</guid>
       <description>goal The goal of geosom is to achieve Spatially-Aware Self-Organizing Maps(GeoSOM) Model in R.&#xA;document You can see the document of geosom in here&#xA;source code The source code of geosom is in here&#xA;feedback If you have any questions or suggestions, please post them in geosom github repo issue.</description>
     </item>
     <item>
       <title>sdsfun</title>
-      <link>http://localhost:4321/projects/sdsfun/</link>
+      <link>https://spatlyu.github.io/projects/sdsfun/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/projects/sdsfun/</guid>
+      <guid>https://spatlyu.github.io/projects/sdsfun/</guid>
       <description>goal Wrapping and supplementing commonly used functions in the R ecosystem related to spatial data science, while serving as a basis for other packages maintained by Wenbo Lv.&#xA;document You can see the document of sdsfun in here&#xA;source code The source code of sdsfun is in here&#xA;feedback If you have any questions or suggestions, please post them in sdsfun github repo issue.</description>
     </item>
     <item>
       <title>sesp</title>
-      <link>http://localhost:4321/projects/sesp/</link>
+      <link>https://spatlyu.github.io/projects/sesp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/projects/sesp/</guid>
+      <guid>https://spatlyu.github.io/projects/sesp/</guid>
       <description>goal Assessing the spatial association between variables through an equivalent geographical detector q-statistic within a regression framework.&#xA;document You can see the document of sesp in here&#xA;source code The source code of sesp is in here&#xA;feedback If you have any questions or suggestions, please post them in sesp github repo issue.</description>
     </item>
     <item>
       <title>spatbox</title>
-      <link>http://localhost:4321/projects/spatbox/</link>
+      <link>https://spatlyu.github.io/projects/spatbox/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/projects/spatbox/</guid>
+      <guid>https://spatlyu.github.io/projects/spatbox/</guid>
       <description>source code The source code of spatbox is in here&#xA;feedback If you have any questions or suggestions, please post them in spatbox github repo issue.</description>
     </item>
     <item>
       <title>spEcula</title>
-      <link>http://localhost:4321/projects/specula/</link>
+      <link>https://spatlyu.github.io/projects/specula/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/projects/specula/</guid>
+      <guid>https://spatlyu.github.io/projects/specula/</guid>
       <description>goal The goal of spEcula is to make it easier to use R for spatial prediction based on various spatial relationships (e.g. spatial dependence, spatial heterogeneity and geographical similarity).&#xA;document You can see the document of spEcula in here&#xA;source code The source code of spEcula is in here&#xA;feedback If you have any questions or suggestions, please post them in spEcula github repo issue.</description>
     </item>
     <item>
       <title>tidyrgeoda</title>
-      <link>http://localhost:4321/projects/tidyrgeoda/</link>
+      <link>https://spatlyu.github.io/projects/tidyrgeoda/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/projects/tidyrgeoda/</guid>
+      <guid>https://spatlyu.github.io/projects/tidyrgeoda/</guid>
       <description>goal The goal of tidyrgeoda is to provide an interface for rgeoda to integrate with sf objects and the tidyverse.&#xA;document You can see the document of tidyrgeoda in here&#xA;source code The source code of tidyrgeoda is in here&#xA;feedback If you have any questions or suggestions, please post them in tidyrgeoda github repo issue.</description>
     </item>
   </channel>
