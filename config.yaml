@@ -52,8 +52,6 @@ params:
       url: https://mastodon.social/@SpatLyu
     - name: orcid
       url: https://orcid.org/0009-0002-6003-3800
-    - name: researchgate
-      url: https://www.researchgate.net/profile/Wenbo-Lv-3
     - name: zhihu
       url: https://www.zhihu.com/people/lyu-geosocial
     - name: bilibili
@@ -62,6 +60,8 @@ params:
       url: https://spatlyu.github.io/materials/cv.pdf
     - name: email
       url: mailto:lyu.geosocial@gmail.com
+    # - name: researchgate
+    #   url: https://www.researchgate.net/profile/Wenbo-Lv-3
     # - name: rocket
     #   url: https://spatlyu.r-universe.dev/
 
