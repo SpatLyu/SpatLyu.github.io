@@ -17,6 +17,8 @@ showTableOfContents: true
 
 [**Information Consistency-Based Measures for Spatial Stratified Heterogeneity**](https://doi.org/10.1080/24694452.2023.2223700)
 
+[**A local indicator of stratified power**](https://doi.org/10.1080/13658816.2024.2437811)
+
 [**An optimal parameters-based geographical detector model(OPGD)**](https://doi.org/10.1080/15481603.2020.1760434)
 
 [**Spatial association detector (SPADE)**](https://doi.org/10.1080/13658816.2018.1476693)
@@ -40,5 +42,7 @@ showTableOfContents: true
 [Calibrating Spatial Stratified Heterogeneity for Heavy-Tailed Distributed Data](https://doi.org/10.1080/24694452.2024.2351002)
 
 [Modeling of spatial stratified heterogeneity](https://doi.org/10.1080/15481603.2022.2126375)
+
+[An optimal multivariate-stratification geographical detector model for revealing the impact of multi-factor combinations on the dependent variable](https://doi.org/10.1080/15481603.2024.2422941)
 
 [sandwichr: Spatial prediction in R based on spatial stratified heterogeneity](https://doi.org/10.1111/tgis.13088)
