@@ -113,6 +113,8 @@ showTableOfContents: true
 
 [**Advanced Spatial Modeling with Stochastic Partial Differential Equations Using R and INLA** ](https://becarioprecario.bitbucket.io/spde-gitbook/)
 
+[Applied Spatial Data Analysis - Spatial Point and Lattice Data](https://sebnemer.github.io/english/courses/asda2020/)
+
 [Geospatial Health Data: Modeling and Visualization with R-INLA and Shiny](https://www.paulamoraga.com/book-geospatial/)
 
 [Crime Mapping and Spatial Data Analysis using R](https://maczokni.github.io/crime_mapping/)
