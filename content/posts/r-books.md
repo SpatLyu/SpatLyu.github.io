@@ -1,7 +1,7 @@
 ---
 title: "R books"
 author: "Wenbo Lv"
-date: "2024-11-18"
+date: "2024-12-14"
 description: "Useful R Books and Tutorials."
 tags: ["books","r","geoinformatics","satistics"]
 type: post

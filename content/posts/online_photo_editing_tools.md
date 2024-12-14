@@ -1,7 +1,7 @@
 ---
 title: "Online Photo Editing Tools"
 author: "Wenbo Lv"
-date: "2024-09-08"
+date: "2024-12-13"
 tags: ["Photo Editing Tools"]
 type: post
 weight: 25
@@ -19,6 +19,8 @@ showTableOfContents: true
 [免费水印去除](https://www.apeaksoft.com/zh-CN/watermark-remover/)
 
 [压缩图像](https://freecompress.com/zh-cn/compress-image)
+
+[在线图片宽高修改工具](https://uutool.cn/img-size)
 
 [PDF工具集合](https://smallpdf.com/cn)
 

@@ -6,8 +6,15 @@
     <description>Recent content in Geoinformatics on Wenbo Lv</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 04 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://spatlyu.github.io/tags/geoinformatics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>R books</title>
+      <link>https://spatlyu.github.io/posts/r-books/</link>
+      <pubDate>Sat, 14 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://spatlyu.github.io/posts/r-books/</guid>
+      <description>R fundamentals Introduction to R&#xA;Advanced R&#xA;R for Data Science (2e)&#xA;R Graphics Cookbook, 2nd edition&#xA;The tidyverse style guide&#xA;R in Production&#xA;What They Forgot to Teach You About R&#xA;Data Visualization with ggplot2&#xA;Efficient R programming&#xA;Best Coding Practices for R&#xA;Happy Git and GitHub for the useR&#xA;Rcpp for everyone&#xA;Rcpp for everyone Chinese version&#xA;Unofficial rcpp api documentation&#xA;R Packages (2e)&#xA;R Markdown Chinese guide</description>
+    </item>
     <item>
       <title>Advanced Spatial Methods</title>
       <link>https://spatlyu.github.io/posts/advanced-spatial-methods/</link>
@@ -21,13 +28,6 @@
       <pubDate>Wed, 04 Dec 2024 00:00:00 +0000</pubDate>
       <guid>https://spatlyu.github.io/posts/spassociation_resources/</guid>
       <description>Spatial Association from the Perspective of Mutual Information</description>
-    </item>
-    <item>
-      <title>R books</title>
-      <link>https://spatlyu.github.io/posts/r-books/</link>
-      <pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/r-books/</guid>
-      <description>R fundamentals Introduction to R&#xA;Advanced R&#xA;R for Data Science (2e)&#xA;R Graphics Cookbook, 2nd edition&#xA;The tidyverse style guide&#xA;R in Production&#xA;What They Forgot to Teach You About R&#xA;Data Visualization with ggplot2&#xA;Efficient R programming&#xA;Best Coding Practices for R&#xA;Happy Git and GitHub for the useR&#xA;Rcpp for everyone&#xA;Rcpp for everyone Chinese version&#xA;Unofficial rcpp api documentation&#xA;R Packages (2e)&#xA;R Markdown Chinese guide</description>
     </item>
     <item>
       <title>Spatial Causal Inference</title>

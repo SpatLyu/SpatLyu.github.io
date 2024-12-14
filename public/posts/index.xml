@@ -6,8 +6,22 @@
     <description>Recent content in Posts on Wenbo Lv</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 04 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://spatlyu.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>R books</title>
+      <link>https://spatlyu.github.io/posts/r-books/</link>
+      <pubDate>Sat, 14 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://spatlyu.github.io/posts/r-books/</guid>
+      <description>R fundamentals Introduction to R&#xA;Advanced R&#xA;R for Data Science (2e)&#xA;R Graphics Cookbook, 2nd edition&#xA;The tidyverse style guide&#xA;R in Production&#xA;What They Forgot to Teach You About R&#xA;Data Visualization with ggplot2&#xA;Efficient R programming&#xA;Best Coding Practices for R&#xA;Happy Git and GitHub for the useR&#xA;Rcpp for everyone&#xA;Rcpp for everyone Chinese version&#xA;Unofficial rcpp api documentation&#xA;R Packages (2e)&#xA;R Markdown Chinese guide</description>
+    </item>
+    <item>
+      <title>Online Photo Editing Tools</title>
+      <link>https://spatlyu.github.io/posts/online_photo_editing_tools/</link>
+      <pubDate>Fri, 13 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://spatlyu.github.io/posts/online_photo_editing_tools/</guid>
+      <description>在线抠图&#xA;在线图片去除底色&#xA;裁剪图像中的圆圈&#xA;调节图片透明度&#xA;免费水印去除&#xA;压缩图像&#xA;在线图片宽高修改工具&#xA;PDF工具集合&#xA;PNG to SVG Conversion&#xA;Initialise favicons from photo</description>
+    </item>
     <item>
       <title>Advanced Spatial Methods</title>
       <link>https://spatlyu.github.io/posts/advanced-spatial-methods/</link>
@@ -21,13 +35,6 @@
       <pubDate>Wed, 04 Dec 2024 00:00:00 +0000</pubDate>
       <guid>https://spatlyu.github.io/posts/spassociation_resources/</guid>
       <description>Spatial Association from the Perspective of Mutual Information</description>
-    </item>
-    <item>
-      <title>R books</title>
-      <link>https://spatlyu.github.io/posts/r-books/</link>
-      <pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/r-books/</guid>
-      <description>R fundamentals Introduction to R&#xA;Advanced R&#xA;R for Data Science (2e)&#xA;R Graphics Cookbook, 2nd edition&#xA;The tidyverse style guide&#xA;R in Production&#xA;What They Forgot to Teach You About R&#xA;Data Visualization with ggplot2&#xA;Efficient R programming&#xA;Best Coding Practices for R&#xA;Happy Git and GitHub for the useR&#xA;Rcpp for everyone&#xA;Rcpp for everyone Chinese version&#xA;Unofficial rcpp api documentation&#xA;R Packages (2e)&#xA;R Markdown Chinese guide</description>
     </item>
     <item>
       <title>Spatial Causal Inference</title>
@@ -70,13 +77,6 @@
       <pubDate>Fri, 11 Oct 2024 00:00:00 +0000</pubDate>
       <guid>https://spatlyu.github.io/posts/other_resource_github_io/</guid>
       <description>Mathematical symbols and expressions in rmarkdown&#xA;Introduce to C++17&#xA;Recommended List of Classic and Cutting-Edge Literature in the Field of Urban Science (Chinese)&#xA;Xaringan Helper&#xA;sf tutorial(in chinese)</description>
-    </item>
-    <item>
-      <title>Online Photo Editing Tools</title>
-      <link>https://spatlyu.github.io/posts/online_photo_editing_tools/</link>
-      <pubDate>Sun, 08 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/online_photo_editing_tools/</guid>
-      <description>在线抠图&#xA;在线图片去除底色&#xA;裁剪图像中的圆圈&#xA;调节图片透明度&#xA;免费水印去除&#xA;压缩图像&#xA;PDF工具集合&#xA;PNG to SVG Conversion&#xA;Initialise favicons from photo</description>
     </item>
     <item>
       <title>Legend in ggplot2 3.5.x</title>
