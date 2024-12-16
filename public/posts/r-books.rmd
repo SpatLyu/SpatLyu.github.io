@@ -138,11 +138,15 @@ knitr::opts_chunk$set(echo = TRUE,
 
 ## Probability Statistics
 
+[**Probability and Distribution Refresher**](https://strimmerlab.github.io/publications/lecture-notes/probability-distribution-refresher/)
+
+[**Matrix and Calculus Refresher**](https://strimmerlab.github.io/publications/lecture-notes/matrix-calculus-refresher/)
+
+[**Statistics 2: Statistical Learning with Likelihood and Bayes**](https://strimmerlab.github.io/publications/lecture-notes/MATH27720-stats2/index.html)
+
 [**Statistical Inference via Data Science**](https://moderndive.com/index.html)
 
 [**Introduction to Econometrics with R**](https://www.econometrics-with-r.org/)
-
-[**Statistics 2: Statistical Learning with Likelihood and Bayes**](https://strimmerlab.github.io/publications/lecture-notes/MATH27720-stats2/index.html)
 
 [**Econometrics for Business Analytics**](https://bookdown.org/cuborican/RE_STAT/)
 
