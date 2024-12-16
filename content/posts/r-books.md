@@ -1,7 +1,7 @@
 ---
 title: "R books"
 author: "Wenbo Lv"
-date: "2024-12-14"
+date: "2024-12-15"
 description: "Useful R Books and Tutorials."
 tags: ["books","r","geoinformatics","satistics"]
 type: post
@@ -134,6 +134,8 @@ showTableOfContents: true
 [**Statistical Inference via Data Science**](https://moderndive.com/index.html)
 
 [**Introduction to Econometrics with R**](https://www.econometrics-with-r.org/)
+
+[**Statistics 2: Statistical Learning with Likelihood and Bayes**](https://strimmerlab.github.io/publications/lecture-notes/MATH27720-stats2/index.html)
 
 [**Econometrics for Business Analytics**](https://bookdown.org/cuborican/RE_STAT/)
 
