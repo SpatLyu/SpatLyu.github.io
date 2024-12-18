@@ -1,9 +1,9 @@
 ---
 title: "Some Useful Resource"
 author: "Wenbo Lv"
-date: "2024-10-11"
+date: "2024-12-18"
 description: "Useful resource in spatlyu.github.io"
-tags: ["r","geoinformatics","satistics"]
+tags: ["r","geoinformatics","statistics"]
 type: post
 weight: 25
 showTableOfContents: true
@@ -12,6 +12,8 @@ showTableOfContents: true
 [Mathematical symbols and expressions in rmarkdown](https://spatlyu.github.io/materials/mathsymbols.html)
 
 [Introduce to C++17](http://www.tup.tsinghua.edu.cn/upload/books/yz/081003-01.pdf)
+
+[Copula Entropy: Theory and Applications (Chinese)](https://majianthu.github.io/ce-survey.pdf)
 
 [Recommended List of Classic and Cutting-Edge Literature in the Field of Urban Science (Chinese)](https://pattern.swarma.org/article/233?from=wechat)
 
