@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Wenbo Lv</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 15 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://spatlyu.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Some Useful Resource</title>
+      <link>https://spatlyu.github.io/posts/other_resource_github_io/</link>
+      <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://spatlyu.github.io/posts/other_resource_github_io/</guid>
+      <description>Mathematical symbols and expressions in rmarkdown&#xA;Introduce to C++17&#xA;Copula Entropy: Theory and Applications (Chinese)&#xA;Recommended List of Classic and Cutting-Edge Literature in the Field of Urban Science (Chinese)&#xA;Xaringan Helper&#xA;sf tutorial(in chinese)</description>
+    </item>
     <item>
       <title>R books</title>
       <link>https://spatlyu.github.io/posts/r-books/</link>
@@ -70,13 +77,6 @@
       <pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate>
       <guid>https://spatlyu.github.io/posts/spatial_econometric_regression/</guid>
       <description>Generalized Nested Spatial Model (GSNM) $$ y = \rho_{Lag} W y + X\beta + WX\gamma + \mu, \mu = \rho_{Err} W \mu + \xi $$&#xA;where $y$ is an $(N \times 1)$ vector of observations on a response variable taken at each of $N$ locations,$W$ is a spatial weight matrix, which is a non-negative matrix of size $N \times N$, $X$ is an $(N \times k)$ matrix of covariates, $\beta$ is a $(k \times 1)$ vector of parameters, $\mu$ is an $(N \times 1)$ spatially autocorrelated disturbance vector, $\xi$ is an $(N \times 1)$ vector of independent and identically distributed disturbances, $\rho_{Lag}$ and $\rho_{Err}$ is a scalar spatial parameter.</description>
-    </item>
-    <item>
-      <title>Some Useful Resource</title>
-      <link>https://spatlyu.github.io/posts/other_resource_github_io/</link>
-      <pubDate>Fri, 11 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/other_resource_github_io/</guid>
-      <description>Mathematical symbols and expressions in rmarkdown&#xA;Introduce to C++17&#xA;Recommended List of Classic and Cutting-Edge Literature in the Field of Urban Science (Chinese)&#xA;Xaringan Helper&#xA;sf tutorial(in chinese)</description>
     </item>
     <item>
       <title>Legend in ggplot2 3.5.x</title>
