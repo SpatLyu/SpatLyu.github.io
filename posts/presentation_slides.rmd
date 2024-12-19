@@ -2,7 +2,7 @@
 title: "Presentation Slides"
 date: "2024-11-15"
 description: "A slide collection of personal presentations"
-tags: ["geoinformatics","satistics","presentation"]
+tags: ["geoinformatics","statistics","presentation"]
 type: post
 weight: 25
 showTableOfContents: true

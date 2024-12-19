@@ -6,41 +6,34 @@
     <description>Recent content in Tags on Wenbo Lv</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://spatlyu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Books</title>
+      <link>https://spatlyu.github.io/tags/books/</link>
+      <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://spatlyu.github.io/tags/books/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Geoinformatics</title>
       <link>https://spatlyu.github.io/tags/geoinformatics/</link>
-      <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
       <guid>https://spatlyu.github.io/tags/geoinformatics/</guid>
       <description></description>
     </item>
     <item>
       <title>R</title>
       <link>https://spatlyu.github.io/tags/r/</link>
-      <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
       <guid>https://spatlyu.github.io/tags/r/</guid>
       <description></description>
     </item>
     <item>
       <title>Statistics</title>
       <link>https://spatlyu.github.io/tags/statistics/</link>
-      <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
       <guid>https://spatlyu.github.io/tags/statistics/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Books</title>
-      <link>https://spatlyu.github.io/tags/books/</link>
-      <pubDate>Sun, 15 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/tags/books/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Satistics</title>
-      <link>https://spatlyu.github.io/tags/satistics/</link>
-      <pubDate>Sun, 15 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/tags/satistics/</guid>
       <description></description>
     </item>
     <item>
@@ -69,6 +62,13 @@
       <link>https://spatlyu.github.io/tags/geodetector/</link>
       <pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate>
       <guid>https://spatlyu.github.io/tags/geodetector/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Satistics</title>
+      <link>https://spatlyu.github.io/tags/satistics/</link>
+      <pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://spatlyu.github.io/tags/satistics/</guid>
       <description></description>
     </item>
     <item>

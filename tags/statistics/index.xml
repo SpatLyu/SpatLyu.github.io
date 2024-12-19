@@ -6,14 +6,49 @@
     <description>Recent content in Statistics on Wenbo Lv</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://spatlyu.github.io/tags/statistics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>R books</title>
+      <link>https://spatlyu.github.io/posts/r-books/</link>
+      <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://spatlyu.github.io/posts/r-books/</guid>
+      <description>R fundamentals Introduction to R&#xA;Advanced R&#xA;R for Data Science (2e)&#xA;R Graphics Cookbook, 2nd edition&#xA;The tidyverse style guide&#xA;R in Production&#xA;What They Forgot to Teach You About R&#xA;Data Visualization with ggplot2&#xA;Efficient R programming&#xA;Best Coding Practices for R&#xA;Happy Git and GitHub for the useR&#xA;Rcpp for everyone&#xA;Rcpp for everyone Chinese version&#xA;Unofficial rcpp api documentation&#xA;R Packages (2e)&#xA;R Markdown Chinese guide</description>
+    </item>
     <item>
       <title>Some Useful Resource</title>
       <link>https://spatlyu.github.io/posts/other_resource_github_io/</link>
       <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
       <guid>https://spatlyu.github.io/posts/other_resource_github_io/</guid>
       <description>Statistics and Information Theory&#xA;Copula Entropy: Theory and Applications (Chinese)&#xA;Recommended List of Classic and Cutting-Edge Literature in the Field of Urban Science (Chinese)&#xA;Mathematical symbols and expressions in rmarkdown&#xA;Xaringan Helper&#xA;sf tutorial(in chinese)</description>
+    </item>
+    <item>
+      <title>Advanced Spatial Methods</title>
+      <link>https://spatlyu.github.io/posts/advanced-spatial-methods/</link>
+      <pubDate>Wed, 04 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://spatlyu.github.io/posts/advanced-spatial-methods/</guid>
+      <description>Spatial Relationships Spatial Stratefied Heterogeneity(SSH)&#xA;Spatial Association&#xA;Spatial Causal Inference&#xA;Geocomplexity explains spatial errors&#xA;On spatial effects in geographical analysis&#xA;Geographic Similarity: Third Law of Geography?&#xA;Spatial Prediction Geographically Optimal Similarity&#xA;A generalized heterogeneity model for spatial interpolation&#xA;An ensemble spatial prediction method considering geospatial heterogeneity&#xA;The second dimension of spatial association&#xA;atakrig: An R package for multivariate area-to-area and area-to-point kriging predictions</description>
+    </item>
+    <item>
+      <title>Spatial Association</title>
+      <link>https://spatlyu.github.io/posts/spassociation_resources/</link>
+      <pubDate>Wed, 04 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://spatlyu.github.io/posts/spassociation_resources/</guid>
+      <description>Spatial Association from the Perspective of Mutual Information&#xA;Spatial association between regionalizations using the information-theoretical V-measure</description>
+    </item>
+    <item>
+      <title>Spatial Stratified Heterogeneity (SSH)</title>
+      <link>https://spatlyu.github.io/posts/ssh_resources/</link>
+      <pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://spatlyu.github.io/posts/ssh_resources/</guid>
+      <description>Statistical Modeling of Spatially Stratified Heterogeneous Data&#xA;Geodetector: Principle and prospective&#xA;Understanding and extending the geographical detector model under a linear regression framework&#xA;Information Consistency-Based Measures for Spatial Stratified Heterogeneity&#xA;A local indicator of stratified power&#xA;An optimal parameters-based geographical detector model(OPGD)&#xA;Spatial association detector (SPADE)&#xA;Robust geographical detector (RGD)&#xA;An interactive detector for spatial associations (IDSA)&#xA;A locally explained heterogeneity model for examining wetland disparity (LESH)&#xA;Identifying determinants of spatio-temporal disparities in soil moisture of the Northern Hemisphere using a geographically optimal zones-based heterogeneity model (GOZH)</description>
+    </item>
+    <item>
+      <title>Presentation Slides</title>
+      <link>https://spatlyu.github.io/posts/presentation_slides/</link>
+      <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://spatlyu.github.io/posts/presentation_slides/</guid>
+      <description>R package gdverse&#xA;R packages developed by SpatLyu&#xA;Spatial Causal Inference</description>
     </item>
   </channel>
 </rss>
