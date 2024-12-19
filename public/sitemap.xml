@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://spatlyu.github.io/posts/r-books/</loc>
+    <lastmod>2024-12-19T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://spatlyu.github.io/posts/other_resource_github_io/</loc>
     <lastmod>2024-12-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://spatlyu.github.io/posts/r-books/</loc>
-    <lastmod>2024-12-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://spatlyu.github.io/posts/online_photo_editing_tools/</loc>
     <lastmod>2024-12-13T00:00:00+00:00</lastmod>
@@ -53,29 +53,26 @@
     <loc>https://spatlyu.github.io/posts/setup-network-proxy/</loc>
     <lastmod>2024-06-05T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://spatlyu.github.io/tags/books/</loc>
+    <lastmod>2024-12-19T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://spatlyu.github.io/tags/geoinformatics/</loc>
-    <lastmod>2024-12-18T00:00:00+00:00</lastmod>
+    <lastmod>2024-12-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://spatlyu.github.io/posts/</loc>
-    <lastmod>2024-12-18T00:00:00+00:00</lastmod>
+    <lastmod>2024-12-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://spatlyu.github.io/tags/r/</loc>
-    <lastmod>2024-12-18T00:00:00+00:00</lastmod>
+    <lastmod>2024-12-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://spatlyu.github.io/tags/statistics/</loc>
-    <lastmod>2024-12-18T00:00:00+00:00</lastmod>
+    <lastmod>2024-12-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://spatlyu.github.io/tags/</loc>
-    <lastmod>2024-12-18T00:00:00+00:00</lastmod>
+    <lastmod>2024-12-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://spatlyu.github.io/</loc>
-    <lastmod>2024-12-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://spatlyu.github.io/tags/books/</loc>
-    <lastmod>2024-12-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://spatlyu.github.io/tags/satistics/</loc>
-    <lastmod>2024-12-15T00:00:00+00:00</lastmod>
+    <lastmod>2024-12-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://spatlyu.github.io/tags/photo-editing-tools/</loc>
     <lastmod>2024-12-13T00:00:00+00:00</lastmod>
@@ -87,6 +84,9 @@
     <lastmod>2024-12-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://spatlyu.github.io/tags/geodetector/</loc>
+    <lastmod>2024-11-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://spatlyu.github.io/tags/satistics/</loc>
     <lastmod>2024-11-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://spatlyu.github.io/tags/sem/</loc>

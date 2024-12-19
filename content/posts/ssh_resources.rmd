@@ -3,7 +3,7 @@ title: "Spatial Stratified Heterogeneity (SSH)"
 author: "Wenbo Lv"
 date: "2024-11-18"
 description: "Theoretical Framework and Model Implementation of Spatial Stratified Heterogeneity (SSH)"
-tags: ["ssh","spatial stratified heterogeneity","satistics","geoinformatics","geodetector"]
+tags: ["ssh","spatial stratified heterogeneity","statistics","geoinformatics","geodetector"]
 type: post
 weight: 25
 showTableOfContents: true

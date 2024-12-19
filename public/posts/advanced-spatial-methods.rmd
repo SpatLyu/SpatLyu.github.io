@@ -3,7 +3,7 @@ title: "Advanced Spatial Methods"
 author: "Wenbo Lv"
 date: "2024-12-04"
 description: "Advanced Spatial Methods in the Literature"
-tags: ["spatial methods","geoinformatics","satistics"]
+tags: ["spatial methods","geoinformatics","statistics"]
 type: post
 weight: 25
 showTableOfContents: true
