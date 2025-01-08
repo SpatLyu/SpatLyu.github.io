@@ -1,7 +1,7 @@
 ---
 title: "Spatial Stratified Heterogeneity (SSH)"
 author: "Wenbo Lv"
-date: "2024-11-18"
+date: "2025-01-08"
 description: "Theoretical Framework and Model Implementation of Spatial Stratified Heterogeneity (SSH)"
 tags: ["ssh","spatial stratified heterogeneity","statistics","geoinformatics","geodetector"]
 type: post
@@ -42,6 +42,8 @@ showTableOfContents: true
 [Calibrating Spatial Stratified Heterogeneity for Heavy-Tailed Distributed Data](https://doi.org/10.1080/24694452.2024.2351002)
 
 [Modeling of spatial stratified heterogeneity](https://doi.org/10.1080/15481603.2022.2126375)
+
+[Development of a multiscale discretization method for the geographical detector model](https://doi.org/10.1080/13658816.2021.1884686)
 
 [An optimal multivariate-stratification geographical detector model for revealing the impact of multi-factor combinations on the dependent variable](https://doi.org/10.1080/15481603.2024.2422941)
 

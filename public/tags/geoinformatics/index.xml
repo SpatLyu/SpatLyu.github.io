@@ -6,8 +6,15 @@
     <description>Recent content in Geoinformatics on Wenbo Lv</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 19 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://spatlyu.github.io/tags/geoinformatics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spatial Stratified Heterogeneity (SSH)</title>
+      <link>https://spatlyu.github.io/posts/ssh_resources/</link>
+      <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://spatlyu.github.io/posts/ssh_resources/</guid>
+      <description>Statistical Modeling of Spatially Stratified Heterogeneous Data&#xA;Geodetector: Principle and prospective&#xA;Understanding and extending the geographical detector model under a linear regression framework&#xA;Information Consistency-Based Measures for Spatial Stratified Heterogeneity&#xA;A local indicator of stratified power&#xA;An optimal parameters-based geographical detector model(OPGD)&#xA;Spatial association detector (SPADE)&#xA;Robust geographical detector (RGD)&#xA;An interactive detector for spatial associations (IDSA)&#xA;A locally explained heterogeneity model for examining wetland disparity (LESH)&#xA;Identifying determinants of spatio-temporal disparities in soil moisture of the Northern Hemisphere using a geographically optimal zones-based heterogeneity model (GOZH)</description>
+    </item>
     <item>
       <title>R books</title>
       <link>https://spatlyu.github.io/posts/r-books/</link>
@@ -42,13 +49,6 @@
       <pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate>
       <guid>https://spatlyu.github.io/posts/spcausality_resources/</guid>
       <description>Causal inference in spatial statistics&#xA;Spatial Causality: A Systematic Review on Spatial Causal Inference&#xA;Conduct Multiple Types of Geographic Regression Discontinuity Designs(SpatialRDD)&#xA;Spatial Difference-in-differences (SpatialDID)&#xA;Evidence on the impact of sustained exposure to air pollution on life expectancy from China’s Huai River policy&#xA;Rethinking ‘causality’ in quantitative human geography&#xA;Detecting Causality in Complex Ecosystems&#xA;Partial cross mapping eliminates indirect causal influences&#xA;Detecting Causality from Nonlinear Dynamics with Short-term Time Series</description>
-    </item>
-    <item>
-      <title>Spatial Stratified Heterogeneity (SSH)</title>
-      <link>https://spatlyu.github.io/posts/ssh_resources/</link>
-      <pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/ssh_resources/</guid>
-      <description>Statistical Modeling of Spatially Stratified Heterogeneous Data&#xA;Geodetector: Principle and prospective&#xA;Understanding and extending the geographical detector model under a linear regression framework&#xA;Information Consistency-Based Measures for Spatial Stratified Heterogeneity&#xA;A local indicator of stratified power&#xA;An optimal parameters-based geographical detector model(OPGD)&#xA;Spatial association detector (SPADE)&#xA;Robust geographical detector (RGD)&#xA;An interactive detector for spatial associations (IDSA)&#xA;A locally explained heterogeneity model for examining wetland disparity (LESH)&#xA;Identifying determinants of spatio-temporal disparities in soil moisture of the Northern Hemisphere using a geographically optimal zones-based heterogeneity model (GOZH)</description>
     </item>
     <item>
       <title>Presentation Slides</title>
