@@ -3,7 +3,7 @@ title: "Spatial Causal Inference"
 author: "Wenbo Lv"
 date: "2024-11-18"
 description: "Theoretical Framework and Model Implementation of GeoSpatial Causality"
-tags: ["satistics","geoinformatics","causality"]
+tags: ["statistics","geoinformatics","causality"]
 type: post
 weight: 25
 showTableOfContents: true
