@@ -1,7 +1,7 @@
 ---
 title: "R books"
 author: "Wenbo Lv"
-date: "2024-12-19"
+date: "2024-01-09"
 description: "Useful R Books and Tutorials."
 tags: ["books","r","geoinformatics","statistics"]
 type: post
@@ -98,6 +98,10 @@ showTableOfContents: true
 [**Spatial Data Science**](https://r-spatial.org/book/)
 
 [**Spatial Statistics with R**](https://edzer.github.io/sswr/)
+
+[An Introduction to Spatial Data Science with GeoDa Volume 1: Exploring Spatial Data](https://lanselin.github.io/introbook_vol1/)
+
+[An Introduction to Spatial Data Science with GeoDa Volume 2: Clustering Spatial Data](https://lanselin.github.io/introbook_vol2/)
 
 [Hands-On Spatial Data Science with R](https://spatialanalysis.github.io/handsonspatialdata/index.html)
 

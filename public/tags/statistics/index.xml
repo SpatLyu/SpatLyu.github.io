@@ -16,13 +16,6 @@
       <description>Statistical Modeling of Spatially Stratified Heterogeneous Data&#xA;Geodetector: Principle and prospective&#xA;Understanding and extending the geographical detector model under a linear regression framework&#xA;Information Consistency-Based Measures for Spatial Stratified Heterogeneity&#xA;A local indicator of stratified power&#xA;An optimal parameters-based geographical detector model(OPGD)&#xA;Spatial association detector (SPADE)&#xA;Robust geographical detector (RGD)&#xA;An interactive detector for spatial associations (IDSA)&#xA;A locally explained heterogeneity model for examining wetland disparity (LESH)&#xA;Identifying determinants of spatio-temporal disparities in soil moisture of the Northern Hemisphere using a geographically optimal zones-based heterogeneity model (GOZH)</description>
     </item>
     <item>
-      <title>R books</title>
-      <link>https://spatlyu.github.io/posts/r-books/</link>
-      <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/r-books/</guid>
-      <description>R fundamentals Introduction to R&#xA;Advanced R&#xA;R for Data Science (2e)&#xA;R Graphics Cookbook, 2nd edition&#xA;The tidyverse style guide&#xA;R in Production&#xA;What They Forgot to Teach You About R&#xA;Data Visualization with ggplot2&#xA;Efficient R programming&#xA;Best Coding Practices for R&#xA;Happy Git and GitHub for the useR&#xA;Rcpp for everyone&#xA;Rcpp for everyone Chinese version&#xA;Unofficial rcpp api documentation&#xA;R Packages (2e)&#xA;R Markdown Chinese guide</description>
-    </item>
-    <item>
       <title>Some Useful Resource</title>
       <link>https://spatlyu.github.io/posts/other_resource_github_io/</link>
       <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
@@ -70,6 +63,13 @@
       <pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate>
       <guid>https://spatlyu.github.io/posts/spatial_econometric_regression/</guid>
       <description>Generalized Nested Spatial Model (GSNM) $$ y = \rho_{Lag} W y + X\beta + WX\gamma + \mu, \mu = \rho_{Err} W \mu + \xi $$&#xA;where $y$ is an $(N \times 1)$ vector of observations on a response variable taken at each of $N$ locations,$W$ is a spatial weight matrix, which is a non-negative matrix of size $N \times N$, $X$ is an $(N \times k)$ matrix of covariates, $\beta$ is a $(k \times 1)$ vector of parameters, $\mu$ is an $(N \times 1)$ spatially autocorrelated disturbance vector, $\xi$ is an $(N \times 1)$ vector of independent and identically distributed disturbances, $\rho_{Lag}$ and $\rho_{Err}$ is a scalar spatial parameter.</description>
+    </item>
+    <item>
+      <title>R books</title>
+      <link>https://spatlyu.github.io/posts/r-books/</link>
+      <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://spatlyu.github.io/posts/r-books/</guid>
+      <description>R fundamentals Introduction to R&#xA;Advanced R&#xA;R for Data Science (2e)&#xA;R Graphics Cookbook, 2nd edition&#xA;The tidyverse style guide&#xA;R in Production&#xA;What They Forgot to Teach You About R&#xA;Data Visualization with ggplot2&#xA;Efficient R programming&#xA;Best Coding Practices for R&#xA;Happy Git and GitHub for the useR&#xA;Rcpp for everyone&#xA;Rcpp for everyone Chinese version&#xA;Unofficial rcpp api documentation&#xA;R Packages (2e)&#xA;R Markdown Chinese guide</description>
     </item>
   </channel>
 </rss>
