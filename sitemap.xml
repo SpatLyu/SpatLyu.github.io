@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://spatlyu.github.io/posts/spcausality_resources/</loc>
+    <lastmod>2025-01-13T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://spatlyu.github.io/posts/r-books/</loc>
     <lastmod>2025-01-09T00:00:00+00:00</lastmod>
   </url><url>
@@ -19,9 +22,6 @@
   </url><url>
     <loc>https://spatlyu.github.io/posts/spassociation_resources/</loc>
     <lastmod>2024-12-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://spatlyu.github.io/posts/spcausality_resources/</loc>
-    <lastmod>2024-11-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://spatlyu.github.io/posts/sem_resources/</loc>
     <lastmod>2024-11-18T00:00:00+00:00</lastmod>
@@ -53,25 +53,28 @@
     <loc>https://spatlyu.github.io/posts/setup-network-proxy/</loc>
     <lastmod>2024-06-05T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://spatlyu.github.io/tags/causality/</loc>
+    <lastmod>2025-01-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://spatlyu.github.io/tags/geoinformatics/</loc>
+    <lastmod>2025-01-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://spatlyu.github.io/posts/</loc>
+    <lastmod>2025-01-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://spatlyu.github.io/tags/statistics/</loc>
+    <lastmod>2025-01-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://spatlyu.github.io/tags/</loc>
+    <lastmod>2025-01-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://spatlyu.github.io/</loc>
+    <lastmod>2025-01-13T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://spatlyu.github.io/tags/books/</loc>
     <lastmod>2025-01-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://spatlyu.github.io/tags/geoinformatics/</loc>
-    <lastmod>2025-01-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://spatlyu.github.io/posts/</loc>
-    <lastmod>2025-01-09T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://spatlyu.github.io/tags/r/</loc>
-    <lastmod>2025-01-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://spatlyu.github.io/tags/statistics/</loc>
-    <lastmod>2025-01-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://spatlyu.github.io/tags/</loc>
-    <lastmod>2025-01-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://spatlyu.github.io/</loc>
     <lastmod>2025-01-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://spatlyu.github.io/tags/geodetector/</loc>
@@ -85,9 +88,6 @@
   </url><url>
     <loc>https://spatlyu.github.io/tags/photo-editing-tools/</loc>
     <lastmod>2024-12-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://spatlyu.github.io/tags/causality/</loc>
-    <lastmod>2024-12-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://spatlyu.github.io/tags/spatial-methods/</loc>
     <lastmod>2024-12-04T00:00:00+00:00</lastmod>
