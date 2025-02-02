@@ -6,14 +6,21 @@
     <description>Recent content on Wenbo Lv</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 13 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://spatlyu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Empirical Dynamic Modeling (EDM)</title>
+      <link>https://spatlyu.github.io/posts/edm_resources/</link>
+      <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://spatlyu.github.io/posts/edm_resources/</guid>
+      <description>Detecting Causality in Complex Ecosystems (CCM)&#xA;Causal inference from cross-sectional earth system data with geographical convergent cross mapping (GCCM)&#xA;Partial cross mapping eliminates indirect causal influences (PCM)&#xA;Spatial convergent cross mapping to detect causal relationships from short time series (MultispatialCCM)&#xA;Detecting Causality from Nonlinear Dynamics with Short-term Time Series (CMS)&#xA;Detecting dynamical causality by intersection cardinal concavity (CMC)&#xA;Single-cell causal network inferred by cross-mapping entropy (CME)</description>
+    </item>
     <item>
       <title>Spatial Causal Inference</title>
       <link>https://spatlyu.github.io/posts/spcausality_resources/</link>
-      <pubDate>Mon, 13 Jan 2025 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 31 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://spatlyu.github.io/posts/spcausality_resources/</guid>
-      <description>Causal inference in spatial statistics&#xA;Spatial Causality: A Systematic Review on Spatial Causal Inference&#xA;Conduct Multiple Types of Geographic Regression Discontinuity Designs(SpatialRDD)&#xA;Spatial Difference-in-differences (SpatialDID)&#xA;Evidence on the impact of sustained exposure to air pollution on life expectancy from China’s Huai River policy&#xA;Rethinking ‘causality’ in quantitative human geography&#xA;Inferring causation from time series in Earth system sciences&#xA;Causal inference for time series&#xA;Detecting Causality in Complex Ecosystems&#xA;Partial cross mapping eliminates indirect causal influences</description>
+      <description>Causal inference in spatial statistics&#xA;Spatial Causality: A Systematic Review on Spatial Causal Inference&#xA;A review of causal analysis methods in geographic research&#xA;Conduct Multiple Types of Geographic Regression Discontinuity Designs(SpatialRDD)&#xA;Spatial Difference-in-differences (SpatialDID)&#xA;Evidence on the impact of sustained exposure to air pollution on life expectancy from China’s Huai River policy&#xA;Rethinking ‘causality’ in quantitative human geography&#xA;Inferring causation from time series in Earth system sciences&#xA;Causal inference for time series</description>
     </item>
     <item>
       <title>R books</title>

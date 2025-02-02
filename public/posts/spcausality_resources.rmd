@@ -1,7 +1,7 @@
 ---
 title: "Spatial Causal Inference"
 author: "Wenbo Lv"
-date: "2025-01-13"
+date: "2025-01-31"
 description: "Theoretical Framework and Model Implementation of GeoSpatial Causality"
 tags: ["statistics","geoinformatics","causality"]
 type: post
@@ -12,6 +12,8 @@ showTableOfContents: true
 [**Causal inference in spatial statistics**](https://www.sciencedirect.com/science/article/pii/S2211675322000173)
 
 [**Spatial Causality: A Systematic Review on Spatial Causal Inference**](https://onlinelibrary.wiley.com/doi/abs/10.1111/gean.12312)
+
+[**A review of causal analysis methods in geographic research**](https://doi.org/10.1016/j.envsoft.2023.105929)
 
 [Conduct Multiple Types of Geographic Regression Discontinuity Designs(SpatialRDD)](https://axlehner.github.io/SpatialRDD/index.html)
 
@@ -24,15 +26,5 @@ showTableOfContents: true
 [Inferring causation from time series in Earth system sciences](https://www.nature.com/articles/s41467-019-10105-3)
 
 [Causal inference for time series](https://www.nature.com/articles/s43017-023-00431-y)
-
-[**Detecting Causality in Complex Ecosystems**](https://www.science.org/doi/10.1126/science.1227079)
-
-[Partial cross mapping eliminates indirect causal influences](https://www.nature.com/articles/s41467-020-16238-0)
-
-[Detecting Causality from Nonlinear Dynamics with Short-term Time Series](https://www.nature.com/articles/srep07464)
-
-[Spatial convergent cross mapping to detect causal relationships from short time series](https://esajournals.onlinelibrary.wiley.com/doi/full/10.1890/14-1479.1)
-
-[**Causal inference from cross-sectional earth system data with geographical convergent cross mapping**](https://www.nature.com/articles/s41467-023-41619-6)
 
 [**Decomposing causality into its synergistic, unique, and redundant components**](https://www.nature.com/articles/s41467-024-53373-4)
