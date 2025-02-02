@@ -1,9 +1,9 @@
 ---
 title: "R books"
 author: "Wenbo Lv"
-date: "2025-01-09"
+date: "2025-02-02"
 description: "Useful R Books and Tutorials."
-tags: ["books","r","geoinformatics","statistics"]
+tags: ["books","r","geoinformatics","statistics","causality"]
 type: post
 weight: 25
 showTableOfContents: true
@@ -157,6 +157,8 @@ knitr::opts_chunk$set(echo = TRUE,
 [**Basic statistics tutorials available on Statology**](https://www.statology.org/tutorials/)
 
 [**Doing Meta-Analysis with R: A Hands-On Guide**](https://bookdown.org/MathiasHarrer/Doing_Meta_Analysis_in_R/)
+
+[The Open Quant Live Book](https://bookdown.org/souzatharsis/open-quant-live-book/)
 
 [Tidy Modeling with R](https://www.tmwr.org/)
 
