@@ -11,13 +11,13 @@ showTableOfContents: true
 
 [**Detecting Causality in Complex Ecosystems (CCM)**](https://www.science.org/doi/10.1126/science.1227079)
 
-[**Causal inference from cross-sectional earth system data with geographical convergent cross mapping (GCCM)**](https://www.nature.com/articles/s41467-023-41619-6)
+[**Causal inference from cross-sectional earth system data with geographical convergent cross mapping (GCCM)**](https://doi.org/10.1038/s41467-023-41619-6)
 
-[**Partial cross mapping eliminates indirect causal influences (PCM)**](https://www.nature.com/articles/s41467-020-16238-0)
+[**Partial cross mapping eliminates indirect causal influences (PCM)**](https://doi.org/10.1038/s41467-020-16238-0)
 
-[Spatial convergent cross mapping to detect causal relationships from short time series (MultispatialCCM)](https://esajournals.onlinelibrary.wiley.com/doi/full/10.1890/14-1479.1)
+[Spatial convergent cross mapping to detect causal relationships from short time series (MultispatialCCM)](https://doi.org/10.1890/14-1479.1)
 
-[Detecting Causality from Nonlinear Dynamics with Short-term Time Series (CMS)](https://www.nature.com/articles/srep07464)
+[Detecting Causality from Nonlinear Dynamics with Short-term Time Series (CMS)](https://doi.org/10.1038/srep07464)
 
 [Detecting dynamical causality by intersection cardinal concavity (CMC)](https://doi.org/10.1016/j.fmre.2023.01.007)
 
