@@ -1,7 +1,7 @@
 ---
 title: "Spatial Causal Inference"
 author: "Wenbo Lv"
-date: "2025-01-31"
+date: "2025-02-13"
 description: "Theoretical Framework and Model Implementation of GeoSpatial Causality"
 tags: ["statistics","geoinformatics","causality"]
 type: post
@@ -15,6 +15,8 @@ showTableOfContents: true
 
 [**A review of causal analysis methods in geographic research**](https://doi.org/10.1016/j.envsoft.2023.105929)
 
+[Temporally or spatially? Causation inference in earth system sciences](https://doi.org/10.1016/j.scib.2021.10.002)
+
 [Conduct Multiple Types of Geographic Regression Discontinuity Designs(SpatialRDD)](https://axlehner.github.io/SpatialRDD/index.html)
 
 [Spatial Difference-in-differences (SpatialDID)](https://www.sciencedirect.com/science/article/pii/S0165176515004371)
@@ -27,4 +29,4 @@ showTableOfContents: true
 
 [Causal inference for time series](https://www.nature.com/articles/s43017-023-00431-y)
 
-[**Decomposing causality into its synergistic, unique, and redundant components**](https://www.nature.com/articles/s41467-024-53373-4)
+[Decomposing causality into its synergistic, unique, and redundant components](https://www.nature.com/articles/s41467-024-53373-4)
