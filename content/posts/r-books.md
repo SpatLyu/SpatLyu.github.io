@@ -1,7 +1,7 @@
 ---
 title: "R books"
 author: "Wenbo Lv"
-date: "2025-02-02"
+date: "2025-02-13"
 description: "Useful R Books and Tutorials."
 tags: ["books","r","geoinformatics","statistics","causality"]
 type: post
@@ -42,6 +42,8 @@ showTableOfContents: true
 [**Unofficial rcpp api documentation**](https://thecoatlessprofessor.com/programming/cpp/unofficial-rcpp-api-documentation/)
 
 [**R Packages (2e)**](https://r-pkgs.org/)
+
+[**CRAN Cookbook**](https://contributor.r-project.org/cran-cookbook/)
 
 [**R Markdown Chinese guide**](https://cosname.github.io/rmarkdown-guide/)
 
