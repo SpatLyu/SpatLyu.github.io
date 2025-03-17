@@ -1,7 +1,7 @@
 ---
 title: "R books"
 author: "Wenbo Lv"
-date: "2025-03-17"
+date: "2025-03-16"
 description: "Useful R Books and Tutorials."
 tags: ["books","r","geoinformatics","statistics","causality"]
 type: post
