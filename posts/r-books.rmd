@@ -1,7 +1,7 @@
 ---
 title: "R books"
 author: "Wenbo Lv"
-date: "2025-02-13"
+date: "2025-03-17"
 description: "Useful R Books and Tutorials."
 tags: ["books","r","geoinformatics","statistics","causality"]
 type: post
@@ -34,9 +34,11 @@ knitr::opts_chunk$set(echo = TRUE,
 
 [**What They Forgot to Teach You About R**](https://rstats.wtf/)
 
-[Data Visualization with ggplot2](https://viz-ggplot2.rsquaredacademy.com/)
+[**Deep R Programming**](https://deepr.gagolewski.com/index.html)
 
 [Efficient R programming](https://csgillespie.github.io/efficientR/index.html)
+
+[Data Visualization with ggplot2](https://viz-ggplot2.rsquaredacademy.com/)
 
 [Best Coding Practices for R](https://bookdown.org/content/d1e53ac9-28ce-472f-bc2c-f499f18264a3/)
 
