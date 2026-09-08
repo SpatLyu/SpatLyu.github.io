@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Econometrics on Wenbo Lv</title>
-    <link>https://spatlyu.github.io/tags/econometrics/</link>
-    <description>Recent content in Econometrics on Wenbo Lv</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Fri, 25 Oct 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://spatlyu.github.io/tags/econometrics/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Spatial Econometrics Regression</title>
-      <link>https://spatlyu.github.io/posts/spatial_econometric_regression/</link>
-      <pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/spatial_econometric_regression/</guid>
-      <description>Generalized Nested Spatial Model (GSNM) $$ y = \rho_{Lag} W y + X\beta + WX\gamma + \mu, \mu = \rho_{Err} W \mu + \xi $$&#xA;where $y$ is an $(N \times 1)$ vector of observations on a response variable taken at each of $N$ locations,$W$ is a spatial weight matrix, which is a non-negative matrix of size $N \times N$, $X$ is an $(N \times k)$ matrix of covariates, $\beta$ is a $(k \times 1)$ vector of parameters, $\mu$ is an $(N \times 1)$ spatially autocorrelated disturbance vector, $\xi$ is an $(N \times 1)$ vector of independent and identically distributed disturbances, $\rho_{Lag}$ and $\rho_{Err}$ is a scalar spatial parameter.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Econometrics on Wenbo Lyu</title>
+		<link>https://spatlyu.github.io/tags/econometrics/</link>
+		<description>Recent content in Econometrics on Wenbo Lyu</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 25 Oct 2024 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://spatlyu.github.io/tags/econometrics/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Spatial Econometrics Regression</title>
+				<link>https://spatlyu.github.io/posts/spatial_econometric_regression/</link>
+				<pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/posts/spatial_econometric_regression/</guid>
+				<description>&lt;h2 id=&#34;generalized-nested-spatial-model-gsnm&#34;&gt;Generalized Nested Spatial Model (GSNM)&lt;/h2&gt;&#xA;&lt;p&gt;$$&#xA;y = \rho_{Lag} W y + X\beta + WX\gamma + \mu,&#xA;\mu = \rho_{Err} W \mu + \xi&#xA;$$&lt;/p&gt;&#xA;&lt;p&gt;where $y$ is an $(N \times 1)$ vector of observations on a response variable taken at each of $N$ locations,$W$ is a spatial weight matrix, which is a non-negative matrix of size $N \times N$, $X$ is an $(N \times k)$ matrix of covariates, $\beta$ is a $(k \times 1)$ vector of parameters, $\mu$ is an $(N \times 1)$ spatially autocorrelated disturbance vector, $\xi$ is an $(N \times 1)$ vector of independent and identically distributed disturbances, $\rho_{Lag}$ and $\rho_{Err}$ is a scalar spatial parameter. $\gamma$ is a $(k&amp;rsquo; \times 1)$ vector of parameters. $k&amp;rsquo;$ defines the subset of the intercept and covariates, often $k&amp;rsquo; = k-1$ when using row standardised spatial weights and omitting the spatially lagged intercept.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

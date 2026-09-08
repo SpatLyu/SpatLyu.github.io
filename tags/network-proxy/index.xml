@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Network Proxy on Wenbo Lv</title>
-    <link>https://spatlyu.github.io/tags/network-proxy/</link>
-    <description>Recent content in Network Proxy on Wenbo Lv</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Wed, 05 Jun 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://spatlyu.github.io/tags/network-proxy/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Setting up a network proxy</title>
-      <link>https://spatlyu.github.io/posts/setup-network-proxy/</link>
-      <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/setup-network-proxy/</guid>
-      <description>Python&#xA;import os os.environ[&amp;#34;http_proxy&amp;#34;] = &amp;#34;http://127.0.0.1:7890&amp;#34; os.environ[&amp;#34;https_proxy&amp;#34;] = &amp;#34;http://127.0.0.1:7890&amp;#34; R&#xA;Sys.setenv(https_proxy=&amp;#34;http://127.0.0.1:7890&amp;#34;) Sys.setenv(http_proxy=&amp;#34;http://127.0.0.1:7890&amp;#34;) Julia&#xA;ENV[&amp;#34;https_proxy&amp;#34;]=&amp;#34;http://127.0.0.1:7890/&amp;#34; Git&#xA;git config --global http.proxy &amp;#39;http://127.0.0.1:7890&amp;#39;&#xD;git config --global https.proxy &amp;#39;http://127.0.0.1:7890&amp;#39; nodejs&#xA;npm config set https-proxy http://127.0.0.1:7890 Change the value from 7890 to the corresponding port number based on your network proxy port number.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Network Proxy on Wenbo Lyu</title>
+		<link>https://spatlyu.github.io/tags/network-proxy/</link>
+		<description>Recent content in Network Proxy on Wenbo Lyu</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 05 Jun 2024 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://spatlyu.github.io/tags/network-proxy/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Setting up a network proxy</title>
+				<link>https://spatlyu.github.io/posts/setup-network-proxy/</link>
+				<pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/posts/setup-network-proxy/</guid>
+				<description>&lt;p&gt;Python&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; os&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;os&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;environ[&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;http_proxy&amp;#34;&lt;/span&gt;] &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;http://127.0.0.1:7890&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;os&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;environ[&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https_proxy&amp;#34;&lt;/span&gt;] &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;http://127.0.0.1:7890&amp;#34;&lt;/span&gt; &#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;R&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Sys.setenv&lt;/span&gt;(https_proxy&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;http://127.0.0.1:7890&amp;#34;&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Sys.setenv&lt;/span&gt;(http_proxy&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;http://127.0.0.1:7890&amp;#34;&lt;/span&gt;) &#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Julia&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-julia&#34; data-lang=&#34;julia&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ENV[&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https_proxy&amp;#34;&lt;/span&gt;]&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;http://127.0.0.1:7890/&amp;#34;&lt;/span&gt; &#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Git&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-git&#34; data-lang=&#34;git&#34;&gt;git config --global http.proxy &amp;#39;http://127.0.0.1:7890&amp;#39;&#xD;&#xA;git config --global https.proxy &amp;#39;http://127.0.0.1:7890&amp;#39;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;nodejs&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-nodejs&#34; data-lang=&#34;nodejs&#34;&gt;npm config set https-proxy http://127.0.0.1:7890 &#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Change the value from 7890 to the corresponding port number based on your network proxy port number.&lt;/strong&gt;&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

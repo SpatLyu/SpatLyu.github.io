@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Spatial Methods on Wenbo Lv</title>
-    <link>https://spatlyu.github.io/tags/spatial-methods/</link>
-    <description>Recent content in Spatial Methods on Wenbo Lv</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Wed, 04 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://spatlyu.github.io/tags/spatial-methods/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Advanced Spatial Methods</title>
-      <link>https://spatlyu.github.io/posts/advanced-spatial-methods/</link>
-      <pubDate>Wed, 04 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/advanced-spatial-methods/</guid>
-      <description>Spatial Relationships Spatial Stratefied Heterogeneity(SSH)&#xA;Spatial Association&#xA;Spatial Causal Inference&#xA;Geocomplexity explains spatial errors&#xA;On spatial effects in geographical analysis&#xA;Geographic Similarity: Third Law of Geography?&#xA;Spatial Prediction Geographically Optimal Similarity&#xA;A generalized heterogeneity model for spatial interpolation&#xA;An ensemble spatial prediction method considering geospatial heterogeneity&#xA;The second dimension of spatial association&#xA;atakrig: An R package for multivariate area-to-area and area-to-point kriging predictions</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Spatial Methods on Wenbo Lyu</title>
+		<link>https://spatlyu.github.io/tags/spatial-methods/</link>
+		<description>Recent content in Spatial Methods on Wenbo Lyu</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 04 Dec 2024 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://spatlyu.github.io/tags/spatial-methods/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Advanced Spatial Methods</title>
+				<link>https://spatlyu.github.io/posts/advanced-spatial-methods/</link>
+				<pubDate>Wed, 04 Dec 2024 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/posts/advanced-spatial-methods/</guid>
+				<description>&lt;h3 id=&#34;spatial-relationships&#34;&gt;Spatial Relationships&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://spatlyu.github.io/posts/ssh_resources&#34;&gt;Spatial Stratefied Heterogeneity(SSH)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://spatlyu.github.io/posts/spassociation_resources&#34;&gt;Spatial Association&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://spatlyu.github.io/posts/spcausality_resources&#34;&gt;Spatial Causal Inference&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1080/13658816.2023.2203212&#34;&gt;&lt;strong&gt;Geocomplexity explains spatial errors&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;10.11821/dlxb202303001&#34;&gt;&lt;strong&gt;On spatial effects in geographical analysis&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.dqxxkx.cn/article/2020/1560-8999/1560-8999-22-4-673.shtml&#34;&gt;Geographic Similarity: Third Law of Geography?&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;spatial-prediction&#34;&gt;Spatial Prediction&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://link.springer.com/article/10.1007/s11004-022-10036-8&#34;&gt;Geographically Optimal Similarity&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1080/13658816.2022.2147530&#34;&gt;A generalized heterogeneity model for spatial interpolation&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.tandfonline.com/doi/full/10.1080/13658816.2024.2358052&#34;&gt;An ensemble spatial prediction method considering geospatial heterogeneity&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S156984322200036X&#34;&gt;&lt;strong&gt;The second dimension of spatial association&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S0098300419306089&#34;&gt;atakrig: An R package for multivariate area-to-area and area-to-point kriging predictions&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

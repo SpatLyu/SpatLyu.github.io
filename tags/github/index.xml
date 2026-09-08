@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Github on Wenbo Lv</title>
-    <link>https://spatlyu.github.io/tags/github/</link>
-    <description>Recent content in Github on Wenbo Lv</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Wed, 05 Jun 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://spatlyu.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Common git commands</title>
-      <link>https://spatlyu.github.io/posts/common-git-commands/</link>
-      <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/common-git-commands/</guid>
-      <description>View the git installation location which git View the git installation version git --version Updating Git for Windows git update-git-for-windows Setting up network proxy git config --global http.proxy &amp;#39;http://127.0.0.1:7890&amp;#39;&#xD;git config --global https.proxy &amp;#39;http://127.0.0.1:7890&amp;#39; Setting default initial branch name to main git config --global init.defaultBranch main View all git configuration information git config --global --list Push local main to GitHub main and have local main track main on GitHub git push --set-upstream origin main&#xD;# shorter form&#xD;git push -u origin main&#xD;# you only need to set upstream tracking once!</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Github on Wenbo Lyu</title>
+		<link>https://spatlyu.github.io/tags/github/</link>
+		<description>Recent content in Github on Wenbo Lyu</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 05 Jun 2024 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://spatlyu.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Common git commands</title>
+				<link>https://spatlyu.github.io/posts/common-git-commands/</link>
+				<pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/posts/common-git-commands/</guid>
+				<description>&lt;h3 id=&#34;view-the-git-installation-location&#34;&gt;View the git installation location&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;which git&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;view-the-git-installation-version&#34;&gt;View the git installation version&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git --version&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;updating-git-for-windows&#34;&gt;Updating Git for Windows&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git update-git-for-windows&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;setting-up-network-proxy&#34;&gt;Setting up network proxy&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git config --global http.proxy &amp;#39;http://127.0.0.1:7890&amp;#39;&#xD;&#xA;git config --global https.proxy &amp;#39;http://127.0.0.1:7890&amp;#39;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;setting-default-initial-branch-name-to-main&#34;&gt;Setting default initial branch name to main&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git config --global init.defaultBranch main&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;view-all-git-configuration-information&#34;&gt;View all git configuration information&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git config --global --list&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;push-local-main-to-github-main-and-have-local-main-track-main-on-github&#34;&gt;Push local main to GitHub main and have local main track main on GitHub&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git push --set-upstream origin main&#xD;&#xA;# shorter form&#xD;&#xA;git push -u origin main&#xD;&#xA;# you only need to set upstream tracking once!&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;pull-commits-and-dont-let-it-put-you-in-a-merge-conflict-pickle&#34;&gt;Pull commits and don’t let it put you in a merge conflict pickle&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git pull --ff-only&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;add-a-remote-to-existing-local-repo&#34;&gt;Add a remote to existing local repo&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git remote add origin [remote repo]&#xD;&#xA;git remote --verbose&#xD;&#xA;git remote show origin&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;reset-the-associated-remote-repository&#34;&gt;Reset the associated remote repository&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git remote set-url origin [new remote repo url]&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;switch-to-a-branch&#34;&gt;Switch to a branch&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git checkout [branch-name]&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;create-a-new-branch-and-switch-to-that-branch&#34;&gt;Create a new branch and switch to that branch&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git checkout -b [branch-name]&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;checking-remote-and-branch-tracking&#34;&gt;Checking remote and branch tracking&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git remote -v&#xD;&#xA;git remote show origin&#xD;&#xA;git branch -vv&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;check-on-the-state-of-the-git-world&#34;&gt;Check on the state of the Git world&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git status&#xD;&#xA;git log&#xD;&#xA;git log --oneline&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+			</item>
+	</channel>
 </rss>

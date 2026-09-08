@@ -1,26 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Coding on Wenbo Lv</title>
-    <link>https://spatlyu.github.io/tags/coding/</link>
-    <description>Recent content in Coding on Wenbo Lv</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Wed, 05 Jun 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://spatlyu.github.io/tags/coding/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Common git commands</title>
-      <link>https://spatlyu.github.io/posts/common-git-commands/</link>
-      <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/common-git-commands/</guid>
-      <description>View the git installation location which git View the git installation version git --version Updating Git for Windows git update-git-for-windows Setting up network proxy git config --global http.proxy &amp;#39;http://127.0.0.1:7890&amp;#39;&#xD;git config --global https.proxy &amp;#39;http://127.0.0.1:7890&amp;#39; Setting default initial branch name to main git config --global init.defaultBranch main View all git configuration information git config --global --list Push local main to GitHub main and have local main track main on GitHub git push --set-upstream origin main&#xD;# shorter form&#xD;git push -u origin main&#xD;# you only need to set upstream tracking once!</description>
-    </item>
-    <item>
-      <title>Setting up a network proxy</title>
-      <link>https://spatlyu.github.io/posts/setup-network-proxy/</link>
-      <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/setup-network-proxy/</guid>
-      <description>Python&#xA;import os os.environ[&amp;#34;http_proxy&amp;#34;] = &amp;#34;http://127.0.0.1:7890&amp;#34; os.environ[&amp;#34;https_proxy&amp;#34;] = &amp;#34;http://127.0.0.1:7890&amp;#34; R&#xA;Sys.setenv(https_proxy=&amp;#34;http://127.0.0.1:7890&amp;#34;) Sys.setenv(http_proxy=&amp;#34;http://127.0.0.1:7890&amp;#34;) Julia&#xA;ENV[&amp;#34;https_proxy&amp;#34;]=&amp;#34;http://127.0.0.1:7890/&amp;#34; Git&#xA;git config --global http.proxy &amp;#39;http://127.0.0.1:7890&amp;#39;&#xD;git config --global https.proxy &amp;#39;http://127.0.0.1:7890&amp;#39; nodejs&#xA;npm config set https-proxy http://127.0.0.1:7890 Change the value from 7890 to the corresponding port number based on your network proxy port number.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Coding on Wenbo Lyu</title>
+		<link>https://spatlyu.github.io/tags/coding/</link>
+		<description>Recent content in Coding on Wenbo Lyu</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 05 Jun 2024 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://spatlyu.github.io/tags/coding/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Common git commands</title>
+				<link>https://spatlyu.github.io/posts/common-git-commands/</link>
+				<pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/posts/common-git-commands/</guid>
+				<description>&lt;h3 id=&#34;view-the-git-installation-location&#34;&gt;View the git installation location&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;which git&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;view-the-git-installation-version&#34;&gt;View the git installation version&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git --version&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;updating-git-for-windows&#34;&gt;Updating Git for Windows&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git update-git-for-windows&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;setting-up-network-proxy&#34;&gt;Setting up network proxy&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git config --global http.proxy &amp;#39;http://127.0.0.1:7890&amp;#39;&#xD;&#xA;git config --global https.proxy &amp;#39;http://127.0.0.1:7890&amp;#39;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;setting-default-initial-branch-name-to-main&#34;&gt;Setting default initial branch name to main&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git config --global init.defaultBranch main&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;view-all-git-configuration-information&#34;&gt;View all git configuration information&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git config --global --list&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;push-local-main-to-github-main-and-have-local-main-track-main-on-github&#34;&gt;Push local main to GitHub main and have local main track main on GitHub&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git push --set-upstream origin main&#xD;&#xA;# shorter form&#xD;&#xA;git push -u origin main&#xD;&#xA;# you only need to set upstream tracking once!&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;pull-commits-and-dont-let-it-put-you-in-a-merge-conflict-pickle&#34;&gt;Pull commits and don’t let it put you in a merge conflict pickle&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git pull --ff-only&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;add-a-remote-to-existing-local-repo&#34;&gt;Add a remote to existing local repo&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git remote add origin [remote repo]&#xD;&#xA;git remote --verbose&#xD;&#xA;git remote show origin&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;reset-the-associated-remote-repository&#34;&gt;Reset the associated remote repository&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git remote set-url origin [new remote repo url]&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;switch-to-a-branch&#34;&gt;Switch to a branch&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git checkout [branch-name]&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;create-a-new-branch-and-switch-to-that-branch&#34;&gt;Create a new branch and switch to that branch&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git checkout -b [branch-name]&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;checking-remote-and-branch-tracking&#34;&gt;Checking remote and branch tracking&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git remote -v&#xD;&#xA;git remote show origin&#xD;&#xA;git branch -vv&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;check-on-the-state-of-the-git-world&#34;&gt;Check on the state of the Git world&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git status&#xD;&#xA;git log&#xD;&#xA;git log --oneline&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+			</item>
+			<item>
+				<title>Setting up a network proxy</title>
+				<link>https://spatlyu.github.io/posts/setup-network-proxy/</link>
+				<pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/posts/setup-network-proxy/</guid>
+				<description>&lt;p&gt;Python&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; os&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;os&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;environ[&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;http_proxy&amp;#34;&lt;/span&gt;] &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;http://127.0.0.1:7890&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;os&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;environ[&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https_proxy&amp;#34;&lt;/span&gt;] &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;http://127.0.0.1:7890&amp;#34;&lt;/span&gt; &#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;R&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Sys.setenv&lt;/span&gt;(https_proxy&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;http://127.0.0.1:7890&amp;#34;&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Sys.setenv&lt;/span&gt;(http_proxy&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;http://127.0.0.1:7890&amp;#34;&lt;/span&gt;) &#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Julia&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-julia&#34; data-lang=&#34;julia&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ENV[&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https_proxy&amp;#34;&lt;/span&gt;]&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;http://127.0.0.1:7890/&amp;#34;&lt;/span&gt; &#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Git&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-git&#34; data-lang=&#34;git&#34;&gt;git config --global http.proxy &amp;#39;http://127.0.0.1:7890&amp;#39;&#xD;&#xA;git config --global https.proxy &amp;#39;http://127.0.0.1:7890&amp;#39;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;nodejs&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-nodejs&#34; data-lang=&#34;nodejs&#34;&gt;npm config set https-proxy http://127.0.0.1:7890 &#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Change the value from 7890 to the corresponding port number based on your network proxy port number.&lt;/strong&gt;&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

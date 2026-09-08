@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Writing on Wenbo Lv</title>
-    <link>https://spatlyu.github.io/tags/writing/</link>
-    <description>Recent content in Writing on Wenbo Lv</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Sun, 18 Aug 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://spatlyu.github.io/tags/writing/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Academic Writing Books</title>
-      <link>https://spatlyu.github.io/posts/academic_writing_books/</link>
-      <pubDate>Sun, 18 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/academic_writing_books/</guid>
-      <description>Academic Paper Science Research Writing: For Non-Native Speakers of English&#xA;How to Write a Lot&#xA;How to Write the Introduction&#xA;Research Proposal Research Proposals: A Practical Guide</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Writing on Wenbo Lyu</title>
+		<link>https://spatlyu.github.io/tags/writing/</link>
+		<description>Recent content in Writing on Wenbo Lyu</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 18 Aug 2024 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://spatlyu.github.io/tags/writing/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Academic Writing Books</title>
+				<link>https://spatlyu.github.io/posts/academic_writing_books/</link>
+				<pubDate>Sun, 18 Aug 2024 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/posts/academic_writing_books/</guid>
+				<description>&lt;h3 id=&#34;academic-paper&#34;&gt;Academic Paper&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://spatlyu.github.io/posts/books/Science-Research-Writing.pdf&#34;&gt;Science Research Writing: For Non-Native Speakers of English&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://spatlyu.github.io/posts/books/Write-Lot.pdf&#34;&gt;How to Write a Lot&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://spatlyu.github.io/posts/books/How-to-write-the-introduction.pdf&#34;&gt;How to Write the Introduction&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;research-proposal&#34;&gt;Research Proposal&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://spatlyu.github.io/posts/books/Research-Proposals.pdf&#34;&gt;Research Proposals: A Practical Guide&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

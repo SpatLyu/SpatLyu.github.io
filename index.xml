@@ -1,222 +1,227 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Wenbo Lv</title>
-    <link>https://spatlyu.github.io/</link>
-    <description>Recent content on Wenbo Lv</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Sun, 16 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://spatlyu.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>R books</title>
-      <link>https://spatlyu.github.io/posts/r-books/</link>
-      <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/r-books/</guid>
-      <description>R fundamentals Introduction to R&#xA;Advanced R&#xA;R for Data Science (2e)&#xA;R Graphics Cookbook, 2nd edition&#xA;The tidyverse style guide&#xA;R in Production&#xA;What They Forgot to Teach You About R&#xA;Deep R Programming&#xA;Efficient R programming&#xA;Data Visualization with ggplot2&#xA;Best Coding Practices for R&#xA;Happy Git and GitHub for the useR&#xA;Rcpp for everyone&#xA;Rcpp for everyone Chinese version&#xA;Unofficial rcpp api documentation&#xA;R Packages (2e)&#xA;CRAN Cookbook</description>
-    </item>
-    <item>
-      <title>Spatial Causal Inference</title>
-      <link>https://spatlyu.github.io/posts/spcausality_resources/</link>
-      <pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/spcausality_resources/</guid>
-      <description>Causal inference in spatial statistics&#xA;Spatial Causality: A Systematic Review on Spatial Causal Inference&#xA;A review of causal analysis methods in geographic research&#xA;Temporally or spatially? Causation inference in earth system sciences&#xA;Conduct Multiple Types of Geographic Regression Discontinuity Designs(SpatialRDD)&#xA;Spatial Difference-in-differences (SpatialDID)&#xA;Evidence on the impact of sustained exposure to air pollution on life expectancy from China’s Huai River policy&#xA;Rethinking ‘causality’ in quantitative human geography&#xA;Inferring causation from time series in Earth system sciences</description>
-    </item>
-    <item>
-      <title>Empirical Dynamic Modeling (EDM)</title>
-      <link>https://spatlyu.github.io/posts/edm_resources/</link>
-      <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/edm_resources/</guid>
-      <description>Detecting Causality in Complex Ecosystems (CCM)&#xA;Causal inference from cross-sectional earth system data with geographical convergent cross mapping (GCCM)&#xA;Partial cross mapping eliminates indirect causal influences (PCM)&#xA;Spatial convergent cross mapping to detect causal relationships from short time series (MultispatialCCM)&#xA;Detecting Causality from Nonlinear Dynamics with Short-term Time Series (CMS)&#xA;Detecting dynamical causality by intersection cardinal concavity (CMC)&#xA;Single-cell causal network inferred by cross-mapping entropy (CME)</description>
-    </item>
-    <item>
-      <title>Spatial Stratified Heterogeneity (SSH)</title>
-      <link>https://spatlyu.github.io/posts/ssh_resources/</link>
-      <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/ssh_resources/</guid>
-      <description>Statistical Modeling of Spatially Stratified Heterogeneous Data&#xA;Geodetector: Principle and prospective&#xA;Understanding and extending the geographical detector model under a linear regression framework&#xA;Information Consistency-Based Measures for Spatial Stratified Heterogeneity&#xA;A local indicator of stratified power&#xA;An optimal parameters-based geographical detector model(OPGD)&#xA;Spatial association detector (SPADE)&#xA;Robust geographical detector (RGD)&#xA;An interactive detector for spatial associations (IDSA)&#xA;A locally explained heterogeneity model for examining wetland disparity (LESH)&#xA;Identifying determinants of spatio-temporal disparities in soil moisture of the Northern Hemisphere using a geographically optimal zones-based heterogeneity model (GOZH)</description>
-    </item>
-    <item>
-      <title>Some Useful Resource</title>
-      <link>https://spatlyu.github.io/posts/other_resource_github_io/</link>
-      <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/other_resource_github_io/</guid>
-      <description>Statistics and Information Theory&#xA;Copula Entropy: Theory and Applications (Chinese)&#xA;Recommended List of Classic and Cutting-Edge Literature in the Field of Urban Science (Chinese)&#xA;Mathematical symbols and expressions in rmarkdown&#xA;Xaringan Helper&#xA;sf tutorial(in chinese)</description>
-    </item>
-    <item>
-      <title>Online Photo Editing Tools</title>
-      <link>https://spatlyu.github.io/posts/online_photo_editing_tools/</link>
-      <pubDate>Fri, 13 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/online_photo_editing_tools/</guid>
-      <description>在线抠图&#xA;在线图片去除底色&#xA;裁剪图像中的圆圈&#xA;调节图片透明度&#xA;免费水印去除&#xA;压缩图像&#xA;在线图片宽高修改工具&#xA;PDF工具集合&#xA;PNG to SVG Conversion&#xA;Initialise favicons from photo</description>
-    </item>
-    <item>
-      <title>Advanced Spatial Methods</title>
-      <link>https://spatlyu.github.io/posts/advanced-spatial-methods/</link>
-      <pubDate>Wed, 04 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/advanced-spatial-methods/</guid>
-      <description>Spatial Relationships Spatial Stratefied Heterogeneity(SSH)&#xA;Spatial Association&#xA;Spatial Causal Inference&#xA;Geocomplexity explains spatial errors&#xA;On spatial effects in geographical analysis&#xA;Geographic Similarity: Third Law of Geography?&#xA;Spatial Prediction Geographically Optimal Similarity&#xA;A generalized heterogeneity model for spatial interpolation&#xA;An ensemble spatial prediction method considering geospatial heterogeneity&#xA;The second dimension of spatial association&#xA;atakrig: An R package for multivariate area-to-area and area-to-point kriging predictions</description>
-    </item>
-    <item>
-      <title>Spatial Association</title>
-      <link>https://spatlyu.github.io/posts/spassociation_resources/</link>
-      <pubDate>Wed, 04 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/spassociation_resources/</guid>
-      <description>Spatial Association from the Perspective of Mutual Information&#xA;Spatial association between regionalizations using the information-theoretical V-measure</description>
-    </item>
-    <item>
-      <title>Structural Equation Model (SEM)</title>
-      <link>https://spatlyu.github.io/posts/sem_resources/</link>
-      <pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/sem_resources/</guid>
-      <description>结构方程模型的理论、应用以及若干误区-谢益辉&#xA;结构方程模型简介-无名</description>
-    </item>
-    <item>
-      <title>Presentation Slides</title>
-      <link>https://spatlyu.github.io/posts/presentation_slides/</link>
-      <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/presentation_slides/</guid>
-      <description>R package gdverse&#xA;R packages developed by SpatLyu&#xA;Spatial Causal Inference</description>
-    </item>
-    <item>
-      <title>Spatial Econometrics Regression</title>
-      <link>https://spatlyu.github.io/posts/spatial_econometric_regression/</link>
-      <pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/spatial_econometric_regression/</guid>
-      <description>Generalized Nested Spatial Model (GSNM) $$ y = \rho_{Lag} W y + X\beta + WX\gamma + \mu, \mu = \rho_{Err} W \mu + \xi $$&#xA;where $y$ is an $(N \times 1)$ vector of observations on a response variable taken at each of $N$ locations,$W$ is a spatial weight matrix, which is a non-negative matrix of size $N \times N$, $X$ is an $(N \times k)$ matrix of covariates, $\beta$ is a $(k \times 1)$ vector of parameters, $\mu$ is an $(N \times 1)$ spatially autocorrelated disturbance vector, $\xi$ is an $(N \times 1)$ vector of independent and identically distributed disturbances, $\rho_{Lag}$ and $\rho_{Err}$ is a scalar spatial parameter.</description>
-    </item>
-    <item>
-      <title>Legend in ggplot2 3.5.x</title>
-      <link>https://spatlyu.github.io/posts/legend_in_ggplot2_3-5-x/</link>
-      <pubDate>Thu, 05 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/legend_in_ggplot2_3-5-x/</guid>
-      <description>library(tidyverse) library(ggspatial) road = sfnetworks::roxel %&amp;gt;% dplyr::mutate(rn = rnorm(nrow(.))) fig_g = ggplot(data = road) + geom_sf(aes(color = rn), lwd = 0.75) + scale_color_gradientn(colors = c(&amp;#34;#4575B4&amp;#34;,&amp;#34;#91BFDB&amp;#34;,&amp;#34;#E0F3F8&amp;#34;, &amp;#34;#FFFFBF&amp;#34;,&amp;#34;#FEE090&amp;#34;,&amp;#34;#FC8D59&amp;#34;), name = &amp;#34;random number&amp;#34;) + annotation_north_arrow(location = &amp;#39;tl&amp;#39;, height = unit(1, &amp;#34;cm&amp;#34;), width = unit(1, &amp;#34;cm&amp;#34;),) + annotation_scale(location = &amp;#39;bl&amp;#39;) + theme_bw() + theme(legend.justification = c(&amp;#39;right&amp;#39;,&amp;#39;bottom&amp;#39;), legend.position = &amp;#34;inside&amp;#34;, legend.background = element_rect(fill = &amp;#39;transparent&amp;#39;), legend.direction = &amp;#34;horizontal&amp;#34;, legend.key.width = unit(15, &amp;#34;pt&amp;#34;), legend.key.height = unit(5, &amp;#34;pt&amp;#34;)) fig_g 注意以下几点:</description>
-    </item>
-    <item>
-      <title>Academic Writing Books</title>
-      <link>https://spatlyu.github.io/posts/academic_writing_books/</link>
-      <pubDate>Sun, 18 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/academic_writing_books/</guid>
-      <description>Academic Paper Science Research Writing: For Non-Native Speakers of English&#xA;How to Write a Lot&#xA;How to Write the Introduction&#xA;Research Proposal Research Proposals: A Practical Guide</description>
-    </item>
-    <item>
-      <title>Increment operator in cpp</title>
-      <link>https://spatlyu.github.io/posts/increment-operator-in-cpp/</link>
-      <pubDate>Sat, 06 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/increment-operator-in-cpp/</guid>
-      <description>In cpp, i++ and ++i are two different increment operators, known as post-increment and pre-increment, respectively. The main difference between them lies in the order of operations and the return value.&#xA;i++ (Post-Increment) The post-increment operator i++ returns the current value of the variable before incrementing it. Specifically:&#xA;It returns the current value of the variable. Then, it increments the variable&amp;rsquo;s value by 1. Example:&#xA;int i = 1; int a = i++; // a = 1, i = 2 In this example, a is assigned the current value of i (1), and then i is incremented to 2.</description>
-    </item>
-    <item>
-      <title>Pipes In R</title>
-      <link>https://spatlyu.github.io/posts/pipes_in_r/</link>
-      <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/pipes_in_r/</guid>
-      <description>In this post,we will state the use of pipes in R, includes %&amp;gt;%, %$%, %T&amp;gt;%, %&amp;lt;&amp;gt;% and |&amp;gt;.&#xA;First let&amp;rsquo;s construct some data for a demonstration of pipes usage in R (PS: The ideas and example data for this post came from this dplyr github issue):&#xA;packageVersion(&amp;#39;magrittr&amp;#39;) ## [1] &amp;#39;2.0.3&amp;#39; library(magrittr) exampledt = tibble::tibble( BP = c(&amp;#34;-&amp;#34;, &amp;#34;-&amp;#34;, &amp;#34;A&amp;#34;, &amp;#34;B&amp;#34;), CL = c(&amp;#34;-&amp;#34;, &amp;#34;C&amp;#34;, &amp;#34;-&amp;#34;, &amp;#34;D&amp;#34;), MF = c(&amp;#34;-&amp;#34;, &amp;#34;-&amp;#34;, &amp;#34;-&amp;#34;, &amp;#34;E&amp;#34;) ) %&amp;gt;% {.</description>
-    </item>
-    <item>
-      <title>Common git commands</title>
-      <link>https://spatlyu.github.io/posts/common-git-commands/</link>
-      <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/common-git-commands/</guid>
-      <description>View the git installation location which git View the git installation version git --version Updating Git for Windows git update-git-for-windows Setting up network proxy git config --global http.proxy &amp;#39;http://127.0.0.1:7890&amp;#39;&#xD;git config --global https.proxy &amp;#39;http://127.0.0.1:7890&amp;#39; Setting default initial branch name to main git config --global init.defaultBranch main View all git configuration information git config --global --list Push local main to GitHub main and have local main track main on GitHub git push --set-upstream origin main&#xD;# shorter form&#xD;git push -u origin main&#xD;# you only need to set upstream tracking once!</description>
-    </item>
-    <item>
-      <title>Rmarkdown Setup</title>
-      <link>https://spatlyu.github.io/posts/rmarkdown-setup/</link>
-      <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/rmarkdown-setup/</guid>
-      <description>常用的 knitr 设置 ```{r setup, include = FALSE} knitr::opts_chunk$set(echo = TRUE, dpi = 300, warning = FALSE, message = FALSE, out.width = &amp;#34;100%&amp;#34;, out.height = &amp;#34;100%&amp;#34;, fig.align = &amp;#39;center&amp;#39;, comment = &amp;#34;##&amp;#34;) ``` 灰白背景rmarkdown模板 --- title: &amp;#34;xxx&amp;#34; author: &amp;#34;xxx&amp;#34; date: &amp;#34;`r Sys.Date()`&amp;#34; output: #latex_document prettydoc::html_pretty: theme: tactile highlight: github --- ```{r setup, include = FALSE} knitr::opts_chunk$set(echo = TRUE, dpi = 300, warning = FALSE, message = FALSE, out.width = &amp;#34;100%&amp;#34;, out.</description>
-    </item>
-    <item>
-      <title>Setting up a network proxy</title>
-      <link>https://spatlyu.github.io/posts/setup-network-proxy/</link>
-      <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/setup-network-proxy/</guid>
-      <description>Python&#xA;import os os.environ[&amp;#34;http_proxy&amp;#34;] = &amp;#34;http://127.0.0.1:7890&amp;#34; os.environ[&amp;#34;https_proxy&amp;#34;] = &amp;#34;http://127.0.0.1:7890&amp;#34; R&#xA;Sys.setenv(https_proxy=&amp;#34;http://127.0.0.1:7890&amp;#34;) Sys.setenv(http_proxy=&amp;#34;http://127.0.0.1:7890&amp;#34;) Julia&#xA;ENV[&amp;#34;https_proxy&amp;#34;]=&amp;#34;http://127.0.0.1:7890/&amp;#34; Git&#xA;git config --global http.proxy &amp;#39;http://127.0.0.1:7890&amp;#39;&#xD;git config --global https.proxy &amp;#39;http://127.0.0.1:7890&amp;#39; nodejs&#xA;npm config set https-proxy http://127.0.0.1:7890 Change the value from 7890 to the corresponding port number based on your network proxy port number.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://spatlyu.github.io/index-about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/index-about/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>arcR</title>
-      <link>https://spatlyu.github.io/projects/arcr/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/projects/arcr/</guid>
-      <description>goal The goal of arcR is to integrate the benefits of R and ArcGIS with using ArcGIS in R.&#xA;document You can see the document of arcR in here&#xA;source code The source code of arcR is in here&#xA;feedback If you have any questions or suggestions, please post them in arcR github repo issue.</description>
-    </item>
-    <item>
-      <title>cisp</title>
-      <link>https://spatlyu.github.io/projects/cisp/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/projects/cisp/</guid>
-      <description>goal A Correlation Indicator Based On Spatial Patterns.&#xA;document You can see the document of cisp in here&#xA;source code The source code of cisp is in here&#xA;feedback If you have any questions or suggestions, please post them in cisp github repo issue.</description>
-    </item>
-    <item>
-      <title>gdverse</title>
-      <link>https://spatlyu.github.io/projects/gdverse/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/projects/gdverse/</guid>
-      <description>goal Analyzing spatial factors and exploring spatial associations based on the concept of spatial stratified heterogeneity, and also takes into account local spatial dependencies, spatial interpretability, potential spatial interactions, and robust spatial stratification. Additionally, it supports geographical detector models established in academic literature.&#xA;document You can see the document of gdverse in here&#xA;source code The source code of gdverse is in here&#xA;feedback If you have any questions or suggestions, please post them in gdverse github repo issue.</description>
-    </item>
-    <item>
-      <title>geocn</title>
-      <link>https://spatlyu.github.io/projects/geocn/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/projects/geocn/</guid>
-      <description>goal Provide various commonly used spatial data related to Chinese regions in the R programming environment.&#xA;document You can see the document of geocn in here&#xA;source code The source code of geocn is in here&#xA;feedback If you have any questions or suggestions, please post them in geocn github repo issue.</description>
-    </item>
-    <item>
-      <title>geocomplexity</title>
-      <link>https://spatlyu.github.io/projects/geocomplexity/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/projects/geocomplexity/</guid>
-      <description>goal Mitigating Spatial Bias Through Geographical Complexity&#xA;document You can see the document of geocomplexity in here&#xA;source code The source code of geocomplexity is in here&#xA;feedback If you have any questions or suggestions, please post them in geocomplexity github repo issue.</description>
-    </item>
-    <item>
-      <title>geosom</title>
-      <link>https://spatlyu.github.io/projects/geosom/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/projects/geosom/</guid>
-      <description>goal The goal of geosom is to achieve Spatially-Aware Self-Organizing Maps(GeoSOM) Model in R.&#xA;document You can see the document of geosom in here&#xA;source code The source code of geosom is in here&#xA;feedback If you have any questions or suggestions, please post them in geosom github repo issue.</description>
-    </item>
-    <item>
-      <title>sdsfun</title>
-      <link>https://spatlyu.github.io/projects/sdsfun/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/projects/sdsfun/</guid>
-      <description>goal Wrapping and supplementing commonly used functions in the R ecosystem related to spatial data science, while serving as a basis for other packages maintained by Wenbo Lv.&#xA;document You can see the document of sdsfun in here&#xA;source code The source code of sdsfun is in here&#xA;feedback If you have any questions or suggestions, please post them in sdsfun github repo issue.</description>
-    </item>
-    <item>
-      <title>sesp</title>
-      <link>https://spatlyu.github.io/projects/sesp/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/projects/sesp/</guid>
-      <description>goal Assessing the spatial association between variables through an equivalent geographical detector q-statistic within a regression framework.&#xA;document You can see the document of sesp in here&#xA;source code The source code of sesp is in here&#xA;feedback If you have any questions or suggestions, please post them in sesp github repo issue.</description>
-    </item>
-    <item>
-      <title>spatbox</title>
-      <link>https://spatlyu.github.io/projects/spatbox/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/projects/spatbox/</guid>
-      <description>source code The source code of spatbox is in here&#xA;feedback If you have any questions or suggestions, please post them in spatbox github repo issue.</description>
-    </item>
-    <item>
-      <title>spEcula</title>
-      <link>https://spatlyu.github.io/projects/specula/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/projects/specula/</guid>
-      <description>goal The goal of spEcula is to make it easier to use R for spatial prediction based on various spatial relationships (e.g. spatial dependence, spatial heterogeneity and geographical similarity).&#xA;document You can see the document of spEcula in here&#xA;source code The source code of spEcula is in here&#xA;feedback If you have any questions or suggestions, please post them in spEcula github repo issue.</description>
-    </item>
-    <item>
-      <title>tidyrgeoda</title>
-      <link>https://spatlyu.github.io/projects/tidyrgeoda/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/projects/tidyrgeoda/</guid>
-      <description>goal The goal of tidyrgeoda is to provide an interface for rgeoda to integrate with sf objects and the tidyverse.&#xA;document You can see the document of tidyrgeoda in here&#xA;source code The source code of tidyrgeoda is in here&#xA;feedback If you have any questions or suggestions, please post them in tidyrgeoda github repo issue.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Wenbo Lyu</title>
+		<link>https://spatlyu.github.io/</link>
+		<description>Recent content on Wenbo Lyu</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 16 Mar 2025 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://spatlyu.github.io/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>R books</title>
+				<link>https://spatlyu.github.io/posts/r-books/</link>
+				<pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/posts/r-books/</guid>
+				<description>&lt;h2 id=&#34;r-fundamentals&#34;&gt;R fundamentals&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://rspatial.org/intr/&#34;&gt;&lt;strong&gt;Introduction to R&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://adv-r.hadley.nz/&#34;&gt;&lt;strong&gt;Advanced R&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://r4ds.hadley.nz/&#34;&gt;&lt;strong&gt;R for Data Science (2e)&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://r-graphics.org/&#34;&gt;&lt;strong&gt;R Graphics Cookbook, 2nd edition&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://style.tidyverse.org/&#34;&gt;&lt;strong&gt;The tidyverse style guide&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://r-in-production.org/&#34;&gt;&lt;strong&gt;R in Production&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://rstats.wtf/&#34;&gt;&lt;strong&gt;What They Forgot to Teach You About R&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://deepr.gagolewski.com/index.html&#34;&gt;&lt;strong&gt;Deep R Programming&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://csgillespie.github.io/efficientR/index.html&#34;&gt;Efficient R programming&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://viz-ggplot2.rsquaredacademy.com/&#34;&gt;Data Visualization with ggplot2&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://bookdown.org/content/d1e53ac9-28ce-472f-bc2c-f499f18264a3/&#34;&gt;Best Coding Practices for R&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://happygitwithr.com/&#34;&gt;&lt;strong&gt;Happy Git and GitHub for the useR&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://teuder.github.io/rcpp4everyone_en/&#34;&gt;&lt;strong&gt;Rcpp for everyone&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://jywang2016.github.io/rcpp4everyone_cn/&#34;&gt;Rcpp for everyone Chinese version&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://thecoatlessprofessor.com/programming/cpp/unofficial-rcpp-api-documentation/&#34;&gt;&lt;strong&gt;Unofficial rcpp api documentation&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://r-pkgs.org/&#34;&gt;&lt;strong&gt;R Packages (2e)&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://contributor.r-project.org/cran-cookbook/&#34;&gt;&lt;strong&gt;CRAN Cookbook&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Spatial Causal Inference</title>
+				<link>https://spatlyu.github.io/posts/spcausality_resources/</link>
+				<pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/posts/spcausality_resources/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S2211675322000173&#34;&gt;&lt;strong&gt;Causal inference in spatial statistics&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://onlinelibrary.wiley.com/doi/abs/10.1111/gean.12312&#34;&gt;&lt;strong&gt;Spatial Causality: A Systematic Review on Spatial Causal Inference&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1016/j.envsoft.2023.105929&#34;&gt;&lt;strong&gt;A review of causal analysis methods in geographic research&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1016/j.scib.2021.10.002&#34;&gt;Temporally or spatially? Causation inference in earth system sciences&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://axlehner.github.io/SpatialRDD/index.html&#34;&gt;Conduct Multiple Types of Geographic Regression Discontinuity Designs(SpatialRDD)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S0165176515004371&#34;&gt;Spatial Difference-in-differences (SpatialDID)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.pnas.org/doi/full/10.1073/pnas.1300018110&#34;&gt;Evidence on the impact of sustained exposure to air pollution on life expectancy from China’s Huai River policy&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1111/gec3.12743&#34;&gt;Rethinking ‘causality’ in quantitative human geography&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.nature.com/articles/s41467-019-10105-3&#34;&gt;Inferring causation from time series in Earth system sciences&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Empirical Dynamic Modeling (EDM)</title>
+				<link>https://spatlyu.github.io/posts/edm_resources/</link>
+				<pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/posts/edm_resources/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;https://www.science.org/doi/10.1126/science.1227079&#34;&gt;&lt;strong&gt;Detecting Causality in Complex Ecosystems (CCM)&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1038/s41467-023-41619-6&#34;&gt;&lt;strong&gt;Causal inference from cross-sectional earth system data with geographical convergent cross mapping (GCCM)&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1038/s41467-020-16238-0&#34;&gt;&lt;strong&gt;Partial cross mapping eliminates indirect causal influences (PCM)&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1890/14-1479.1&#34;&gt;Spatial convergent cross mapping to detect causal relationships from short time series (MultispatialCCM)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1038/srep07464&#34;&gt;Detecting Causality from Nonlinear Dynamics with Short-term Time Series (CMS)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1016/j.fmre.2023.01.007&#34;&gt;Detecting dynamical causality by intersection cardinal concavity (CMC)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1093/bib/bbad281&#34;&gt;Single-cell causal network inferred by cross-mapping entropy (CME)&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Spatial Stratified Heterogeneity (SSH)</title>
+				<link>https://spatlyu.github.io/posts/ssh_resources/</link>
+				<pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/posts/ssh_resources/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1080/24694452.2023.2289982&#34;&gt;&lt;strong&gt;Statistical Modeling of Spatially Stratified Heterogeneous Data&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.11821/dlxb201701010&#34;&gt;&lt;strong&gt;Geodetector: Principle and prospective&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1080/13658816.2023.2266497&#34;&gt;&lt;strong&gt;Understanding and extending the geographical detector model under a linear regression framework&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1080/24694452.2023.2223700&#34;&gt;&lt;strong&gt;Information Consistency-Based Measures for Spatial Stratified Heterogeneity&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1080/13658816.2024.2437811&#34;&gt;&lt;strong&gt;A local indicator of stratified power&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1080/15481603.2020.1760434&#34;&gt;&lt;strong&gt;An optimal parameters-based geographical detector model(OPGD)&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1080/13658816.2018.1476693&#34;&gt;&lt;strong&gt;Spatial association detector (SPADE)&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1016/j.jag.2022.102782&#34;&gt;&lt;strong&gt;Robust geographical detector (RGD)&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1080/13658816.2021.1882680&#34;&gt;&lt;strong&gt;An interactive detector for spatial associations (IDSA)&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1080/17538947.2023.2271883&#34;&gt;&lt;strong&gt;A locally explained heterogeneity model for examining wetland disparity (LESH)&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1016/j.isprsjprs.2022.01.009&#34;&gt;Identifying determinants of spatio-temporal disparities in soil moisture of the Northern Hemisphere using a geographically optimal zones-based heterogeneity model (GOZH)&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Some Useful Resource</title>
+				<link>https://spatlyu.github.io/posts/other_resource_github_io/</link>
+				<pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/posts/other_resource_github_io/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;https://web.stanford.edu/class/stats311/lecture-notes.pdf&#34;&gt;Statistics and Information Theory&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://majianthu.github.io/ce-survey.pdf&#34;&gt;Copula Entropy: Theory and Applications (Chinese)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://pattern.swarma.org/article/233?from=wechat&#34;&gt;Recommended List of Classic and Cutting-Edge Literature in the Field of Urban Science (Chinese)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://spatlyu.github.io/materials/mathsymbols.html&#34;&gt;Mathematical symbols and expressions in rmarkdown&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://spatlyu.github.io/materials/xaringan.pdf&#34;&gt;Xaringan Helper&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://spatlyu.github.io/slides/sf_tutorial.html&#34;&gt;sf tutorial(in chinese)&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Online Photo Editing Tools</title>
+				<link>https://spatlyu.github.io/posts/online_photo_editing_tools/</link>
+				<pubDate>Fri, 13 Dec 2024 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/posts/online_photo_editing_tools/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;https://tool.lu/cutout/&#34;&gt;在线抠图&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tools.kalvinbg.cn/image/bgRemover&#34;&gt;在线图片去除底色&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://imgonline.tools/zh/crop-circle&#34;&gt;裁剪图像中的圆圈&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.lzltool.cn/Toolkit/ChangePngOpacity&#34;&gt;调节图片透明度&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.apeaksoft.com/zh-CN/watermark-remover/&#34;&gt;免费水印去除&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://freecompress.com/zh-cn/compress-image&#34;&gt;压缩图像&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://uutool.cn/img-size&#34;&gt;在线图片宽高修改工具&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://smallpdf.com/cn&#34;&gt;PDF工具集合&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://png2svg.com/&#34;&gt;PNG to SVG Conversion&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://realfavicongenerator.net&#34;&gt;Initialise favicons from photo&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Advanced Spatial Methods</title>
+				<link>https://spatlyu.github.io/posts/advanced-spatial-methods/</link>
+				<pubDate>Wed, 04 Dec 2024 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/posts/advanced-spatial-methods/</guid>
+				<description>&lt;h3 id=&#34;spatial-relationships&#34;&gt;Spatial Relationships&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://spatlyu.github.io/posts/ssh_resources&#34;&gt;Spatial Stratefied Heterogeneity(SSH)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://spatlyu.github.io/posts/spassociation_resources&#34;&gt;Spatial Association&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://spatlyu.github.io/posts/spcausality_resources&#34;&gt;Spatial Causal Inference&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1080/13658816.2023.2203212&#34;&gt;&lt;strong&gt;Geocomplexity explains spatial errors&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;10.11821/dlxb202303001&#34;&gt;&lt;strong&gt;On spatial effects in geographical analysis&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.dqxxkx.cn/article/2020/1560-8999/1560-8999-22-4-673.shtml&#34;&gt;Geographic Similarity: Third Law of Geography?&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;spatial-prediction&#34;&gt;Spatial Prediction&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://link.springer.com/article/10.1007/s11004-022-10036-8&#34;&gt;Geographically Optimal Similarity&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1080/13658816.2022.2147530&#34;&gt;A generalized heterogeneity model for spatial interpolation&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.tandfonline.com/doi/full/10.1080/13658816.2024.2358052&#34;&gt;An ensemble spatial prediction method considering geospatial heterogeneity&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S156984322200036X&#34;&gt;&lt;strong&gt;The second dimension of spatial association&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S0098300419306089&#34;&gt;atakrig: An R package for multivariate area-to-area and area-to-point kriging predictions&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Spatial Association</title>
+				<link>https://spatlyu.github.io/posts/spassociation_resources/</link>
+				<pubDate>Wed, 04 Dec 2024 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/posts/spassociation_resources/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1080/24694452.2023.2209629&#34;&gt;Spatial Association from the Perspective of Mutual Information&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1080/13658816.2018.1511794&#34;&gt;Spatial association between regionalizations using the information-theoretical V-measure&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Structural Equation Model (SEM)</title>
+				<link>https://spatlyu.github.io/posts/sem_resources/</link>
+				<pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/posts/sem_resources/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;https://db.yihui.org/docs/SEM-theory-2006-Yihui-Xie.pdf&#34;&gt;结构方程模型的理论、应用以及若干误区-谢益辉&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://staff.ustc.edu.cn/~ynyang/vector/lecture14.pdf&#34;&gt;结构方程模型简介-无名&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Presentation Slides</title>
+				<link>https://spatlyu.github.io/posts/presentation_slides/</link>
+				<pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/posts/presentation_slides/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;https://spatlyu.github.io/slides/gdverse_pres.html&#34;&gt;R package gdverse&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://spatlyu.github.io/slides/intro_rpkg_lyu.html&#34;&gt;R packages developed by SpatLyu&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://spatlyu.github.io/slides/geospatial_causal_inference.html&#34;&gt;Spatial Causal Inference&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Spatial Econometrics Regression</title>
+				<link>https://spatlyu.github.io/posts/spatial_econometric_regression/</link>
+				<pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/posts/spatial_econometric_regression/</guid>
+				<description>&lt;h2 id=&#34;generalized-nested-spatial-model-gsnm&#34;&gt;Generalized Nested Spatial Model (GSNM)&lt;/h2&gt;&#xA;&lt;p&gt;$$&#xA;y = \rho_{Lag} W y + X\beta + WX\gamma + \mu,&#xA;\mu = \rho_{Err} W \mu + \xi&#xA;$$&lt;/p&gt;&#xA;&lt;p&gt;where $y$ is an $(N \times 1)$ vector of observations on a response variable taken at each of $N$ locations,$W$ is a spatial weight matrix, which is a non-negative matrix of size $N \times N$, $X$ is an $(N \times k)$ matrix of covariates, $\beta$ is a $(k \times 1)$ vector of parameters, $\mu$ is an $(N \times 1)$ spatially autocorrelated disturbance vector, $\xi$ is an $(N \times 1)$ vector of independent and identically distributed disturbances, $\rho_{Lag}$ and $\rho_{Err}$ is a scalar spatial parameter. $\gamma$ is a $(k&amp;rsquo; \times 1)$ vector of parameters. $k&amp;rsquo;$ defines the subset of the intercept and covariates, often $k&amp;rsquo; = k-1$ when using row standardised spatial weights and omitting the spatially lagged intercept.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Legend in ggplot2 3.5.x</title>
+				<link>https://spatlyu.github.io/posts/legend_in_ggplot2_3-5-x/</link>
+				<pubDate>Thu, 05 Sep 2024 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/posts/legend_in_ggplot2_3-5-x/</guid>
+				<description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;library&lt;/span&gt;(tidyverse)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;library&lt;/span&gt;(ggspatial)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;road &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; sfnetworks&lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt;roxel &lt;span style=&#34;color:#f92672&#34;&gt;%&amp;gt;%&lt;/span&gt; &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  dplyr&lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;mutate&lt;/span&gt;(rn &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;rnorm&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;nrow&lt;/span&gt;(.)))&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;fig_g &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;ggplot&lt;/span&gt;(data &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; road) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;geom_sf&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;aes&lt;/span&gt;(color &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; rn),&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            lwd &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0.75&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;scale_color_gradientn&lt;/span&gt;(colors &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#4575B4&amp;#34;&lt;/span&gt;,&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#91BFDB&amp;#34;&lt;/span&gt;,&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#E0F3F8&amp;#34;&lt;/span&gt;,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                                     &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#FFFFBF&amp;#34;&lt;/span&gt;,&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#FEE090&amp;#34;&lt;/span&gt;,&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#FC8D59&amp;#34;&lt;/span&gt;),&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                          name &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;random number&amp;#34;&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;annotation_north_arrow&lt;/span&gt;(location &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;tl&amp;#39;&lt;/span&gt;,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                           height &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;unit&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;cm&amp;#34;&lt;/span&gt;),&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                           width &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;unit&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;cm&amp;#34;&lt;/span&gt;),) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;annotation_scale&lt;/span&gt;(location &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;bl&amp;#39;&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;theme_bw&lt;/span&gt;() &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;theme&lt;/span&gt;(legend.justification &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;right&amp;#39;&lt;/span&gt;,&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;bottom&amp;#39;&lt;/span&gt;),&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          legend.position &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;inside&amp;#34;&lt;/span&gt;,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          legend.background &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;element_rect&lt;/span&gt;(fill &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;transparent&amp;#39;&lt;/span&gt;),&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          legend.direction &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;horizontal&amp;#34;&lt;/span&gt;,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          legend.key.width &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;unit&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;15&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;pt&amp;#34;&lt;/span&gt;),&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          legend.key.height &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;unit&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;5&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;pt&amp;#34;&lt;/span&gt;))&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;fig_g&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://spatlyu.github.io/posts/legend_in_ggplot2_3-5-x_files/figure-html/fig_road-1.png&#34; width=&#34;1350&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&#xD;&#xA;&lt;p&gt;注意以下几点:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;ggplot2使用连续色带时自定义颜色使用&lt;code&gt;scale_color_gradientn()&lt;/code&gt;函数;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;使用ggspatial添加指北针和比例尺时可以通过&lt;code&gt;location&lt;/code&gt;参数指定相应在四角的位置;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;ggplot2图例放在图主体内需指定&lt;code&gt;legend.position = &amp;quot;inside&amp;quot;&lt;/code&gt;,进而通过调整&lt;code&gt;legend.justification&lt;/code&gt;来调整图例的具体位置;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;图例宽和高(图例主体,不包括图例名字)分别使用&lt;code&gt;legend.key.width&lt;/code&gt;和&lt;code&gt;legend.key.height&lt;/code&gt;调节&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;图例背景透明使用&lt;code&gt;legend.background = element_rect(fill = &#39;transparent&#39;)&lt;/code&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+			<item>
+				<title>Academic Writing Books</title>
+				<link>https://spatlyu.github.io/posts/academic_writing_books/</link>
+				<pubDate>Sun, 18 Aug 2024 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/posts/academic_writing_books/</guid>
+				<description>&lt;h3 id=&#34;academic-paper&#34;&gt;Academic Paper&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://spatlyu.github.io/posts/books/Science-Research-Writing.pdf&#34;&gt;Science Research Writing: For Non-Native Speakers of English&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://spatlyu.github.io/posts/books/Write-Lot.pdf&#34;&gt;How to Write a Lot&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://spatlyu.github.io/posts/books/How-to-write-the-introduction.pdf&#34;&gt;How to Write the Introduction&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;research-proposal&#34;&gt;Research Proposal&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://spatlyu.github.io/posts/books/Research-Proposals.pdf&#34;&gt;Research Proposals: A Practical Guide&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Increment operator in cpp</title>
+				<link>https://spatlyu.github.io/posts/increment-operator-in-cpp/</link>
+				<pubDate>Sat, 06 Jul 2024 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/posts/increment-operator-in-cpp/</guid>
+				<description>&lt;p&gt;In cpp, &lt;strong&gt;i++&lt;/strong&gt; and &lt;strong&gt;++i&lt;/strong&gt; are two different increment operators, known as &lt;strong&gt;post-increment&lt;/strong&gt; and &lt;strong&gt;pre-increment&lt;/strong&gt;, respectively. The main difference between them lies in &lt;em&gt;the order of operations&lt;/em&gt; and &lt;em&gt;the return value&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;h3 id=&#34;i-post-increment&#34;&gt;&lt;strong&gt;i++&lt;/strong&gt; (Post-Increment)&lt;/h3&gt;&#xA;&lt;p&gt;The post-increment operator &lt;strong&gt;i++&lt;/strong&gt; returns the current value of the variable before incrementing it. Specifically:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;It returns the current value of the variable.&lt;/li&gt;&#xA;&lt;li&gt;Then, it increments the variable&amp;rsquo;s value by 1.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Example:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; i &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; a &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; i&lt;span style=&#34;color:#f92672&#34;&gt;++&lt;/span&gt;;  &lt;span style=&#34;color:#75715e&#34;&gt;// a = 1, i = 2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;In this example, &lt;code&gt;a&lt;/code&gt; is assigned the current value of &lt;code&gt;i&lt;/code&gt; (1), and then &lt;code&gt;i&lt;/code&gt; is incremented to 2.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Pipes In R</title>
+				<link>https://spatlyu.github.io/posts/pipes_in_r/</link>
+				<pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/posts/pipes_in_r/</guid>
+				<description>&lt;p&gt;In this post,we will state the use of pipes in R, includes %&amp;gt;%, %$%, %T&amp;gt;%, %&amp;lt;&amp;gt;% and |&amp;gt;.&lt;/p&gt;&#xA;&lt;p&gt;First let&amp;rsquo;s construct some data for a demonstration of pipes usage in R&#xA;&lt;em&gt;(PS: The ideas and example data for this post came from &lt;a href=&#34;https://github.com/tidyverse/dplyr/issues/7037&#34;&gt;this dplyr github issue&lt;/a&gt;)&lt;/em&gt;:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;packageVersion&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;magrittr&amp;#39;&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;## [1] &amp;#39;2.0.3&amp;#39;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;library&lt;/span&gt;(magrittr)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;exampledt &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; tibble&lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;tibble&lt;/span&gt;(&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  BP &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;-&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;-&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;A&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;B&amp;#34;&lt;/span&gt;),&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  CL &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;-&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;C&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;-&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;D&amp;#34;&lt;/span&gt;),&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  MF &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;-&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;-&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;-&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;E&amp;#34;&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;%&amp;gt;%&lt;/span&gt; &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  {. &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;-&amp;#39;&lt;/span&gt;} &lt;span style=&#34;color:#f92672&#34;&gt;%&amp;gt;%&lt;/span&gt; &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  tibble&lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;as_tibble&lt;/span&gt;()&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;exampledt&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;## # A tibble: 4 × 3&#xD;&#xA;##   BP    CL    MF   &#xD;&#xA;##   &amp;lt;lgl&amp;gt; &amp;lt;lgl&amp;gt; &amp;lt;lgl&amp;gt;&#xD;&#xA;## 1 TRUE  TRUE  TRUE &#xD;&#xA;## 2 TRUE  FALSE TRUE &#xD;&#xA;## 3 FALSE TRUE  TRUE &#xD;&#xA;## 4 FALSE FALSE FALSE&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;pipes-in-magrittr&#34;&gt;Pipes in magrittr&lt;/h1&gt;&#xA;&lt;h2 id=&#34;-most-commonly-used-magrittr-pipe&#34;&gt;%&amp;gt;% most commonly used magrittr pipe&lt;/h2&gt;&#xA;&lt;h3 id=&#34;basic-piping&#34;&gt;Basic piping&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;x %&amp;gt;% f&lt;/strong&gt; is equivalent to &lt;strong&gt;f(x)&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;x %&amp;gt;% f(y)&lt;/strong&gt; is equivalent to &lt;strong&gt;f(x, y)&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;x %&amp;gt;% f %&amp;gt;% g %&amp;gt;% h&lt;/strong&gt; is equivalent to &lt;strong&gt;h(g(f(x)))&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;argument-placeholder&#34;&gt;Argument placeholder&lt;/h3&gt;&#xA;&lt;p&gt;(&lt;em&gt;&lt;strong&gt;Suppose &lt;strong&gt;f&lt;/strong&gt; has only two parameters&lt;/strong&gt;&lt;/em&gt;)&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Common git commands</title>
+				<link>https://spatlyu.github.io/posts/common-git-commands/</link>
+				<pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/posts/common-git-commands/</guid>
+				<description>&lt;h3 id=&#34;view-the-git-installation-location&#34;&gt;View the git installation location&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;which git&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;view-the-git-installation-version&#34;&gt;View the git installation version&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git --version&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;updating-git-for-windows&#34;&gt;Updating Git for Windows&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git update-git-for-windows&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;setting-up-network-proxy&#34;&gt;Setting up network proxy&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git config --global http.proxy &amp;#39;http://127.0.0.1:7890&amp;#39;&#xD;&#xA;git config --global https.proxy &amp;#39;http://127.0.0.1:7890&amp;#39;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;setting-default-initial-branch-name-to-main&#34;&gt;Setting default initial branch name to main&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git config --global init.defaultBranch main&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;view-all-git-configuration-information&#34;&gt;View all git configuration information&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git config --global --list&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;push-local-main-to-github-main-and-have-local-main-track-main-on-github&#34;&gt;Push local main to GitHub main and have local main track main on GitHub&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git push --set-upstream origin main&#xD;&#xA;# shorter form&#xD;&#xA;git push -u origin main&#xD;&#xA;# you only need to set upstream tracking once!&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;pull-commits-and-dont-let-it-put-you-in-a-merge-conflict-pickle&#34;&gt;Pull commits and don’t let it put you in a merge conflict pickle&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git pull --ff-only&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;add-a-remote-to-existing-local-repo&#34;&gt;Add a remote to existing local repo&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git remote add origin [remote repo]&#xD;&#xA;git remote --verbose&#xD;&#xA;git remote show origin&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;reset-the-associated-remote-repository&#34;&gt;Reset the associated remote repository&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git remote set-url origin [new remote repo url]&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;switch-to-a-branch&#34;&gt;Switch to a branch&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git checkout [branch-name]&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;create-a-new-branch-and-switch-to-that-branch&#34;&gt;Create a new branch and switch to that branch&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git checkout -b [branch-name]&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;checking-remote-and-branch-tracking&#34;&gt;Checking remote and branch tracking&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git remote -v&#xD;&#xA;git remote show origin&#xD;&#xA;git branch -vv&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;check-on-the-state-of-the-git-world&#34;&gt;Check on the state of the Git world&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git status&#xD;&#xA;git log&#xD;&#xA;git log --oneline&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+			</item>
+			<item>
+				<title>Rmarkdown Setup</title>
+				<link>https://spatlyu.github.io/posts/rmarkdown-setup/</link>
+				<pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/posts/rmarkdown-setup/</guid>
+				<description>&lt;h3 id=&#34;常用的-knitr-设置&#34;&gt;常用的 knitr 设置&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;```{r setup, include = FALSE}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;knitr::opts_chunk$set(echo = TRUE,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                      dpi = 300,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                      warning = FALSE,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                      message = FALSE,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                      out.width = &amp;#34;100%&amp;#34;,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                      out.height = &amp;#34;100%&amp;#34;,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                      fig.align = &amp;#39;center&amp;#39;,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                      comment = &amp;#34;##&amp;#34;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;```&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;灰白背景rmarkdown模板&#34;&gt;灰白背景rmarkdown模板&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;---&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;title&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;xxx&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;author&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;xxx&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;date&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;`r Sys.Date()`&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;output&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#75715e&#34;&gt;#latex_document&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  prettydoc&lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt;html_pretty&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    theme&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; tactile&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    highlight&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; github&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;---&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;```{r setup, include = FALSE}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;knitr::opts_chunk$set(echo = TRUE,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                      dpi = 300,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                      warning = FALSE,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                      message = FALSE,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                      out.width = &amp;#34;100%&amp;#34;,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                      out.height = &amp;#34;100%&amp;#34;,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                      fig.align = &amp;#39;center&amp;#39;,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                      comment = &amp;#34;##&amp;#34;,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                      htmltools.dir.version = FALSE)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;```&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;导出word文档友好&#34;&gt;导出word文档友好&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;---&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;title&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;xxxxxxx&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;author&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;xxxxx&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;output&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  officedown&lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt;rdocx_document&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    mapstyles&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      Normal&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; [&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;First Paragraph&amp;#39;&lt;/span&gt;]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;---&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;```{r setup, include = FALSE}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;knitr::opts_chunk$set(echo = TRUE,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                      dpi = 300,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                      warning = FALSE,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                      message = FALSE,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                      out.width = &amp;#34;100%&amp;#34;,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                      out.height = &amp;#34;100%&amp;#34;,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                      fig.align = &amp;#39;center&amp;#39;,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                      comment = &amp;#34;##&amp;#34;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;```&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+			</item>
+			<item>
+				<title>Setting up a network proxy</title>
+				<link>https://spatlyu.github.io/posts/setup-network-proxy/</link>
+				<pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/posts/setup-network-proxy/</guid>
+				<description>&lt;p&gt;Python&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; os&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;os&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;environ[&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;http_proxy&amp;#34;&lt;/span&gt;] &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;http://127.0.0.1:7890&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;os&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;environ[&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https_proxy&amp;#34;&lt;/span&gt;] &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;http://127.0.0.1:7890&amp;#34;&lt;/span&gt; &#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;R&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Sys.setenv&lt;/span&gt;(https_proxy&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;http://127.0.0.1:7890&amp;#34;&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Sys.setenv&lt;/span&gt;(http_proxy&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;http://127.0.0.1:7890&amp;#34;&lt;/span&gt;) &#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Julia&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-julia&#34; data-lang=&#34;julia&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ENV[&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https_proxy&amp;#34;&lt;/span&gt;]&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;http://127.0.0.1:7890/&amp;#34;&lt;/span&gt; &#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Git&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-git&#34; data-lang=&#34;git&#34;&gt;git config --global http.proxy &amp;#39;http://127.0.0.1:7890&amp;#39;&#xD;&#xA;git config --global https.proxy &amp;#39;http://127.0.0.1:7890&amp;#39;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;nodejs&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-nodejs&#34; data-lang=&#34;nodejs&#34;&gt;npm config set https-proxy http://127.0.0.1:7890 &#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Change the value from 7890 to the corresponding port number based on your network proxy port number.&lt;/strong&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title></title>
+				<link>https://spatlyu.github.io/index-about/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/index-about/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>arcR</title>
+				<link>https://spatlyu.github.io/projects/arcr/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/projects/arcr/</guid>
+				<description>&lt;img src=&#34;https://spatlyu.github.io/projects/projects-picture/arcR.png&#34; align=&#34;right&#34; height=&#34;30&#34;/&gt;&#xD;&#xA;&lt;h3 id=&#34;goal&#34;&gt;goal&lt;/h3&gt;&#xA;&lt;p&gt;The goal of &lt;strong&gt;arcR&lt;/strong&gt; is to &lt;em&gt;integrate the benefits of R and ArcGIS with using ArcGIS in R&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;h3 id=&#34;document&#34;&gt;document&lt;/h3&gt;&#xA;&lt;p&gt;You can see the document of &lt;strong&gt;arcR&lt;/strong&gt; in &lt;a href=&#34;https://spatlyu.github.io/arcR/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;source-code&#34;&gt;source code&lt;/h3&gt;&#xA;&lt;p&gt;The source code of &lt;strong&gt;arcR&lt;/strong&gt; is in &lt;a href=&#34;https://github.com/SpatLyu/arcR/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;feedback&#34;&gt;feedback&lt;/h3&gt;&#xA;&lt;p&gt;If you have any questions or suggestions, please post them in &lt;a href=&#34;https://github.com/SpatLyu/arcR/issues&#34;&gt;arcR github repo issue&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>cisp</title>
+				<link>https://spatlyu.github.io/projects/cisp/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/projects/cisp/</guid>
+				<description>&lt;img src=&#34;https://spatlyu.github.io/projects/projects-picture/cisp.png&#34; align=&#34;right&#34; height=&#34;30&#34;/&gt;&#xD;&#xA;&lt;h3 id=&#34;goal&#34;&gt;goal&lt;/h3&gt;&#xA;&lt;p&gt;&lt;em&gt;A Correlation Indicator Based On Spatial Patterns.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;document&#34;&gt;document&lt;/h3&gt;&#xA;&lt;p&gt;You can see the document of &lt;strong&gt;cisp&lt;/strong&gt; in &lt;a href=&#34;https://stscl.github.io/cisp/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;source-code&#34;&gt;source code&lt;/h3&gt;&#xA;&lt;p&gt;The source code of &lt;strong&gt;cisp&lt;/strong&gt; is in &lt;a href=&#34;https://github.com/stscl/cisp/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;feedback&#34;&gt;feedback&lt;/h3&gt;&#xA;&lt;p&gt;If you have any questions or suggestions, please post them in &lt;a href=&#34;https://github.com/stscl/cisp/issues&#34;&gt;cisp github repo issue&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>gdverse</title>
+				<link>https://spatlyu.github.io/projects/gdverse/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/projects/gdverse/</guid>
+				<description>&lt;img src=&#34;https://spatlyu.github.io/projects/projects-picture/gdverse.png&#34; align=&#34;right&#34; height=&#34;30&#34;/&gt;&#xD;&#xA;&lt;h3 id=&#34;goal&#34;&gt;goal&lt;/h3&gt;&#xA;&lt;p&gt;&lt;em&gt;Analyzing spatial factors and exploring spatial associations based on the concept of spatial stratified heterogeneity, and also takes into account local spatial dependencies, spatial interpretability, potential spatial interactions, and robust spatial stratification. Additionally, it supports geographical detector models established in academic literature.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;document&#34;&gt;document&lt;/h3&gt;&#xA;&lt;p&gt;You can see the document of &lt;strong&gt;gdverse&lt;/strong&gt; in &lt;a href=&#34;https://stscl.github.io/gdverse/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;source-code&#34;&gt;source code&lt;/h3&gt;&#xA;&lt;p&gt;The source code of &lt;strong&gt;gdverse&lt;/strong&gt; is in &lt;a href=&#34;https://github.com/stscl/gdverse/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;feedback&#34;&gt;feedback&lt;/h3&gt;&#xA;&lt;p&gt;If you have any questions or suggestions, please post them in &lt;a href=&#34;https://github.com/stscl/gdverse/issues&#34;&gt;gdverse github repo issue&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>geocn</title>
+				<link>https://spatlyu.github.io/projects/geocn/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/projects/geocn/</guid>
+				<description>&lt;img src=&#34;https://spatlyu.github.io/projects/projects-picture/geocn.png&#34; align=&#34;right&#34; height=&#34;30&#34;/&gt;&#xD;&#xA;&lt;h3 id=&#34;goal&#34;&gt;goal&lt;/h3&gt;&#xA;&lt;p&gt;&lt;em&gt;Provide various commonly used spatial data related to Chinese regions in the R programming environment&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;h3 id=&#34;document&#34;&gt;document&lt;/h3&gt;&#xA;&lt;p&gt;You can see the document of &lt;strong&gt;geocn&lt;/strong&gt; in &lt;a href=&#34;https://stscl.github.io/geocn/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;source-code&#34;&gt;source code&lt;/h3&gt;&#xA;&lt;p&gt;The source code of &lt;strong&gt;geocn&lt;/strong&gt; is in &lt;a href=&#34;https://github.com/stscl/geocn/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;feedback&#34;&gt;feedback&lt;/h3&gt;&#xA;&lt;p&gt;If you have any questions or suggestions, please post them in &lt;a href=&#34;https://github.com/stscl/geocn/issues&#34;&gt;geocn github repo issue&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>geocomplexity</title>
+				<link>https://spatlyu.github.io/projects/geocomplexity/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/projects/geocomplexity/</guid>
+				<description>&lt;img src=&#34;https://spatlyu.github.io/projects/projects-picture/geocomplexity.png&#34; align=&#34;right&#34; height=&#34;30&#34;/&gt;&#xD;&#xA;&lt;h3 id=&#34;goal&#34;&gt;goal&lt;/h3&gt;&#xA;&lt;p&gt;&lt;em&gt;Mitigating Spatial Bias Through Geographical Complexity&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;document&#34;&gt;document&lt;/h3&gt;&#xA;&lt;p&gt;You can see the document of &lt;strong&gt;geocomplexity&lt;/strong&gt; in &lt;a href=&#34;https://ausgis.github.io/geocomplexity/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;source-code&#34;&gt;source code&lt;/h3&gt;&#xA;&lt;p&gt;The source code of &lt;strong&gt;geocomplexity&lt;/strong&gt; is in &lt;a href=&#34;https://github.com/ausgis/geocomplexity/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;feedback&#34;&gt;feedback&lt;/h3&gt;&#xA;&lt;p&gt;If you have any questions or suggestions, please post them in &lt;a href=&#34;https://github.com/ausgis/geocomplexity/issues&#34;&gt;geocomplexity github repo issue&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>geosom</title>
+				<link>https://spatlyu.github.io/projects/geosom/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/projects/geosom/</guid>
+				<description>&lt;h3 id=&#34;goal&#34;&gt;goal&lt;/h3&gt;&#xA;&lt;p&gt;The goal of &lt;strong&gt;geosom&lt;/strong&gt; is to achieve &lt;em&gt;Spatially-Aware Self-Organizing Maps(GeoSOM) Model&#xA;in R&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;h3 id=&#34;document&#34;&gt;document&lt;/h3&gt;&#xA;&lt;p&gt;You can see the document of &lt;strong&gt;geosom&lt;/strong&gt; in &lt;a href=&#34;https://spatlyu.github.io/geosom/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;source-code&#34;&gt;source code&lt;/h3&gt;&#xA;&lt;p&gt;The source code of &lt;strong&gt;geosom&lt;/strong&gt; is in &lt;a href=&#34;https://github.com/SpatLyu/geosom/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;feedback&#34;&gt;feedback&lt;/h3&gt;&#xA;&lt;p&gt;If you have any questions or suggestions, please post them in &lt;a href=&#34;https://github.com/SpatLyu/geosom/issues&#34;&gt;geosom github repo issue&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>sdsfun</title>
+				<link>https://spatlyu.github.io/projects/sdsfun/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/projects/sdsfun/</guid>
+				<description>&lt;img src=&#34;https://spatlyu.github.io/projects/projects-picture/sdsfun.png&#34; align=&#34;right&#34; height=&#34;30&#34;/&gt;&#xD;&#xA;&lt;h3 id=&#34;goal&#34;&gt;goal&lt;/h3&gt;&#xA;&lt;p&gt;&lt;em&gt;Wrapping and supplementing commonly used functions in the R ecosystem related to spatial data science, while serving as a basis for other packages maintained by Wenbo Lv.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;document&#34;&gt;document&lt;/h3&gt;&#xA;&lt;p&gt;You can see the document of &lt;strong&gt;sdsfun&lt;/strong&gt; in &lt;a href=&#34;https://stscl.github.io/sdsfun/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;source-code&#34;&gt;source code&lt;/h3&gt;&#xA;&lt;p&gt;The source code of &lt;strong&gt;sdsfun&lt;/strong&gt; is in &lt;a href=&#34;https://github.com/stscl/sdsfun/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;feedback&#34;&gt;feedback&lt;/h3&gt;&#xA;&lt;p&gt;If you have any questions or suggestions, please post them in &lt;a href=&#34;https://github.com/stscl/sdsfun/issues&#34;&gt;sdsfun github repo issue&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>sesp</title>
+				<link>https://spatlyu.github.io/projects/sesp/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/projects/sesp/</guid>
+				<description>&lt;img src=&#34;https://spatlyu.github.io/projects/projects-picture/sesp.png&#34; align=&#34;right&#34; height=&#34;30&#34;/&gt;&#xD;&#xA;&lt;h3 id=&#34;goal&#34;&gt;goal&lt;/h3&gt;&#xA;&lt;p&gt;&lt;em&gt;Assessing the spatial association between variables through an equivalent geographical detector q-statistic within a regression framework.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;document&#34;&gt;document&lt;/h3&gt;&#xA;&lt;p&gt;You can see the document of &lt;strong&gt;sesp&lt;/strong&gt; in &lt;a href=&#34;https://stscl.github.io/sesp/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;source-code&#34;&gt;source code&lt;/h3&gt;&#xA;&lt;p&gt;The source code of &lt;strong&gt;sesp&lt;/strong&gt; is in &lt;a href=&#34;https://github.com/stscl/sesp/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;feedback&#34;&gt;feedback&lt;/h3&gt;&#xA;&lt;p&gt;If you have any questions or suggestions, please post them in &lt;a href=&#34;https://github.com/stscl/sesp/issues&#34;&gt;sesp github repo issue&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>spatbox</title>
+				<link>https://spatlyu.github.io/projects/spatbox/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/projects/spatbox/</guid>
+				<description>&lt;h3 id=&#34;source-code&#34;&gt;source code&lt;/h3&gt;&#xA;&lt;p&gt;The source code of spatbox is in &lt;a href=&#34;https://github.com/SpatLyu/spatbox/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;feedback&#34;&gt;feedback&lt;/h3&gt;&#xA;&lt;p&gt;If you have any questions or suggestions, please post them in &lt;a href=&#34;https://github.com/SpatLyu/spatbox/issues&#34;&gt;spatbox github repo issue&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>spEcula</title>
+				<link>https://spatlyu.github.io/projects/specula/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/projects/specula/</guid>
+				<description>&lt;img src=&#34;https://spatlyu.github.io/projects/projects-picture/spEcula.png&#34; align=&#34;right&#34; height=&#34;30&#34;/&gt;&#xD;&#xA;&lt;h3 id=&#34;goal&#34;&gt;goal&lt;/h3&gt;&#xA;&lt;p&gt;The goal of &lt;strong&gt;spEcula&lt;/strong&gt; is to make it easier to use &lt;strong&gt;R&lt;/strong&gt; for &lt;strong&gt;spatial prediction&lt;/strong&gt; based on &lt;strong&gt;various spatial relationships&lt;/strong&gt; (e.g. spatial dependence, spatial heterogeneity and geographical similarity).&lt;/p&gt;&#xA;&lt;h3 id=&#34;document&#34;&gt;document&lt;/h3&gt;&#xA;&lt;p&gt;You can see the document of &lt;strong&gt;spEcula&lt;/strong&gt; in &lt;a href=&#34;https://spatlyu.github.io/spEcula/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;source-code&#34;&gt;source code&lt;/h3&gt;&#xA;&lt;p&gt;The source code of &lt;strong&gt;spEcula&lt;/strong&gt; is in &lt;a href=&#34;https://github.com/SpatLyu/spEcula/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;feedback&#34;&gt;feedback&lt;/h3&gt;&#xA;&lt;p&gt;If you have any questions or suggestions, please post them in &lt;a href=&#34;https://github.com/SpatLyu/spEcula/issues&#34;&gt;spEcula github repo issue&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>tidyrgeoda</title>
+				<link>https://spatlyu.github.io/projects/tidyrgeoda/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/projects/tidyrgeoda/</guid>
+				<description>&lt;img src=&#34;https://spatlyu.github.io/projects/projects-picture/tidyrgeoda.png&#34; align=&#34;right&#34; height=&#34;30&#34;/&gt;&#xD;&#xA;&lt;h3 id=&#34;goal&#34;&gt;goal&lt;/h3&gt;&#xA;&lt;p&gt;The goal of &lt;strong&gt;tidyrgeoda&lt;/strong&gt; is to &lt;em&gt;provide an interface for rgeoda to integrate with sf objects and the tidyverse&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;h3 id=&#34;document&#34;&gt;document&lt;/h3&gt;&#xA;&lt;p&gt;You can see the document of &lt;strong&gt;tidyrgeoda&lt;/strong&gt; in &lt;a href=&#34;https://spatlyu.github.io/tidyrgeoda/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;source-code&#34;&gt;source code&lt;/h3&gt;&#xA;&lt;p&gt;The source code of &lt;strong&gt;tidyrgeoda&lt;/strong&gt; is in &lt;a href=&#34;https://github.com/SpatLyu/tidyrgeoda/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;feedback&#34;&gt;feedback&lt;/h3&gt;&#xA;&lt;p&gt;If you have any questions or suggestions, please post them in &lt;a href=&#34;https://github.com/SpatLyu/tidyrgeoda/issues&#34;&gt;tidyrgeoda github repo issue&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

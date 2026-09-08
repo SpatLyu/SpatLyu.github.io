@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Spatial Stratified Heterogeneity on Wenbo Lv</title>
-    <link>https://spatlyu.github.io/tags/spatial-stratified-heterogeneity/</link>
-    <description>Recent content in Spatial Stratified Heterogeneity on Wenbo Lv</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Wed, 08 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://spatlyu.github.io/tags/spatial-stratified-heterogeneity/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Spatial Stratified Heterogeneity (SSH)</title>
-      <link>https://spatlyu.github.io/posts/ssh_resources/</link>
-      <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/ssh_resources/</guid>
-      <description>Statistical Modeling of Spatially Stratified Heterogeneous Data&#xA;Geodetector: Principle and prospective&#xA;Understanding and extending the geographical detector model under a linear regression framework&#xA;Information Consistency-Based Measures for Spatial Stratified Heterogeneity&#xA;A local indicator of stratified power&#xA;An optimal parameters-based geographical detector model(OPGD)&#xA;Spatial association detector (SPADE)&#xA;Robust geographical detector (RGD)&#xA;An interactive detector for spatial associations (IDSA)&#xA;A locally explained heterogeneity model for examining wetland disparity (LESH)&#xA;Identifying determinants of spatio-temporal disparities in soil moisture of the Northern Hemisphere using a geographically optimal zones-based heterogeneity model (GOZH)</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Spatial Stratified Heterogeneity on Wenbo Lyu</title>
+		<link>https://spatlyu.github.io/tags/spatial-stratified-heterogeneity/</link>
+		<description>Recent content in Spatial Stratified Heterogeneity on Wenbo Lyu</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 08 Jan 2025 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://spatlyu.github.io/tags/spatial-stratified-heterogeneity/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Spatial Stratified Heterogeneity (SSH)</title>
+				<link>https://spatlyu.github.io/posts/ssh_resources/</link>
+				<pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/posts/ssh_resources/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1080/24694452.2023.2289982&#34;&gt;&lt;strong&gt;Statistical Modeling of Spatially Stratified Heterogeneous Data&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.11821/dlxb201701010&#34;&gt;&lt;strong&gt;Geodetector: Principle and prospective&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1080/13658816.2023.2266497&#34;&gt;&lt;strong&gt;Understanding and extending the geographical detector model under a linear regression framework&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1080/24694452.2023.2223700&#34;&gt;&lt;strong&gt;Information Consistency-Based Measures for Spatial Stratified Heterogeneity&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1080/13658816.2024.2437811&#34;&gt;&lt;strong&gt;A local indicator of stratified power&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1080/15481603.2020.1760434&#34;&gt;&lt;strong&gt;An optimal parameters-based geographical detector model(OPGD)&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1080/13658816.2018.1476693&#34;&gt;&lt;strong&gt;Spatial association detector (SPADE)&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1016/j.jag.2022.102782&#34;&gt;&lt;strong&gt;Robust geographical detector (RGD)&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1080/13658816.2021.1882680&#34;&gt;&lt;strong&gt;An interactive detector for spatial associations (IDSA)&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1080/17538947.2023.2271883&#34;&gt;&lt;strong&gt;A locally explained heterogeneity model for examining wetland disparity (LESH)&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1016/j.isprsjprs.2022.01.009&#34;&gt;Identifying determinants of spatio-temporal disparities in soil moisture of the Northern Hemisphere using a geographically optimal zones-based heterogeneity model (GOZH)&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

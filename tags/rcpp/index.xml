@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Rcpp on Wenbo Lv</title>
-    <link>https://spatlyu.github.io/tags/rcpp/</link>
-    <description>Recent content in Rcpp on Wenbo Lv</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Sat, 06 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://spatlyu.github.io/tags/rcpp/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Increment operator in cpp</title>
-      <link>https://spatlyu.github.io/posts/increment-operator-in-cpp/</link>
-      <pubDate>Sat, 06 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/increment-operator-in-cpp/</guid>
-      <description>In cpp, i++ and ++i are two different increment operators, known as post-increment and pre-increment, respectively. The main difference between them lies in the order of operations and the return value.&#xA;i++ (Post-Increment) The post-increment operator i++ returns the current value of the variable before incrementing it. Specifically:&#xA;It returns the current value of the variable. Then, it increments the variable&amp;rsquo;s value by 1. Example:&#xA;int i = 1; int a = i++; // a = 1, i = 2 In this example, a is assigned the current value of i (1), and then i is incremented to 2.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Rcpp on Wenbo Lyu</title>
+		<link>https://spatlyu.github.io/tags/rcpp/</link>
+		<description>Recent content in Rcpp on Wenbo Lyu</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 06 Jul 2024 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://spatlyu.github.io/tags/rcpp/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Increment operator in cpp</title>
+				<link>https://spatlyu.github.io/posts/increment-operator-in-cpp/</link>
+				<pubDate>Sat, 06 Jul 2024 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/posts/increment-operator-in-cpp/</guid>
+				<description>&lt;p&gt;In cpp, &lt;strong&gt;i++&lt;/strong&gt; and &lt;strong&gt;++i&lt;/strong&gt; are two different increment operators, known as &lt;strong&gt;post-increment&lt;/strong&gt; and &lt;strong&gt;pre-increment&lt;/strong&gt;, respectively. The main difference between them lies in &lt;em&gt;the order of operations&lt;/em&gt; and &lt;em&gt;the return value&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;h3 id=&#34;i-post-increment&#34;&gt;&lt;strong&gt;i++&lt;/strong&gt; (Post-Increment)&lt;/h3&gt;&#xA;&lt;p&gt;The post-increment operator &lt;strong&gt;i++&lt;/strong&gt; returns the current value of the variable before incrementing it. Specifically:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;It returns the current value of the variable.&lt;/li&gt;&#xA;&lt;li&gt;Then, it increments the variable&amp;rsquo;s value by 1.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Example:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; i &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; a &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; i&lt;span style=&#34;color:#f92672&#34;&gt;++&lt;/span&gt;;  &lt;span style=&#34;color:#75715e&#34;&gt;// a = 1, i = 2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;In this example, &lt;code&gt;a&lt;/code&gt; is assigned the current value of &lt;code&gt;i&lt;/code&gt; (1), and then &lt;code&gt;i&lt;/code&gt; is incremented to 2.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>
