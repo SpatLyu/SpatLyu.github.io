@@ -94,7 +94,7 @@ menu:
 markup:
   tableOfContents:
     endLevel: 4
-    ordered: no
+    ordered: false
     startLevel: 1
   goldmark:
     renderer:
