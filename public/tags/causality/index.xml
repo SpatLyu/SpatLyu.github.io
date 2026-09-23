@@ -1,40 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Causality on Wenbo Lv</title>
-    <link>https://spatlyu.github.io/tags/causality/</link>
-    <description>Recent content in Causality on Wenbo Lv</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Sun, 16 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://spatlyu.github.io/tags/causality/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>R books</title>
-      <link>https://spatlyu.github.io/posts/r-books/</link>
-      <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/r-books/</guid>
-      <description>R fundamentals Introduction to R&#xA;Advanced R&#xA;R for Data Science (2e)&#xA;R Graphics Cookbook, 2nd edition&#xA;The tidyverse style guide&#xA;R in Production&#xA;What They Forgot to Teach You About R&#xA;Deep R Programming&#xA;Efficient R programming&#xA;Data Visualization with ggplot2&#xA;Best Coding Practices for R&#xA;Happy Git and GitHub for the useR&#xA;Rcpp for everyone&#xA;Rcpp for everyone Chinese version&#xA;Unofficial rcpp api documentation&#xA;R Packages (2e)&#xA;CRAN Cookbook</description>
-    </item>
-    <item>
-      <title>Spatial Causal Inference</title>
-      <link>https://spatlyu.github.io/posts/spcausality_resources/</link>
-      <pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/spcausality_resources/</guid>
-      <description>Causal inference in spatial statistics&#xA;Spatial Causality: A Systematic Review on Spatial Causal Inference&#xA;A review of causal analysis methods in geographic research&#xA;Temporally or spatially? Causation inference in earth system sciences&#xA;Conduct Multiple Types of Geographic Regression Discontinuity Designs(SpatialRDD)&#xA;Spatial Difference-in-differences (SpatialDID)&#xA;Evidence on the impact of sustained exposure to air pollution on life expectancy from China’s Huai River policy&#xA;Rethinking ‘causality’ in quantitative human geography&#xA;Inferring causation from time series in Earth system sciences</description>
-    </item>
-    <item>
-      <title>Empirical Dynamic Modeling (EDM)</title>
-      <link>https://spatlyu.github.io/posts/edm_resources/</link>
-      <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/edm_resources/</guid>
-      <description>Detecting Causality in Complex Ecosystems (CCM)&#xA;Causal inference from cross-sectional earth system data with geographical convergent cross mapping (GCCM)&#xA;Partial cross mapping eliminates indirect causal influences (PCM)&#xA;Spatial convergent cross mapping to detect causal relationships from short time series (MultispatialCCM)&#xA;Detecting Causality from Nonlinear Dynamics with Short-term Time Series (CMS)&#xA;Detecting dynamical causality by intersection cardinal concavity (CMC)&#xA;Single-cell causal network inferred by cross-mapping entropy (CME)</description>
-    </item>
-    <item>
-      <title>Spatial Association</title>
-      <link>https://spatlyu.github.io/posts/spassociation_resources/</link>
-      <pubDate>Wed, 04 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/spassociation_resources/</guid>
-      <description>Spatial Association from the Perspective of Mutual Information&#xA;Spatial association between regionalizations using the information-theoretical V-measure</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Causality on Wenbo Lyu</title>
+		<link>https://spatlyu.github.io/tags/causality/</link>
+		<description>Recent content in Causality on Wenbo Lyu</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 16 Mar 2025 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://spatlyu.github.io/tags/causality/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>R books</title>
+				<link>https://spatlyu.github.io/posts/r-books/</link>
+				<pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/posts/r-books/</guid>
+				<description>&lt;h2 id=&#34;r-fundamentals&#34;&gt;R fundamentals&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://rspatial.org/intr/&#34;&gt;&lt;strong&gt;Introduction to R&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://adv-r.hadley.nz/&#34;&gt;&lt;strong&gt;Advanced R&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://r4ds.hadley.nz/&#34;&gt;&lt;strong&gt;R for Data Science (2e)&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://r-graphics.org/&#34;&gt;&lt;strong&gt;R Graphics Cookbook, 2nd edition&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://style.tidyverse.org/&#34;&gt;&lt;strong&gt;The tidyverse style guide&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://r-in-production.org/&#34;&gt;&lt;strong&gt;R in Production&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://rstats.wtf/&#34;&gt;&lt;strong&gt;What They Forgot to Teach You About R&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://deepr.gagolewski.com/index.html&#34;&gt;&lt;strong&gt;Deep R Programming&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://csgillespie.github.io/efficientR/index.html&#34;&gt;Efficient R programming&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://viz-ggplot2.rsquaredacademy.com/&#34;&gt;Data Visualization with ggplot2&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://bookdown.org/content/d1e53ac9-28ce-472f-bc2c-f499f18264a3/&#34;&gt;Best Coding Practices for R&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://happygitwithr.com/&#34;&gt;&lt;strong&gt;Happy Git and GitHub for the useR&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://teuder.github.io/rcpp4everyone_en/&#34;&gt;&lt;strong&gt;Rcpp for everyone&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://jywang2016.github.io/rcpp4everyone_cn/&#34;&gt;Rcpp for everyone Chinese version&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://thecoatlessprofessor.com/programming/cpp/unofficial-rcpp-api-documentation/&#34;&gt;&lt;strong&gt;Unofficial rcpp api documentation&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://r-pkgs.org/&#34;&gt;&lt;strong&gt;R Packages (2e)&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://contributor.r-project.org/cran-cookbook/&#34;&gt;&lt;strong&gt;CRAN Cookbook&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Spatial Causal Inference</title>
+				<link>https://spatlyu.github.io/posts/spcausality_resources/</link>
+				<pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/posts/spcausality_resources/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S2211675322000173&#34;&gt;&lt;strong&gt;Causal inference in spatial statistics&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://onlinelibrary.wiley.com/doi/abs/10.1111/gean.12312&#34;&gt;&lt;strong&gt;Spatial Causality: A Systematic Review on Spatial Causal Inference&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1016/j.envsoft.2023.105929&#34;&gt;&lt;strong&gt;A review of causal analysis methods in geographic research&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1016/j.scib.2021.10.002&#34;&gt;Temporally or spatially? Causation inference in earth system sciences&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://axlehner.github.io/SpatialRDD/index.html&#34;&gt;Conduct Multiple Types of Geographic Regression Discontinuity Designs(SpatialRDD)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S0165176515004371&#34;&gt;Spatial Difference-in-differences (SpatialDID)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.pnas.org/doi/full/10.1073/pnas.1300018110&#34;&gt;Evidence on the impact of sustained exposure to air pollution on life expectancy from China’s Huai River policy&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1111/gec3.12743&#34;&gt;Rethinking ‘causality’ in quantitative human geography&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.nature.com/articles/s41467-019-10105-3&#34;&gt;Inferring causation from time series in Earth system sciences&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Empirical Dynamic Modeling (EDM)</title>
+				<link>https://spatlyu.github.io/posts/edm_resources/</link>
+				<pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/posts/edm_resources/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;https://www.science.org/doi/10.1126/science.1227079&#34;&gt;&lt;strong&gt;Detecting Causality in Complex Ecosystems (CCM)&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1038/s41467-023-41619-6&#34;&gt;&lt;strong&gt;Causal inference from cross-sectional earth system data with geographical convergent cross mapping (GCCM)&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1038/s41467-020-16238-0&#34;&gt;&lt;strong&gt;Partial cross mapping eliminates indirect causal influences (PCM)&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1890/14-1479.1&#34;&gt;Spatial convergent cross mapping to detect causal relationships from short time series (MultispatialCCM)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1038/srep07464&#34;&gt;Detecting Causality from Nonlinear Dynamics with Short-term Time Series (CMS)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1016/j.fmre.2023.01.007&#34;&gt;Detecting dynamical causality by intersection cardinal concavity (CMC)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1093/bib/bbad281&#34;&gt;Single-cell causal network inferred by cross-mapping entropy (CME)&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Spatial Association</title>
+				<link>https://spatlyu.github.io/posts/spassociation_resources/</link>
+				<pubDate>Wed, 04 Dec 2024 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/posts/spassociation_resources/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1080/24694452.2023.2209629&#34;&gt;Spatial Association from the Perspective of Mutual Information&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1080/13658816.2018.1511794&#34;&gt;Spatial association between regionalizations using the information-theoretical V-measure&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

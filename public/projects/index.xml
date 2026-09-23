@@ -1,88 +1,92 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Projects on Wenbo Lv</title>
-    <link>https://spatlyu.github.io/projects/</link>
-    <description>Recent content in Projects on Wenbo Lv</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <atom:link href="https://spatlyu.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>arcR</title>
-      <link>https://spatlyu.github.io/projects/arcr/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/projects/arcr/</guid>
-      <description>goal The goal of arcR is to integrate the benefits of R and ArcGIS with using ArcGIS in R.&#xA;document You can see the document of arcR in here&#xA;source code The source code of arcR is in here&#xA;feedback If you have any questions or suggestions, please post them in arcR github repo issue.</description>
-    </item>
-    <item>
-      <title>cisp</title>
-      <link>https://spatlyu.github.io/projects/cisp/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/projects/cisp/</guid>
-      <description>goal A Correlation Indicator Based On Spatial Patterns.&#xA;document You can see the document of cisp in here&#xA;source code The source code of cisp is in here&#xA;feedback If you have any questions or suggestions, please post them in cisp github repo issue.</description>
-    </item>
-    <item>
-      <title>gdverse</title>
-      <link>https://spatlyu.github.io/projects/gdverse/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/projects/gdverse/</guid>
-      <description>goal Analyzing spatial factors and exploring spatial associations based on the concept of spatial stratified heterogeneity, and also takes into account local spatial dependencies, spatial interpretability, potential spatial interactions, and robust spatial stratification. Additionally, it supports geographical detector models established in academic literature.&#xA;document You can see the document of gdverse in here&#xA;source code The source code of gdverse is in here&#xA;feedback If you have any questions or suggestions, please post them in gdverse github repo issue.</description>
-    </item>
-    <item>
-      <title>geocn</title>
-      <link>https://spatlyu.github.io/projects/geocn/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/projects/geocn/</guid>
-      <description>goal Provide various commonly used spatial data related to Chinese regions in the R programming environment.&#xA;document You can see the document of geocn in here&#xA;source code The source code of geocn is in here&#xA;feedback If you have any questions or suggestions, please post them in geocn github repo issue.</description>
-    </item>
-    <item>
-      <title>geocomplexity</title>
-      <link>https://spatlyu.github.io/projects/geocomplexity/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/projects/geocomplexity/</guid>
-      <description>goal Mitigating Spatial Bias Through Geographical Complexity&#xA;document You can see the document of geocomplexity in here&#xA;source code The source code of geocomplexity is in here&#xA;feedback If you have any questions or suggestions, please post them in geocomplexity github repo issue.</description>
-    </item>
-    <item>
-      <title>geosom</title>
-      <link>https://spatlyu.github.io/projects/geosom/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/projects/geosom/</guid>
-      <description>goal The goal of geosom is to achieve Spatially-Aware Self-Organizing Maps(GeoSOM) Model in R.&#xA;document You can see the document of geosom in here&#xA;source code The source code of geosom is in here&#xA;feedback If you have any questions or suggestions, please post them in geosom github repo issue.</description>
-    </item>
-    <item>
-      <title>sdsfun</title>
-      <link>https://spatlyu.github.io/projects/sdsfun/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/projects/sdsfun/</guid>
-      <description>goal Wrapping and supplementing commonly used functions in the R ecosystem related to spatial data science, while serving as a basis for other packages maintained by Wenbo Lv.&#xA;document You can see the document of sdsfun in here&#xA;source code The source code of sdsfun is in here&#xA;feedback If you have any questions or suggestions, please post them in sdsfun github repo issue.</description>
-    </item>
-    <item>
-      <title>sesp</title>
-      <link>https://spatlyu.github.io/projects/sesp/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/projects/sesp/</guid>
-      <description>goal Assessing the spatial association between variables through an equivalent geographical detector q-statistic within a regression framework.&#xA;document You can see the document of sesp in here&#xA;source code The source code of sesp is in here&#xA;feedback If you have any questions or suggestions, please post them in sesp github repo issue.</description>
-    </item>
-    <item>
-      <title>spatbox</title>
-      <link>https://spatlyu.github.io/projects/spatbox/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/projects/spatbox/</guid>
-      <description>source code The source code of spatbox is in here&#xA;feedback If you have any questions or suggestions, please post them in spatbox github repo issue.</description>
-    </item>
-    <item>
-      <title>spEcula</title>
-      <link>https://spatlyu.github.io/projects/specula/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/projects/specula/</guid>
-      <description>goal The goal of spEcula is to make it easier to use R for spatial prediction based on various spatial relationships (e.g. spatial dependence, spatial heterogeneity and geographical similarity).&#xA;document You can see the document of spEcula in here&#xA;source code The source code of spEcula is in here&#xA;feedback If you have any questions or suggestions, please post them in spEcula github repo issue.</description>
-    </item>
-    <item>
-      <title>tidyrgeoda</title>
-      <link>https://spatlyu.github.io/projects/tidyrgeoda/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/projects/tidyrgeoda/</guid>
-      <description>goal The goal of tidyrgeoda is to provide an interface for rgeoda to integrate with sf objects and the tidyverse.&#xA;document You can see the document of tidyrgeoda in here&#xA;source code The source code of tidyrgeoda is in here&#xA;feedback If you have any questions or suggestions, please post them in tidyrgeoda github repo issue.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Projects on Wenbo Lyu</title>
+		<link>https://spatlyu.github.io/projects/</link>
+		<description>Recent content in Projects on Wenbo Lyu</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<atom:link href="https://spatlyu.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>arcR</title>
+				<link>https://spatlyu.github.io/projects/arcr/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/projects/arcr/</guid>
+				<description>&lt;img src=&#34;https://spatlyu.github.io/projects/projects-picture/arcR.png&#34; align=&#34;right&#34; height=&#34;30&#34;/&gt;&#xD;&#xA;&lt;h3 id=&#34;goal&#34;&gt;goal&lt;/h3&gt;&#xA;&lt;p&gt;The goal of &lt;strong&gt;arcR&lt;/strong&gt; is to &lt;em&gt;integrate the benefits of R and ArcGIS with using ArcGIS in R&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;h3 id=&#34;document&#34;&gt;document&lt;/h3&gt;&#xA;&lt;p&gt;You can see the document of &lt;strong&gt;arcR&lt;/strong&gt; in &lt;a href=&#34;https://spatlyu.github.io/arcR/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;source-code&#34;&gt;source code&lt;/h3&gt;&#xA;&lt;p&gt;The source code of &lt;strong&gt;arcR&lt;/strong&gt; is in &lt;a href=&#34;https://github.com/SpatLyu/arcR/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;feedback&#34;&gt;feedback&lt;/h3&gt;&#xA;&lt;p&gt;If you have any questions or suggestions, please post them in &lt;a href=&#34;https://github.com/SpatLyu/arcR/issues&#34;&gt;arcR github repo issue&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>cisp</title>
+				<link>https://spatlyu.github.io/projects/cisp/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/projects/cisp/</guid>
+				<description>&lt;img src=&#34;https://spatlyu.github.io/projects/projects-picture/cisp.png&#34; align=&#34;right&#34; height=&#34;30&#34;/&gt;&#xD;&#xA;&lt;h3 id=&#34;goal&#34;&gt;goal&lt;/h3&gt;&#xA;&lt;p&gt;&lt;em&gt;A Correlation Indicator Based On Spatial Patterns.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;document&#34;&gt;document&lt;/h3&gt;&#xA;&lt;p&gt;You can see the document of &lt;strong&gt;cisp&lt;/strong&gt; in &lt;a href=&#34;https://stscl.github.io/cisp/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;source-code&#34;&gt;source code&lt;/h3&gt;&#xA;&lt;p&gt;The source code of &lt;strong&gt;cisp&lt;/strong&gt; is in &lt;a href=&#34;https://github.com/stscl/cisp/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;feedback&#34;&gt;feedback&lt;/h3&gt;&#xA;&lt;p&gt;If you have any questions or suggestions, please post them in &lt;a href=&#34;https://github.com/stscl/cisp/issues&#34;&gt;cisp github repo issue&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>gdverse</title>
+				<link>https://spatlyu.github.io/projects/gdverse/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/projects/gdverse/</guid>
+				<description>&lt;img src=&#34;https://spatlyu.github.io/projects/projects-picture/gdverse.png&#34; align=&#34;right&#34; height=&#34;30&#34;/&gt;&#xD;&#xA;&lt;h3 id=&#34;goal&#34;&gt;goal&lt;/h3&gt;&#xA;&lt;p&gt;&lt;em&gt;Analyzing spatial factors and exploring spatial associations based on the concept of spatial stratified heterogeneity, and also takes into account local spatial dependencies, spatial interpretability, potential spatial interactions, and robust spatial stratification. Additionally, it supports geographical detector models established in academic literature.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;document&#34;&gt;document&lt;/h3&gt;&#xA;&lt;p&gt;You can see the document of &lt;strong&gt;gdverse&lt;/strong&gt; in &lt;a href=&#34;https://stscl.github.io/gdverse/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;source-code&#34;&gt;source code&lt;/h3&gt;&#xA;&lt;p&gt;The source code of &lt;strong&gt;gdverse&lt;/strong&gt; is in &lt;a href=&#34;https://github.com/stscl/gdverse/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;feedback&#34;&gt;feedback&lt;/h3&gt;&#xA;&lt;p&gt;If you have any questions or suggestions, please post them in &lt;a href=&#34;https://github.com/stscl/gdverse/issues&#34;&gt;gdverse github repo issue&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>geocn</title>
+				<link>https://spatlyu.github.io/projects/geocn/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/projects/geocn/</guid>
+				<description>&lt;img src=&#34;https://spatlyu.github.io/projects/projects-picture/geocn.png&#34; align=&#34;right&#34; height=&#34;30&#34;/&gt;&#xD;&#xA;&lt;h3 id=&#34;goal&#34;&gt;goal&lt;/h3&gt;&#xA;&lt;p&gt;&lt;em&gt;Provide various commonly used spatial data related to Chinese regions in the R programming environment&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;h3 id=&#34;document&#34;&gt;document&lt;/h3&gt;&#xA;&lt;p&gt;You can see the document of &lt;strong&gt;geocn&lt;/strong&gt; in &lt;a href=&#34;https://stscl.github.io/geocn/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;source-code&#34;&gt;source code&lt;/h3&gt;&#xA;&lt;p&gt;The source code of &lt;strong&gt;geocn&lt;/strong&gt; is in &lt;a href=&#34;https://github.com/stscl/geocn/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;feedback&#34;&gt;feedback&lt;/h3&gt;&#xA;&lt;p&gt;If you have any questions or suggestions, please post them in &lt;a href=&#34;https://github.com/stscl/geocn/issues&#34;&gt;geocn github repo issue&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>geocomplexity</title>
+				<link>https://spatlyu.github.io/projects/geocomplexity/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/projects/geocomplexity/</guid>
+				<description>&lt;img src=&#34;https://spatlyu.github.io/projects/projects-picture/geocomplexity.png&#34; align=&#34;right&#34; height=&#34;30&#34;/&gt;&#xD;&#xA;&lt;h3 id=&#34;goal&#34;&gt;goal&lt;/h3&gt;&#xA;&lt;p&gt;&lt;em&gt;Mitigating Spatial Bias Through Geographical Complexity&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;document&#34;&gt;document&lt;/h3&gt;&#xA;&lt;p&gt;You can see the document of &lt;strong&gt;geocomplexity&lt;/strong&gt; in &lt;a href=&#34;https://ausgis.github.io/geocomplexity/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;source-code&#34;&gt;source code&lt;/h3&gt;&#xA;&lt;p&gt;The source code of &lt;strong&gt;geocomplexity&lt;/strong&gt; is in &lt;a href=&#34;https://github.com/ausgis/geocomplexity/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;feedback&#34;&gt;feedback&lt;/h3&gt;&#xA;&lt;p&gt;If you have any questions or suggestions, please post them in &lt;a href=&#34;https://github.com/ausgis/geocomplexity/issues&#34;&gt;geocomplexity github repo issue&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>geosom</title>
+				<link>https://spatlyu.github.io/projects/geosom/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/projects/geosom/</guid>
+				<description>&lt;h3 id=&#34;goal&#34;&gt;goal&lt;/h3&gt;&#xA;&lt;p&gt;The goal of &lt;strong&gt;geosom&lt;/strong&gt; is to achieve &lt;em&gt;Spatially-Aware Self-Organizing Maps(GeoSOM) Model&#xA;in R&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;h3 id=&#34;document&#34;&gt;document&lt;/h3&gt;&#xA;&lt;p&gt;You can see the document of &lt;strong&gt;geosom&lt;/strong&gt; in &lt;a href=&#34;https://spatlyu.github.io/geosom/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;source-code&#34;&gt;source code&lt;/h3&gt;&#xA;&lt;p&gt;The source code of &lt;strong&gt;geosom&lt;/strong&gt; is in &lt;a href=&#34;https://github.com/SpatLyu/geosom/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;feedback&#34;&gt;feedback&lt;/h3&gt;&#xA;&lt;p&gt;If you have any questions or suggestions, please post them in &lt;a href=&#34;https://github.com/SpatLyu/geosom/issues&#34;&gt;geosom github repo issue&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>sdsfun</title>
+				<link>https://spatlyu.github.io/projects/sdsfun/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/projects/sdsfun/</guid>
+				<description>&lt;img src=&#34;https://spatlyu.github.io/projects/projects-picture/sdsfun.png&#34; align=&#34;right&#34; height=&#34;30&#34;/&gt;&#xD;&#xA;&lt;h3 id=&#34;goal&#34;&gt;goal&lt;/h3&gt;&#xA;&lt;p&gt;&lt;em&gt;Wrapping and supplementing commonly used functions in the R ecosystem related to spatial data science, while serving as a basis for other packages maintained by Wenbo Lv.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;document&#34;&gt;document&lt;/h3&gt;&#xA;&lt;p&gt;You can see the document of &lt;strong&gt;sdsfun&lt;/strong&gt; in &lt;a href=&#34;https://stscl.github.io/sdsfun/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;source-code&#34;&gt;source code&lt;/h3&gt;&#xA;&lt;p&gt;The source code of &lt;strong&gt;sdsfun&lt;/strong&gt; is in &lt;a href=&#34;https://github.com/stscl/sdsfun/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;feedback&#34;&gt;feedback&lt;/h3&gt;&#xA;&lt;p&gt;If you have any questions or suggestions, please post them in &lt;a href=&#34;https://github.com/stscl/sdsfun/issues&#34;&gt;sdsfun github repo issue&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>sesp</title>
+				<link>https://spatlyu.github.io/projects/sesp/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/projects/sesp/</guid>
+				<description>&lt;img src=&#34;https://spatlyu.github.io/projects/projects-picture/sesp.png&#34; align=&#34;right&#34; height=&#34;30&#34;/&gt;&#xD;&#xA;&lt;h3 id=&#34;goal&#34;&gt;goal&lt;/h3&gt;&#xA;&lt;p&gt;&lt;em&gt;Assessing the spatial association between variables through an equivalent geographical detector q-statistic within a regression framework.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;document&#34;&gt;document&lt;/h3&gt;&#xA;&lt;p&gt;You can see the document of &lt;strong&gt;sesp&lt;/strong&gt; in &lt;a href=&#34;https://stscl.github.io/sesp/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;source-code&#34;&gt;source code&lt;/h3&gt;&#xA;&lt;p&gt;The source code of &lt;strong&gt;sesp&lt;/strong&gt; is in &lt;a href=&#34;https://github.com/stscl/sesp/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;feedback&#34;&gt;feedback&lt;/h3&gt;&#xA;&lt;p&gt;If you have any questions or suggestions, please post them in &lt;a href=&#34;https://github.com/stscl/sesp/issues&#34;&gt;sesp github repo issue&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>spatbox</title>
+				<link>https://spatlyu.github.io/projects/spatbox/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/projects/spatbox/</guid>
+				<description>&lt;h3 id=&#34;source-code&#34;&gt;source code&lt;/h3&gt;&#xA;&lt;p&gt;The source code of spatbox is in &lt;a href=&#34;https://github.com/SpatLyu/spatbox/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;feedback&#34;&gt;feedback&lt;/h3&gt;&#xA;&lt;p&gt;If you have any questions or suggestions, please post them in &lt;a href=&#34;https://github.com/SpatLyu/spatbox/issues&#34;&gt;spatbox github repo issue&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>spEcula</title>
+				<link>https://spatlyu.github.io/projects/specula/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/projects/specula/</guid>
+				<description>&lt;img src=&#34;https://spatlyu.github.io/projects/projects-picture/spEcula.png&#34; align=&#34;right&#34; height=&#34;30&#34;/&gt;&#xD;&#xA;&lt;h3 id=&#34;goal&#34;&gt;goal&lt;/h3&gt;&#xA;&lt;p&gt;The goal of &lt;strong&gt;spEcula&lt;/strong&gt; is to make it easier to use &lt;strong&gt;R&lt;/strong&gt; for &lt;strong&gt;spatial prediction&lt;/strong&gt; based on &lt;strong&gt;various spatial relationships&lt;/strong&gt; (e.g. spatial dependence, spatial heterogeneity and geographical similarity).&lt;/p&gt;&#xA;&lt;h3 id=&#34;document&#34;&gt;document&lt;/h3&gt;&#xA;&lt;p&gt;You can see the document of &lt;strong&gt;spEcula&lt;/strong&gt; in &lt;a href=&#34;https://spatlyu.github.io/spEcula/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;source-code&#34;&gt;source code&lt;/h3&gt;&#xA;&lt;p&gt;The source code of &lt;strong&gt;spEcula&lt;/strong&gt; is in &lt;a href=&#34;https://github.com/SpatLyu/spEcula/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;feedback&#34;&gt;feedback&lt;/h3&gt;&#xA;&lt;p&gt;If you have any questions or suggestions, please post them in &lt;a href=&#34;https://github.com/SpatLyu/spEcula/issues&#34;&gt;spEcula github repo issue&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>tidyrgeoda</title>
+				<link>https://spatlyu.github.io/projects/tidyrgeoda/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/projects/tidyrgeoda/</guid>
+				<description>&lt;img src=&#34;https://spatlyu.github.io/projects/projects-picture/tidyrgeoda.png&#34; align=&#34;right&#34; height=&#34;30&#34;/&gt;&#xD;&#xA;&lt;h3 id=&#34;goal&#34;&gt;goal&lt;/h3&gt;&#xA;&lt;p&gt;The goal of &lt;strong&gt;tidyrgeoda&lt;/strong&gt; is to &lt;em&gt;provide an interface for rgeoda to integrate with sf objects and the tidyverse&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;h3 id=&#34;document&#34;&gt;document&lt;/h3&gt;&#xA;&lt;p&gt;You can see the document of &lt;strong&gt;tidyrgeoda&lt;/strong&gt; in &lt;a href=&#34;https://spatlyu.github.io/tidyrgeoda/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;source-code&#34;&gt;source code&lt;/h3&gt;&#xA;&lt;p&gt;The source code of &lt;strong&gt;tidyrgeoda&lt;/strong&gt; is in &lt;a href=&#34;https://github.com/SpatLyu/tidyrgeoda/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;feedback&#34;&gt;feedback&lt;/h3&gt;&#xA;&lt;p&gt;If you have any questions or suggestions, please post them in &lt;a href=&#34;https://github.com/SpatLyu/tidyrgeoda/issues&#34;&gt;tidyrgeoda github repo issue&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

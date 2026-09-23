@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Dplyr on Wenbo Lv</title>
-    <link>https://spatlyu.github.io/tags/dplyr/</link>
-    <description>Recent content in Dplyr on Wenbo Lv</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Wed, 12 Jun 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://spatlyu.github.io/tags/dplyr/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Pipes In R</title>
-      <link>https://spatlyu.github.io/posts/pipes_in_r/</link>
-      <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/pipes_in_r/</guid>
-      <description>In this post,we will state the use of pipes in R, includes %&amp;gt;%, %$%, %T&amp;gt;%, %&amp;lt;&amp;gt;% and |&amp;gt;.&#xA;First let&amp;rsquo;s construct some data for a demonstration of pipes usage in R (PS: The ideas and example data for this post came from this dplyr github issue):&#xA;packageVersion(&amp;#39;magrittr&amp;#39;) ## [1] &amp;#39;2.0.3&amp;#39; library(magrittr) exampledt = tibble::tibble( BP = c(&amp;#34;-&amp;#34;, &amp;#34;-&amp;#34;, &amp;#34;A&amp;#34;, &amp;#34;B&amp;#34;), CL = c(&amp;#34;-&amp;#34;, &amp;#34;C&amp;#34;, &amp;#34;-&amp;#34;, &amp;#34;D&amp;#34;), MF = c(&amp;#34;-&amp;#34;, &amp;#34;-&amp;#34;, &amp;#34;-&amp;#34;, &amp;#34;E&amp;#34;) ) %&amp;gt;% {.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Dplyr on Wenbo Lyu</title>
+		<link>https://spatlyu.github.io/tags/dplyr/</link>
+		<description>Recent content in Dplyr on Wenbo Lyu</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 12 Jun 2024 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://spatlyu.github.io/tags/dplyr/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Pipes In R</title>
+				<link>https://spatlyu.github.io/posts/pipes_in_r/</link>
+				<pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/posts/pipes_in_r/</guid>
+				<description>&lt;p&gt;In this post,we will state the use of pipes in R, includes %&amp;gt;%, %$%, %T&amp;gt;%, %&amp;lt;&amp;gt;% and |&amp;gt;.&lt;/p&gt;&#xA;&lt;p&gt;First let&amp;rsquo;s construct some data for a demonstration of pipes usage in R&#xA;&lt;em&gt;(PS: The ideas and example data for this post came from &lt;a href=&#34;https://github.com/tidyverse/dplyr/issues/7037&#34;&gt;this dplyr github issue&lt;/a&gt;)&lt;/em&gt;:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;packageVersion&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;magrittr&amp;#39;&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;## [1] &amp;#39;2.0.3&amp;#39;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;library&lt;/span&gt;(magrittr)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;exampledt &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; tibble&lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;tibble&lt;/span&gt;(&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  BP &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;-&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;-&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;A&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;B&amp;#34;&lt;/span&gt;),&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  CL &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;-&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;C&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;-&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;D&amp;#34;&lt;/span&gt;),&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  MF &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;-&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;-&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;-&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;E&amp;#34;&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;%&amp;gt;%&lt;/span&gt; &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  {. &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;-&amp;#39;&lt;/span&gt;} &lt;span style=&#34;color:#f92672&#34;&gt;%&amp;gt;%&lt;/span&gt; &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  tibble&lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;as_tibble&lt;/span&gt;()&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;exampledt&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;## # A tibble: 4 × 3&#xD;&#xA;##   BP    CL    MF   &#xD;&#xA;##   &amp;lt;lgl&amp;gt; &amp;lt;lgl&amp;gt; &amp;lt;lgl&amp;gt;&#xD;&#xA;## 1 TRUE  TRUE  TRUE &#xD;&#xA;## 2 TRUE  FALSE TRUE &#xD;&#xA;## 3 FALSE TRUE  TRUE &#xD;&#xA;## 4 FALSE FALSE FALSE&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;pipes-in-magrittr&#34;&gt;Pipes in magrittr&lt;/h1&gt;&#xA;&lt;h2 id=&#34;-most-commonly-used-magrittr-pipe&#34;&gt;%&amp;gt;% most commonly used magrittr pipe&lt;/h2&gt;&#xA;&lt;h3 id=&#34;basic-piping&#34;&gt;Basic piping&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;x %&amp;gt;% f&lt;/strong&gt; is equivalent to &lt;strong&gt;f(x)&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;x %&amp;gt;% f(y)&lt;/strong&gt; is equivalent to &lt;strong&gt;f(x, y)&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;x %&amp;gt;% f %&amp;gt;% g %&amp;gt;% h&lt;/strong&gt; is equivalent to &lt;strong&gt;h(g(f(x)))&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;argument-placeholder&#34;&gt;Argument placeholder&lt;/h3&gt;&#xA;&lt;p&gt;(&lt;em&gt;&lt;strong&gt;Suppose &lt;strong&gt;f&lt;/strong&gt; has only two parameters&lt;/strong&gt;&lt;/em&gt;)&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

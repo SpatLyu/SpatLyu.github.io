@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Empirical Dynamic Modeling on Wenbo Lv</title>
-    <link>https://spatlyu.github.io/tags/empirical-dynamic-modeling/</link>
-    <description>Recent content in Empirical Dynamic Modeling on Wenbo Lv</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Sun, 02 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://spatlyu.github.io/tags/empirical-dynamic-modeling/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Empirical Dynamic Modeling (EDM)</title>
-      <link>https://spatlyu.github.io/posts/edm_resources/</link>
-      <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/edm_resources/</guid>
-      <description>Detecting Causality in Complex Ecosystems (CCM)&#xA;Causal inference from cross-sectional earth system data with geographical convergent cross mapping (GCCM)&#xA;Partial cross mapping eliminates indirect causal influences (PCM)&#xA;Spatial convergent cross mapping to detect causal relationships from short time series (MultispatialCCM)&#xA;Detecting Causality from Nonlinear Dynamics with Short-term Time Series (CMS)&#xA;Detecting dynamical causality by intersection cardinal concavity (CMC)&#xA;Single-cell causal network inferred by cross-mapping entropy (CME)</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Empirical Dynamic Modeling on Wenbo Lyu</title>
+		<link>https://spatlyu.github.io/tags/empirical-dynamic-modeling/</link>
+		<description>Recent content in Empirical Dynamic Modeling on Wenbo Lyu</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 02 Feb 2025 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://spatlyu.github.io/tags/empirical-dynamic-modeling/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Empirical Dynamic Modeling (EDM)</title>
+				<link>https://spatlyu.github.io/posts/edm_resources/</link>
+				<pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/posts/edm_resources/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;https://www.science.org/doi/10.1126/science.1227079&#34;&gt;&lt;strong&gt;Detecting Causality in Complex Ecosystems (CCM)&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1038/s41467-023-41619-6&#34;&gt;&lt;strong&gt;Causal inference from cross-sectional earth system data with geographical convergent cross mapping (GCCM)&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1038/s41467-020-16238-0&#34;&gt;&lt;strong&gt;Partial cross mapping eliminates indirect causal influences (PCM)&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1890/14-1479.1&#34;&gt;Spatial convergent cross mapping to detect causal relationships from short time series (MultispatialCCM)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1038/srep07464&#34;&gt;Detecting Causality from Nonlinear Dynamics with Short-term Time Series (CMS)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1016/j.fmre.2023.01.007&#34;&gt;Detecting dynamical causality by intersection cardinal concavity (CMC)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1093/bib/bbad281&#34;&gt;Single-cell causal network inferred by cross-mapping entropy (CME)&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

@@ -1,75 +1,80 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Geoinformatics on Wenbo Lv</title>
-    <link>https://spatlyu.github.io/tags/geoinformatics/</link>
-    <description>Recent content in Geoinformatics on Wenbo Lv</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Sun, 16 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://spatlyu.github.io/tags/geoinformatics/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>R books</title>
-      <link>https://spatlyu.github.io/posts/r-books/</link>
-      <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/r-books/</guid>
-      <description>R fundamentals Introduction to R&#xA;Advanced R&#xA;R for Data Science (2e)&#xA;R Graphics Cookbook, 2nd edition&#xA;The tidyverse style guide&#xA;R in Production&#xA;What They Forgot to Teach You About R&#xA;Deep R Programming&#xA;Efficient R programming&#xA;Data Visualization with ggplot2&#xA;Best Coding Practices for R&#xA;Happy Git and GitHub for the useR&#xA;Rcpp for everyone&#xA;Rcpp for everyone Chinese version&#xA;Unofficial rcpp api documentation&#xA;R Packages (2e)&#xA;CRAN Cookbook</description>
-    </item>
-    <item>
-      <title>Spatial Causal Inference</title>
-      <link>https://spatlyu.github.io/posts/spcausality_resources/</link>
-      <pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/spcausality_resources/</guid>
-      <description>Causal inference in spatial statistics&#xA;Spatial Causality: A Systematic Review on Spatial Causal Inference&#xA;A review of causal analysis methods in geographic research&#xA;Temporally or spatially? Causation inference in earth system sciences&#xA;Conduct Multiple Types of Geographic Regression Discontinuity Designs(SpatialRDD)&#xA;Spatial Difference-in-differences (SpatialDID)&#xA;Evidence on the impact of sustained exposure to air pollution on life expectancy from China’s Huai River policy&#xA;Rethinking ‘causality’ in quantitative human geography&#xA;Inferring causation from time series in Earth system sciences</description>
-    </item>
-    <item>
-      <title>Empirical Dynamic Modeling (EDM)</title>
-      <link>https://spatlyu.github.io/posts/edm_resources/</link>
-      <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/edm_resources/</guid>
-      <description>Detecting Causality in Complex Ecosystems (CCM)&#xA;Causal inference from cross-sectional earth system data with geographical convergent cross mapping (GCCM)&#xA;Partial cross mapping eliminates indirect causal influences (PCM)&#xA;Spatial convergent cross mapping to detect causal relationships from short time series (MultispatialCCM)&#xA;Detecting Causality from Nonlinear Dynamics with Short-term Time Series (CMS)&#xA;Detecting dynamical causality by intersection cardinal concavity (CMC)&#xA;Single-cell causal network inferred by cross-mapping entropy (CME)</description>
-    </item>
-    <item>
-      <title>Spatial Stratified Heterogeneity (SSH)</title>
-      <link>https://spatlyu.github.io/posts/ssh_resources/</link>
-      <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/ssh_resources/</guid>
-      <description>Statistical Modeling of Spatially Stratified Heterogeneous Data&#xA;Geodetector: Principle and prospective&#xA;Understanding and extending the geographical detector model under a linear regression framework&#xA;Information Consistency-Based Measures for Spatial Stratified Heterogeneity&#xA;A local indicator of stratified power&#xA;An optimal parameters-based geographical detector model(OPGD)&#xA;Spatial association detector (SPADE)&#xA;Robust geographical detector (RGD)&#xA;An interactive detector for spatial associations (IDSA)&#xA;A locally explained heterogeneity model for examining wetland disparity (LESH)&#xA;Identifying determinants of spatio-temporal disparities in soil moisture of the Northern Hemisphere using a geographically optimal zones-based heterogeneity model (GOZH)</description>
-    </item>
-    <item>
-      <title>Some Useful Resource</title>
-      <link>https://spatlyu.github.io/posts/other_resource_github_io/</link>
-      <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/other_resource_github_io/</guid>
-      <description>Statistics and Information Theory&#xA;Copula Entropy: Theory and Applications (Chinese)&#xA;Recommended List of Classic and Cutting-Edge Literature in the Field of Urban Science (Chinese)&#xA;Mathematical symbols and expressions in rmarkdown&#xA;Xaringan Helper&#xA;sf tutorial(in chinese)</description>
-    </item>
-    <item>
-      <title>Advanced Spatial Methods</title>
-      <link>https://spatlyu.github.io/posts/advanced-spatial-methods/</link>
-      <pubDate>Wed, 04 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/advanced-spatial-methods/</guid>
-      <description>Spatial Relationships Spatial Stratefied Heterogeneity(SSH)&#xA;Spatial Association&#xA;Spatial Causal Inference&#xA;Geocomplexity explains spatial errors&#xA;On spatial effects in geographical analysis&#xA;Geographic Similarity: Third Law of Geography?&#xA;Spatial Prediction Geographically Optimal Similarity&#xA;A generalized heterogeneity model for spatial interpolation&#xA;An ensemble spatial prediction method considering geospatial heterogeneity&#xA;The second dimension of spatial association&#xA;atakrig: An R package for multivariate area-to-area and area-to-point kriging predictions</description>
-    </item>
-    <item>
-      <title>Spatial Association</title>
-      <link>https://spatlyu.github.io/posts/spassociation_resources/</link>
-      <pubDate>Wed, 04 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/spassociation_resources/</guid>
-      <description>Spatial Association from the Perspective of Mutual Information&#xA;Spatial association between regionalizations using the information-theoretical V-measure</description>
-    </item>
-    <item>
-      <title>Presentation Slides</title>
-      <link>https://spatlyu.github.io/posts/presentation_slides/</link>
-      <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/presentation_slides/</guid>
-      <description>R package gdverse&#xA;R packages developed by SpatLyu&#xA;Spatial Causal Inference</description>
-    </item>
-    <item>
-      <title>Spatial Econometrics Regression</title>
-      <link>https://spatlyu.github.io/posts/spatial_econometric_regression/</link>
-      <pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://spatlyu.github.io/posts/spatial_econometric_regression/</guid>
-      <description>Generalized Nested Spatial Model (GSNM) $$ y = \rho_{Lag} W y + X\beta + WX\gamma + \mu, \mu = \rho_{Err} W \mu + \xi $$&#xA;where $y$ is an $(N \times 1)$ vector of observations on a response variable taken at each of $N$ locations,$W$ is a spatial weight matrix, which is a non-negative matrix of size $N \times N$, $X$ is an $(N \times k)$ matrix of covariates, $\beta$ is a $(k \times 1)$ vector of parameters, $\mu$ is an $(N \times 1)$ spatially autocorrelated disturbance vector, $\xi$ is an $(N \times 1)$ vector of independent and identically distributed disturbances, $\rho_{Lag}$ and $\rho_{Err}$ is a scalar spatial parameter.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Geoinformatics on Wenbo Lyu</title>
+		<link>https://spatlyu.github.io/tags/geoinformatics/</link>
+		<description>Recent content in Geoinformatics on Wenbo Lyu</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 16 Mar 2025 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://spatlyu.github.io/tags/geoinformatics/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>R books</title>
+				<link>https://spatlyu.github.io/posts/r-books/</link>
+				<pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/posts/r-books/</guid>
+				<description>&lt;h2 id=&#34;r-fundamentals&#34;&gt;R fundamentals&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://rspatial.org/intr/&#34;&gt;&lt;strong&gt;Introduction to R&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://adv-r.hadley.nz/&#34;&gt;&lt;strong&gt;Advanced R&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://r4ds.hadley.nz/&#34;&gt;&lt;strong&gt;R for Data Science (2e)&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://r-graphics.org/&#34;&gt;&lt;strong&gt;R Graphics Cookbook, 2nd edition&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://style.tidyverse.org/&#34;&gt;&lt;strong&gt;The tidyverse style guide&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://r-in-production.org/&#34;&gt;&lt;strong&gt;R in Production&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://rstats.wtf/&#34;&gt;&lt;strong&gt;What They Forgot to Teach You About R&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://deepr.gagolewski.com/index.html&#34;&gt;&lt;strong&gt;Deep R Programming&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://csgillespie.github.io/efficientR/index.html&#34;&gt;Efficient R programming&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://viz-ggplot2.rsquaredacademy.com/&#34;&gt;Data Visualization with ggplot2&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://bookdown.org/content/d1e53ac9-28ce-472f-bc2c-f499f18264a3/&#34;&gt;Best Coding Practices for R&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://happygitwithr.com/&#34;&gt;&lt;strong&gt;Happy Git and GitHub for the useR&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://teuder.github.io/rcpp4everyone_en/&#34;&gt;&lt;strong&gt;Rcpp for everyone&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://jywang2016.github.io/rcpp4everyone_cn/&#34;&gt;Rcpp for everyone Chinese version&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://thecoatlessprofessor.com/programming/cpp/unofficial-rcpp-api-documentation/&#34;&gt;&lt;strong&gt;Unofficial rcpp api documentation&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://r-pkgs.org/&#34;&gt;&lt;strong&gt;R Packages (2e)&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://contributor.r-project.org/cran-cookbook/&#34;&gt;&lt;strong&gt;CRAN Cookbook&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Spatial Causal Inference</title>
+				<link>https://spatlyu.github.io/posts/spcausality_resources/</link>
+				<pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/posts/spcausality_resources/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S2211675322000173&#34;&gt;&lt;strong&gt;Causal inference in spatial statistics&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://onlinelibrary.wiley.com/doi/abs/10.1111/gean.12312&#34;&gt;&lt;strong&gt;Spatial Causality: A Systematic Review on Spatial Causal Inference&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1016/j.envsoft.2023.105929&#34;&gt;&lt;strong&gt;A review of causal analysis methods in geographic research&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1016/j.scib.2021.10.002&#34;&gt;Temporally or spatially? Causation inference in earth system sciences&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://axlehner.github.io/SpatialRDD/index.html&#34;&gt;Conduct Multiple Types of Geographic Regression Discontinuity Designs(SpatialRDD)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S0165176515004371&#34;&gt;Spatial Difference-in-differences (SpatialDID)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.pnas.org/doi/full/10.1073/pnas.1300018110&#34;&gt;Evidence on the impact of sustained exposure to air pollution on life expectancy from China’s Huai River policy&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1111/gec3.12743&#34;&gt;Rethinking ‘causality’ in quantitative human geography&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.nature.com/articles/s41467-019-10105-3&#34;&gt;Inferring causation from time series in Earth system sciences&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Empirical Dynamic Modeling (EDM)</title>
+				<link>https://spatlyu.github.io/posts/edm_resources/</link>
+				<pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/posts/edm_resources/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;https://www.science.org/doi/10.1126/science.1227079&#34;&gt;&lt;strong&gt;Detecting Causality in Complex Ecosystems (CCM)&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1038/s41467-023-41619-6&#34;&gt;&lt;strong&gt;Causal inference from cross-sectional earth system data with geographical convergent cross mapping (GCCM)&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1038/s41467-020-16238-0&#34;&gt;&lt;strong&gt;Partial cross mapping eliminates indirect causal influences (PCM)&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1890/14-1479.1&#34;&gt;Spatial convergent cross mapping to detect causal relationships from short time series (MultispatialCCM)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1038/srep07464&#34;&gt;Detecting Causality from Nonlinear Dynamics with Short-term Time Series (CMS)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1016/j.fmre.2023.01.007&#34;&gt;Detecting dynamical causality by intersection cardinal concavity (CMC)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1093/bib/bbad281&#34;&gt;Single-cell causal network inferred by cross-mapping entropy (CME)&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Spatial Stratified Heterogeneity (SSH)</title>
+				<link>https://spatlyu.github.io/posts/ssh_resources/</link>
+				<pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/posts/ssh_resources/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1080/24694452.2023.2289982&#34;&gt;&lt;strong&gt;Statistical Modeling of Spatially Stratified Heterogeneous Data&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.11821/dlxb201701010&#34;&gt;&lt;strong&gt;Geodetector: Principle and prospective&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1080/13658816.2023.2266497&#34;&gt;&lt;strong&gt;Understanding and extending the geographical detector model under a linear regression framework&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1080/24694452.2023.2223700&#34;&gt;&lt;strong&gt;Information Consistency-Based Measures for Spatial Stratified Heterogeneity&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1080/13658816.2024.2437811&#34;&gt;&lt;strong&gt;A local indicator of stratified power&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1080/15481603.2020.1760434&#34;&gt;&lt;strong&gt;An optimal parameters-based geographical detector model(OPGD)&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1080/13658816.2018.1476693&#34;&gt;&lt;strong&gt;Spatial association detector (SPADE)&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1016/j.jag.2022.102782&#34;&gt;&lt;strong&gt;Robust geographical detector (RGD)&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1080/13658816.2021.1882680&#34;&gt;&lt;strong&gt;An interactive detector for spatial associations (IDSA)&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1080/17538947.2023.2271883&#34;&gt;&lt;strong&gt;A locally explained heterogeneity model for examining wetland disparity (LESH)&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1016/j.isprsjprs.2022.01.009&#34;&gt;Identifying determinants of spatio-temporal disparities in soil moisture of the Northern Hemisphere using a geographically optimal zones-based heterogeneity model (GOZH)&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Some Useful Resource</title>
+				<link>https://spatlyu.github.io/posts/other_resource_github_io/</link>
+				<pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/posts/other_resource_github_io/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;https://web.stanford.edu/class/stats311/lecture-notes.pdf&#34;&gt;Statistics and Information Theory&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://majianthu.github.io/ce-survey.pdf&#34;&gt;Copula Entropy: Theory and Applications (Chinese)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://pattern.swarma.org/article/233?from=wechat&#34;&gt;Recommended List of Classic and Cutting-Edge Literature in the Field of Urban Science (Chinese)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://spatlyu.github.io/materials/mathsymbols.html&#34;&gt;Mathematical symbols and expressions in rmarkdown&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://spatlyu.github.io/materials/xaringan.pdf&#34;&gt;Xaringan Helper&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://spatlyu.github.io/slides/sf_tutorial.html&#34;&gt;sf tutorial(in chinese)&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Advanced Spatial Methods</title>
+				<link>https://spatlyu.github.io/posts/advanced-spatial-methods/</link>
+				<pubDate>Wed, 04 Dec 2024 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/posts/advanced-spatial-methods/</guid>
+				<description>&lt;h3 id=&#34;spatial-relationships&#34;&gt;Spatial Relationships&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://spatlyu.github.io/posts/ssh_resources&#34;&gt;Spatial Stratefied Heterogeneity(SSH)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://spatlyu.github.io/posts/spassociation_resources&#34;&gt;Spatial Association&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://spatlyu.github.io/posts/spcausality_resources&#34;&gt;Spatial Causal Inference&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1080/13658816.2023.2203212&#34;&gt;&lt;strong&gt;Geocomplexity explains spatial errors&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;10.11821/dlxb202303001&#34;&gt;&lt;strong&gt;On spatial effects in geographical analysis&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.dqxxkx.cn/article/2020/1560-8999/1560-8999-22-4-673.shtml&#34;&gt;Geographic Similarity: Third Law of Geography?&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;spatial-prediction&#34;&gt;Spatial Prediction&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://link.springer.com/article/10.1007/s11004-022-10036-8&#34;&gt;Geographically Optimal Similarity&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1080/13658816.2022.2147530&#34;&gt;A generalized heterogeneity model for spatial interpolation&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.tandfonline.com/doi/full/10.1080/13658816.2024.2358052&#34;&gt;An ensemble spatial prediction method considering geospatial heterogeneity&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S156984322200036X&#34;&gt;&lt;strong&gt;The second dimension of spatial association&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S0098300419306089&#34;&gt;atakrig: An R package for multivariate area-to-area and area-to-point kriging predictions&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Spatial Association</title>
+				<link>https://spatlyu.github.io/posts/spassociation_resources/</link>
+				<pubDate>Wed, 04 Dec 2024 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/posts/spassociation_resources/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1080/24694452.2023.2209629&#34;&gt;Spatial Association from the Perspective of Mutual Information&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1080/13658816.2018.1511794&#34;&gt;Spatial association between regionalizations using the information-theoretical V-measure&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Presentation Slides</title>
+				<link>https://spatlyu.github.io/posts/presentation_slides/</link>
+				<pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/posts/presentation_slides/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;https://spatlyu.github.io/slides/gdverse_pres.html&#34;&gt;R package gdverse&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://spatlyu.github.io/slides/intro_rpkg_lyu.html&#34;&gt;R packages developed by SpatLyu&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://spatlyu.github.io/slides/geospatial_causal_inference.html&#34;&gt;Spatial Causal Inference&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Spatial Econometrics Regression</title>
+				<link>https://spatlyu.github.io/posts/spatial_econometric_regression/</link>
+				<pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/posts/spatial_econometric_regression/</guid>
+				<description>&lt;h2 id=&#34;generalized-nested-spatial-model-gsnm&#34;&gt;Generalized Nested Spatial Model (GSNM)&lt;/h2&gt;&#xA;&lt;p&gt;$$&#xA;y = \rho_{Lag} W y + X\beta + WX\gamma + \mu,&#xA;\mu = \rho_{Err} W \mu + \xi&#xA;$$&lt;/p&gt;&#xA;&lt;p&gt;where $y$ is an $(N \times 1)$ vector of observations on a response variable taken at each of $N$ locations,$W$ is a spatial weight matrix, which is a non-negative matrix of size $N \times N$, $X$ is an $(N \times k)$ matrix of covariates, $\beta$ is a $(k \times 1)$ vector of parameters, $\mu$ is an $(N \times 1)$ spatially autocorrelated disturbance vector, $\xi$ is an $(N \times 1)$ vector of independent and identically distributed disturbances, $\rho_{Lag}$ and $\rho_{Err}$ is a scalar spatial parameter. $\gamma$ is a $(k&amp;rsquo; \times 1)$ vector of parameters. $k&amp;rsquo;$ defines the subset of the intercept and covariates, often $k&amp;rsquo; = k-1$ when using row standardised spatial weights and omitting the spatially lagged intercept.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>
