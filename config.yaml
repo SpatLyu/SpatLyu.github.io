@@ -1,7 +1,7 @@
 baseURL: https://spatlyu.github.io
 title: Wenbo Lyu
 theme: gokarna
-languageCode: en
+locale: en
 defaultContentLanguage: en
 enableEmoji: true
 enableRobotsTXT: true
