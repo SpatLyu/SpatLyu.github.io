@@ -17,10 +17,10 @@ options(
   blogdown.knit.on_save = TRUE,
   # build .Rmd to .md; to build to .html (via Pandoc), set this option to 'html'
   blogdown.method = 'markdown',
-  blogdown.author = 'Wenbo Lv',
+  blogdown.author = 'Wenbo Lyu',
   blogdown.ext = '.Rmd',
   blogdown.subdir = "posts"
 )
 
 # fix Hugo version
-options(blogdown.hugo.version = "0.128.2")
+#options(blogdown.hugo.version = "0.165.0")
