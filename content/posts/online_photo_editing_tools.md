@@ -1,6 +1,6 @@
 ---
 title: "Online Photo Editing Tools"
-author: "Wenbo Lv"
+author: "Wenbo Lyu"
 date: "2024-12-13"
 tags: ["Photo Editing Tools"]
 type: post
