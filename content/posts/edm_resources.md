@@ -1,6 +1,6 @@
 ---
 title: "Empirical Dynamic Modeling (EDM)"
-author: "Wenbo Lv"
+author: "Wenbo Lyu"
 date: "2025-02-02"
 description: "Theoretical Framework and Model Implementation of Empirical Dynamic Modeling (EDM)"
 tags: ["EDM","Empirical Dynamic Modeling","statistics","geoinformatics","causality"]

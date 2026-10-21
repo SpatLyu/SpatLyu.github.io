@@ -7,7 +7,7 @@ type: page
 
 ### goal
 
-*Wrapping and supplementing commonly used functions in the R ecosystem related to spatial data science, while serving as a basis for other packages maintained by Wenbo Lv.*
+*Wrapping and supplementing commonly used functions in the R ecosystem related to spatial data science, while serving as a basis for other packages maintained by Wenbo Lyu.*
 
 ### document
 
