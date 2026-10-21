@@ -1,6 +1,6 @@
 ---
 title: "Advanced Spatial Methods"
-author: "Wenbo Lv"
+author: "Wenbo Lyu"
 date: "2024-11-10"
 description: "Advanced Spatial Methods in the Literature"
 tags: ["spatial methods","geoinformatics","satistics"]

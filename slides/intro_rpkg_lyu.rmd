@@ -1,6 +1,6 @@
 ---
 title: "R packages developed by SpatLyu"
-author: "Wenbo Lv"
+author: "Wenbo Lyu"
 date: "`r Sys.Date()`"
 output:
   xaringan::moon_reader:
@@ -109,7 +109,7 @@ background-image: url("https://spatlyu.github.io/materials/figures/ausgis_ppt_ti
 background-position: center
 background-size: contain
 
-# R packages developed by Wenbo Lv and his partners
+# R packages developed by Wenbo Lyu and his partners
 
 ---
 background-image: url("https://spatlyu.github.io/materials/figures/ausgis_ppt_title_bg4.png")
@@ -453,6 +453,6 @@ background-size: contain
 
 # Thanks
 
-### Wenbo Lv
+### Wenbo Lyu
 
 ### lyu.geosocial@gmail.com

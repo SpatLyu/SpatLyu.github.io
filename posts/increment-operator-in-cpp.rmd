@@ -1,6 +1,6 @@
 ---
 title: "Increment operator in cpp"
-author: "Wenbo Lv"
+author: "Wenbo Lyu"
 date: "2024-07-06"
 tags: ["cpp","rcpp","r"]
 type: post
