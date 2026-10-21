@@ -1,6 +1,6 @@
 ---
 title: "Academic Writing Books"
-author: "Wenbo Lv"
+author: "Wenbo Lyu"
 date: "2024-08-18"
 description: "Useful Books for Academic Writing"
 tags: ["books","writing"]

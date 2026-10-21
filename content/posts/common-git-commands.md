@@ -1,6 +1,6 @@
 ---
 title: "Common git commands"
-author: "Wenbo Lv"
+author: "Wenbo Lyu"
 date: "2024-06-05"
 tags: ["git","coding","github"]
 type: post
