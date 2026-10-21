@@ -1,6 +1,6 @@
 ---
 title: "Some Useful Resource"
-author: "Wenbo Lv"
+author: "Wenbo Lyu"
 date: "2024-12-18"
 description: "Useful resource in spatlyu.github.io"
 tags: ["r","geoinformatics","statistics"]

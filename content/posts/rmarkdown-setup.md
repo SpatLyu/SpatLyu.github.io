@@ -1,6 +1,6 @@
 ---
 title: Rmarkdown Setup
-author: Wenbo Lv
+author: Wenbo Lyu
 date: '2024-06-05'
 description: "Frequently used rmarkdown configuration Settings"
 tags: ["r","rmarkdown"]

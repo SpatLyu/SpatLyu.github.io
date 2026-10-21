@@ -1,6 +1,6 @@
 ---
 title: "Setting up a network proxy"
-author: "Wenbo Lv"
+author: "Wenbo Lyu"
 date: "2024-06-05"
 tags: ["network proxy","coding"]
 type: post

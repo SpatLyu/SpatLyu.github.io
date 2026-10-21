@@ -1,6 +1,6 @@
 ---
 title: "Pipes In R"
-author: "Wenbo Lv & Yangyang Lei"
+author: "Wenbo Lyu & Yangyang Lei"
 date: "2024-06-12"
 description: "Useful pipes in baseR and magrittr"
 tags: ["r","tidyverse","dplyr","magrittr"]
