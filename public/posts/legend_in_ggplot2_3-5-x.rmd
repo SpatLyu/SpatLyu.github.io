@@ -1,6 +1,6 @@
 ---
 title: "Legend in ggplot2 3.5.x"
-author: "Wenbo Lv"
+author: "Wenbo Lyu"
 date: "2024-09-05"
 tags: ["r","tidyverse","ggplot2","legend"]
 type: post
