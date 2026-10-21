@@ -1,6 +1,6 @@
 ---
 title: "R packages developed by SpatLyu"
-author: "Wenbo Lv"
+author: "Wenbo Lyu"
 date: "`r Sys.Date()`"
 output:
   xaringan::moon_reader:
@@ -453,6 +453,6 @@ background-size: contain
 
 # Thanks
 
-### Wenbo Lv
+### Wenbo Lyu
 
 ### lyu.geosocial@gmail.com

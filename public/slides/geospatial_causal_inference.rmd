@@ -1,7 +1,7 @@
 ---
 title: "Spatial Causal Inference"
 subtitle: "spcausal : A Framework for Spatial Causal Inference"
-author: "Wenbo Lv"
+author: "Wenbo Lyu"
 # institute: "Curtin Geospatial Intelligence Lab & HKUSTGZ AI4City Lab"
 date: "`r Sys.Date()`"
 output:
@@ -308,6 +308,6 @@ background-size: contain
 
 # Thanks
 
-### Wenbo Lv
+### Wenbo Lyu
 
 ### lyu.geosocial@gmail.com

@@ -1,6 +1,6 @@
 ---
 title: "gdverse: An R package for spatial stratified heterogeneity family"
-author: "Wenbo Lv"
+author: "Wenbo Lyu"
 # institute: "Curtin Geospatial Intelligence Lab & HKUSTGZ AI4City Lab"
 date: "`r Sys.Date()`"
 output:
