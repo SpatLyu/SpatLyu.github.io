@@ -1,6 +1,6 @@
 ---
 title: "Spatial Association"
-author: "Wenbo Lv"
+author: "Wenbo Lyu"
 date: "2024-12-04"
 tags: ["statistics","geoinformatics","causality"]
 type: post

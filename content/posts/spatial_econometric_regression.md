@@ -1,6 +1,6 @@
 ---
 title: "Spatial Econometrics Regression"
-author: "Wenbo Lv"
+author: "Wenbo Lyu"
 date: "2024-10-25"
 description: "Spatial linear regression (spatial econometric regression) model description"
 tags: ["econometrics","statistics","geoinformatics","r"]
