@@ -1,6 +1,6 @@
 ---
 title: "Spatial Causal Inference"
-author: "Wenbo Lv"
+author: "Wenbo Lyu"
 date: "2025-02-13"
 description: "Theoretical Framework and Model Implementation of GeoSpatial Causality"
 tags: ["statistics","geoinformatics","causality"]
