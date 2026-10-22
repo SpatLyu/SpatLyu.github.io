@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Sun, 16 Mar 2025 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Thu, 22 Oct 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="https://spatlyu.github.io/tags/statistics/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Variogram Models</title>
+				<link>https://spatlyu.github.io/posts/variogram_models/</link>
+				<pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/posts/variogram_models/</guid>
+				<description>&lt;hr&gt;&#xA;&lt;h2 id=&#34;showtableofcontents-true&#34;&gt;title: &amp;ldquo;Variogram Models and Spatial Kernels&amp;rdquo;&#xA;author: &amp;ldquo;Wenbo Lyu&amp;rdquo;&#xA;date: &amp;ldquo;2026-10-22&amp;rdquo;&#xA;description: &amp;ldquo;Variogram models and covariance kernels for spatial dependence&amp;rdquo;&#xA;tags: [&amp;ldquo;geostatistics&amp;rdquo;, &amp;ldquo;spatial-statistics&amp;rdquo;, &amp;ldquo;statistics&amp;rdquo;, &amp;ldquo;r&amp;rdquo;]&#xA;type: post&#xA;weight: 25&#xA;showTableOfContents: true&lt;/h2&gt;&#xA;&lt;h2 id=&#34;variogram-models&#34;&gt;Variogram models&lt;/h2&gt;&#xA;&lt;p&gt;The variogram describes how spatial dissimilarity changes with the separation distance between locations. The theoretical semivariogram is defined as&lt;/p&gt;&#xA;&lt;p&gt;$$&#xA;\gamma(h) = \frac{1}{2}&#xA;\operatorname{Var}\left[Z(\mathbf{s})-Z(\mathbf{s}+\mathbf{h})\right],&#xA;$$&lt;/p&gt;&#xA;&lt;p&gt;where &lt;code&gt;\(Z(\mathbf{s})\)&lt;/code&gt; is a spatial random field, &lt;code&gt;\(\mathbf{h}\)&lt;/code&gt; is a spatial lag vector, and &lt;code&gt;\(h=\|\mathbf{h}\|\)&lt;/code&gt; is the lag distance. Under second-order stationarity, the semivariogram is related to the covariance function by&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>R books</title>
 				<link>https://spatlyu.github.io/posts/r-books/</link>
