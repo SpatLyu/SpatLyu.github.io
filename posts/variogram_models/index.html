@@ -230,32 +230,39 @@ c_0+c\left[1-\exp\left(-\frac{h}{a}\right)\right],
 &amp; h&gt;0.
 \end{cases}
 $$</p>
-<p>The parameter <code>\(a\)</code> controls the decay rate. Unlike the spherical model, the exponential model does not reach its sill at a finite distance. Under this parameterization, the correlation range is often approximated by <code>\(3a\)</code>.</p>
+<p>The parameter $a$ controls the decay rate. Unlike the spherical model, the exponential model does not reach its sill at a finite distance. Under this parameterization, the correlation range is often approximated by $3a$.</p>
 <h3 id="gaussian-model">Gaussian model</h3>
 <p>The Gaussian model represents highly smooth spatial variation, with a gradual increase in semivariance near the origin.</p>
 <p>$$
 \gamma(h)=
-<code>\begin{cases} 0, &amp; h=0,\\ c_0+c\left[1-\exp\left(-\frac{h^2}{a^2}\right)\right], &amp; h&gt;0. \end{cases}</code>
+\begin{cases}
+0, &amp; h=0,\
+c_0+c\left[1-\exp\left(-\frac{h^2}{a^2}\right)\right],
+&amp; h&gt;0.
+\end{cases}
 $$</p>
-<p>The parameter <code>\(a\)</code> controls the spatial scale. The Gaussian model approaches its sill asymptotically, and its smooth behavior near the origin makes it suitable for spatial fields with strong local continuity. Under this parameterization, the practical range is approximately <code>\(\sqrt{3}a\)</code> when 95% of the structured sill is used as the threshold.</p>
+<p>The parameter $a$ controls the spatial scale. The Gaussian model approaches its sill asymptotically, and its smooth behavior near the origin makes it suitable for spatial fields with strong local continuity. Under this parameterization, the practical range is approximately $\sqrt{3}a$ when 95% of the structured sill is used as the threshold.</p>
 <h3 id="power-model">Power model</h3>
 <p>The power model is an unbounded variogram model that can represent spatial processes without a finite sill.</p>
 <p>$$
 \gamma(h)=
-<code>\begin{cases} 0, &amp; h=0,\\ c h^\alpha, &amp; h&gt;0, \end{cases}</code>
+\begin{cases}
+0, &amp; h=0,\
+c h^\alpha, &amp; h&gt;0,
+\end{cases}
 $$</p>
-<p>where <code>\(c&gt;0\)</code> is a scale parameter and <code>\(0&lt;\alpha&lt;2\)</code>. The power model does not have a finite sill or range and is useful when spatial variability continues to increase over the observed distance scale.</p>
+<p>where $c&gt;0$ is a scale parameter and $0&lt;\alpha&lt;2$. The power model does not have a finite sill or range and is useful when spatial variability continues to increase over the observed distance scale.</p>
 <h2 id="covariance-kernels">Covariance kernels</h2>
 <p>Covariance kernels describe the covariance between observations as a function of their spatial separation. For a stationary and isotropic random field, a covariance function can be written as</p>
 <p>$$
 C(h)=\sigma^2 K(h),
 $$</p>
-<p>where <code>\(\sigma^2\)</code> is the structured variance and <code>\(K(h)\)</code> is a normalized covariance kernel satisfying <code>\(K(0)=1\)</code>. When a nugget effect is included, the covariance between distinct locations remains governed by the structured component, while the nugget contributes to the variance at an individual location.</p>
+<p>where $\sigma^2$ is the structured variance and $K(h)$ is a normalized covariance kernel satisfying $K(0)=1$. When a nugget effect is included, the covariance between distinct locations remains governed by the structured component, while the nugget contributes to the variance at an individual location.</p>
 <h3 id="exponential-kernel">Exponential kernel</h3>
 <p>$$
 K(h)=\exp\left(-\frac{h}{a}\right).
 $$</p>
-<p>The exponential kernel produces relatively rough spatial fields and an exponential decay in correlation. It corresponds to the exponential variogram through <code>\(\gamma(h)=\sigma^2[1-K(h)]\)</code> when there is no nugget effect.</p>
+<p>The exponential kernel produces relatively rough spatial fields and an exponential decay in correlation. It corresponds to the exponential variogram through $\gamma(h)=\sigma^2[1-K(h)]$ when there is no nugget effect.</p>
 <h3 id="gaussian-kernel">Gaussian kernel</h3>
 <p>$$
 K(h)=\exp\left(-\frac{h^2}{a^2}\right).
@@ -270,21 +277,21 @@ K(h)=
 K_\nu\left(\frac{h}{a}\right),
 \qquad h&gt;0,
 $$</p>
-<p>with <code>\(K(0)=1\)</code>, where <code>\(\nu&gt;0\)</code> is the smoothness parameter, <code>\(\Gamma(\cdot)\)</code> is the gamma function, and <code>\(K_\nu(\cdot)\)</code> is the modified Bessel function of the second kind. Larger values of <code>\(\nu\)</code> generally produce smoother spatial fields. The Matérn family includes the exponential kernel as the special case <code>\(\nu=1/2\)</code> under this parameterization.</p>
+<p>with $K(0)=1$, where $\nu&gt;0$ is the smoothness parameter, $\Gamma(\cdot)$ is the gamma function, and $K_\nu(\cdot)$ is the modified Bessel function of the second kind. Larger values of $\nu$ generally produce smoother spatial fields. The Matérn family includes the exponential kernel as the special case $\nu=1/2$ under this parameterization.</p>
 <h3 id="cauchy-kernel">Cauchy kernel</h3>
 <p>A commonly used generalized Cauchy kernel is</p>
 <p>$$
 K(h)=\left[1+\left(\frac{h}{a}\right)^2\right]^{-\beta},
 \qquad \beta&gt;0.
 $$</p>
-<p>The Cauchy kernel exhibits polynomial rather than exponential decay. It can therefore represent spatial dependence with relatively long tails. The parameter <code>\(a\)</code> controls the spatial scale, while <code>\(\beta\)</code> controls the decay rate.</p>
+<p>The Cauchy kernel exhibits polynomial rather than exponential decay. It can therefore represent spatial dependence with relatively long tails. The parameter $a$ controls the spatial scale, while $\beta$ controls the decay rate.</p>
 <h3 id="stable-kernel">Stable kernel</h3>
 <p>A generalized stable kernel can be written as</p>
 <p>$$
 K(h)=\exp\left[-\left(\frac{h}{a}\right)^\alpha\right],
 \qquad 0&lt;\alpha\leq 2.
 $$</p>
-<p>The parameter <code>\(\alpha\)</code> controls the shape and smoothness of the kernel. The exponential kernel is recovered when <code>\(\alpha=1\)</code>, and the Gaussian kernel is recovered when <code>\(\alpha=2\)</code>.</p>
+<p>The parameter $\alpha$ controls the shape and smoothness of the kernel. The exponential kernel is recovered when $\alpha=1$, and the Gaussian kernel is recovered when $\alpha=2$.</p>
 <h2 id="model-comparison">Model comparison</h2>
 <table>
 	<thead>
