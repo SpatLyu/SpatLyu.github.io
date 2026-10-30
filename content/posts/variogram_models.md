@@ -18,7 +18,7 @@ $$
 \operatorname{Var}\left[Z(\mathbf{s})-Z(\mathbf{s}+\mathbf{h})\right],
 $$
 
-where `$$Z(\mathbf{s})$$` is a spatial random field, `$$\mathbf{h}$$` is a spatial lag vector, and `$$h=\|\mathbf{h}\|$$` is the lag distance. Under second-order stationarity, the semivariogram is related to the covariance function by
+where $Z(\mathbf{s})$ is a spatial random field, $\mathbf{h}$ is a spatial lag vector, and $h=\|\mathbf{h}\|$ is the lag distance. Under second-order stationarity, the semivariogram is related to the covariance function by
 
 $$
 \gamma(h)=C(0)-C(h).
@@ -28,10 +28,10 @@ A common variogram model with a nugget effect is written as
 
 $$
 \gamma(h)=
-`\begin{cases}
+\begin{cases}
 0, & h=0,\\
 c_0+c\,g(h), & h>0,
-\end{cases}`
+\end{cases}
 $$
 
 where `\(c_0\)` is the nugget variance, `\(c\)` is the partial sill, and `\(g(h)\)` is a normalized variogram function. The total sill is `\(c_0+c\)` when `\(g(h)\)` approaches one.
