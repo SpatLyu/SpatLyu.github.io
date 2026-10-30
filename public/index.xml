@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Sun, 16 Mar 2025 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Thu, 22 Oct 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="https://spatlyu.github.io/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Variogram Models</title>
+				<link>https://spatlyu.github.io/posts/variogram_models/</link>
+				<pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/posts/variogram_models/</guid>
+				<description>&lt;hr&gt;&#xA;&lt;h2 id=&#34;showtableofcontents-true&#34;&gt;title: &amp;ldquo;Variogram Models and Spatial Kernels&amp;rdquo;&#xA;author: &amp;ldquo;Wenbo Lyu&amp;rdquo;&#xA;date: &amp;ldquo;2026-10-22&amp;rdquo;&#xA;description: &amp;ldquo;Variogram models and covariance kernels for spatial dependence&amp;rdquo;&#xA;tags: [&amp;ldquo;geostatistics&amp;rdquo;, &amp;ldquo;spatial-statistics&amp;rdquo;, &amp;ldquo;statistics&amp;rdquo;, &amp;ldquo;r&amp;rdquo;]&#xA;type: post&#xA;weight: 25&#xA;showTableOfContents: true&lt;/h2&gt;&#xA;&lt;h2 id=&#34;variogram-models&#34;&gt;Variogram models&lt;/h2&gt;&#xA;&lt;p&gt;The variogram describes how spatial dissimilarity changes with the separation distance between locations. The theoretical semivariogram is defined as&lt;/p&gt;&#xA;&lt;p&gt;$$&#xA;\gamma(h) = \frac{1}{2}&#xA;\operatorname{Var}\left[Z(\mathbf{s})-Z(\mathbf{s}+\mathbf{h})\right],&#xA;$$&lt;/p&gt;&#xA;&lt;p&gt;where &lt;code&gt;\(Z(\mathbf{s})\)&lt;/code&gt; is a spatial random field, &lt;code&gt;\(\mathbf{h}\)&lt;/code&gt; is a spatial lag vector, and &lt;code&gt;\(h=\|\mathbf{h}\|\)&lt;/code&gt; is the lag distance. Under second-order stationarity, the semivariogram is related to the covariance function by&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>R books</title>
 				<link>https://spatlyu.github.io/posts/r-books/</link>
@@ -193,7 +200,7 @@
 				<link>https://spatlyu.github.io/projects/sdsfun/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
 				<guid>https://spatlyu.github.io/projects/sdsfun/</guid>
-				<description>&lt;img src=&#34;https://spatlyu.github.io/projects/projects-picture/sdsfun.png&#34; align=&#34;right&#34; height=&#34;30&#34;/&gt;&#xD;&#xA;&lt;h3 id=&#34;goal&#34;&gt;goal&lt;/h3&gt;&#xA;&lt;p&gt;&lt;em&gt;Wrapping and supplementing commonly used functions in the R ecosystem related to spatial data science, while serving as a basis for other packages maintained by Wenbo Lv.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;document&#34;&gt;document&lt;/h3&gt;&#xA;&lt;p&gt;You can see the document of &lt;strong&gt;sdsfun&lt;/strong&gt; in &lt;a href=&#34;https://stscl.github.io/sdsfun/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;source-code&#34;&gt;source code&lt;/h3&gt;&#xA;&lt;p&gt;The source code of &lt;strong&gt;sdsfun&lt;/strong&gt; is in &lt;a href=&#34;https://github.com/stscl/sdsfun/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;feedback&#34;&gt;feedback&lt;/h3&gt;&#xA;&lt;p&gt;If you have any questions or suggestions, please post them in &lt;a href=&#34;https://github.com/stscl/sdsfun/issues&#34;&gt;sdsfun github repo issue&lt;/a&gt;.&lt;/p&gt;</description>
+				<description>&lt;img src=&#34;https://spatlyu.github.io/projects/projects-picture/sdsfun.png&#34; align=&#34;right&#34; height=&#34;30&#34;/&gt;&#xD;&#xA;&lt;h3 id=&#34;goal&#34;&gt;goal&lt;/h3&gt;&#xA;&lt;p&gt;&lt;em&gt;Wrapping and supplementing commonly used functions in the R ecosystem related to spatial data science, while serving as a basis for other packages maintained by Wenbo Lyu.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;document&#34;&gt;document&lt;/h3&gt;&#xA;&lt;p&gt;You can see the document of &lt;strong&gt;sdsfun&lt;/strong&gt; in &lt;a href=&#34;https://stscl.github.io/sdsfun/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;source-code&#34;&gt;source code&lt;/h3&gt;&#xA;&lt;p&gt;The source code of &lt;strong&gt;sdsfun&lt;/strong&gt; is in &lt;a href=&#34;https://github.com/stscl/sdsfun/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;feedback&#34;&gt;feedback&lt;/h3&gt;&#xA;&lt;p&gt;If you have any questions or suggestions, please post them in &lt;a href=&#34;https://github.com/stscl/sdsfun/issues&#34;&gt;sdsfun github repo issue&lt;/a&gt;.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>sesp</title>

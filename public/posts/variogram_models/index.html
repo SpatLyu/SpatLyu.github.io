@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        :root {
+            --accent-color: #FF4D4D;
+        }
+    </style>
+
+    
+    
+    
+    
+    
+    
+
+    
+    <title>Variogram Models</title>
+    <meta name="description" content="Variogram models and covariance kernels for spatial dependence">
+    <meta name="keywords" content='blog, gokarna, hugo, geostatistics, spatial-statistics, statistics, r'>
+
+    <meta property="og:url" content="https://spatlyu.github.io/posts/variogram_models/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Variogram Models">
+    <meta property="og:description" content="Variogram models and covariance kernels for spatial dependence">
+    <meta property="og:image" content="https://spatlyu.github.io/images/spatlyu.webp">
+    <meta property="og:image:secure_url" content="https://spatlyu.github.io/images/spatlyu.webp">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Variogram Models">
+    <meta name="twitter:description" content="Variogram models and covariance kernels for spatial dependence">
+    <meta property="twitter:domain" content="https://spatlyu.github.io/posts/variogram_models/">
+    <meta property="twitter:url" content="https://spatlyu.github.io/posts/variogram_models/">
+    <meta name="twitter:image" content="https://spatlyu.github.io/images/spatlyu.webp">
+
+    
+    <link rel="canonical" href="https://spatlyu.github.io/posts/variogram_models/">
+
+    
+    <link rel="stylesheet" type="text/css" href="/css/normalize.min.css" media="print">
+
+    
+    <link rel="stylesheet" type="text/css" href="/css/main.min.css">
+
+    
+    <link id="dark-theme" rel="stylesheet" href="/css/dark.min.css">
+
+    
+    <script src="/js/bundle.min.7398468d24d3be6d394551c2705062b18acbf84a7dcdbc2f2d48c304b29d2020.js" integrity="sha256-c5hGjSTTvm05RVHCcFBisYrL&#43;Ep9zbwvLUjDBLKdICA="></script>
+
+    
+    
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+    
+</head>
+<body>
+        <script>
+            
+            setThemeByUserPref();
+        </script><header class="header">
+    <nav class="header-nav">
+
+        
+        <div class="avatar">
+            <a href="https://spatlyu.github.io/">
+                <img src='/images/spatlyu.webp' alt="avatar">
+            </a>
+        </div>
+        
+
+        <div class="nav-title">
+            <a class="nav-brand" href="https://spatlyu.github.io/">Wenbo Lyu</a>
+        </div>
+
+        <div class="nav-links">
+            
+            <div class="nav-link">
+                <a href="https://spatlyu.github.io/"><span data-feather='home'></span> Home </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://spatlyu.github.io/posts/"><span data-feather='book'></span> Posts </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://spatlyu.github.io/projects/"><span data-feather='code'></span> Projects </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://spatlyu.github.io/tags/"><span data-feather='tag'></span> Tags </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://github.com/SpatLyu"><span data-feather='github'></span>  </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://spatlyu.github.io/index.xml"><span data-feather='rss'></span>  </a>
+            </div>
+            
+
+            <span class="nav-icons-divider"></span>
+            <div class="nav-link dark-theme-toggle">
+                <span class="sr-only dark-theme-toggle-screen-reader-target"></span>
+                <a>
+                    <span class="theme-toggle-icon" data-feather="moon"></span>
+                </a>
+            </div>
+
+            <div class="nav-link" id="hamburger-menu-toggle">
+                <span class="sr-only hamburger-menu-toggle-screen-reader-target">menu</span>
+                <a>
+                    <span data-feather="menu"></span>
+                </a>
+            </div>
+
+            
+            <ul class="nav-hamburger-list visibility-hidden">
+                
+                <li class="nav-item">
+                    <a href="https://spatlyu.github.io/"><span data-feather='home'></span> Home </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://spatlyu.github.io/posts/"><span data-feather='book'></span> Posts </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://spatlyu.github.io/projects/"><span data-feather='code'></span> Projects </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://spatlyu.github.io/tags/"><span data-feather='tag'></span> Tags </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://github.com/SpatLyu"><span data-feather='github'></span>  </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://spatlyu.github.io/index.xml"><span data-feather='rss'></span>  </a>
+                </li>
+                
+                <li class="nav-item dark-theme-toggle">
+                    <span class="sr-only dark-theme-toggle-screen-reader-target">theme</span>
+                    <a>
+                        <span class="theme-toggle-icon" data-feather="moon"></span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+</header>
+<main id="content">
+    <div class="post container">
+    <div class="post-header-section">
+        <h1>Variogram Models</h1>
+        <small role="doc-subtitle">Variogram models and covariance kernels for spatial dependence</small>
+        <p class="post-date">October 22, 2026
+        
+        </p>
+
+        <ul class="post-tags">
+        
+            <li class="post-tag"><a href="https://spatlyu.github.io/tags/geostatistics">geostatistics</a></li>
+        
+            <li class="post-tag"><a href="https://spatlyu.github.io/tags/spatial-statistics">spatial-statistics</a></li>
+        
+            <li class="post-tag"><a href="https://spatlyu.github.io/tags/statistics">statistics</a></li>
+        
+            <li class="post-tag"><a href="https://spatlyu.github.io/tags/r">r</a></li>
+        
+        </ul>
+    </div>
+
+    <div class="post-content">
+        <hr>
+<h2 id="showtableofcontents-true">title: &ldquo;Variogram Models and Spatial Kernels&rdquo;
+author: &ldquo;Wenbo Lyu&rdquo;
+date: &ldquo;2026-10-22&rdquo;
+description: &ldquo;Variogram models and covariance kernels for spatial dependence&rdquo;
+tags: [&ldquo;geostatistics&rdquo;, &ldquo;spatial-statistics&rdquo;, &ldquo;statistics&rdquo;, &ldquo;r&rdquo;]
+type: post
+weight: 25
+showTableOfContents: true</h2>
+<h2 id="variogram-models">Variogram models</h2>
+<p>The variogram describes how spatial dissimilarity changes with the separation distance between locations. The theoretical semivariogram is defined as</p>
+<p>$$
+\gamma(h) = \frac{1}{2}
+\operatorname{Var}\left[Z(\mathbf{s})-Z(\mathbf{s}+\mathbf{h})\right],
+$$</p>
+<p>where <code>\(Z(\mathbf{s})\)</code> is a spatial random field, <code>\(\mathbf{h}\)</code> is a spatial lag vector, and <code>\(h=\|\mathbf{h}\|\)</code> is the lag distance. Under second-order stationarity, the semivariogram is related to the covariance function by</p>
+<p>$$
+\gamma(h)=C(0)-C(h).
+$$</p>
+<p>A common variogram model with a nugget effect is written as</p>
+<p>$$
+\gamma(h)=
+<code>\begin{cases} 0, &amp; h=0,\\ c_0+c\,g(h), &amp; h&gt;0, \end{cases}</code>
+$$</p>
+<p>where <code>\(c_0\)</code> is the nugget variance, <code>\(c\)</code> is the partial sill, and <code>\(g(h)\)</code> is a normalized variogram function. The total sill is <code>\(c_0+c\)</code> when <code>\(g(h)\)</code> approaches one.</p>
+<h3 id="spherical-model">Spherical model</h3>
+<p>The spherical model reaches its sill at a finite range and is commonly used to represent spatial dependence with a clearly defined correlation distance.</p>
+<p>$$
+\gamma(h)=
+<code>\begin{cases} c_0+c\left[ \frac{3h}{2a}-\frac{h^3}{2a^3} \right], &amp; 0&lt;h\leq a,\\ c_0+c, &amp; h&gt;a,\\ 0, &amp; h=0, \end{cases}</code>
+$$</p>
+<p>where <code>\(a\)</code> is the range parameter. The semivariogram increases approximately linearly at short distances and flattens to the sill at <code>\(h=a\)</code>.</p>
+<h3 id="exponential-model">Exponential model</h3>
+<p>The exponential model describes spatial dependence that decreases rapidly at short distances and approaches the sill asymptotically.</p>
+<p>$$
+\gamma(h)=
+<code>\begin{cases} 0, &amp; h=0,\\ c_0+c\left[1-\exp\left(-\frac{h}{a}\right)\right], &amp; h&gt;0. \end{cases}</code>
+$$</p>
+<p>The parameter <code>\(a\)</code> controls the decay rate. Unlike the spherical model, the exponential model does not reach its sill at a finite distance. Under this parameterization, the correlation range is often approximated by <code>\(3a\)</code>.</p>
+<h3 id="gaussian-model">Gaussian model</h3>
+<p>The Gaussian model represents highly smooth spatial variation, with a gradual increase in semivariance near the origin.</p>
+<p>$$
+\gamma(h)=
+<code>\begin{cases} 0, &amp; h=0,\\ c_0+c\left[1-\exp\left(-\frac{h^2}{a^2}\right)\right], &amp; h&gt;0. \end{cases}</code>
+$$</p>
+<p>The parameter <code>\(a\)</code> controls the spatial scale. The Gaussian model approaches its sill asymptotically, and its smooth behavior near the origin makes it suitable for spatial fields with strong local continuity. Under this parameterization, the practical range is approximately <code>\(\sqrt{3}a\)</code> when 95% of the structured sill is used as the threshold.</p>
+<h3 id="power-model">Power model</h3>
+<p>The power model is an unbounded variogram model that can represent spatial processes without a finite sill.</p>
+<p>$$
+\gamma(h)=
+<code>\begin{cases} 0, &amp; h=0,\\ c h^\alpha, &amp; h&gt;0, \end{cases}</code>
+$$</p>
+<p>where <code>\(c&gt;0\)</code> is a scale parameter and <code>\(0&lt;\alpha&lt;2\)</code>. The power model does not have a finite sill or range and is useful when spatial variability continues to increase over the observed distance scale.</p>
+<h2 id="covariance-kernels">Covariance kernels</h2>
+<p>Covariance kernels describe the covariance between observations as a function of their spatial separation. For a stationary and isotropic random field, a covariance function can be written as</p>
+<p>$$
+C(h)=\sigma^2 K(h),
+$$</p>
+<p>where <code>\(\sigma^2\)</code> is the structured variance and <code>\(K(h)\)</code> is a normalized covariance kernel satisfying <code>\(K(0)=1\)</code>. When a nugget effect is included, the covariance between distinct locations remains governed by the structured component, while the nugget contributes to the variance at an individual location.</p>
+<h3 id="exponential-kernel">Exponential kernel</h3>
+<p>$$
+K(h)=\exp\left(-\frac{h}{a}\right).
+$$</p>
+<p>The exponential kernel produces relatively rough spatial fields and an exponential decay in correlation. It corresponds to the exponential variogram through <code>\(\gamma(h)=\sigma^2[1-K(h)]\)</code> when there is no nugget effect.</p>
+<h3 id="gaussian-kernel">Gaussian kernel</h3>
+<p>$$
+K(h)=\exp\left(-\frac{h^2}{a^2}\right).
+$$</p>
+<p>The Gaussian kernel produces smooth spatial fields and a rapid decay in correlation as distance increases. Its behavior near the origin differs from the exponential kernel because its first derivative at zero is zero.</p>
+<h3 id="matérn-kernel">Matérn kernel</h3>
+<p>The Matérn kernel provides a flexible family of covariance functions that controls spatial smoothness through an additional parameter.</p>
+<p>$$
+K(h)=
+\frac{2^{1-\nu}}{\Gamma(\nu)}
+\left(\frac{h}{a}\right)^\nu
+K_\nu\left(\frac{h}{a}\right),
+\qquad h&gt;0,
+$$</p>
+<p>with <code>\(K(0)=1\)</code>, where <code>\(\nu&gt;0\)</code> is the smoothness parameter, <code>\(\Gamma(\cdot)\)</code> is the gamma function, and <code>\(K_\nu(\cdot)\)</code> is the modified Bessel function of the second kind. Larger values of <code>\(\nu\)</code> generally produce smoother spatial fields. The Matérn family includes the exponential kernel as the special case <code>\(\nu=1/2\)</code> under this parameterization.</p>
+<h3 id="cauchy-kernel">Cauchy kernel</h3>
+<p>A commonly used generalized Cauchy kernel is</p>
+<p>$$
+K(h)=\left[1+\left(\frac{h}{a}\right)^2\right]^{-\beta},
+\qquad \beta&gt;0.
+$$</p>
+<p>The Cauchy kernel exhibits polynomial rather than exponential decay. It can therefore represent spatial dependence with relatively long tails. The parameter <code>\(a\)</code> controls the spatial scale, while <code>\(\beta\)</code> controls the decay rate.</p>
+<h3 id="stable-kernel">Stable kernel</h3>
+<p>A generalized stable kernel can be written as</p>
+<p>$$
+K(h)=\exp\left[-\left(\frac{h}{a}\right)^\alpha\right],
+\qquad 0&lt;\alpha\leq 2.
+$$</p>
+<p>The parameter <code>\(\alpha\)</code> controls the shape and smoothness of the kernel. The exponential kernel is recovered when <code>\(\alpha=1\)</code>, and the Gaussian kernel is recovered when <code>\(\alpha=2\)</code>.</p>
+<h2 id="model-comparison">Model comparison</h2>
+<table>
+	<thead>
+			<tr>
+					<th>Model</th>
+					<th>Mathematical behavior</th>
+					<th>Main characteristics</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Spherical</td>
+					<td>Finite range</td>
+					<td>Reaches the sill at a finite distance</td>
+			</tr>
+			<tr>
+					<td>Exponential</td>
+					<td>Exponential decay</td>
+					<td>Relatively rough fields and rapid short-distance increase</td>
+			</tr>
+			<tr>
+					<td>Gaussian</td>
+					<td>Gaussian decay</td>
+					<td>Smooth fields with gradual increase near the origin</td>
+			</tr>
+			<tr>
+					<td>Power</td>
+					<td>Unbounded growth</td>
+					<td>No finite sill or range</td>
+			</tr>
+			<tr>
+					<td>Matérn</td>
+					<td>Flexible covariance decay</td>
+					<td>Explicit control over smoothness</td>
+			</tr>
+			<tr>
+					<td>Cauchy</td>
+					<td>Polynomial decay</td>
+					<td>Long-tailed spatial dependence</td>
+			</tr>
+			<tr>
+					<td>Stable</td>
+					<td>Generalized exponential decay</td>
+					<td>Flexible behavior between exponential and Gaussian kernels</td>
+			</tr>
+	</tbody>
+</table>
+<h2 id="practical-considerations">Practical considerations</h2>
+<p>The choice of a variogram model or covariance kernel should reflect the spatial structure of the data and the intended analysis.</p>
+<ul>
+<li>Use the spherical model when a finite practical range is appropriate.</li>
+<li>Use the exponential model when spatial dependence decays relatively rapidly and the field is not especially smooth.</li>
+<li>Use the Gaussian model when the underlying spatial field is expected to be smooth.</li>
+<li>Use the power model when the empirical semivariogram does not exhibit a clear sill over the observed distance range.</li>
+<li>Use the Matérn kernel when smoothness needs to be estimated or controlled explicitly.</li>
+<li>Consider the Cauchy kernel when long-tailed dependence is plausible.</li>
+<li>Use the stable kernel when a flexible decay profile is needed.</li>
+</ul>
+<p>Model selection should also consider the nugget effect, anisotropy, stationarity assumptions, sampling design, and parameter estimation uncertainty. Variogram fitting and spatial cross-validation can help assess whether a candidate model adequately captures the observed spatial dependence.</p>
+<h2 id="references">References</h2>
+<ul>
+<li><a href="https://www.numberanalytics.com/blog/ultimate-guide-variogram-models-geostatistics">Ultimate Guide to Variogram Models in Geostatistics</a></li>
+<li><a href="https://www.numberanalytics.com/blog/ultimate-guide-spherical-model-geostatistics">Ultimate Guide to the Spherical Model in Geostatistics</a></li>
+</ul>
+
+        
+    </div>
+
+    <div class="prev-next">
+        
+    </div>
+
+    
+    
+    <svg id="btt-button" class="arrow-logo" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512" onclick="topFunction()" title="Go to top">
+        
+        <path d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z"/>
+    </svg>
+    <script>
+        let backToTopButton = document.getElementById("btt-button");
+
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                backToTopButton.style.display = "block";
+            } else {
+                backToTopButton.style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            smoothScrollToTop();
+        }
+
+        function smoothScrollToTop() {
+            const scrollToTop = () => {
+                const c = document.documentElement.scrollTop || document.body.scrollTop;
+                if (c > 0) {
+                    window.requestAnimationFrame(scrollToTop);
+                    window.scrollTo(0, c - c / 8);
+                }
+            };
+            scrollToTop();
+        }
+    </script>
+    
+    
+</div>
+
+<aside class="post-toc">
+    <nav id="toc">
+        <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#showtableofcontents-true">title: &ldquo;Variogram Models and Spatial Kernels&rdquo;
+author: &ldquo;Wenbo Lyu&rdquo;
+date: &ldquo;2026-10-22&rdquo;
+description: &ldquo;Variogram models and covariance kernels for spatial dependence&rdquo;
+tags: [&ldquo;geostatistics&rdquo;, &ldquo;spatial-statistics&rdquo;, &ldquo;statistics&rdquo;, &ldquo;r&rdquo;]
+type: post
+weight: 25
+showTableOfContents: true</a></li>
+        <li><a href="#variogram-models">Variogram models</a>
+          <ul>
+            <li><a href="#spherical-model">Spherical model</a></li>
+            <li><a href="#exponential-model">Exponential model</a></li>
+            <li><a href="#gaussian-model">Gaussian model</a></li>
+            <li><a href="#power-model">Power model</a></li>
+          </ul>
+        </li>
+        <li><a href="#covariance-kernels">Covariance kernels</a>
+          <ul>
+            <li><a href="#exponential-kernel">Exponential kernel</a></li>
+            <li><a href="#gaussian-kernel">Gaussian kernel</a></li>
+            <li><a href="#matérn-kernel">Matérn kernel</a></li>
+            <li><a href="#cauchy-kernel">Cauchy kernel</a></li>
+            <li><a href="#stable-kernel">Stable kernel</a></li>
+          </ul>
+        </li>
+        <li><a href="#model-comparison">Model comparison</a></li>
+        <li><a href="#practical-considerations">Practical considerations</a></li>
+        <li><a href="#references">References</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </nav>
+</aside>
+
+
+
+    
+
+        </main><footer class="footer">
+    
+    
+
+    
+    <span>&copy; 2026 SpatLyu</span>
+    
+    <span>
+        Made with &#10084;&#65039; using <a target="_blank" href="https://github.com/526avijitgupta/gokarna">Gokarna</a>
+    </span>
+</footer>
+</body>
+</html>
