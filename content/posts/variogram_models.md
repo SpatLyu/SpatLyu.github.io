@@ -66,7 +66,7 @@ c_0+c\left[1-\exp\left(-\frac{h}{a}\right)\right],
 \end{cases}
 $$
 
-The parameter `\(a\)` controls the decay rate. Unlike the spherical model, the exponential model does not reach its sill at a finite distance. Under this parameterization, the correlation range is often approximated by `\(3a\)`.
+The parameter $a$ controls the decay rate. Unlike the spherical model, the exponential model does not reach its sill at a finite distance. Under this parameterization, the correlation range is often approximated by $3a$.
 
 ### Gaussian model
 
@@ -74,14 +74,14 @@ The Gaussian model represents highly smooth spatial variation, with a gradual in
 
 $$
 \gamma(h)=
-`\begin{cases}
+\begin{cases}
 0, & h=0,\\
 c_0+c\left[1-\exp\left(-\frac{h^2}{a^2}\right)\right],
 & h>0.
-\end{cases}`
+\end{cases}
 $$
 
-The parameter `\(a\)` controls the spatial scale. The Gaussian model approaches its sill asymptotically, and its smooth behavior near the origin makes it suitable for spatial fields with strong local continuity. Under this parameterization, the practical range is approximately `\(\sqrt{3}a\)` when 95% of the structured sill is used as the threshold.
+The parameter $a$ controls the spatial scale. The Gaussian model approaches its sill asymptotically, and its smooth behavior near the origin makes it suitable for spatial fields with strong local continuity. Under this parameterization, the practical range is approximately $\sqrt{3}a$ when 95% of the structured sill is used as the threshold.
 
 ### Power model
 
@@ -89,10 +89,10 @@ The power model is an unbounded variogram model that can represent spatial proce
 
 $$
 \gamma(h)=
-`\begin{cases}
+\begin{cases}
 0, & h=0,\\
 c h^\alpha, & h>0,
-\end{cases}`
+\end{cases}
 $$
 
 where `\(c>0\)` is a scale parameter and `\(0<\alpha<2\)`. The power model does not have a finite sill or range and is useful when spatial variability continues to increase over the observed distance scale.
