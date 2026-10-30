@@ -1,6 +1,6 @@
 ---
 title: "sf tutorial"
-author: "Wenbo Lv"
+author: "Wenbo Lyu"
 date: "`r Sys.Date()`"
 output:
   tidyfridoc::html_pretty:
