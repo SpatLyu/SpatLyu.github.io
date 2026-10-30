@@ -1,0 +1,11 @@
+---
+title: "Variogram Models"
+author: "Wenbo Lyu"
+date: "2026-10-22"
+description: "Variogram models and covariance kernels for spatial dependence"
+tags: ["geostatistics", "spatial-statistics", "statistics", "r"]
+type: post
+weight: 25
+showTableOfContents: true
+---
+
