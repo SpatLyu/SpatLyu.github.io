@@ -135,7 +135,7 @@ K_\nu\left(\frac{h}{a}\right),
 \qquad h>0,
 $$
 
-with `\(K(0)=1\)`, where `\(\nu>0\)` is the smoothness parameter, `\(\Gamma(\cdot)\)` is the gamma function, and `\(K_\nu(\cdot)\)` is the modified Bessel function of the second kind. Larger values of `\(\nu\)` generally produce smoother spatial fields. The Matérn family includes the exponential kernel as the special case `\(\nu=1/2\)` under this parameterization.
+with $K(0)=1$, where $\nu>0$ is the smoothness parameter, $\Gamma(\cdot)$ is the gamma function, and $K_\nu(\cdot)$ is the modified Bessel function of the second kind. Larger values of $\nu$ generally produce smoother spatial fields. The Matérn family includes the exponential kernel as the special case $\nu=1/2$ under this parameterization.
 
 ### Cauchy kernel
 
