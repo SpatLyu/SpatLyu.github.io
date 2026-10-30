@@ -113,7 +113,7 @@ $$
 K(h)=\exp\left(-\frac{h}{a}\right).
 $$
 
-The exponential kernel produces relatively rough spatial fields and an exponential decay in correlation. It corresponds to the exponential variogram through `\(\gamma(h)=\sigma^2[1-K(h)]\)` when there is no nugget effect.
+The exponential kernel produces relatively rough spatial fields and an exponential decay in correlation. It corresponds to the exponential variogram through $\gamma(h)=\sigma^2[1-K(h)]$ when there is no nugget effect.
 
 ### Gaussian kernel
 
@@ -146,7 +146,7 @@ K(h)=\left[1+\left(\frac{h}{a}\right)^2\right]^{-\beta},
 \qquad \beta>0.
 $$
 
-The Cauchy kernel exhibits polynomial rather than exponential decay. It can therefore represent spatial dependence with relatively long tails. The parameter `\(a\)` controls the spatial scale, while `\(\beta\)` controls the decay rate.
+The Cauchy kernel exhibits polynomial rather than exponential decay. It can therefore represent spatial dependence with relatively long tails. The parameter $a$ controls the spatial scale, while $\beta$ controls the decay rate.
 
 ### Stable kernel
 
@@ -157,7 +157,7 @@ K(h)=\exp\left[-\left(\frac{h}{a}\right)^\alpha\right],
 \qquad 0<\alpha\leq 2.
 $$
 
-The parameter `\(\alpha\)` controls the shape and smoothness of the kernel. The exponential kernel is recovered when `\(\alpha=1\)`, and the Gaussian kernel is recovered when `\(\alpha=2\)`.
+The parameter $\alpha$ controls the shape and smoothness of the kernel. The exponential kernel is recovered when $\alpha=1$, and the Gaussian kernel is recovered when $\alpha=2$.
 
 ## Model comparison
 
