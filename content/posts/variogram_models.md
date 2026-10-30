@@ -34,7 +34,7 @@ c_0+c\,g(h), & h>0,
 \end{cases}
 $$
 
-where `\(c_0\)` is the nugget variance, `\(c\)` is the partial sill, and `\(g(h)\)` is a normalized variogram function. The total sill is `\(c_0+c\)` when `\(g(h)\)` approaches one.
+where $c_0$ is the nugget variance, $c$ is the partial sill, and $g(h)$ is a normalized variogram function. The total sill is $c_0+c$ when $g(h)$ approaches one.
 
 ### Spherical model
 
@@ -42,16 +42,16 @@ The spherical model reaches its sill at a finite range and is commonly used to r
 
 $$
 \gamma(h)=
-`\begin{cases}
+\begin{cases}
 c_0+c\left[
 \frac{3h}{2a}-\frac{h^3}{2a^3}
 \right], & 0<h\leq a,\\
 c_0+c, & h>a,\\
 0, & h=0,
-\end{cases}`
+\end{cases}
 $$
 
-where `\(a\)` is the range parameter. The semivariogram increases approximately linearly at short distances and flattens to the sill at `\(h=a\)`.
+where $a$ is the range parameter. The semivariogram increases approximately linearly at short distances and flattens to the sill at $h=a$.
 
 ### Exponential model
 
@@ -59,11 +59,11 @@ The exponential model describes spatial dependence that decreases rapidly at sho
 
 $$
 \gamma(h)=
-`\begin{cases}
+\begin{cases}
 0, & h=0,\\
 c_0+c\left[1-\exp\left(-\frac{h}{a}\right)\right],
 & h>0.
-\end{cases}`
+\end{cases}
 $$
 
 The parameter `\(a\)` controls the decay rate. Unlike the spherical model, the exponential model does not reach its sill at a finite distance. Under this parameterization, the correlation range is often approximated by `\(3a\)`.

@@ -206,19 +206,29 @@ $$</p>
 c_0+c,g(h), &amp; h&gt;0,
 \end{cases}
 $$</p>
-<p>where <code>\(c_0\)</code> is the nugget variance, <code>\(c\)</code> is the partial sill, and <code>\(g(h)\)</code> is a normalized variogram function. The total sill is <code>\(c_0+c\)</code> when <code>\(g(h)\)</code> approaches one.</p>
+<p>where $c_0$ is the nugget variance, $c$ is the partial sill, and $g(h)$ is a normalized variogram function. The total sill is $c_0+c$ when $g(h)$ approaches one.</p>
 <h3 id="spherical-model">Spherical model</h3>
 <p>The spherical model reaches its sill at a finite range and is commonly used to represent spatial dependence with a clearly defined correlation distance.</p>
 <p>$$
 \gamma(h)=
-<code>\begin{cases} c_0+c\left[ \frac{3h}{2a}-\frac{h^3}{2a^3} \right], &amp; 0&lt;h\leq a,\\ c_0+c, &amp; h&gt;a,\\ 0, &amp; h=0, \end{cases}</code>
+\begin{cases}
+c_0+c\left[
+\frac{3h}{2a}-\frac{h^3}{2a^3}
+\right], &amp; 0&lt;h\leq a,\
+c_0+c, &amp; h&gt;a,\
+0, &amp; h=0,
+\end{cases}
 $$</p>
-<p>where <code>\(a\)</code> is the range parameter. The semivariogram increases approximately linearly at short distances and flattens to the sill at <code>\(h=a\)</code>.</p>
+<p>where $a$ is the range parameter. The semivariogram increases approximately linearly at short distances and flattens to the sill at $h=a$.</p>
 <h3 id="exponential-model">Exponential model</h3>
 <p>The exponential model describes spatial dependence that decreases rapidly at short distances and approaches the sill asymptotically.</p>
 <p>$$
 \gamma(h)=
-<code>\begin{cases} 0, &amp; h=0,\\ c_0+c\left[1-\exp\left(-\frac{h}{a}\right)\right], &amp; h&gt;0. \end{cases}</code>
+\begin{cases}
+0, &amp; h=0,\
+c_0+c\left[1-\exp\left(-\frac{h}{a}\right)\right],
+&amp; h&gt;0.
+\end{cases}
 $$</p>
 <p>The parameter <code>\(a\)</code> controls the decay rate. Unlike the spherical model, the exponential model does not reach its sill at a finite distance. Under this parameterization, the correlation range is often approximated by <code>\(3a\)</code>.</p>
 <h3 id="gaussian-model">Gaussian model</h3>
