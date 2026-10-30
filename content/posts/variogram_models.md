@@ -18,7 +18,7 @@ $$
 \operatorname{Var}\left[Z(\mathbf{s})-Z(\mathbf{s}+\mathbf{h})\right],
 $$
 
-where `\(Z(\mathbf{s})\)` is a spatial random field, `\(\mathbf{h}\)` is a spatial lag vector, and `\(h=\|\mathbf{h}\|\)` is the lag distance. Under second-order stationarity, the semivariogram is related to the covariance function by
+where `$$Z(\mathbf{s})$$` is a spatial random field, `$$\mathbf{h}$$` is a spatial lag vector, and `$$h=\|\mathbf{h}\|$$` is the lag distance. Under second-order stationarity, the semivariogram is related to the covariance function by
 
 $$
 \gamma(h)=C(0)-C(h).
