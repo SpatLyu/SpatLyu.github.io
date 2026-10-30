@@ -9,17 +9,6 @@ weight: 25
 showTableOfContents: true
 ---
 
----
-title: "Variogram Models and Spatial Kernels"
-author: "Wenbo Lyu"
-date: "2026-10-22"
-description: "Variogram models and covariance kernels for spatial dependence"
-tags: ["geostatistics", "spatial-statistics", "statistics", "r"]
-type: post
-weight: 25
-showTableOfContents: true
----
-
 ## Variogram models
 
 The variogram describes how spatial dissimilarity changes with the separation distance between locations. The theoretical semivariogram is defined as
