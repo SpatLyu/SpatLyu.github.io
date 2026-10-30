@@ -95,7 +95,7 @@ c h^\alpha, & h>0,
 \end{cases}
 $$
 
-where `\(c>0\)` is a scale parameter and `\(0<\alpha<2\)`. The power model does not have a finite sill or range and is useful when spatial variability continues to increase over the observed distance scale.
+where $c>0$ is a scale parameter and $0<\alpha<2$. The power model does not have a finite sill or range and is useful when spatial variability continues to increase over the observed distance scale.
 
 ## Covariance kernels
 
@@ -105,7 +105,7 @@ $$
 C(h)=\sigma^2 K(h),
 $$
 
-where `\(\sigma^2\)` is the structured variance and `\(K(h)\)` is a normalized covariance kernel satisfying `\(K(0)=1\)`. When a nugget effect is included, the covariance between distinct locations remains governed by the structured component, while the nugget contributes to the variance at an individual location.
+where $\sigma^2$ is the structured variance and $K(h)$ is a normalized covariance kernel satisfying $K(0)=1$. When a nugget effect is included, the covariance between distinct locations remains governed by the structured component, while the nugget contributes to the variance at an individual location.
 
 ### Exponential kernel
 
