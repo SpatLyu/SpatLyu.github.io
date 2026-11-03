@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Sun, 16 Mar 2025 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Thu, 29 Oct 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="https://spatlyu.github.io/tags/geoinformatics/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Presentation Slides</title>
+				<link>https://spatlyu.github.io/posts/presentation_slides/</link>
+				<pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/posts/presentation_slides/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;https://spatlyu.github.io/slides/dynamical_systems.html&#34;&gt;Dynamical systems&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://spatlyu.github.io/slides/gdverse_pres.html&#34;&gt;R package gdverse&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://spatlyu.github.io/slides/intro_rpkg_lyu.html&#34;&gt;R packages developed by SpatLyu&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://spatlyu.github.io/slides/geospatial_causal_inference.html&#34;&gt;Spatial Causal Inference&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>R books</title>
 				<link>https://spatlyu.github.io/posts/r-books/</link>
@@ -61,13 +68,6 @@
 				<pubDate>Wed, 04 Dec 2024 00:00:00 +0000</pubDate>
 				<guid>https://spatlyu.github.io/posts/spassociation_resources/</guid>
 				<description>&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1080/24694452.2023.2209629&#34;&gt;Spatial Association from the Perspective of Mutual Information&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1080/13658816.2018.1511794&#34;&gt;Spatial association between regionalizations using the information-theoretical V-measure&lt;/a&gt;&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>Presentation Slides</title>
-				<link>https://spatlyu.github.io/posts/presentation_slides/</link>
-				<pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
-				<guid>https://spatlyu.github.io/posts/presentation_slides/</guid>
-				<description>&lt;p&gt;&lt;a href=&#34;https://spatlyu.github.io/slides/gdverse_pres.html&#34;&gt;R package gdverse&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://spatlyu.github.io/slides/intro_rpkg_lyu.html&#34;&gt;R packages developed by SpatLyu&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://spatlyu.github.io/slides/geospatial_causal_inference.html&#34;&gt;Spatial Causal Inference&lt;/a&gt;&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Spatial Econometrics Regression</title>

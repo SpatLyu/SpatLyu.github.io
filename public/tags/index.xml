@@ -10,9 +10,30 @@
 		
 		
 		
-			<lastBuildDate>Thu, 22 Oct 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Thu, 29 Oct 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="https://spatlyu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Geoinformatics</title>
+				<link>https://spatlyu.github.io/tags/geoinformatics/</link>
+				<pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/tags/geoinformatics/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Presentation</title>
+				<link>https://spatlyu.github.io/tags/presentation/</link>
+				<pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/tags/presentation/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Statistics</title>
+				<link>https://spatlyu.github.io/tags/statistics/</link>
+				<pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/tags/statistics/</guid>
+				<description></description>
+			</item>
 			<item>
 				<title>Geostatistics</title>
 				<link>https://spatlyu.github.io/tags/geostatistics/</link>
@@ -35,13 +56,6 @@
 				<description></description>
 			</item>
 			<item>
-				<title>Statistics</title>
-				<link>https://spatlyu.github.io/tags/statistics/</link>
-				<pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-				<guid>https://spatlyu.github.io/tags/statistics/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>Books</title>
 				<link>https://spatlyu.github.io/tags/books/</link>
 				<pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
@@ -53,13 +67,6 @@
 				<link>https://spatlyu.github.io/tags/causality/</link>
 				<pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
 				<guid>https://spatlyu.github.io/tags/causality/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Geoinformatics</title>
-				<link>https://spatlyu.github.io/tags/geoinformatics/</link>
-				<pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
-				<guid>https://spatlyu.github.io/tags/geoinformatics/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -123,13 +130,6 @@
 				<link>https://spatlyu.github.io/tags/structural-equation-model/</link>
 				<pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate>
 				<guid>https://spatlyu.github.io/tags/structural-equation-model/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Presentation</title>
-				<link>https://spatlyu.github.io/tags/presentation/</link>
-				<pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
-				<guid>https://spatlyu.github.io/tags/presentation/</guid>
 				<description></description>
 			</item>
 			<item>

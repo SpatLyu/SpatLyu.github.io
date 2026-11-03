@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Thu, 22 Oct 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Thu, 29 Oct 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="https://spatlyu.github.io/tags/statistics/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Presentation Slides</title>
+				<link>https://spatlyu.github.io/posts/presentation_slides/</link>
+				<pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>https://spatlyu.github.io/posts/presentation_slides/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;https://spatlyu.github.io/slides/dynamical_systems.html&#34;&gt;Dynamical systems&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://spatlyu.github.io/slides/gdverse_pres.html&#34;&gt;R package gdverse&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://spatlyu.github.io/slides/intro_rpkg_lyu.html&#34;&gt;R packages developed by SpatLyu&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://spatlyu.github.io/slides/geospatial_causal_inference.html&#34;&gt;Spatial Causal Inference&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>Variogram Models</title>
 				<link>https://spatlyu.github.io/posts/variogram_models/</link>
@@ -75,13 +82,6 @@
 				<pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate>
 				<guid>https://spatlyu.github.io/posts/sem_resources/</guid>
 				<description>&lt;p&gt;&lt;a href=&#34;https://db.yihui.org/docs/SEM-theory-2006-Yihui-Xie.pdf&#34;&gt;结构方程模型的理论、应用以及若干误区-谢益辉&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://staff.ustc.edu.cn/~ynyang/vector/lecture14.pdf&#34;&gt;结构方程模型简介-无名&lt;/a&gt;&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>Presentation Slides</title>
-				<link>https://spatlyu.github.io/posts/presentation_slides/</link>
-				<pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
-				<guid>https://spatlyu.github.io/posts/presentation_slides/</guid>
-				<description>&lt;p&gt;&lt;a href=&#34;https://spatlyu.github.io/slides/gdverse_pres.html&#34;&gt;R package gdverse&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://spatlyu.github.io/slides/intro_rpkg_lyu.html&#34;&gt;R packages developed by SpatLyu&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://spatlyu.github.io/slides/geospatial_causal_inference.html&#34;&gt;Spatial Causal Inference&lt;/a&gt;&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Spatial Econometrics Regression</title>
