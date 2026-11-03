@@ -1,0 +1,484 @@
+---
+title: "Fundamentals of dynamical system"
+author: "Wenbo Lyu"
+date: "2026/10/29"
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    nature:
+      slideNumberFormat: "%current% / %total%"
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = FALSE,
+  message = FALSE,
+  warning = FALSE,
+  fig.align = "center"
+  #out.width = "88%"
+)
+library(plotly)
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+```
+
+<style>
+.remark-slide-content {
+  font-family: "Arial", sans-serif;
+  color: #243238;
+  background-color: #fbfcfc;
+  font-size: 25px;
+  padding: 1em 2em;
+}
+h1, h2, h3 {
+  color: #1c5253;
+  font-family: "Arial", sans-serif;
+  font-weight: 600;
+}
+.title-slide {
+  background-color: #1c5253;
+  color: #ffffff;
+}
+.title-slide h1, .title-slide h2, .title-slide h3 {
+  color: #ffffff;
+}
+.small { font-size: 0.72em; }
+.tiny { font-size: 0.62em; }
+.math { font-size: 1.05em; }
+.remark-slide-number { color: #66777a; }
+</style>
+
+A **dynamical system** describes the evolution of a system's state over time, governed by a specified rule that may or may not depend explicitly on time.
+
+--
+
+**Continuous time: differential equation**
+
+$$
+\frac{d\mathbf{x}(t)}{dt} = \mathbf{f}(\mathbf{x}(t),t)
+$$
+
+--
+
+**Discrete time: iterated map**
+
+$$
+\mathbf{x}_{t+1} = \mathbf{F}_t(\mathbf{x}_t)
+$$
+
+--
+
+- $\mathbf{x} \in \mathbb{R}^n$: the system state.
+- $\mathbf{f}$: the instantaneous rate of change.
+- $\mathbf{F}_t$: the rule mapping the current state to the next state.
+
+--
+
+> *The evolution rule may or may not depend explicitly on time, distinguishing autonomous from non-autonomous systems.*
+
+---
+
+**Autonomous system:** the evolution rule does not explicitly depend on time.
+
+--
+
+$$
+\frac{d\mathbf{x}}{dt}=\mathbf{f}(\mathbf{x})
+\qquad
+\mathbf{x}_{t+1}=\mathbf{F}(\mathbf{x}_t)
+$$
+
+--
+
+**Non-autonomous system:** the evolution rule explicitly depends on time.
+
+--
+
+$$
+\frac{d\mathbf{x}}{dt}=\mathbf{f}(\mathbf{x},t)
+\qquad
+\mathbf{x}_{t+1}=\mathbf{F}_t(\mathbf{x}_t)
+$$
+
+--
+
+- Autonomous dynamics use the same rule at every time point.
+
+--
+
+- Non-autonomous dynamics can change with time, for example because of seasonal forcing or a changing environment.
+
+--
+
+> *Here, we focus on autonomous systems for simplicity.*
+
+--
+
+Discrete-time dynamics often describe a continuous-time system that is sampled discretely in time, so that $\mathbf{x}_{t} = \mathbf{x}(t\Delta t)$ with sampling time $\Delta t$.
+
+---
+
+**Linear dynamics:** the next state is a linear function of the current state.
+
+--
+
+$$
+x_{t+1}=a x_t
+$$
+
+--
+
+**Nonlinear dynamics:** the next state depends nonlinearly on the current state.
+
+--
+
+$$
+x_{t+1}=F(x_t)
+$$
+
+--
+
+Nonlinear dynamics can produce richer behaviors, including multiple equilibria, oscillations, and deterministic chaos.
+
+--
+
+**Linear map**
+$$
+x_{t+1}=0.5x_t,\qquad x_0=0.8
+$$
+
+$$
+0.8\rightarrow0.4\rightarrow0.2\rightarrow0.1\rightarrow\cdots
+$$
+
+--
+
+**Nonlinear map: logistic map**
+
+$$
+x_{t+1}=r x_t(1-x_t),\qquad r=3.8,\quad x_0=0.2
+$$
+
+---
+
+Consider a more general iterated map:
+
+$$
+\begin{equation}
+x_{t+1}=F(x_t,x_{t-1},\ldots,x_{t-p})
+\end{equation}
+$$
+
+--
+
+In practice:
+
+- ** $F$ is often unknown.** We may only have measurements of the system's dynamics.
+- **Even when $F$ is known,** nonlinear systems may lack explicit analytical solutions, making their long-term behavior difficult to characterize.
+
+--
+
+### How can we study such dynamics?
+
+--
+
+- **State-space-based methods:** reconstruct and analyze the latent dynamics directly from observations.
+
+--
+
+- **Koopman operator theory:** reformulate nonlinear dynamics through the evolution of observables under a linear, generally infinite-dimensional operator.
+
+---
+
+The evolution rule $\mathbf{F}$ may be unknown or difficult to model directly.
+
+--
+
+**Koopman operator theory:** Instead of tracking the state itself, we **lift** the state into a space of observable functions.
+
+$$
+\mathbf{z}_t = \boldsymbol{\psi}(\mathbf{x}_t)
+$$
+
+where $\boldsymbol{\psi}$ represents a set of observable functions (the "lifting map").
+
+--
+
+The Koopman operator $\mathcal{K}$ governs the evolution of these observables:
+
+$$
+\begin{equation}
+(\mathcal{K}\boldsymbol{\psi})(\mathbf{x}_t) = \boldsymbol{\psi}(\mathbf{F}(\mathbf{x}_t)) = \boldsymbol{\psi}(\mathbf{x}_{t+1})
+\end{equation}
+$$
+
+--
+
+Under a finite-dimensional approximation, this yields a linear system:
+$$
+\begin{equation}
+\mathbf{z}_{t+1} \approx \mathbf{K}\mathbf{z}_t
+\end{equation}
+$$
+
+--
+
+- **Nonlinear in the original state, linear in the observable space.**
+- Although exactly infinite-dimensional, the Koopman operator enables characterization of nonlinear dynamics without specifying $\mathbf{F}$.
+- **Neural networks** can learn useful observables $\boldsymbol{\psi}$ and approximate the linear evolution matrix $\mathbf{K}$ directly from data.
+
+---
+
+**State space:** a space in which each point represents the system's state, and system evolution traces a trajectory through this space.
+
+- Each coordinate represents a state variable.
+- The trajectory reveals the geometric structure of the dynamics.
+
+--
+
+**Embedding:** represent observations as points in a reconstructed state space.
+
+When only a single variable $x_t$ is observed, delayed measurements can be used to construct delay coordinates:
+
+--
+
+$$
+\begin{equation}
+\mathcal{M}_x =
+\left[x_t,\;x_{t-\tau},\;\ldots,\;x_{t-(E-1)\tau}\right]
+\end{equation}
+$$
+
+- $E$: embedding dimension.
+- $\tau$: step of time delay.
+
+--
+
+Under suitable conditions, the reconstructed space can preserve key geometric and dynamical properties of the underlying system.
+
+--
+
+> the system evolves according to a well-defined dynamical law; the reconstructed space has enough dimensions to unfold the underlying attractor; the data sufficiently resolve the underlying dynamics.
+
+---
+
+The Lorenz equations are a classic continuous-time nonlinear system:
+
+$$
+\begin{aligned}
+\dot{x} &= \sigma(y-x),\\
+\dot{y} &= x(\rho-z)-y,\\
+\dot{z} &= xy-\beta z.
+\end{aligned}
+$$
+
+--
+
+For $\sigma=10$, $\rho=28$, and $\beta=8/3$, trajectories approach a bounded, aperiodic structure known as the **Lorenz attractor**.
+
+--
+
+```{r lorenz-simulation, include=FALSE}
+lorenz_rhs = function(state, sigma = 10, rho = 28, beta = 8 / 3) {
+  x = state[1]
+  y = state[2]
+  z = state[3]
+  c(sigma * (y - x), x * (rho - z) - y, x * y - beta * z)
+}
+
+rk4_step = function(state, dt) {
+  k1 = lorenz_rhs(state)
+  k2 = lorenz_rhs(state + dt * k1 / 2)
+  k3 = lorenz_rhs(state + dt * k2 / 2)
+  k4 = lorenz_rhs(state + dt * k3)
+  state + dt * (k1 + 2 * k2 + 2 * k3 + k4) / 6
+}
+
+dt = 0.01
+times = seq(0, 40, by = dt)
+states = matrix(NA_real_, nrow = length(times), ncol = 3)
+colnames(states) = c("x", "y", "z")
+states[1, ] = c(1, 1, 1)
+
+for (i in 2:length(times)) {
+  states[i, ] = rk4_step(states[i - 1, ], dt)
+}
+
+lorenz = data.frame(time = times, states)
+```
+
+```{r lorenz-plot, fig.width=16, fig.height=5.25}
+lorenz_plot = plot_ly(
+  data = lorenz,
+  x = ~x,
+  y = ~y,
+  z = ~z,
+  type = "scatter3d",
+  mode = "lines",
+  color = ~time,          # 根据时间上色，展示演化过程
+  colors = "viridis",     # 使用 viridis 色带（对色弱友好且美观）
+  line = list(width = 3)  # 设置线条宽度
+) |> 
+  layout(
+    scene = list(
+      xaxis = list(title = "X", backgroundcolor = "rgba(0,0,0,0)", gridcolor = "lightgray"),
+      yaxis = list(title = "Y", backgroundcolor = "rgba(0,0,0,0)", gridcolor = "lightgray"),
+      zaxis = list(title = "Z", backgroundcolor = "rgba(0,0,0,0)", gridcolor = "lightgray"),
+      aspectmode = "data", # 保持真实的物理比例；如果想让三个轴视觉等长，可改为 "cube"
+      camera = list(
+        eye = list(x = -1.2, y = 1.8, z = 1.5) # 设置初始相机视角
+      )
+    ),
+    # 调整颜色条（Colorbar）的显示
+    colorbar = list(
+      title = "Time",
+      thickness = 15,
+      len = 0.5
+    )
+  )
+lorenz_plot
+```
+
+---
+
+```{r reconstruction-comparison, echo=FALSE, fig.width=16, fig.height=5, warning=FALSE, message=FALSE}
+library(plotly)
+library(htmltools)
+
+# 1. 准备延迟嵌入重构的数据 (Takens Embedding)
+tau <- 10 
+n_recon <- nrow(lorenz) - 2 * tau
+
+# 分别用 x, y, z 各自重构
+recon_x <- data.frame(
+  Mx = lorenz$x[1:n_recon],
+  My = lorenz$x[(1 + tau):(n_recon + tau)],
+  Mz = lorenz$x[(1 + 2 * tau):(n_recon + 2 * tau)]
+)
+
+recon_y <- data.frame(
+  Mx = lorenz$y[1:n_recon],
+  My = lorenz$y[(1 + tau):(n_recon + tau)],
+  Mz = lorenz$y[(1 + 2 * tau):(n_recon + 2 * tau)]
+)
+
+recon_z <- data.frame(
+  Mx = lorenz$z[1:n_recon],
+  My = lorenz$z[(1 + tau):(n_recon + tau)],
+  Mz = lorenz$z[(1 + 2 * tau):(n_recon + 2 * tau)]
+)
+
+# 2. 左列上方：观测的时间序列 (x, y, z)
+p_x <- plot_ly(data = lorenz, x = ~time, y = ~x, type = "scatter", mode = "lines", 
+               line = list(color = "#E41A1C", width = 2), showlegend = FALSE) |> 
+  layout(yaxis = list(title = "x", titlefont = list(size = 16, color = "#E41A1C")))
+
+p_y <- plot_ly(data = lorenz, x = ~time, y = ~y, type = "scatter", mode = "lines", 
+               line = list(color = "#377EB8", width = 2), showlegend = FALSE) |> 
+  layout(yaxis = list(title = "y", titlefont = list(size = 16, color = "#377EB8")))
+
+p_z <- plot_ly(data = lorenz, x = ~time, y = ~z, type = "scatter", mode = "lines", 
+               line = list(color = "#4DAF4A", width = 2), showlegend = FALSE) |> 
+  layout(yaxis = list(title = "z", titlefont = list(size = 16, color = "#4DAF4A")), 
+         xaxis = list(title = "Time"))
+
+ts_plot <- subplot(p_x, p_y, p_z, nrows = 3, shareX = TRUE, 
+                   heights = c(0.33, 0.33, 0.34), margin = 0.06) |> 
+  layout(
+    title = list(text = "Observed Time Series", font = list(size = 18), pad = list(b = 0)), # 收紧标题下边距
+    margin = list(l = 0, r = 0, t = 30, b = 0) # 收紧全局顶部边距
+  )
+
+# 3. 右列：Mx, My, Mz 的 3D 重构
+make_3d_recon <- function(df, color, title_text) {
+  plot_ly(
+    data = df, x = ~Mx, y = ~My, z = ~Mz,
+    type = "scatter3d", mode = "lines",
+    line = list(color = color, width = 3),
+    showlegend = FALSE
+  ) |>
+  layout(
+    title = list(text = title_text, font = list(size = 14, color = color), pad = list(b = 0)), # 核心：收紧标题下边距
+    scene = list(
+      xaxis = list(title = "", showticklabels = FALSE,              backgroundcolor = "rgba(0,0,0,0)", zeroline = FALSE,
+                   gridcolor = "lightgray", showline = FALSE),
+      yaxis = list(title = "", showticklabels = FALSE, backgroundcolor = "rgba(0,0,0,0)", zeroline = FALSE,
+                   gridcolor = "lightgray", showline = FALSE),
+      zaxis = list(title = "", showticklabels = FALSE,      backgroundcolor = "rgba(0,0,0,0)", zeroline = FALSE,
+                   gridcolor = "lightgray", showline = FALSE),
+      aspectmode = "data",
+      camera = list(eye = list(x = -1.5, y = 1.8, z = 1.2)),
+      margin = list(l = 0, r = 0, t = 0, b = 0) # 核心：将 3D 场景的内部边距全部清零
+    ),
+    margin = list(l = 0, r = 0, t = 20, b = 0) # 核心：全局顶部边距只留 20px 给标题
+  )
+}
+
+plot_x <- make_3d_recon(recon_x, "#E41A1C", NULL)
+plot_y <- make_3d_recon(recon_y, "#377EB8", NULL)
+plot_z <- make_3d_recon(recon_z, "#4DAF4A", NULL)
+
+# 4. 使用 CSS Grid 布局：左列（时序+Mz），右列（Mx+My）
+browsable(
+  div(
+    style = "
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1.2fr 1fr;
+      gap: 8px;
+      height: 700px;
+      width: 100%;
+    ",
+
+    # Top-left: observed time series
+    div(
+      style = "
+        grid-row: 1;
+        grid-column: 1;
+        min-height: 0;
+        min-width: 0;
+      ",
+      ts_plot
+    ),
+
+    # Bottom-left: Mz
+    div(
+      style = "
+        grid-row: 2;
+        grid-column: 1;
+        min-height: 0;
+        min-width: 0;
+      ",
+      plot_z
+    ),
+
+    # Right: Mx and My
+    div(
+      style = "
+        grid-row: 1 / 3;
+        grid-column: 2;
+        display: grid;
+        grid-template-rows: minmax(0, 1fr) minmax(0, 1fr);
+        gap: 8px;
+        min-height: 0;
+        min-width: 0;
+      ",
+
+      div(
+        style = "min-height: 0; min-width: 0; overflow: hidden;",
+        plot_x
+      ),
+
+      div(
+        style = "min-height: 0; min-width: 0; overflow: hidden;",
+        plot_y
+      )
+    )
+  )
+)
+```
