@@ -1,12 +1,14 @@
 ---
 title: "Presentation Slides"
-date: "2024-11-15"
+date: "2026-10-29"
 description: "A slide collection of personal presentations"
 tags: ["geoinformatics","statistics","presentation"]
 type: post
 weight: 25
 showTableOfContents: true
 ---
+
+[Dynamical systems](https://spatlyu.github.io/slides/dynamical_systems.html)
 
 [R package gdverse](https://spatlyu.github.io/slides/gdverse_pres.html)
 
